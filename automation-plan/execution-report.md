@@ -78,11 +78,11 @@ Không ghi defect sản phẩm cho hai case Blocked khi chưa có đủ bằng c
 
 ## Hồ sơ nộp
 
-- `testcases/Group15_MaSV_QuachHongNhan.xlsx`: 5 sheet, Test Design, 30 Test Case, dữ liệu thực, kế hoạch tự động hóa và thống kê bằng công thức.
+- `testcases/Group15_23130216_QuachHongNhan.xlsx`: điền trực tiếp file mẫu giảng viên, giữ Cover, Test case List, TestDesign, 8 cột test case và Test Report; đổi sheet ví dụ thành Build PC, bỏ các chức năng AB-SD không thuộc phạm vi, bổ sung Automation Plan và Test Data. Result dùng Passed/Failed/Untested/Blocked/Skipped; hai N/A được ánh xạ Skipped và giữ rõ lý do trong Note.
 - `automation-plan/execution-results.json`: dữ liệu kết quả và thời điểm ghi nhận từng case.
 - `automation-plan/evidence/`: ảnh thật và DOM tại các mốc kiểm tra.
 - `automation/`: Page Object và 11 test Playwright cho lượt chạy lại.
 
-MSSV chưa được cung cấp nên giữ `MaSV` trong tên tệp. Cần thay trước khi nộp chính thức. File mẫu giảng viên chưa truy cập được ở lần thiết kế đầu; workbook dùng format thay thế có đầy đủ Preconditions, Steps, Input, Expected, Actual, Status, Priority, Technique và Automation.
+Người thực hiện: Quách Hồng Nhân — MSSV 23130216. Sheet Build PC giữ đúng 8 cột của mẫu; Pre-condition/Input/Step ở Test Case Procedure, Actual Result và bằng chứng ở Note. Giữ công thức Test coverage của mẫu, loại Blocked và Skipped khỏi mẫu số; 100% trong báo cáo chỉ tính 26 case đủ điều kiện đánh giá, không phải 30/30 Passed. Bản tuần này có 30 case của một chức năng, còn hai chức năng được giao sẽ bổ sung theo tiến độ project.
 
 Sau lượt kiểm thử đã reset cấu hình thử về rỗng, giỏ hàng vẫn 0. Không đặt hàng, không gửi form, không đăng nhập CellphoneS.
