@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "environment": "IAB desktop, macOS, Hồ Chí Minh, chưa đăng nhập CellphoneS",
+  "method": "Điều khiển trình duyệt bằng các lệnh locator theo DOM thật, quan sát và đối chiếu expected. Một số case dùng chung kịch bản và ảnh. Không phải kết quả Playwright CLI hoặc Ghost Inspector.",
+  "summary": {
+    "Passed": 26,
+    "Blocked": 2,
+    "N/A": 2
+  },
+  "cases": [
+    {
+      "id": "PC-001",
+      "status": "Passed",
+      "actual": "Trang Build PC tải thành công. Đóng popup CPU không chọn sản phẩm: 14 nhóm vẫn Chọn, hiển thị Bạn chưa chọn cấu hình nào, không có tổng tiền cũ.",
+      "evidence": "PC-001_002_005_023_empty.jpg",
+      "time": "2026-10-23T14:15:33.073Z"
+    },
+    {
+      "id": "PC-002",
+      "status": "Passed",
+      "actual": "Trang Build PC tải thành công. Đóng popup CPU không chọn sản phẩm: 14 nhóm vẫn Chọn, hiển thị Bạn chưa chọn cấu hình nào, không có tổng tiền cũ.",
+      "evidence": "PC-001_002_005_023_empty.jpg",
+      "time": "2026-10-23T14:15:33.073Z"
+    },
+    {
+      "id": "PC-003",
+      "status": "Passed",
+      "actual": "Trong danh mục Máy tính để bàn, chọn liên kết Build PC; chuyển đúng /may-tinh-de-ban/build-pc.html, hiện tiêu đề và công cụ cấu hình.",
+      "evidence": "PC-003_navigation.jpg",
+      "time": "2026-10-23T14:23:25.383Z"
+    },
+    {
+      "id": "PC-004",
+      "status": "Passed",
+      "actual": "Popup CPU hiện tên, giá bán và nút Chọn; có Intel và AMD.",
+      "evidence": "PC-004_cpu.jpg",
+      "time": "2026-10-23T14:15:29.646Z"
+    },
+    {
+      "id": "PC-005",
+      "status": "Passed",
+      "actual": "Trang Build PC tải thành công. Đóng popup CPU không chọn sản phẩm: 14 nhóm vẫn Chọn, hiển thị Bạn chưa chọn cấu hình nào, không có tổng tiền cũ.",
+      "evidence": "PC-001_002_005_023_empty.jpg",
+      "time": "2026-10-23T14:15:33.073Z"
+    },
+    {
+      "id": "PC-006",
+      "status": "Passed",
+      "actual": "Chọn CPU Intel Core i5 12400F giá 4.290.000đ; dòng CPU và tạm tính đều 4.290.000đ, số lượng 1.",
+      "evidence": "PC-006_019_cpu.jpg",
+      "time": "2026-10-23T14:16:15.771Z"
+    },
+    {
+      "id": "PC-007",
+      "status": "Passed",
+      "actual": "Mainboard Asus TUF Gaming B760M-PLUS Wifi D4 giá 3.750.000đ được thêm, CPU giữ nguyên; tạm tính 8.040.000đ.",
+      "evidence": "PC-007_main.jpg",
+      "time": "2026-10-23T14:16:36.580Z"
+    },
+    {
+      "id": "PC-008",
+      "status": "Passed",
+      "actual": "RAM ADATA XPG D50 16GB DDR4 giá 4.290.000đ được thêm đúng nhóm; CPU và mainboard giữ nguyên; tạm tính 12.330.000đ.",
+      "evidence": "PC-008_ram.jpg",
+      "time": "2026-10-23T14:16:56.901Z"
+    },
+    {
+      "id": "PC-009",
+      "status": "Passed",
+      "actual": "SSD Kingston NV3 1TB giá 4.490.000đ được thêm đúng nhóm; CPU/main/RAM giữ nguyên; tạm tính 16.820.000đ.",
+      "evidence": "PC-009_ssd.jpg",
+      "time": "2026-10-23T14:17:29.076Z"
+    },
+    {
+      "id": "PC-010",
+      "status": "Passed",
+      "actual": "VGA Gigabyte RX 6500 XT Eagle 4GB giá 4.990.000đ được thêm, các nhóm giữ nguyên; tạm tính 21.810.000đ.",
+      "evidence": "PC-010_gpu.jpg",
+      "time": "2026-10-23T14:17:46.419Z"
+    },
+    {
+      "id": "PC-011",
+      "status": "Passed",
+      "actual": "PSU Corsair CX650 1.450.000đ được chọn. CPU/main/VGA/RAM/SSD/PSU hiển thị đủ, không ghi đè chéo; tạm tính 23.260.000đ.",
+      "evidence": "PC-011_014_psu.jpg",
+      "time": "2026-10-23T14:18:02.532Z"
+    },
+    {
+      "id": "PC-012",
+      "status": "Passed",
+      "actual": "Case Jetek EN16 ATX giá 250.000đ thêm đúng nhóm; tạm tính 23.510.000đ, các nhóm khác còn nguyên.",
+      "evidence": "PC-012_case.jpg",
+      "time": "2026-10-23T14:18:18.747Z"
+    },
+    {
+      "id": "PC-013",
+      "status": "Passed",
+      "actual": "Tản nhiệt Xigmatek EPIX II 400.000đ được thêm đúng nhóm; 8 nhóm giữ nguyên; tạm tính 23.910.000đ.",
+      "evidence": "PC-013_cooler.jpg",
+      "time": "2026-10-23T14:18:38.040Z"
+    },
+    {
+      "id": "PC-014",
+      "status": "Passed",
+      "actual": "PSU Corsair CX650 1.450.000đ được chọn. CPU/main/VGA/RAM/SSD/PSU hiển thị đủ, không ghi đè chéo; tạm tính 23.260.000đ.",
+      "evidence": "PC-011_014_psu.jpg",
+      "time": "2026-10-23T14:18:02.534Z"
+    },
+    {
+      "id": "PC-015",
+      "status": "Passed",
+      "actual": "Thay CPU i5 12400F 4.290.000đ bằng i5-12400F TRAY 3.990.000đ. Chỉ còn CPU mới, 7 nhóm khác giữ nguyên; tạm tính 23.910.000 - 4.290.000 + 3.990.000 = 23.610.000đ.",
+      "evidence": "PC-015_021_replace_cpu.jpg",
+      "time": "2026-10-23T14:20:02.930Z"
+    },
+    {
+      "id": "PC-016",
+      "status": "Passed",
+      "actual": "Thay RAM ADATA 4.290.000đ bằng Kingston Fury Beast DDR4 16GB 3.990.000đ; SSD NV3 1TB còn nguyên; tổng 23.310.000đ.",
+      "evidence": "PC-016_replace_ram.jpg",
+      "time": "2026-10-23T14:20:31.798Z"
+    },
+    {
+      "id": "PC-017",
+      "status": "Passed",
+      "actual": "Xóa RAM Kingston 3.990.000đ và xác nhận Có; RAM trở lại Chọn, CPU và SSD giữ nguyên. Tổng 23.310.000 - 3.990.000 = 19.320.000đ.",
+      "evidence": "PC-017_022_delete_ram.jpg",
+      "time": "2026-10-23T14:20:38.676Z"
+    },
+    {
+      "id": "PC-018",
+      "status": "Passed",
+      "actual": "Chọn lại từ đầu trên cấu hình 7 linh kiện, xác nhận ở modal; tất cả nhóm trở lại Chọn, Bạn chưa chọn cấu hình nào và không còn tạm tính cũ.",
+      "evidence": "PC-018_reset.jpg",
+      "time": "2026-10-23T14:21:21.956Z"
+    },
+    {
+      "id": "PC-019",
+      "status": "Passed",
+      "actual": "Chọn CPU Intel Core i5 12400F giá 4.290.000đ; dòng CPU và tạm tính đều 4.290.000đ, số lượng 1.",
+      "evidence": "PC-006_019_cpu.jpg",
+      "time": "2026-10-23T14:16:15.772Z"
+    },
+    {
+      "id": "PC-020",
+      "status": "Passed",
+      "actual": "Cấu hình chỉ CPU i5 12400F 4.290.000 + RAM ADATA 4.290.000 + SSD NV3 1TB 4.490.000 = tạm tính 13.070.000đ, mỗi nhóm số lượng 1.",
+      "evidence": "PC-020_total_three.jpg",
+      "time": "2026-10-23T14:22:07.625Z"
+    },
+    {
+      "id": "PC-021",
+      "status": "Passed",
+      "actual": "Thay CPU i5 12400F 4.290.000đ bằng i5-12400F TRAY 3.990.000đ. Chỉ còn CPU mới, 7 nhóm khác giữ nguyên; tạm tính 23.910.000 - 4.290.000 + 3.990.000 = 23.610.000đ.",
+      "evidence": "PC-015_021_replace_cpu.jpg",
+      "time": "2026-10-23T14:20:02.931Z"
+    },
+    {
+      "id": "PC-022",
+      "status": "Passed",
+      "actual": "Xóa RAM Kingston 3.990.000đ và xác nhận Có; RAM trở lại Chọn, CPU và SSD giữ nguyên. Tổng 23.310.000 - 3.990.000 = 19.320.000đ.",
+      "evidence": "PC-017_022_delete_ram.jpg",
+      "time": "2026-10-23T14:20:38.676Z"
+    },
+    {
+      "id": "PC-023",
+      "status": "Passed",
+      "actual": "Trang Build PC tải thành công. Đóng popup CPU không chọn sản phẩm: 14 nhóm vẫn Chọn, hiển thị Bạn chưa chọn cấu hình nào, không có tổng tiền cũ.",
+      "evidence": "PC-001_002_005_023_empty.jpg",
+      "time": "2026-10-23T14:15:33.073Z"
+    },
+    {
+      "id": "PC-024",
+      "status": "Blocked",
+      "actual": "Đã mở đủ 45 sản phẩm CPU tại Hồ Chí Minh, không thấy sản phẩm được đánh dấu hết hàng. Không có dữ liệu SP_HETHANG để thực hiện bước chọn; chưa xác minh hành vi hết tồn.",
+      "evidence": "PC-024_missing_stock_data.jpg",
+      "time": "2026-10-23T14:24:06.591Z"
+    },
+    {
+      "id": "PC-025",
+      "status": "Passed",
+      "actual": "Tìm 12400F trong popup CPU chỉ còn Intel i5 12400F và i5-12400F TRAY, đều thuộc nhóm CPU.",
+      "evidence": "PC-025_search.jpg",
+      "time": "2026-10-23T14:18:54.635Z"
+    },
+    {
+      "id": "PC-026",
+      "status": "Passed",
+      "actual": "Tìm zzx_no_product_987654: Không tìm thấy sản phẩm, danh sách rỗng. Xóa từ khóa khôi phục danh sách CPU, tìm 12400F và chọn được CPU khác.",
+      "evidence": "PC-026_no_result.jpg",
+      "time": "2026-10-23T14:19:16.178Z"
+    },
+    {
+      "id": "PC-027",
+      "status": "N/A",
+      "actual": "Khảo sát giao diện hiện tại chỉ có Chọn lại từ đầu và Tải file cấu hình; không có nút Lưu cấu hình hoặc mục mở danh sách cấu hình đã lưu. Hai case lưu phía tài khoản chưa áp dụng.",
+      "evidence": "PC-027_028_no_save.jpg",
+      "time": "2026-10-23T14:23:01.659Z"
+    },
+    {
+      "id": "PC-028",
+      "status": "N/A",
+      "actual": "Khảo sát giao diện hiện tại chỉ có Chọn lại từ đầu và Tải file cấu hình; không có nút Lưu cấu hình hoặc mục mở danh sách cấu hình đã lưu. Hai case lưu phía tài khoản chưa áp dụng.",
+      "evidence": "PC-027_028_no_save.jpg",
+      "time": "2026-10-23T14:23:01.661Z"
+    },
+    {
+      "id": "PC-029",
+      "status": "Blocked",
+      "actual": "Đã bấm Tải file cấu hình với CPU+RAM+SSD tổng 13.070.000đ. Công cụ không nhận sự kiện download sau 20 giây, không có thông báo lỗi trên UI. Chưa có tệp để đối chiếu; cần xác minh bằng trình duyệt thường trước khi kết luận lỗi website.",
+      "evidence": "PC-029_download_blocked.jpg",
+      "time": "2026-10-23T14:23:01.775Z"
+    },
+    {
+      "id": "PC-030",
+      "status": "Passed",
+      "actual": "Nhấp đúp Chọn CPU i5 12400F: chỉ một dòng CPU, số lượng 1; tạm tính 19.620.000đ không cộng trùng.",
+      "evidence": "PC-030_double_click.jpg",
+      "time": "2026-10-23T14:21:06.842Z"
+    }
+  ]
+}
