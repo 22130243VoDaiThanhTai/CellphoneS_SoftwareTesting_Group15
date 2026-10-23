@@ -1,0 +1,1181 @@
+- banner:
+  - text: Sản phẩm
+  - strong: Chính hãng - Xuất VAT
+  - text: đầy đủ
+  - strong: Giao nhanh - Miễn phí
+  - text: cho đơn 300k
+  - strong: Thu cũ
+  - text: giá ngon -
+  - strong: Lên đời
+  - text: tiết kiệm
+  - text: Sản phẩm
+  - strong: Chính hãng - Xuất VAT
+  - text: đầy đủ
+  - strong: Giao nhanh - Miễn phí
+  - text: cho đơn 300k
+  - strong: Thu cũ
+  - text: giá ngon -
+  - strong: Lên đời
+  - text: tiết kiệm
+  - link "Cửa hàng gần bạn":
+    - /url: /dia-chi-cua-hang
+    - generic: Cửa hàng gần bạn
+  - link "Tra cứu đơn hàng":
+    - /url: https://smember.com.vn/order?company_id=cellphones
+    - generic: Tra cứu đơn hàng
+  - link "1800 2097":
+    - /url: tel:18002097
+    - generic: 1800 2097
+  - navigation:
+    - link "CellphoneS CellphoneS":
+      - /url: https://cellphones.com.vn/
+      - img "CellphoneS"
+      - img "CellphoneS"
+    - button "Danh mục":
+      - generic: Danh mục
+    - button "Hồ Chí Minh":
+      - generic: Hồ Chí Minh
+    - button:
+    - textbox "Bạn muốn mua gì hôm nay?"
+    - generic: Giỏ hàng
+    - generic: "0"
+    - button "Đăng nhập":
+      - generic: Đăng nhập
+- list:
+  - link "Trang chủ":
+    - /url: https://cellphones.com.vn/
+  - generic: /
+  - link "Máy tính để bàn":
+    - /url: /may-tinh-de-ban.html
+  - generic: /
+  - paragraph: Build PC
+- link "PC CPS văn phòng":
+  - /url: https://cellphones.com.vn/may-tinh-pc-cps-van-phong-intel-i5-gen-12.html
+  - img "PC CPS văn phòng"
+- link "PC CPS Quantum Blaze 5070 Ti":
+  - /url: https://cellphones.com.vn/pc-cps-quantum-blaze-5070-ti.html
+  - img "PC CPS Quantum Blaze 5070 Ti"
+- link "PC CPS Creator":
+  - /url: https://cellphones.com.vn/pc-cps-creator-pro-570.html
+  - img "PC CPS Creator"
+- link "PC CPS Core Work":
+  - /url: https://cellphones.com.vn/pc-cps-core-work-s320.html
+  - img "PC CPS Core Work"
+- link "PC 10 triệu":
+  - /url: javascript:void(0)
+  - img "PC 10 triệu"
+- link "PC trên 15 triệu":
+  - /url: javascript:void(0)
+  - img "PC trên 15 triệu"
+- button "Go to slide 1"
+- button "Go to slide 2"
+- button "Go to slide 3"
+- button "Go to slide 4"
+- button "Go to slide 5"
+- button "Go to slide 6"
+- heading "Gợi ý cấu hình PC theo nhu cầu" [level=2]
+- img "PC Gaming"
+- generic: PC Gaming
+- img "PC Đồ họa"
+- generic: PC Đồ họa
+- img "PC Văn phòng - Học tập"
+- generic: PC Văn phòng - Học tập
+- img "PC AI"
+- generic: PC AI
+- heading "Build PC" [level=1]
+- paragraph: Chọn các linh kiện máy tính bạn cần để xây dựng cấu hình máy
+- text: Chọn lại từ đầu
+- text: Tải file cấu hình
+- img "CPU Intel Core i5-12400F (TRAY)"
+- heading "CPU Intel Core i5-12400F (TRAY)" [level=3]
+- paragraph: 3.990.000đ
+- paragraph: Giảm 20%
+- paragraph: 4.990.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- img "Mainboard Asus TUF Gaming B760M-PLUS Wifi D4"
+- heading "Mainboard Asus TUF Gaming B760M-PLUS Wifi D4" [level=3]
+- paragraph: 3.750.000đ
+- paragraph: Giảm 25%
+- paragraph: 4.990.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- img "VGA Gigabyte Radeon RX 6500 XT Eagle 4GB GV-R65XTEAGLE-4GD"
+- heading "VGA Gigabyte Radeon RX 6500 XT Eagle 4GB GV-R65XTEAGLE-4GD" [level=3]
+- paragraph: 4.990.000đ
+- paragraph: Giảm 23%
+- paragraph: 6.490.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- img "RAM PC ADATA XPG D50 RGB 16GB (1x16GB) 3200MHz DDR4"
+- heading "RAM PC ADATA XPG D50 RGB 16GB (1x16GB) 3200MHz DDR4" [level=3]
+- paragraph: 4.290.000đ
+- paragraph: Giảm 32%
+- paragraph: 6.290.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- img "Ổ cứng SSD Kingston NV3 PCIe 4.0 NVMe 1TB"
+- heading "Ổ cứng SSD Kingston NV3 PCIe 4.0 NVMe 1TB" [level=3]
+- paragraph: 4.490.000đ
+- paragraph: Giảm 26%
+- paragraph: 6.090.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- img "Dung lượng 1 TB chỉ 1.390.000đ"
+- paragraph: Ổ cứng HDD
+- button "Chọn"
+- img "Case máy tính Jetek EN16 (ATX)"
+- heading "Case máy tính Jetek EN16 (ATX)" [level=3]
+- paragraph: 250.000đ
+- paragraph: Giảm 29%
+- paragraph: 350.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- img "Nguồn máy tính Corsair CX650"
+- heading "Nguồn máy tính Corsair CX650" [level=3]
+- paragraph: 1.450.000đ
+- paragraph: Giảm 9%
+- paragraph: 1.590.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- img "Tản nhiệt khí Xigmatek EPIX II"
+- heading "Tản nhiệt khí Xigmatek EPIX II" [level=3]
+- paragraph: 400.000đ
+- paragraph: Giảm 18%
+- paragraph: 490.000đ
+- button "-"
+- generic: "1"
+- button "+"
+- generic: Xóa
+- button "Thay đổi":
+  - text: Thay đổi
+- paragraph: Tản nhiệt Case
+- button "Chọn"
+- paragraph: Màn hình
+- button "Chọn"
+- paragraph: Chuột
+- button "Chọn"
+- paragraph: Bàn phím
+- button "Chọn"
+- paragraph: Tai nghe
+- button "Chọn"
+- paragraph: "Tạm tính:"
+- paragraph: 23.610.000đ
+- text: Giá chưa bao gồm Ưu đãi Build PC.
+- generic: Xem chi tiết
+- text: Thêm vào giỏ
+- button "Mua ngay"
+- generic: Bạn không chắc về cấu hình?
+- text: Nhận tư vấn từ chuyên gia
+- banner:
+  - paragraph: Nội dung chương trình
+- contentinfo:
+  - button "Đóng"
+- iframe:
+  - generic "Trình phát video YouTube"
+  - button "Phát video":
+  - button "Ẩn các nút điều khiển trình phát"
+  - link "Hướng dẫn tự build PC tại website CellphoneS":
+    - /url: https://www.youtube.com/watch?v=Ag-uGr7LQ4k
+  - link "CellphoneS":
+    - /url: /channel/UC4K3-N4jDkyqwrsrpDs8iUg
+    - generic: CellphoneS
+  - button "thumbnail-image":
+    - img "thumbnail-image"
+  - generic: CellphoneS
+  - generic: 56,3 N người đăng ký
+  - button "Chia sẻ":
+  - button "Xem sau":
+  - link "Xem trên YouTube":
+    - /url: https://www.youtube.com/watch?v=Ag-uGr7LQ4k
+    - text: Xem trên
+- heading "Cửa hàng hỗ trợ Build PC" [level=2]
+- link "HUB PC 133 Thái Hà, P. Trung Liệt, Q, Đống Đa, Hà Nội":
+  - /url: https://g.page/r/CZcTd_IfEBt9EBA
+  - img "HUB PC 133 Thái Hà, P. Trung Liệt, Q, Đống Đa, Hà Nội"
+- generic: HUB PC 133 Thái Hà, P. Trung Liệt, Q, Đống Đa, Hà Nội
+- generic: "Mở cửa: 8h00 - 22h00 (tất cả các ngày trong tuần)"
+- generic: "Hotline: (024) 7100 7133"
+- link "Gọi cửa hàng":
+  - /url: tel:02471007133
+  - text: Gọi cửa hàng
+- link "Chỉ đường":
+  - /url: https://g.page/r/CZcTd_IfEBt9EBA
+  - text: Chỉ đường
+- link "190B Hoàng Văn Thụ, P4, Q. Tân Bình, TP. HCM":
+  - /url: https://g.page/r/CSw3xpegdNvnEAE
+  - img "190B Hoàng Văn Thụ, P4, Q. Tân Bình, TP. HCM"
+- generic: 190B Hoàng Văn Thụ, P4, Q. Tân Bình, TP. HCM
+- generic: "Mở cửa: 8h00 - 22h00 (tất cả các ngày trong tuần)"
+- generic: "Hotline: (028) 7100 0190"
+- link "Gọi cửa hàng":
+  - /url: tel:02871000190
+  - text: Gọi cửa hàng
+- link "Chỉ đường":
+  - /url: https://g.page/r/CSw3xpegdNvnEAE
+  - text: Chỉ đường
+- link "377-379 Điện Biên Phủ, P. 25, Q. Bình Thạnh, TP. HCM":
+  - /url: https://g.page/cps377hcm?share
+  - img "377-379 Điện Biên Phủ, P. 25, Q. Bình Thạnh, TP. HCM"
+- generic: 377-379 Điện Biên Phủ, P. 25, Q. Bình Thạnh, TP. HCM
+- generic: "Mở cửa: 8h00 - 22h00 (tất cả các ngày trong tuần)"
+- generic: "Hotline: (028) 7107 7377"
+- link "Gọi cửa hàng":
+  - /url: tel:02871077377
+  - text: Gọi cửa hàng
+- link "Chỉ đường":
+  - /url: https://g.page/cps377hcm?share
+  - text: Chỉ đường
+- heading "Trải nghiệm build PC tại cửa hàng" [level=3]
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- link "Hình KH build PC":
+  - /url: javascript:void(0)
+  - img "Hình KH build PC"
+- button "Previous slide":
+- button "Next slide":
+- link "Hướng dẫn chọn mua linh kiện Xem thêm":
+  - /url: https://cellphones.com.vn/sforum/tag/build-pc
+  - heading "Hướng dẫn chọn mua linh kiện" [level=3]
+  - text: Xem thêm
+- 'link "Mổ xẻ top kit RAM đỉnh nhất 2026: Bí quyết chọn RAM \"xé gió\" cân trọn mọi dung lượng từ 16GB đến 192GB Mổ xẻ top kit RAM đỉnh nhất 2026: Bí quyết chọn RAM \"xé gió\" cân trọn mọi dung lượng từ 16GB đến 192GB"':
+  - /url: https://cellphones.com.vn/sforum/ram-tot-nhat-2026
+  - 'img "Mổ xẻ top kit RAM đỉnh nhất 2026: Bí quyết chọn RAM \"xé gió\" cân trọn mọi dung lượng từ 16GB đến 192GB"'
+  - paragraph: "Mổ xẻ top kit RAM đỉnh nhất 2026: Bí quyết chọn RAM \"xé gió\" cân trọn mọi dung lượng từ 16GB đến 192GB"
+- 'link "Xếp hạng CPU chơi game mạnh nhất 2026: AMD tiếp tục \"gieo sầu\" cho Intel Xếp hạng CPU chơi game mạnh nhất 2026: AMD tiếp tục \"gieo sầu\" cho Intel"':
+  - /url: https://cellphones.com.vn/sforum/cpu-choi-game-manh-nhat-2026
+  - 'img "Xếp hạng CPU chơi game mạnh nhất 2026: AMD tiếp tục \"gieo sầu\" cho Intel"'
+  - paragraph: "Xếp hạng CPU chơi game mạnh nhất 2026: AMD tiếp tục \"gieo sầu\" cho Intel"
+- link "Đầu năm build PC cấu hình khủng để cày game mượt cả năm Đầu năm build PC cấu hình khủng để cày game mượt cả năm":
+  - /url: https://cellphones.com.vn/sforum/tu-van-cau-hinh-pc-choi-tet
+  - img "Đầu năm build PC cấu hình khủng để cày game mượt cả năm"
+  - paragraph: Đầu năm build PC cấu hình khủng để cày game mượt cả năm
+- link "Top 10 cấu hình build PC cho dân kiến trúc 2026 Top 10 cấu hình build PC cho dân kiến trúc 2026":
+  - /url: https://cellphones.com.vn/sforum/build-pc-cho-dan-kien-truc
+  - img "Top 10 cấu hình build PC cho dân kiến trúc 2026"
+  - paragraph: Top 10 cấu hình build PC cho dân kiến trúc 2026
+- paragraph:
+  - text: Một chiếc PC phù hợp vừa giúp làm việc hiệu quả, vừa mang đến trải nghiệm giải trí mượt mà. Nếu bạn đang băn khoăn cách
+  - link "build PC":
+    - /url: https://cellphones.com.vn/may-tinh-de-ban/build-pc.html
+    - strong: build PC
+  - text: giá tốt nhưng vẫn mạnh mẽ và ổn định, bài viết sau từ CellphoneS sẽ hướng dẫn chi tiết cách chọn linh kiện, tối ưu hiệu năng và ngân sách theo từng nhu cầu.
+- heading "Build PC nghĩa là gì?" [level=2]:
+  - strong: Build PC nghĩa là gì?
+- paragraph:
+  - strong: Build PC
+  - text: hay
+  - strong: xây dựng cấu hình máy tính
+  - text: là quá trình chọn từng linh kiện như CPU, card đồ họa, RAM, ổ cứng… và lắp ráp thành bộ PC hoàn chỉnh. So với việc mua máy tính nguyên bộ, tự build giúp bạn tối ưu hiệu năng, kiểm soát chi phí và tùy chỉnh cấu hình phù hợp cho học tập, làm việc hay chơi game, thiết kế đồ họa.
+- paragraph:
+  - img "Giới thiệu về build PC"
+- heading "Build dàn PC hoàn chỉnh cần những gì?" [level=2]:
+  - strong: Build dàn PC hoàn chỉnh cần những gì?
+- paragraph:
+  - text: Một dàn PC hoàn chỉnh sẽ cần những linh kiện, phụ kiện nào? Dưới đây là tất cả những bộ phận một bộ
+  - link "máy tính bàn":
+    - /url: https://cellphones.com.vn/may-tinh-de-ban.html
+    - strong: máy tính bàn
+  - text: hoàn chỉnh cần có.
+- heading "Nhóm linh kiện phần cứng chính" [level=3]:
+  - strong:
+    - generic: Nhóm linh kiện phần cứng chính
+- paragraph: Dàn PC mạnh mẽ được tạo nên từ nhiều linh kiện phần cứng hoạt động đồng bộ. Đây là nền tảng quyết định tốc độ xử lý, khả năng đa nhiệm và độ bền của hệ thống.
+- table:
+  - rowgroup:
+    - row "Linh kiện Giá bán Chức năng":
+      - cell "Linh kiện":
+        - paragraph:
+          - strong: Linh kiện
+      - cell "Giá bán":
+        - paragraph:
+          - strong: Giá bán
+      - cell "Chức năng":
+        - paragraph:
+          - strong: Chức năng
+    - row "CPU Từ 1.290.000đ Trung tâm điều khiển được ví như \"bộ não\" xử lý mọi tác vụ của máy tính.":
+      - cell "CPU":
+        - paragraph:
+          - strong: CPU
+      - cell "Từ 1.290.000đ":
+        - paragraph: Từ 1.290.000đ
+      - cell "Trung tâm điều khiển được ví như \"bộ não\" xử lý mọi tác vụ của máy tính.":
+        - paragraph: Trung tâm điều khiển được ví như "bộ não" xử lý mọi tác vụ của máy tính.
+    - row "Mainboard Từ 1.590.000đ \"Hệ thần kinh\" kết nối và giao tiếp giữa các linh kiện.":
+      - cell "Mainboard":
+        - paragraph:
+          - strong: Mainboard
+      - cell "Từ 1.590.000đ":
+        - paragraph: Từ 1.590.000đ
+      - cell "\"Hệ thần kinh\" kết nối và giao tiếp giữa các linh kiện.":
+        - paragraph: "\"Hệ thần kinh\" kết nối và giao tiếp giữa các linh kiện."
+    - row "Card màn hình Từ 3.690.000đ \"Cơ quan thị giác\" xử lý và hiển thị hình ảnh, đồ họa.":
+      - cell "Card màn hình":
+        - paragraph:
+          - strong: Card màn hình
+      - cell "Từ 3.690.000đ":
+        - paragraph: Từ 3.690.000đ
+      - cell "\"Cơ quan thị giác\" xử lý và hiển thị hình ảnh, đồ họa.":
+        - paragraph: "\"Cơ quan thị giác\" xử lý và hiển thị hình ảnh, đồ họa."
+    - row "RAM Từ 690.000đ \"Trí nhớ ngắn hạn\" để lưu trữ dữ liệu tạm thời cho các tác vụ đang thực hiện.":
+      - cell "RAM":
+        - paragraph:
+          - strong: RAM
+      - cell "Từ 690.000đ":
+        - paragraph: Từ 690.000đ
+      - cell "\"Trí nhớ ngắn hạn\" để lưu trữ dữ liệu tạm thời cho các tác vụ đang thực hiện.":
+        - paragraph: "\"Trí nhớ ngắn hạn\" để lưu trữ dữ liệu tạm thời cho các tác vụ đang thực hiện."
+    - row "Ổ cứng (SSD/HDD) Từ 135.000đ \"Trí nhớ dài hạn\" lưu trữ hệ điều hành, phần mềm và dữ liệu.":
+      - cell "Ổ cứng (SSD/HDD)":
+        - paragraph:
+          - strong: Ổ cứng (SSD/HDD)
+      - cell "Từ 135.000đ":
+        - paragraph: Từ 135.000đ
+      - cell "\"Trí nhớ dài hạn\" lưu trữ hệ điều hành, phần mềm và dữ liệu.":
+        - paragraph: "\"Trí nhớ dài hạn\" lưu trữ hệ điều hành, phần mềm và dữ liệu."
+    - row "Case máy tính Từ 250.000đ \"Khung xương\" bảo vệ linh kiện và hỗ trợ tản nhiệt.":
+      - cell "Case máy tính":
+        - paragraph:
+          - strong: Case máy tính
+      - cell "Từ 250.000đ":
+        - paragraph: Từ 250.000đ
+      - cell "\"Khung xương\" bảo vệ linh kiện và hỗ trợ tản nhiệt.":
+        - paragraph: "\"Khung xương\" bảo vệ linh kiện và hỗ trợ tản nhiệt."
+    - row "Nguồn máy tính Từ 390.000đ \"Trái tim\" cung cấp điện năng cho toàn bộ hệ thống.":
+      - cell "Nguồn máy tính":
+        - paragraph:
+          - strong: Nguồn máy tính
+      - cell "Từ 390.000đ":
+        - paragraph: Từ 390.000đ
+      - cell "\"Trái tim\" cung cấp điện năng cho toàn bộ hệ thống.":
+        - paragraph: "\"Trái tim\" cung cấp điện năng cho toàn bộ hệ thống."
+    - row "Tản nhiệt Từ 80.000đ \"Hệ thống bài tiết\", giảm nhiệt độ CPU/GPU để duy trì hiệu suất.":
+      - cell "Tản nhiệt":
+        - paragraph:
+          - strong: Tản nhiệt
+      - cell "Từ 80.000đ":
+        - paragraph: Từ 80.000đ
+      - cell "\"Hệ thống bài tiết\", giảm nhiệt độ CPU/GPU để duy trì hiệu suất.":
+        - paragraph: "\"Hệ thống bài tiết\", giảm nhiệt độ CPU/GPU để duy trì hiệu suất."
+    - row "Tổng Từ 8.115.000đ -":
+      - cell "Tổng":
+        - paragraph:
+          - strong: Tổng
+      - cell "Từ 8.115.000đ":
+        - paragraph: Từ 8.115.000đ
+      - cell "-":
+        - paragraph: "-"
+- heading "CPU (Bộ vi xử lý)" [level=4]:
+  - strong: CPU (Bộ vi xử lý)
+- paragraph:
+  - text: CPU được coi như là "bộ não" của một chiếc PC, giữ vai trò xử lý các tác vụ từ cơ bản như duyệt web cho đến công việc phức tạp như dựng hình 3D hoặc xử lý dữ liệu lớn,... Vậy nên, việc chọn bộ vi xử lý trong quá trình
+  - strong: build máy tính
+  - text: là điều cần đặc biệt lưu tâm để đảm bảo thiết bị hoạt động hiệu quả.
+- paragraph:
+  - img "CPU (Bộ vi xử lý)"
+- paragraph: Có ba yếu tố cần quan tâm khi chọn CPU gồm số lõi, số luồng và xung nhịp. Trong đó, số lượng lõi, luồng sẽ ảnh hưởng tới hiệu quả thực hiện các tác vụ đa nhiệm hay những ứng dụng nặng. Xung nhịp của CPU sẽ ảnh hưởng tới hiệu năng đơn luồng, thường phục vụ nhu cầu chơi game hoặc sử dụng các ứng dụng đơn giản.
+- paragraph: Hiện tại, người dùng có thể dễ dàng tìm kiếm các phiên bản bộ xử lý của Intel hoặc AMD. Trong đó, các mẫu CPU Intel Core thường được sử dụng khi tự build PC chơi game, giải trí. Các mẫu CPU AMD Ryzen với hiệu năng đa nhiệm vượt trội sẽ phù hợp để trang bị trên dàn PC dành cho công việc.
+- heading "Mainboard (Bo mạch chủ)" [level=4]:
+  - strong: Mainboard (Bo mạch chủ)
+- paragraph: Nếu CPU được coi là bộ não thì mainboard hay bo mạch chủ lại được coi khung xương. Bởi bo mạch chủ có vai trò kết nối các bộ phận riêng lẻ trở thành một hệ thống có tính thống nhất.
+- paragraph:
+  - img "Mainboard (Bo mạch chủ)"
+- paragraph: Tuỳ vào loại thùng máy, bộ PC có thể được trang bị nhiều kích thước bo mạch chủ như ATX, Micro-ATX, Mini-ITX,...khi build máy tính. Ngoài ra, socket và chipset cũng là yếu tố cần được quan tâm trên mainboard. Đây là hai tiêu chí quyết định khả năng tương thích với CPU cũng như các tính năng bổ sung như số lượng cổng USB, PCIe,...
+- heading "Card màn hình" [level=4]:
+  - strong: Card màn hình
+- paragraph: Card màn hình là loại linh kiện nâng cao, chịu trách nhiệm xử lý hình ảnh, đồ hoạ và chất lượng hiển thị trên màn hình. VGA không chỉ là linh kiện quan trọng với game thủ mà còn là linh kiện không thể thiếu trong các ngành như AI, blockchain, thiết kế đồ hoạ,...
+- paragraph:
+  - img "VGA/Card màn hình (Nếu không dùng GPU tích hợp)"
+- paragraph: Dù có rất nhiều thương hiệu card đồ hoạ rời nhưng trên thị trường, VGA hiện đang được chia ra thành hai dòng sản phẩm chính là NVIDIA GeForce và AMD Radeon. Tuy nhiên, các mẫu card màn hình NVIDIA GeForce lại có được độ phổ biến rộng, giúp việc tìm kiếm sản phẩm phù hợp khi muốn tự build máy tính cá nhân trở nên dễ dàng hơn.
+- heading "RAM (Bộ nhớ tạm thời)" [level=4]:
+  - strong: RAM (Bộ nhớ tạm thời)
+- paragraph: Khi tự build PC, việc chọn RAM sao cho phù hợp cũng là điều cần chú ý tới. Bởi đây là bộ lưu trữ tạm thời, giúp CPU truy cập vào các dữ liệu một cách nhanh chóng. Nhờ đó mà máy tính cũng sẽ nâng cao được tốc độ xử lý và khả năng hoạt động đa nhiệm.
+- paragraph:
+  - img "RAM (Bộ nhớ tạm thời)"
+- paragraph: Có hai yếu tố về RAM khi build máy tính cần quan tâm là dung lượng và tốc độ bus. Trong đó, dung lượng tối thiểu mà một chiếc PC cần có ở thời điểm hiện tại là khoảng 8GB. Dung lượng này sẽ đủ để thực hiện các hoạt động giải trí cơ bản và công việc văn phòng. Tuy nhiên, dung lượng lý tưởng mà PC cần sở hữu nên từ 16 - 32GB.
+- paragraph: Tốc độ bus sẽ ảnh hưởng trực tiếp tới khả năng truyền tải dữ liệu giữa RAM và CPU. Yếu tố này sẽ đặc biệt quan trọng với những người tự build máy tính để sử dụng cho nhu cầu làm việc chuyên nghiệp hay chơi game đồ hoạ.
+- heading "Ổ cứng (SSD/HDD)" [level=4]:
+  - strong: Ổ cứng (SSD/HDD)
+- paragraph: Ổ cứng cung cấp không gian để máy tính có thể cài đặt hệ điều hành, phần mềm và lưu trữ dữ liệu cá nhân. Ổ cứng hiện nay được chia ra thành hai dòng sản phẩm là HDD và SSD với dung lượng đa dạng như 128GB, 256GB, 1TB, 2TB,... để lựa chọn khi tự build máy tính.
+- paragraph:
+  - img "Ổ cứng (SSD/HDD)"
+- paragraph: Trong đó, ổ cứng SSD với độ bền và tốc độ đọc - ghi cao thường được ưu tiên sử dụng để cài đặt hệ điều hành và phần mềm. Ổ cứng HDD với mức giá phải chăng cùng dung lượng lớn vượt trội lại được ưu tiên để lưu trữ dữ liệu. Ngoài ra, dòng ổ cứng HDD còn là lựa chọn tối ưu để build PC giá rẻ.
+- heading "Case máy tính (Vỏ thùng máy)" [level=4]:
+  - strong: Case máy tính (Vỏ thùng máy)
+- paragraph: Case máy tính được coi như trang phục bên ngoài của một bộ máy tính cá nhân. Vỏ thùng máy ngày nay không chỉ có tác dụng bảo vệ linh kiện mà còn đóng nhiều vai trò khác như hỗ trợ tản nhiệt, nâng cao tính thẩm mỹ cho PC và không gian sử dụng. Bởi vậy khi build máy tính, việc chọn case phù hợp cũng sẽ nâng cao hiệu suất và độ ổn định của PC.
+- paragraph:
+  - img "Case máy tính (Vỏ thùng máy)"
+- paragraph: Tương tự như mainboard, case máy tính hiện nay có rất nhiều kích thước để chọn lựa. Ngoài ra, người dùng cũng cần quan tâm tới không gian bên trong thùng máy để đảm bảo được khả năng nâng cấp trong tương lai nếu có nhu cầu sử dụng cao.
+- heading "Nguồn máy tính (PSU - Power Supply Unit)" [level=4]:
+  - strong: Nguồn máy tính (PSU - Power Supply Unit)
+- paragraph: Nguồn máy tính là linh kiện cung cấp và điều phối năng lượng cho toàn bộ dàn PC. Bộ nguồn của PC không chỉ giúp duy trì khả năng hoạt động ổn định mà còn có vai trò bảo vệ an toàn cho các linh kiện trước những rủi ro về mặt điện áp.
+- paragraph:
+  - img "Nguồn máy tính (PSU - Power Supply Unit)"
+- paragraph: Tuỳ vào cấu hình build máy tính, công suất bộ nguồn có thể cân nhắc lựa chọn trong khoảng từ 500W - 850W. Ngoài ra, việc đạt tiêu chuẩn an toàn 80 Plus Bronze/Silver/Gold/Platinum cũng là điều cần có trên một bộ PSU.
+- heading "Tản nhiệt CPU" [level=4]:
+  - strong: Tản nhiệt CPU
+- paragraph: Tản nhiệt CPU có tác dụng làm mát, giúp bộ xử lý hoạt động ổn định ở cường độ cao trong thời gian dài. Hệ thống làm mát này còn đồng thời giúp kéo dài tuổi thọ cho linh kiện, đặc biệt là với những thiết bị thường xuyên phải chạy các tác vụ nặng.
+- paragraph:
+  - img "Tản nhiệt CPU"
+- paragraph: Khi tự build máy tính, người dùng có thể cân nhắc giữa tản khí và tản nước. Trong đó, tản nhiệt khí có mức giá rẻ hơn và rất dễ lắp đặt. Tản nhiệt nước tuy có mức giá cao nhưng lại mang tới khả năng làm mát hiệu quả, phù hợp với những dàn PC cao cấp.
+- heading "Thiết bị ngoại vi" [level=3]:
+  - strong: Thiết bị ngoại vi
+- paragraph: Ngoài các linh kiện bên trong, một bộ PC hoàn chỉnh còn cần tới thiết bị ngoại vi. Đâu là những thiết bị ngoại vi cần phải có khi muốn tự build máy tính?
+- table:
+  - rowgroup:
+    - row "Thiết bị ngoại vi Giá bán":
+      - cell "Thiết bị ngoại vi":
+        - paragraph:
+          - strong: Thiết bị ngoại vi
+      - cell "Giá bán":
+        - paragraph:
+          - strong: Giá bán
+    - row "Màn hình Từ 1.290.000đ":
+      - cell "Màn hình":
+        - paragraph:
+          - strong: Màn hình
+      - cell "Từ 1.290.000đ":
+        - paragraph: Từ 1.290.000đ
+    - row "Bàn phím Từ 149.000đ":
+      - cell "Bàn phím":
+        - paragraph:
+          - strong: Bàn phím
+      - cell "Từ 149.000đ":
+        - paragraph: Từ 149.000đ
+    - row "Chuột Từ 75.000đ":
+      - cell "Chuột":
+        - paragraph:
+          - strong: Chuột
+      - cell "Từ 75.000đ":
+        - paragraph: Từ 75.000đ
+    - row "Tai nghe Từ 140.000đ":
+      - cell "Tai nghe":
+        - paragraph:
+          - strong: Tai nghe
+      - cell "Từ 140.000đ":
+        - paragraph: Từ 140.000đ
+    - row "Loa Từ 220.000đ":
+      - cell "Loa":
+        - paragraph:
+          - strong: Loa
+      - cell "Từ 220.000đ":
+        - paragraph: Từ 220.000đ
+    - row "Tổng 1.874.000đ":
+      - cell "Tổng":
+        - paragraph:
+          - strong: Tổng
+      - cell "1.874.000đ":
+        - paragraph:
+          - strong: 1.874.000đ
+- heading "Màn hình" [level=4]:
+  - strong: Màn hình
+- paragraph: Màn hình là thiết bị ngoại vi không thể thiếu với bất kỳ bộ máy tính để bàn nào. Với sự đa dạng về kích thước, tần số quét và độ phân giải, người dùng sẽ luôn có thể tìm được màn hình phù hợp khi tự build PC giá rẻ.
+- paragraph:
+  - img "Màn hình"
+- paragraph: Với một bộ PC để chơi game, tần số quét là tiêu chí cần quan tâm tới khi chọn màn hình. Với các game thủ phổ thông, một chiếc màn hình 120 - 144Hz đã đủ để phục vụ nhu cầu giải trí. Còn với game thủ chuyên nghiệp, màn hình nên có tần số quét 240 - 360Hz.
+- paragraph: Còn khi tự build máy tính cho mục đích đồ họa, thiết kế, độ phân giải và độ chính xác màu là hai tiêu chí nên được ưu tiên. Để đảm bảo hình ảnh sắc nét, sống động, màn hình nên sở hữu độ phân giải 4K, Delta E < 2 và các không gian màu sRGB, DCI-P3, AdobeRGB.
+- heading "Bàn phím" [level=4]:
+  - strong: Bàn phím
+- paragraph: Ngoài màn hình, bàn phím cũng là thiết bị ngoại vi không thể thiếu trong bất kỳ bộ PC từ cơ bản tới cao cấp nào. Bàn phím sẽ là công cụ hỗ trợ việc nhập dữ liệu, câu lệnh để điều khiển máy tính.
+- paragraph:
+  - img "Bàn phím"
+- paragraph: Người làm văn phòng sẽ thường kết hợp các mẫu bàn phím không dây hoặc có thiết kế nhỏ gọn, tiện lợi. Ngược lại, các game thủ sẽ ưu tiên những dòng bàn phím cơ để có được tốc độ phản hồi và độ chính xác cao trong khi thực hiện thao tác điều khiển.
+- heading "Chuột" [level=4]:
+  - strong: Chuột
+- paragraph: Nếu như bàn phím có chức năng đưa ra câu lệnh, nhập dữ liệu thì chuột lại là thiết bị giúp người dùng tương tác thuận tiện với máy tính. Tương tự như bàn phím, các mẫu chuột máy tính hiện nay cũng được chia ra thành nhiều dòng sản phẩm nhằm tối ưu cho từng đối tượng như người làm văn phòng, game thủ,…
+- paragraph:
+  - img "Chuột"
+- paragraph: Ngoài ra, một số sản phẩm còn sở hữu thiết kế công thái học để mang tới sự thoải mái khi sử dụng trong thời gian dài. Đây sẽ là sự lựa chọn nâng cao nhằm tối ưu hiệu suất sử dụng máy tính.
+- heading "Tai nghe hoặc loa (Nếu cần âm thanh)" [level=4]:
+  - strong: Tai nghe hoặc loa (Nếu cần âm thanh)
+- paragraph: Trong quá trình tự build máy tính, người dùng còn có thể trang bị thêm cho bộ PC của mình tai nghe hoặc loa. Đây là những thiết bị ngoại vi quan trọng, giúp nâng cao các trải nghiệm liên quan tới âm thanh như xem phim, nghe nhạc, học trực tuyến,...
+- paragraph:
+  - img "Tai nghe hoặc loa (Nếu cần âm thanh)"
+- paragraph: Tai nghe với khả năng tái tạo âm thanh chi tiết sẽ phù hợp với nhu cầu trải nghiệm âm thanh độc lập, riêng tư. Trong khi đó, loa sẽ là lựa chọn lý tưởng để thưởng thức âm thanh trong các không gian rộng hoặc muốn chia sẻ trải nghiệm cùng người khác.
+- heading "Phụ kiện/Tiện ích khác" [level=3]:
+  - strong: Phụ kiện/Tiện ích khác
+- paragraph:
+  - text: Trong quá trình
+  - strong: build PC
+  - text: ", người dùng còn có thể trang bị thêm nhiều phụ kiện và tiện ích khác để trang bị cho chiếc máy tính cá nhân. Dưới đây là một số gợi ý tới từ CellphoneS nhằm giúp nâng cao trải nghiệm trên chiếc máy tính cá nhân."
+- table:
+  - rowgroup:
+    - row "Phụ kiện tiện ích Giá bán":
+      - cell "Phụ kiện tiện ích":
+        - paragraph:
+          - strong: Phụ kiện tiện ích
+      - cell "Giá bán":
+        - paragraph:
+          - strong: Giá bán
+    - row "Webcam Từ 420.000đ":
+      - cell "Webcam":
+        - paragraph:
+          - strong: Webcam
+      - cell "Từ 420.000đ":
+        - paragraph: Từ 420.000đ
+    - row "USB Wifi hoặc Card mạng LAN Từ 135.000đ hoặc Từ 249.000đ":
+      - cell "USB Wifi hoặc Card mạng LAN":
+        - paragraph:
+          - strong: USB Wifi
+          - text: hoặc
+          - strong: Card mạng LAN
+      - cell "Từ 135.000đ hoặc Từ 249.000đ":
+        - paragraph: Từ 135.000đ hoặc Từ 249.000đ
+    - row "Bộ lưu điện Từ 790.000đ":
+      - cell "Bộ lưu điện":
+        - paragraph:
+          - strong: Bộ lưu điện
+      - cell "Từ 790.000đ":
+        - paragraph: Từ 790.000đ
+    - row "Bộ tin học văn phòng bản quyền Từ 1.690.000đ":
+      - cell "Bộ tin học văn phòng bản quyền":
+        - paragraph:
+          - strong: Bộ tin học văn phòng bản quyền
+      - cell "Từ 1.690.000đ":
+        - paragraph: Từ 1.690.000đ
+    - row "Tổng -":
+      - cell "Tổng":
+        - paragraph:
+          - strong: Tổng
+      - cell "-":
+        - paragraph:
+          - strong: "-"
+- heading "Webcam" [level=4]:
+  - strong: Webcam
+- paragraph: Với nhu cầu làm việc từ xa, học trực tuyến tăng cao, webcam sẽ là món phụ kiện nên cân nhắc trang bị khi tự mình build máy tính. Ngoài ra, webcam cũng sẽ là phụ kiện mà những người làm công việc streaming cần có để đảm bảo mang tới nội dung chất lượng, ổn định cho người xem.
+- paragraph:
+  - img "Webcam"
+- paragraph: Nếu để gọi video cơ bản, các webcam có độ phân giải HD (720p) - Full HD (1080p) đã đủ để đáp ứng nhu cầu. Còn với công việc livestream yêu cầu hình ảnh chất lượng cao, webcam nên có độ phân giải ở mức 4K (2160p).
+- heading "USB WiFi hoặc card mạng LAN" [level=4]:
+  - strong: USB WiFi hoặc card mạng LAN
+- paragraph: Tùy vào nhu cầu sử dụng mà người dùng nên trang bị thêm cho chiếc PC của mình card mạng LAN hoặc USB WiFi. USB WiFi tuy mang tới sự tiện lợi nhưng lại bị phụ thuộc vào băng tần của bộ phát mạng và vị trí đặt thiết bị.
+- paragraph:
+  - img "USB WiFi hoặc card mạng LAN"
+- paragraph: Đối với game thủ hoặc nhà sáng tạo nội dung, bộ PC nên được ưu tiên trang bị card mạng LAN để có được tốc độ truyền tải cao cùng tính ổn định. Tuy nhiên, việc đi dây để sử dụng cổng mạng LAN sẽ gây bất tiện trong quá trình bố trí và di chuyển PC.
+- heading "Bộ lưu điện (UPS)" [level=4]:
+  - strong: Bộ lưu điện (UPS)
+- paragraph: Tuy không còn quá phổ biến nhưng bộ lưu điện cũng là một phụ kiện có thể trang bị cho PC. Với chức năng cung cấp nguồn điện dự phòng, bộ lưu điện sẽ giảm thiểu rủi ro liên quan tới hỏng phần cứng do nguồn cấp năng lượng bị cắt đột ngột.
+- paragraph:
+  - img "Bộ lưu điện (UPS)"
+- paragraph: Nhờ việc cung cấp năng lượng dự phòng cho máy tính khi mất điện, người dùng cũng có đủ thời gian để sao lưu và hạn chế mất các dữ liệu quan trọng. Ngoài ra, một số mẫu UPS còn sở hữu khả năng ổn áp dòng điện, giúp phần cứng của PC được bảo vệ an toàn khi nguồn cấp năng lượng không ổn định.
+- heading "Bộ phần mềm tin học văn phòng" [level=4]:
+  - strong: Bộ phần mềm tin học văn phòng
+- paragraph: Khi build PC, nhiều người thường chỉ tập trung vào cấu hình phần cứng mà quên mất tầm quan trọng của phần mềm văn phòng. Một bộ Microsoft Office bản quyền giúp máy hoạt động ổn định, bảo mật và hỗ trợ đầy đủ công cụ Word, Excel, PowerPoint phục vụ học tập và công việc.
+- paragraph: Bạn có thể Office 365 Personal chỉ 28.000đ/tháng là lựa chọn tiết kiệm, phù hợp khi mua nhóm 5 người. Nếu bạn muốn sử dụng lâu dài mà không cần gia hạn hàng năm, Office 2024 bản quyền vĩnh viễn là lựa chọn đáng đầu tư.
+- heading "Lợi ích của việc build máy tính" [level=2]:
+  - strong: Lợi ích của việc build máy tính
+- paragraph:
+  - text: So với chọn mua một bộ máy tính có sẵn, việc
+  - strong: tự build máy tính
+  - text: "mang lại những lợi ích gì? Dưới đây là những lợi ích của việc tự lắp ráp một chiếc máy tính cá nhân:"
+- heading "Tiết kiệm chi phí" [level=3]:
+  - strong: Tiết kiệm chi phí
+- paragraph: Việc tự build máy tính sẽ giúp người dùng tiết kiệm được rất nhiều chi phí. Lý do đầu tiên đó là việc lắp ráp một chiếc máy tính sẽ giúp tối ưu hiệu năng theo đúng nhu cầu sử dụng thực tế. Đây là điều mà các mẫu PC được lắp ráp sẵn khó có thể đáp ứng được.
+- paragraph:
+  - img "Lợi ích của việc build PC máy tính"
+- paragraph:
+  - text: Ngoài ra, quá trình
+  - strong: tự build PC
+  - text: còn đem đến sự chủ động trong việc lựa chọn các linh kiện tới từ nhiều thương hiệu, từ phổ thông cho tới cao cấp. Nhờ đó, người dùng sẽ luôn tìm được những linh kiện phần cứng, thiết bị ngoại vi, phụ kiện phù hợp với điều kiện kinh tế.
+- heading "Cấu hình mạnh, hiệu năng mượt mà hơn" [level=3]:
+  - strong: Cấu hình mạnh, hiệu năng mượt mà hơn
+- paragraph: Một trong những ưu điểm lớn nhất của việc tự build máy tính đó là khả năng tối ưu hiệu năng theo nhu cầu. Điều này đồng nghĩa với việc người dùng sẽ luôn sở hữu cho mình một chiếc máy với cấu hình mạnh mẽ để có được hiệu năng mượt mà trong công việc và quá trình giải trí.
+- paragraph:
+  - img "Lợi ích của việc build PC máy tính"
+- paragraph: Ngoài các lựa chọn phần cứng phổ biến, người dùng sẽ có cơ hội trang bị cho chiếc PC cá nhân những dòng CPU, VGA, mainboard,...thế hệ mới. Không chỉ dừng ở đó, người dùng cũng có thể chủ động lựa chọn màn hình, bàn phím, chuột, tai nghe,...
+- heading "Có thể cá nhân hóa theo sở thích" [level=3]:
+  - strong: Có thể cá nhân hóa theo sở thích
+- paragraph: Việc tự build máy tính còn mang tính cá nhân hóa cao khi người dùng có thể tùy chỉnh thiết kế và cấu hình theo sở thích cá nhân. Sự thay đổi ở đây không chỉ trong cấu hình mà còn cả ngoại hình của máy tính. Người dùng sẽ dễ dàng lựa chọn các linh kiện phần cứng được tích hợp LED RGB để nâng cao tính thẩm mỹ cho bộ máy tính.
+- paragraph:
+  - img "Lợi ích của việc build PC máy tính"
+- paragraph: Thông qua việc chọn lựa case máy tính, bộ PC sẽ được thể hiện đa dạng phong cách cũng như được tối ưu về khả năng tản nhiệt. Ngoài ra, một số dòng mainboard còn được tối ưu cho nhu cầu DIY để người dùng chủ động lắp đặt thêm đèn LED, phụ kiện cho máy tính.
+- heading "Kinh nghiệm Build máy tính giá rẻ, phù hợp" [level=2]:
+  - strong: Kinh nghiệm Build máy tính giá rẻ, phù hợp
+- paragraph:
+  - text: Việc
+  - strong: tự xây dựng cấu hình PC
+  - text: giá rẻ tuy mang lại nhiều lợi ích nhưng cũng yêu cầu phải có những kinh nghiệm nhất định. Hãy tham khảo những chia sẻ dưới đây của CellphoneS để có thêm kinh nghiệm trong việc cấu hình một dàn PC giá rẻ, phù hợp nhu cầu nhé!
+- heading "Xác định nhu cầu, ngân sách" [level=3]:
+  - strong: Xác định nhu cầu, ngân sách
+- paragraph: Để sở hữu bộ PC giá rẻ, phù hợp, người dùng cần xác định rõ nhu cầu sử dụng máy tính vào mục đích gì. Đồng thời, việc xác định nhu cầu còn giúp người dùng lựa chọn những linh kiện phù hợp với ngân sách.
+- paragraph: Với nhu cầu học tập và làm việc văn phòng, dàn PC sẽ cần sở hữu bộ xử lý có từ 4 nhân trở lên để hỗ trợ đa nhiệm cơ bản. PC chơi game nhẹ lại cần được trang bị CPU có từ 4 tới 6 nhân cùng VGA tầm trung. Riêng nhu cầu livestream, đồ hoạ, bộ PC sẽ cần CPU mạnh hơn (6-8 nhân) cùng card màn hình có hiệu suất cao.
+- paragraph:
+  - img "Kinh nghiệm Build PC giá rẻ, phù hợp"
+- paragraph: "Ngoài ra, người dùng cũng có thể tối ưu hiệu năng cho chiếc PC tự build bằng cách phân chia ngân sách. Giả sử ngân sách build máy tính là 10 triệu, người dùng có thể lựa chọn linh kiện như sau:"
+- list:
+  - paragraph: 40% ngân sách (4 triệu) cho CPU và mainboard
+  - paragraph: 25% ngân sách (2.5 triệu) cho RAM và ổ cứng
+  - paragraph: 25% ngân sách (2.5 triệu) cho GPU (Đối với PC chơi game, đồ hoạ)
+  - paragraph: 10% ngân sách (1 triệu) cho case và PSU, tản nhiệt
+- paragraph: Người dùng cũng có thể tận dụng những linh kiện cũ như RAM, ổ cứng, bộ nguồn,...của bộ PC cũ. Nhờ việc chỉ nâng cấp những thành phần “nút thắt cổ chai”, người dùng sẽ vừa có thể nâng cao hiệu năng cho máy tính, vừa tiết kiệm chi phí cho việc trang bị linh kiện mới.
+- heading "Chọn lựa linh kiện chất lượng" [level=3]:
+  - strong: Chọn lựa linh kiện chất lượng
+- paragraph:
+  - text: Việc lựa chọn linh kiện chất lượng khi
+  - strong: build PC
+  - text: không chỉ giúp bộ máy chạy ổn định mà còn đồng thời hạn chế hư hỏng, tối ưu chi phí và thời gian sửa chữa. Đầu tiên, cần đảm bảo rằng CPU và mainboard tương thích tốt với nhau bằng cách kiểm tra thông số socket, chipset của các sản phẩm này.
+- paragraph: Ngoài ra, mainboard được sử dụng cũng nên có hỗ trợ RAM có tốc độ bus cao và các phiên bản PCIe mới. Điều này sẽ giúp việc nâng cấp cấu hình sau một khoảng thời gian sử dụng được dễ dàng hơn.
+- paragraph:
+  - img "Kinh nghiệm Build PC giá rẻ, phù hợp"
+- paragraph: Tiếp đến, RAM và ổ cứng SSD của dàn PC nên tới từ các thương hiệu uy tín như Samsung, Kingston, Crucial, WD,...Và để an toàn hơn, các linh kiện này cũng nên được hỗ trợ bảo hành tối thiểu 3 năm.
+- paragraph:
+  - text: Bộ nguồn cũng là một bộ phận quan trọng nhưng thường ít được chú ý đến khi
+  - strong: tự build máy tính
+  - text: . Bất cứ sự không ổn định nào trong nguồn điện cũng có thể khiến linh kiện bị hư hỏng. Bởi vậy, bộ nguồn không nên chỉ có công suất phù hợp cấu hình mà còn cần được cấp chứng nhận 80 Plus.
+- paragraph:
+  - img "Kinh nghiệm Build PC giá rẻ, phù hợp"
+- paragraph: Đối với card màn hình, người dùng có thể lựa chọn cả những sản phẩm đã qua sử dụng nhưng vẫn còn bảo hành để tối ưu chi phí. Cuối cùng, về tản nhiệt, người dùng có thể cân nhắc các lựa chọn quạt kèm case hay tản khí giá rẻ như Cooler Master Hyper 212, Noctua NH-U12S SE-AM4,...
+- heading "Lắp ráp linh kiện đúng cách" [level=3]:
+  - strong: Lắp ráp linh kiện đúng cách
+- paragraph: Ngoài kinh nghiệm lựa chọn, kinh nghiệm lắp ráp các linh kiện đúng cách để PC hoạt động ổn định cũng là điều cần biết. Quá trình tự build máy tính cần chuẩn bị một không gian bằng phẳng và sạch sẽ, hạn chế tối đa bụi bẩn, tĩnh điện. Ngoài ra, một chiếc tuốc nơ vít từ tính cũng sẽ giúp việc build PC giá rẻ diễn ra dễ dàng hơn.
+- paragraph:
+  - img "Lắp ráp linh kiện đúng cách"
+- paragraph: Trong quá trình lắp tản nhiệt CPU, người dùng cần thoa thêm một lớp keo tản nhiệt phía trên bề mặt bộ xử lý. Bằng cách cho một chấm keo nhỏ vào giữa, keo tản nhiệt sẽ tự động trải đều bề mặt bộ xử lý khi siết và cố định CPU.
+- paragraph: Trước khi hoàn tất việc lắp đặt, máy tính cần được thực hiện POST test (Kiểm tra máy lần đầu) bằng cách lắp CPU, RAM, VGA, PSU và kết nối với màn hình để chạy BIOS. Nhờ vậy, các linh kiện sẽ được xác định có hoạt động tốt hay không để tránh gây ảnh hưởng tới toàn bộ hệ thống.
+- paragraph:
+  - img "Lắp ráp linh kiện đúng cách"
+- paragraph: Sau khi xác nhận các bộ phận hoạt động tốt, PC cần được cài đặt hệ điều hành và cập nhật driver, BIOS mới nhất để hệ thống chạy ổn định. Điều này giúp máy tính tiếp cận được với các tính năng mới để tối ưu hiệu năng.
+- paragraph: Hệ thống dây cáp cũng cần được quản lý gọn gàng để tối ưu luồng không khí bên trong case. Để kiểm tra hiệu năng và nhiệt độ, người dùng có thể sử dụng các phần mềm như FurMark hay Prime95. Nhiệt độ hoạt động ổn định của CPU/GPU sẽ ở dưới 75℃.
+- heading "Hướng dẫn cấu hình PC đúng nhu cầu" [level=2]:
+  - strong: Hướng dẫn cấu hình PC đúng nhu cầu
+- paragraph:
+  - text: Làm sao để có thể build máy tính theo đúng nhu cầu sử dụng? Tham khảo ngay những chia sẻ dưới đây của CellphoneS để biết cách
+  - strong: tự build máy tính
+  - text: "phù hợp:"
+- heading "Build máy tính Gaming" [level=3]:
+  - strong: Build máy tính Gaming
+- paragraph:
+  - text: Khi tự build PC gaming, có hai yếu tố chính cần quan tâm đến hiệu năng xử lý đơn luồng và khả năng đồ họa. Để có được tốc độ xử lý đa nhiệm tốt, dàn
+  - link "PC gaming":
+    - /url: https://cellphones.com.vn/may-tinh-de-ban/pc-gaming.html
+    - strong: PC gaming
+  - text: cần phải được trang bị CPU có tối thiểu 4 - 6 nhân. Còn với nhu cầu chơi game cấu hình cao, CPU mà máy tính sở hữu cần có 6 - 8 nhân.
+- paragraph:
+  - img "Build PC Gaming"
+- paragraph: Ngoài ra, dàn PC cũng sẽ cần được trang bị các dòng card màn hình rời tầm trung nếu nhu cầu chỉ dừng ở các tựa game nhẹ. Tuy nhiên, để có được trải nghiệm tuyệt vời trong quá trình giải trí, máy tính cần sở hữu các phiên bản VGA cao cấp, với kiến trúc tiên tiến cùng dung lượng bộ nhớ lớn.
+- heading "Build máy tính đồ hoạ" [level=3]:
+  - strong: Build máy tính đồ hoạ
+- paragraph:
+  - text: PC phục vụ đồ hoạ sẽ đồng thời phải có được khả năng đa nhiệm cùng đồ hoạ vượt trội. Chính bởi vậy, để
+  - strong: build máy tính đồ hoạ
+  - text: ", người dùng sẽ cần lựa chọn các phiên bản CPU và VGA cao cấp. Kèm theo đó là dung lượng RAM và bộ nhớ lớn, giúp việc lưu trữ và thực hiện đa nhiệm trở nên nhanh chóng, dễ dàng hơn."
+- paragraph:
+  - img "Build PC đồ hoạ"
+- paragraph: Để phục vụ cho công việc liên quan tới đồ hoạ, dàn PC cũng cần được tích hợp thêm màn hình có độ phân giải 2K đến 4K, hỗ trợ các không gian màu chuyên nghiệp. Điều này sẽ giúp hình ảnh luôn có được độ chi tiết, sống động và thể hiện được trọn vẹn ý tưởng của nhà sáng tạo.
+- heading "Build máy tính văn phòng" [level=3]:
+  - strong: Build máy tính văn phòng
+- paragraph: Trái ngược với PC gaming, dàn PC văn phòng lại ưu tiên hiệu năng ổn định, tiết kiệm điện và xử lý các tác vụ cơ bản. Bởi vậy, thay vì lựa chọn các dòng CPU có xung nhịp lớn, việc build máy tính văn phòng sẽ ưu tiên lựa chọn bộ xử lý có nhiều nhân và luồng.
+- paragraph:
+  - img "Build PC Văn phòng"
+- paragraph:
+  - text: Và để nâng cao tốc độ xử lý đa nhiệm, dung lượng RAM cũng là điều cần quan tâm khi
+  - strong: tự build PC
+  - text: giá rẻ văn phòng. Dung lượng RAM mà PC cần có tối thiểu là 8GB. Tuy nhiên, để phù hợp xử lý khối lượng lớn dữ liệu, dàn PC giá rẻ này nên sở hữu khoảng 16GB RAM.
+- heading "Hướng dẫn build máy tính theo tầm giá" [level=2]:
+  - strong: Hướng dẫn build máy tính theo tầm giá
+- paragraph:
+  - text: Ngoài việc
+  - strong: build cấu hình PC
+  - text: dựa vào nhu cầu, khách hàng còn có thể build máy tính theo tầm giá. Dưới đây là một số gợi ý
+  - strong: xây dựng cấu hình PC
+  - text: "dựa vào phân khúc giá để khách hàng có lựa chọn phù hợp:"
+- heading "Build máy tính học sinh, sinh viên" [level=3]:
+  - strong: Build máy tính học sinh, sinh viên
+- paragraph: Máy tính dành cho học sinh, sinh viên được sử dụng cho các mục đích phổ thông như làm việc văn phòng, học online và giải trí nhẹ nhàng. Chính bởi điều này mà chi phí để build máy tính cho học sinh, sinh viên cũng không quá cao, chỉ trong khoảng 6 - 10 triệu đồng.
+- paragraph:
+  - img "Build PC học sinh, sinh viên"
+- paragraph: Trong khoảng giá này, chiếc PC giá rẻ vẫn được trang bị các phiên bản CPU thế hệ mới của dòng Intel Core i3 hay Ryzen 3. Để có được khả năng đa nhiệm ổn định, PC nên được trang bị tối thiểu 8GB RAM. Một ổ cứng SSD có dung lượng 240 - 512GB sẽ giúp việc cài đặt phần mềm, lưu trữ dữ liệu cá nhân được thực hiện thoải mái hơn.
+- paragraph:
+  - text: Với yêu cầu xử lý đồ hoạ không quá cao, dàn PC có thể tận dụng GPU tích hợp cùng bộ xử lý. Điều này sẽ đồng thời giúp quá trình
+  - strong: tự build PC giá rẻ
+  - text: .
+- heading "Xây dựng cấu hình PC tầm trung" [level=3]:
+  - strong: Xây dựng cấu hình PC tầm trung
+- paragraph: Để sở hữu dàn PC vừa có thể làm việc, vừa có thể chơi các tựa game như Dota 2, Valorant, Liên Minh Huyền Thoại,...ngân sách build máy tính tầm trung nên từ 11 - 20 triệu đồng. Bởi với mức ngân sách này, PC sẽ được trang bị cấu hình đủ mạnh để xử lý tốt các tác vụ chỉnh sửa video, đồ hoạ 2D hay chơi game với độ phân giải Full HD.
+- paragraph: Bộ máy tính nên được trang bị các phiên bản chip Intel Core i5 hoặc Ryzen 5. Kèm theo đó là 16GB RAM để đảm bảo dàn PC chạy đa nhiệm mượt mà. Với nhu cầu sử dụng cao hơn, PC cần được lắp đặt ổ cứng SSD có dung lượng 512GB trở lên.
+- paragraph:
+  - img "Build PC tầm trung"
+- paragraph:
+  - text: Với nhu cầu đồ hoạ tầm trung, các dòng card đồ hoạ như GeForce GTX 1650, GeForce RTX 3050,...nên được đầu tư khi lựa chọn linh kiện
+  - strong: xây dựng cấu hình PC
+  - text: . Phiên bản máy tính này sẽ là sự lựa chọn linh hoạt cho cả học sinh, sinh viên và người làm sáng tạo, game thủ phổ thông.
+- heading "Build PC “xịn”" [level=3]:
+  - strong: Build PC “xịn”
+- paragraph:
+  - text: Để tự build máy tính “xịn”, có cấu hình đủ mạnh để chơi game nặng, dựng phim, livestream hay làm các tác vụ chuyên sâu khác, bộ PC cần có mức giá từ 25 - 40 triệu đồng. Ở phân khúc cao cấp này, mức giá
+  - strong: tự build máy tính
+  - text: sẽ còn có thể cao hơn tùy vào nhu cầu thực tế của từng người.
+- paragraph: Dàn PC nên được trang bị các phiên bản chip Intel Core i7/i9 hoặc Ryzen 7/9, kết hợp cùng tối thiểu 32GB RAM để có khả năng xử lý nhiều tác vụ nặng cùng lúc. Ổ cứng nên lựa chọn là SSD NVMe tốc độ cao nhằm rút ngắn thời gian tải phần mềm, game.
+- paragraph:
+  - img "Build PC “xịn”"
+- paragraph: Về đồ hoạ, dàn PC cần được đầu tư các dòng card màn hình cao cấp như GeForce RTX 4060/4070,...Ngoài ra, máy tính nên được trang bị thêm các loại tản nhiệt nước AIO, tản khí lớn và bộ nguồn công suất cao.
+- heading "Hướng dẫn cách lắp đặt PC hiệu quả" [level=2]:
+  - strong: Hướng dẫn cách lắp đặt PC hiệu quả
+- paragraph: "Việc lắp ráp máy tính cần được thực hiện một cách cẩn trọng và đúng kỹ thuật để đảm bảo sự an toàn, hiệu quả vận hành. Dưới đây là các bước hướng dẫn chi tiết cách tự lắp dàn PC:"
+- list:
+  - paragraph: "Bước 1: Chuẩn bị các dụng cụ cần thiết như tua vít, kìm,..."
+  - paragraph: "Bước 2: Kiểm tra và đảm bảo đã chuẩn bị đầy đủ các linh kiện phần cứng cần có"
+  - paragraph: "Bước 3: Lắp CPU, RAM và VGA (Nếu có) vào mainboard"
+  - paragraph: "Bước 4: Lắp mainboard vào bên trong case máy tính"
+  - paragraph: "Bước 5: Gắn bộ nguồn (PSU) vào đúng vị trí trong case và cố định bằng các vít đi kèm"
+  - paragraph: "Bước 6: Lắp ổ cứng vào các khay chứa và kết nối với bo mạch chủ bằng cáp SATA hoặc NVMe"
+  - paragraph: "Bước 7: Kết nối các linh kiện với mainboard bằng dây cáp và sắp xếp gọn gàng để tăng tính thẩm mỹ và khả năng lưu thông không khí"
+  - paragraph: "Bước 8: Kiểm tra lần cuối, kết nối PSU với nguồn điện và khởi động"
+  - paragraph: "Bước 9: Liên kết PC với các thiết bị ngoại vi và cài đặt hệ điều hành để bắt đầu sử dụng"
+- paragraph:
+  - img "Hướng dẫn cách lắp đặt PC hiệu quả"
+- heading "Cần lưu ý điều gì khi tự build PC tại nhà?" [level=2]:
+  - strong: Cần lưu ý điều gì khi tự build PC tại nhà?
+- paragraph: "Việc build máy tính tại nhà cần lưu ý những điều gì? Dưới đây là một số lưu ý quan trọng mà người đọc cần biết trước khi tự lắp ráp dàn PC tại nhà:"
+- list:
+  - paragraph: "Chuẩn bị đầy đủ: Các bộ phận như CPU, mainboard, RAM, ổ cứng,...cần được chuẩn bị đầy đủ để máy tính hoạt động ổn định. Đồng thời, người lắp đặt cũng cần chuẩn bị thêm dụng cụ và không gian phù hợp cho việc lắp PC"
+  - paragraph:
+    - text: "Lắp ráp cẩn thận và tuần tự: Quá trình t"
+    - strong: ự xây dựng cấu hình PC
+    - text: nên được thực hiện tuần tự. Các bộ phận cần được lắp đặt vào mainboard và case trước khi kết nối nguồn điện. Ngoài ra, dàn PC cũng cần chạy POST test để đảm bảo các bộ phận hoạt động ổn định
+  - paragraph: "Lựa chọn nơi mua uy tín: Những đơn vị lớn như CellphoneS không chỉ cung cấp sản phẩm chính hãng mà còn có đội ngũ kỹ thuật viên luôn sẵn sàng hỗ trợ. Kèm theo đó là chính sách bảo hành minh bạch cùng các chế độ hậu mãi giúp khách hàng an tâm hơn trong quá trình lắp dàn PC"
+- paragraph:
+  - img "Cần lưu ý điều gì khi tự build PC tại nhà"
+- heading "Build PC giá rẻ, cấu hình mạnh tại CellphoneS" [level=2]:
+  - strong: Build PC giá rẻ, cấu hình mạnh tại CellphoneS
+- paragraph:
+  - text: CellphoneS đang phân phối đa dạng các loại phần cứng, linh kiện, phụ kiện máy tính chính hãng. Kèm theo đó là đội ngũ hỗ trợ viên giàu kinh nghiệm, luôn sẵn sàng tư vấn để giúp khách hàng
+  - strong: build máy tính
+  - text: theo đúng nhu cầu của bản thân.
+- paragraph:
+  - img "Build PC giá rẻ, cấu hình mạnh tại CellphoneS"
+- paragraph: Khách hàng sẽ có thể sở hữu dàn PC giá rẻ thông qua các sự kiện khuyến mãi, chiết khấu hội viên, hỗ trợ trả góp,... tại CellphoneS. Ngoài ra, dàn PC của khách hàng sẽ còn được CellphoneS hỗ trợ lắp đặt miễn phí tại cửa hàng.
+- heading "Câu hỏi thường gặp" [level=2]
+- heading "Tự build PC có khó không?" [level=3]
+- paragraph: Không quá khó nếu bạn đã tìm hiểu trước về các linh kiện cơ bản và quy trình lắp ráp. Hiện nay có nhiều hướng dẫn chi tiết giúp người mới tự build PC dễ dàng hơn. Tuy nhiên, cần cẩn thận khi lắp CPU, RAM, tản nhiệt và đấu nối dây nguồn để tránh hư hỏng linh kiện.
+- heading "Nên mua linh kiện cũ hay mới để tiết kiệm?" [level=3]
+- paragraph: Nếu ngân sách hạn chế, bạn có thể cân nhắc một số linh kiện cũ như CPU, RAM hoặc card đồ họa từ nguồn uy tín để tiết kiệm chi phí. Tuy nhiên, linh kiện mới vẫn là lựa chọn an toàn hơn nhờ chế độ bảo hành đầy đủ, tuổi thọ cao và ít rủi ro phát sinh trong quá trình sử dụng.
+- heading "Làm sao để kiểm tra các linh kiện PC định mua có tương thích với nhau không?" [level=3]
+- paragraph: Hãy kiểm tra các yếu tố như socket CPU và bo mạch chủ, chuẩn RAM được hỗ trợ, kích thước case, công suất nguồn và khả năng tương thích của card đồ họa. Ngoài ra, bạn có thể sử dụng các công cụ kiểm tra cấu hình trực tuyến hoặc nhờ nhân viên kỹ thuật tư vấn trước khi mua linh kiện.
+- text: Xem thêm
+- paragraph: Hỏi và đáp
+- img "cps ant icon"
+- paragraph: Hãy đặt câu hỏi cho chúng tôi
+- paragraph:
+  - text: CellphoneS sẽ phản hồi trong vòng 1 giờ. Nếu Quý khách gửi câu hỏi sau 22h, chúng tôi sẽ trả lời vào sáng hôm sau.
+  - text: Thông tin có thể thay đổi theo thời gian, vui lòng đặt câu hỏi để nhận được cập nhật mới nhất!
+- textbox "Viết câu hỏi của bạn tại đây"
+- button "Gửi câu hỏi":
+  - text: Gửi câu hỏi
+- paragraph: CellphoneS sẽ trả lời trong 1 giờ (sau 22h, phản hồi vào sáng hôm sau). Một số thông tin có thể thay đổi, Quý khách hãy đặt câu hỏi để được cập nhật mới nhất.
+- generic: Q
+- paragraph: Quang Vu Nguyen
+- text: 1 tháng trước
+- paragraph: Build PC tại của hàng thì khoản bảo nhiều ngày mới nhận hàng vậy shop?
+- button "Phản hồi":
+  - text: Phản hồi
+- text: Thu gọn phản hồi
+- paragraph: Quản trị viên
+- generic: QTV
+- text: 1 tháng trước
+- generic: Chào Anh Quang,
+- generic: Dạ build PC bên em có chi nhánh chuyển build PC gửi về chi nhánh cho mình ạ. Chuyển từ 3-5 ngày không tính ngày lên đơn ạ.
+- generic: Dạ trường hợp mình em xin phép chuyển thông tin đến bộ phận liên quan, Các bạn sẽ liên hệ tư vấn mình trong 60 phút qua sdt *****931. Mong mình hỗ trợ em chờ nghe điện thoại nhé ạ
+- button "Phản hồi":
+  - text: Phản hồi
+- generic: M
+- paragraph: Mạnh Hoàng Nguyễn
+- text: 1 tháng trước
+- paragraph: Tôi muốn build 2 bộ pc dùng cho thiết kế ở Bãi Cháy, xin tư vấn
+- button "Phản hồi":
+  - text: Phản hồi
+- text: Thu gọn phản hồi
+- paragraph: Quản trị viên
+- generic: QTV
+- text: 1 tháng trước
+- generic: Dạ xin chào anh Hoàng
+- generic: Dạ về trường hợp này em xin phép tạo đơn đặt hàng tư vấn PC miễn phí và nhân viên kỹ thuật sẽ liên hệ qua số điện thoại *****844 trong 60 phút tới ạ
+- button "Phản hồi":
+  - text: Phản hồi
+- generic: K
+- paragraph: Kison
+- text: 2 tháng trước
+- paragraph: Mua lẻ từng món bên shop rồi ráp thì bảo hành sao v ạ
+- button "Phản hồi":
+  - text: Phản hồi
+- text: Thu gọn phản hồi
+- paragraph: Quản trị viên
+- generic: QTV
+- text: 2 tháng trước
+- generic: Chào Anh Kison
+- generic: Dạ chi tiết về PC, bộ phận liên quan liên hệ tư vấn cụ thể giúp mình trong 60p qua SDT *****3 ạ
+- button "Phản hồi":
+  - text: Phản hồi
+- generic: D
+- paragraph: Deth
+- text: 2 tháng trước
+- paragraph: giá này rất ảo nhé, mình cộng hết lại có 25tr mà build giá lại lên 29tr, khi muốn thanh toán giá lại lên 31tr??
+- button "Phản hồi":
+  - text: Phản hồi
+- text: Thu gọn phản hồi
+- paragraph: Quản trị viên
+- generic: QTV
+- text: 2 tháng trước
+- generic: Chào Anh Deth
+- generic: Dạ em xin phép tiếp nhận thông tin của anh, các bạn sẽ kiểm tra và liên hệ hỗ trợ cho mình trong vòng 60p ạ.
+- button "Phản hồi":
+  - text: Phản hồi
+- generic: H
+- paragraph: Hoài Thu
+- text: 3 tháng trước
+- paragraph: Em muốn build pc tầm 10 đến 12tr để chơi game fps thì có được ko ạ
+- button "Phản hồi":
+  - text: Phản hồi
+- button "Xem thêm 195 bình luận":
+  - text: Xem thêm 195 bình luận
+- banner:
+  - paragraph: Chọn lại từ đầu
+- generic: Tất cả linh kiện bạn đã chọn sẽ được xóa khỏi danh sách. Bạn có chắc muốn chọn lại linh kiện từ đầu?
+- contentinfo:
+  - generic: Giữ lại
+  - generic: Chọn lại từ đầu
+- strong: Liên hệ
+- contentinfo:
+  - paragraph: Tổng đài hỗ trợ miễn phí
+  - list:
+    - text: Mua hàng - bảo hành
+    - link "1800.2097":
+      - /url: tel:18002097
+      - strong: "1800.2097"
+    - text: (7h30 - 22h00)
+    - text: Khiếu nại
+    - link "1800.2063":
+      - /url: tel:18002063
+      - strong: "1800.2063"
+    - text: (8h00 - 21h30)
+  - paragraph: Phương thức thanh toán
+  - list:
+    - link "Apple Pay":
+      - /url: https://cellphones.com.vn/sforum/apple-pay-viet-nam
+      - img "Apple Pay"
+    - link "Vnpay":
+      - /url: https://cellphones.com.vn/sforum/vnpay-la-gi-cach-dang-ky-vnpay-thanh-toan-vnpay-chi-tiet
+      - img "Vnpay"
+    - link "MoMo":
+      - /url: https://cellphones.com.vn/huong-dan-thanh-toan-qua-vi-momo-cellphones
+      - img "MoMo"
+    - link "Onepay":
+      - /url: https://cellphones.com.vn/huong-dan-mua-hang-va-thanh-toan-qua-cong-onepay
+      - img "Onepay"
+    - link "Kredivo":
+      - /url: https://cellphones.com.vn/uu-dai-doi-tac/kredivo
+      - img "Kredivo"
+    - link "Zalopay":
+      - /url: https://cellphones.com.vn/sforum/huong-dan-toan-bang-zalopay-khi-mua-hang-tren-website-cellphones
+      - img "Zalopay"
+    - link "Fundiin":
+      - /url: https://cellphones.com.vn/huong-dan-thanh-toan-qua-cong-fundiin-tren-website-cellphones
+      - img "Fundiin"
+  - paragraph: ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI
+  - paragraph: Nhận ngay voucher 10%
+  - paragraph: Voucher sẽ được gửi sau 24h, chỉ áp dụng cho khách hàng mới
+  - text: Email
+  - textbox "Email":
+    - /placeholder: Nhập email của bạn
+  - text: Số điện thoại
+  - textbox "Số điện thoại":
+    - /placeholder: Nhập số điện thoại của bạn
+  - paragraph:
+    - text: Bằng việc đăng ký nhận tin, bạn đã đọc và đồng ý với
+    - link "Chính sách bảo mật của CellphoneS.":
+      - /url: https://cellphones.com.vn/tos?part=privacy-policy
+  - button "ĐĂNG KÝ NGAY"
+  - paragraph: Thông tin và chính sách
+  - list:
+    - link "Mua hàng và thanh toán Online":
+      - /url: https://cellphones.com.vn/chinh-sach-giao-hang
+    - link "Mua hàng trả góp":
+      - /url: https://cellphones.com.vn/tra-gop
+    - link "Mua hàng trả góp bằng thẻ tín dụng":
+      - /url: https://cellphones.com.vn/huong-dan-mua-hang-tra-gop-bang-the-tin-dung-tai-cellphones
+    - link "Chính sách giao hàng":
+      - /url: https://cellphones.com.vn/chinh-sach-giao-hang
+    - link "Chính sách đổi trả":
+      - /url: https://cellphones.com.vn/tos?part=refund-policy
+    - link "Tra điểm Smember":
+      - /url: https://smember.com.vn?company_id=cellphones
+    - link "Xem ưu đãi Smember":
+      - /url: https://cellphones.com.vn/uu-dai-smember
+    - link "Tra thông tin bảo hành":
+      - /url: https://smember.com.vn/warranty?company_id=cellphones
+    - link "Tra cứu hoá đơn điện tử":
+      - /url: https://hddt.cellphones.com.vn/
+    - link "Thông tin hoá đơn mua hàng":
+      - /url: https://cellphones.com.vn/quy-dinh-ve-hoa-don-khi-mua-hang-cellphones
+    - link "Trung tâm bảo hành chính hãng":
+      - /url: https://cellphones.com.vn/bao-hanh/apple
+    - link "Quy định về việc sao lưu dữ liệu":
+      - /url: https://cellphones.com.vn/quy-dinh-ve-viec-sao-luu-du-lieu
+    - link "Chính sách khui hộp sản phẩm Apple":
+      - /url: https://cellphones.com.vn/chinh-sach-khui-hop-apple
+    - link "VAT Refund":
+      - /url: https://cellphones.com.vn/vat-refund
+  - paragraph: Dịch vụ và thông tin khác
+  - list:
+    - link "Khách hàng doanh nghiệp (B2B)":
+      - /url: https://cellphones.com.vn/dich-vu-khach-hang-doanh-nghiep
+    - link "Ưu đãi thanh toán":
+      - /url: https://cellphones.com.vn/danh-sach-khuyen-mai
+    - link "Quy chế hoạt động":
+      - /url: https://cellphones.com.vn/tos
+    - link "Chính sách bảo mật thông tin cá nhân":
+      - /url: https://cellphones.com.vn/tos?part=privacy-policy
+    - link "Chính sách bảo mật dữ liệu đánh giá trên Zalo mini app":
+      - /url: https://cellphones.com.vn/quy-dinh-dang-tai-danh-gia-tren-zalo-mini-app
+    - link "Chính sách Bảo hành":
+      - /url: https://cellphones.com.vn/chinh-sach-bao-hanh
+    - link "Liên hệ hợp tác kinh doanh":
+      - /url: https://cellphones.com.vn/lien-he-hop-tac
+    - link "Tuyển dụng":
+      - /url: https://tuyendung.cellphones.com.vn/
+    - link "Dịch vụ bảo hành mở rộng":
+      - /url: https://cellphones.com.vn/bieu-phi-bao-hanh-mo-rong
+    - link "YouTube Shopping Affiliate":
+      - /url: https://cellphones.com.vn/youtube-shopping-affiliate
+    - paragraph: Mua sắm dễ dàng – Ưu đãi ngập tràn cùng app CellphoneS
+    - img "QR tải app"
+    - link "Tải app từ Google Play":
+      - /url: https://play.google.com/store/apps/details?id=vn.com.cellphones.android.smember
+      - img "Tải app từ Google Play"
+    - link "Tải app từ App Store":
+      - /url: https://apps.apple.com/vn/app/smember/id6502395577?l=vi
+      - img "Tải app từ App Store"
+  - paragraph: Định giá máy chuyên sâu
+  - paragraph: Miễn phí • Chỉ 2 phút
+  - button "Định giá ngay"
+  - paragraph: Kết nối với CellphoneS
+  - link "CellphoneS Youtube Chanel":
+    - /url: https://www.youtube.com/@CellphoneSOfficial
+    - img "CellphoneS Youtube Chanel"
+  - link "CellphoneS Fanpage":
+    - /url: https://www.facebook.com/CellphoneSVietnam
+    - img "CellphoneS Fanpage"
+  - link "CellphoneS Instagram":
+    - /url: https://www.instagram.com/cellphonesvn/
+    - img "CellphoneS Instagram"
+  - link "CellphoneS Tiktok":
+    - /url: https://www.tiktok.com/@cellphones.official
+    - img "CellphoneS Tiktok"
+  - link "CellphoneS Zalo":
+    - /url: https://oa.zalo.me/3894196696036261863
+    - img "CellphoneS Zalo"
+  - paragraph: Website thành viên
+  - paragraph: Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính
+  - link "Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính":
+    - /url: https://dienthoaivui.com.vn
+    - img "Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính"
+  - paragraph: Trung tâm bảo hành uỷ quyền Apple
+  - link "Trung tâm bảo hành uỷ quyền Apple":
+    - /url: https://cares.vn/
+    - img "Trung tâm bảo hành uỷ quyền Apple"
+  - paragraph: Kênh thông tin giải trí công nghệ cho giới trẻ
+  - link "Kênh thông tin giải trí công nghệ cho giới trẻ":
+    - /url: https://schannel.vn/
+    - img "Kênh thông tin giải trí công nghệ cho giới trẻ"
+  - paragraph: Trang thông tin công nghệ mới nhất
+  - link "Trang thông tin công nghệ mới nhất":
+    - /url: https://cellphones.com.vn/sforum
+    - img "Trang thông tin công nghệ mới nhất"
+  - link "iPhone 18 Pro":
+    - /url: https://cellphones.com.vn/iphone-18-pro.html
+    - generic: iPhone 18 Pro
+  - generic: "|"
+  - link "iPhone 18 Pro Max":
+    - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+    - generic: iPhone 18 Pro Max
+  - link "iPhone Duo":
+    - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+    - generic: iPhone Duo
+  - generic: "|"
+  - link "iPhone 17":
+    - /url: https://cellphones.com.vn/mobile/apple/iphone-17.html
+    - generic: iPhone 17
+  - generic: "|"
+  - link "iPhone 17 Pro Max":
+    - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+    - generic: iPhone 17 Pro Max
+  - link "iPhone 16":
+    - /url: https://cellphones.com.vn/mobile/apple/iphone-16.html
+    - generic: iPhone 16
+  - generic: "|"
+  - link "iPhone cũ":
+    - /url: https://cellphones.com.vn/hang-cu/iphone.html
+    - generic: iPhone cũ
+  - generic: "|"
+  - link "Macbook Neo":
+    - /url: https://cellphones.com.vn/laptop/mac/macbook-neo.html
+    - generic: Macbook Neo
+  - link "Điện thoại":
+    - /url: https://cellphones.com.vn/mobile.html
+    - generic: Điện thoại
+  - generic: "|"
+  - link "Điện thoại iPhone":
+    - /url: https://cellphones.com.vn/mobile/apple.html
+    - generic: Điện thoại iPhone
+  - generic: "|"
+  - link "Xiaomi":
+    - /url: https://cellphones.com.vn/mobile/xiaomi.html
+    - generic: Xiaomi
+  - link "Điện thoại Samsung Galaxy":
+    - /url: https://cellphones.com.vn/mobile/samsung.html
+    - generic: Điện thoại Samsung Galaxy
+  - generic: "|"
+  - link "Điện thoại OPPO":
+    - /url: https://cellphones.com.vn/mobile/oppo.html
+    - generic: Điện thoại OPPO
+  - link "OPPO Find X9s":
+    - /url: https://cellphones.com.vn/dien-thoai-oppo-find-x9s.html
+    - generic: OPPO Find X9s
+  - generic: "|"
+  - link "OPPO Find X9 Ultra":
+    - /url: https://cellphones.com.vn/dien-thoai-oppo-find-x9-ultra.html
+    - generic: OPPO Find X9 Ultra
+  - link "Laptop":
+    - /url: https://cellphones.com.vn/laptop.html
+    - generic: Laptop
+  - generic: "|"
+  - link "Laptop Acer":
+    - /url: https://cellphones.com.vn/laptop/acer.html
+    - generic: Laptop Acer
+  - generic: "|"
+  - link "Laptop Dell":
+    - /url: https://cellphones.com.vn/laptop/dell.html
+    - generic: Laptop Dell
+  - generic: "|"
+  - link "Laptop HP":
+    - /url: https://cellphones.com.vn/laptop/hp.html
+    - generic: Laptop HP
+  - link "Tivi":
+    - /url: https://cellphones.com.vn/tivi.html
+    - generic: Tivi
+  - generic: "|"
+  - link "Tivi Samsung":
+    - /url: https://cellphones.com.vn/tivi/samsung.html
+    - generic: Tivi Samsung
+  - generic: "|"
+  - link "Tivi Xiaomi":
+    - /url: https://cellphones.com.vn/tivi/xiaomi.html
+    - generic: Tivi Xiaomi
+  - generic: "|"
+  - link "Tivi LG":
+    - /url: https://cellphones.com.vn/tivi/lg.html
+    - generic: Tivi LG
+  - link "Z Flip 8":
+    - /url: https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-flip-8.html
+    - generic: Z Flip 8
+  - generic: "|"
+  - link "Z Fold 8":
+    - /url: https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8.html
+    - generic: Z Fold 8
+  - generic: "|"
+  - link "Z Fold 8 Ultra":
+    - /url: https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-ultra.html
+    - generic: Z Fold 8 Ultra
+  - generic: "|"
+  - link "Build PC":
+    - /url: https://cellphones.com.vn/may-tinh-de-ban/build-pc.html
+    - generic: Build PC
+  - link "Máy hút bụi":
+    - /url: https://cellphones.com.vn/nha-thong-minh/may-hut-bui.html
+    - generic: Máy hút bụi
+  - generic: "|"
+  - link "Máy lọc không khí":
+    - /url: https://cellphones.com.vn/nha-thong-minh/may-loc-khong-khi.html
+    - generic: Máy lọc không khí
+  - generic: "|"
+  - link "Camera an ninh":
+    - /url: https://cellphones.com.vn/phu-kien/camera/an-ninh.html
+    - generic: Camera an ninh
+  - link "Airpods 5":
+    - /url: https://cellphones.com.vn/apple-airpods-5.html
+    - generic: Airpods 5
+  - generic: "|"
+  - link "Redmi Note 17":
+    - /url: https://cellphones.com.vn/mobile/xiaomi/redmi/note-17-series.html
+    - generic: Redmi Note 17
+  - generic: "|"
+  - link "Xiaomi 17T":
+    - /url: https://cellphones.com.vn/dien-thoai-xiaomi-17t.html
+    - generic: Xiaomi 17T
+  - link "Apple Watch Series 12":
+    - /url: https://cellphones.com.vn/do-choi-cong-nghe/apple-watch/series-12.html
+    - generic: Apple Watch Series 12
+  - generic: "|"
+  - link "Apple Watch Ultra 4":
+    - /url: https://cellphones.com.vn/do-choi-cong-nghe/apple-watch/ultra-4.html
+    - generic: Apple Watch Ultra 4
+  - paragraph: "Công ty Cổ phần Thương Mại và Dịch Vụ Kỹ Thuật DIỆU PHÚC - GPĐKKD: 0316172372 cấp tại Sở KH & ĐT TP. HCM. Địa chỉ văn phòng: 350-352 Võ Văn Kiệt, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh, Việt Nam. Điện thoại: 028.7108.9666."
+  - link "Đã thông báo bộ công thương":
+    - /url: https://online.gov.vn/nen-tang/eda5eb96-7aa4-4fb7-b5e6-3aefd3dd52c8
+    - img "Đã thông báo bộ công thương"
+  - link "DMCA.com Protection Status":
+    - /url: https://www.dmca.com/Protection/Status.aspx?ID=158f5667-cce3-4a18-b2d1-826225e6b022&refurl=https://cellphones.com.vn/may-tinh-de-ban/build-pc.html
+    - img "DMCA.com Protection Status"
+- status
