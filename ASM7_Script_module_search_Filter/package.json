@@ -1,0 +1,17 @@
+{
+  "name": "cellphones-search-filter-asm7",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright automation for CellphoneS Search and Filter Ghost Inspector test cases",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:search": "playwright test --grep @search",
+    "test:filter": "playwright test --grep @filter",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^16.6.1"
+  }
+}
