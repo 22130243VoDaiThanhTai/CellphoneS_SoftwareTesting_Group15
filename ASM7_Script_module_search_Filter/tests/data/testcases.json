@@ -1,0 +1,2509 @@
+[
+  {
+    "id": "TC_Search_01",
+    "group": "search",
+    "name": "TC_Search_01: Search_ValidKeyword",
+    "source_file": "TC_Search_01:_Search_ValidKeyword.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": " iPhone 15 Pro Max 256GB",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_02",
+    "group": "search",
+    "name": "TC_Search_02: Search_UnaccentedKeyword",
+    "source_file": "TC_Search_02:_Search_UnaccentedKeyword.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "samsung s24 ultra",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_03",
+    "group": "search",
+    "name": "TC_Search_03: Search_Autocomplete_ShowSuggestions",
+    "source_file": "TC_Search_03:_Search_Autocomplete_ShowSuggestions.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "macb",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_04",
+    "group": "search",
+    "name": "TC_Search_04: Search_TypoKeyword_ShowSuggestions",
+    "source_file": "TC_Search_04:_Search_TypoKeyword_ShowSuggestions.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "iphne",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_05",
+    "group": "search",
+    "name": "TC_Search_05: Search_BrandKeyword",
+    "source_file": "TC_Search_05:_Search_BrandKeyword.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "apple",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_06",
+    "group": "search",
+    "name": "TC_Search_06 : Search_CategoryKeyword",
+    "source_file": "TC_Search_06_:_Search_CategoryKeyword.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "tai nghe bluetooth",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_07",
+    "group": "search",
+    "name": "TC_Search_07: Search_Product_specification",
+    "source_file": "TC_Search_07:_Search_Product_specification.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "120hz",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "5000mhz",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_08",
+    "group": "search",
+    "name": "TC_Search_08: Search_InvalidKeyword_ShowEmptyMessage",
+    "source_file": "TC_Search_08:_Search_InvalidKeyword_ShowEmptyMessage.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "xyz123456789",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_09",
+    "group": "search",
+    "name": "TC_Search_09: Search_EmptyInput_NoAction",
+    "source_file": "TC_Search_09:_Search_EmptyInput_NoAction.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_10",
+    "group": "search",
+    "name": "TC_Search_10: Search_Special_Characters",
+    "source_file": "TC_Search_10:_Search_Special_Characters.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "form.w-full > div:nth-of-type(1) > div > div",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".bg-pure-white.h-10",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "@#$%^&*()",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_11",
+    "group": "search",
+    "name": "TC_Search_11: Search_LongString_TruncatedOrHandled",
+    "source_file": "TC_Search_11:_Search_LongString_TruncatedOrHandled.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "chuoi_van_ban_sieu_dai_vuot_qua_255_ky_tu_abcdefghijklmnopqrstuvwxyz_1234567890_abcdefghijklmnopqrstuvwxyz_1234567890_abcdefghijklmnopqrstuvwxyz_1234567890aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Search_18",
+    "group": "search",
+    "name": "TC_Search_18: Search_history_suggestion",
+    "source_file": "TC_Search_18:_Search_history_suggestion.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "form.w-full > div:nth-of-type(2) > div > div",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".bg-pure-white.h-10",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "iphone 18",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Bạn muốn mua gì hôm nay?\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "a[href*=\"iphone\"].search-history-item, .search-history-item, p:has-text(\"iphone 18\")",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_12",
+    "group": "filter",
+    "name": "TC_Filter_12: Filter_ByBrand",
+    "source_file": "TC_Filter_12:_Filter_ByBrand.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".brands__content > .list-brand > a[href*=\"/mobile/samsung.html\"].list-brand__item.button__link > img.filter-brand__img",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_13",
+    "group": "filter",
+    "name": "TC_Filter_13: Filter_ByPriceRange",
+    "source_file": "TC_Filter_13:_Filter_ByPriceRange.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "form.w-full > div:nth-of-type(2) > div > div",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"] > svg",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".brands__content > .list-brand > a[href*=\"/mobile/samsung.html\"].list-brand__item.button__link > img.filter-brand__img",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > button.btn-filter.button__filter-parent",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .range-header > .input-price > .price-filter > div.price-input-group:nth-of-type(1) > .input-wrapper > input[id=\"min-price\"][placeholder=\"0\"][type=\"text\"].price-input",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .range-header > .input-price > .price-filter > div.price-input-group:nth-of-type(1) > .input-wrapper > input[id=\"min-price\"][placeholder=\"0\"][type=\"text\"].price-input",
+        "value": "7.000",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .btn-filter-group > button.button.button__filter-children-submit.is-danger.submit",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_14",
+    "group": "filter",
+    "name": "TC_Filter_14: Filter_MultiCriteria",
+    "source_file": "TC_Filter_14:_Filter_MultiCriteria.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "form.w-full > div:nth-of-type(1) > div > div",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"] > svg",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".filter-sort__list > a.button__sort:nth-of-type(3)",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > button.btn-filter.button__filter-parent:nth-of-type(2)",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_15",
+    "group": "filter",
+    "name": "TC_Filter_15: Search_location_by_Filter",
+    "source_file": "TC_Filter_15:_Search_location_by_Filter.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.btn-change-province > span",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[name=\"search-province\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[name=\"search-province\"]",
+        "value": "hà nội",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//span[contains(text(), \"Hà Nội\")]"
+          },
+          {
+            "selector": "button.items-center.justify-between > span"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_16",
+    "group": "filter",
+    "name": "TC_Filter_16: Filter_ClearSingleFilter",
+    "source_file": "TC_Filter_16:_Filter_ClearSingleFilter.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "form.w-full > div:nth-of-type(2) > div > div",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".brands__content > .list-brand > a[href*=\"/mobile/samsung.html\"].list-brand__item.button__link > img.filter-brand__img",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > button.btn-filter.button__filter-parent:nth-of-type(2)",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.btn-filter > svg > rect",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_17",
+    "group": "filter",
+    "name": "TC_Filter_17: Filter_NoResultMatch_ShowEmptyMessage",
+    "source_file": "TC_Filter_17:_Filter_NoResultMatch_ShowEmptyMessage.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".brands__content > .list-brand > a[href*=\"/mobile/samsung.html\"].list-brand__item.button__link > img.filter-brand__img",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "div.filter-wrapper.outside:nth-of-type(10) > button.btn-filter.button__filter-parent",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "div.filter-wrapper.outside:nth-of-type(10) > .list-filter-child > ul > li:nth-of-type(2) > button.btn-filter.btn-filter-item.button__filter-children",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "div.filter-wrapper.outside:nth-of-type(10) > .list-filter-child > .btn-filter-group > button.button.button__filter-children-submit.is-danger.submit",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > button.btn-filter.button__filter-parent:nth-of-type(2)",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_19",
+    "group": "filter",
+    "name": "TC_Filter_19: Filter_ClearAllFilters",
+    "source_file": "TC_Filter_19:_Filter_ClearAllFilters.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".brands__content > .list-brand > a[href*=\"/mobile/samsung.html\"].list-brand__item.button__link > img.filter-brand__img",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > button.btn-filter.button__filter-parent:nth-of-type(1)",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > button.btn-filter.button__filter-parent",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".filter-sort__list-filter > .button__filter-children-close",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > button.btn-filter.button__filter-parent:nth-of-type(2)",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "div.filter-wrapper.outside:nth-of-type(10) > button.btn-filter.button__filter-parent",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "div.filter-wrapper.outside:nth-of-type(10) > .list-filter-child > ul > li:nth-of-type(1) > button.btn-filter.btn-filter-item.button__filter-children",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "div.filter-wrapper.outside:nth-of-type(10) > .list-filter-child > .btn-filter-group > button.button.button__filter-children-submit.is-danger.submit",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Bỏ chọn tất cả\")]"
+          },
+          {
+            "selector": "button.btn-filter.reset"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_20A",
+    "group": "filter",
+    "name": "TC_Filter_20: Filter_CustomPriceRange_Validation",
+    "source_file": "TC_Filter_20:_Filter_CustomPriceRange_Validation.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "form.w-full > div:nth-of-type(2) > div > div",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"] > svg",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".brands__content > .list-brand > a[href*=\"/mobile/samsung.html\"].list-brand__item.button__link > img.filter-brand__img",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > button.btn-filter.button__filter-parent",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .range-header > .input-price > .price-filter > div.price-input-group:nth-of-type(1) > .input-wrapper > input[id=\"min-price\"][placeholder=\"0\"][type=\"text\"].price-input",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .range-header > .input-price > .price-filter > div.price-input-group:nth-of-type(1) > .input-wrapper > input[id=\"min-price\"][placeholder=\"0\"][type=\"text\"].price-input",
+        "value": "200.000",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .range-header > .input-price > .price-filter > div.price-input-group:nth-of-type(1) > .input-wrapper > input[id=\"min-price\"][placeholder=\"0\"][type=\"text\"].price-input",
+        "value": "50.000",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .btn-filter-group > button.button.button__filter-children-submit.is-danger.submit",
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_20B",
+    "group": "filter",
+    "name": "TC_Filter_20: Filter_CustomPriceRange_Validation",
+    "source_file": "TC_Filter_20:_Filter_CustomPriceRange_Validation_6adb3b5d6178e8e597d5d7e4.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "keypress",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "13",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".mr-1 > a[href=\"/mobile.html\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".brands__content > .list-brand > a[href*=\"/mobile/samsung.html\"].list-brand__item.button__link > img.filter-brand__img",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > button.btn-filter.button__filter-parent",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .vue-slider.vue-slider-ltr > .vue-slider-rail > div.vue-slider-dot:nth-of-type(2) > .vue-slider-dot-handle",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .range-header > .input-price > .price-filter > div.price-input-group:nth-of-type(1) > .input-wrapper > input[id=\"min-price\"][placeholder=\"0\"][type=\"text\"].price-input",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .range-header > .input-price > .price-filter > div.price-input-group:nth-of-type(1) > .input-wrapper > input[id=\"min-price\"][placeholder=\"0\"][type=\"text\"].price-input",
+        "value": "20.000",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .btn-filter-group > button.button.button__filter-children-submit.is-danger.submit",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > button.btn-filter.button__filter-parent:nth-of-type(2)",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > button.btn-filter.button__filter-parent",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .price-filter-range > .vue-slider.vue-slider-ltr > .vue-slider-rail > div.vue-slider-dot:nth-of-type(2) > .vue-slider-dot-handle",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "#filterModule > .filter-sort__list-filter > .filter-wrapper.filter-price > .list-filter-child > .btn-filter-group > button.button.button__filter-children-submit.is-danger.submit",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_21",
+    "group": "filter",
+    "name": "TC_Filter_21: Filter_ByProductCondition",
+    "source_file": "TC_Filter_21:_Filter_ByProductCondition.json",
+    "startUrl": "https://cellphones.com.vn/hang-cu/dien-thoai.html",
+    "steps": [
+      {
+        "command": "click",
+        "target": ".navbar__item > button",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//a[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "a[href=\"https://smember.com.vn/\"].login-btn"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"] > svg",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "div.cps-navbar__logo:nth-of-type(1) > img",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//p[contains(text(), \"Hàng cũ\")]"
+          },
+          {
+            "selector": "a[href=\"/hang-cu.html\"] > p"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "a[href=\"/hang-cu/dien-thoai.html\"] > .size-18 > .cps-image-cdn.relative.inline-block.size-18.object-contain.transition-transform > img.transition-opacity.object-contain.size-18.object-contain.transition-transform",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_22",
+    "group": "filter",
+    "name": "TC_Filter_22: Filter_trade_in",
+    "source_file": "TC_Filter_22:_Filter_trade_in.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "a[href=\"/thu-cu-doi-moi\"] > p",
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_Filter_23",
+    "group": "filter",
+    "name": "TC_Filter_23: Filter_ByLocation",
+    "source_file": "TC_Filter_23:_Filter_ByLocation.json",
+    "startUrl": "https://cellphones.com.vn/",
+    "steps": [
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.btn-change-province > svg.size-6:nth-of-type(2)",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//span[contains(text(), \"Hà Nội\")]"
+          },
+          {
+            "selector": "button.items-center.justify-between.border-b.p-2.text-left.text-base:nth-of-type(2) > span"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  }
+]
