@@ -117,3 +117,5 @@ Không commit, push, checkout hoặc merge.
 Người dùng xác nhận ngày 05/11/2026 chưa có môi trường/đặc tả validation và yêu cầu giữ ba case RV Untested. Đã kiểm tra workbook không đổi SHA-256; Đánh giá SP!F29/F32/F33 vẫn Untested, G29/G32/G33 là dấu “-”.
 
 [Ảnh báo cáo HTML Playwright gốc](<Envidence%20-%20Group15/asm8-20261105221047-29496/report-overview.png>) chụp cục bộ sau khi lượt chạy hoàn tất, không sửa DOM hoặc bộ đếm. Tổng runner 54 gồm 39 Passed và 15 Skipped.
+
+Cập nhật sau commit source: đã chạy cả 82 PD/CP/RV, 64 Passed/0 Failed/18 Skipped. CP/RV tiếp tục 39 Passed/15 Skipped với cùng spec/fixture/config. Xem [báo cáo tích hợp](INTEGRATION-RUN-REPORT.md).

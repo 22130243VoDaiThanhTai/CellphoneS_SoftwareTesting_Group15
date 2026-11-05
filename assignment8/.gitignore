@@ -16,3 +16,7 @@ Test Report - Group 15/asm8-*/
 # Lượt mới cần xem lại và thêm ngoại lệ trước khi commit.
 *.tmp
 ~$*
+
+# Lượt tích hợp cá nhân đã kiểm tra.
+!Envidence - Group15/asm8-20261105222818-34028/
+!Test Report - Group 15/asm8-20261105222818-34028/

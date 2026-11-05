@@ -38,8 +38,8 @@ Cập nhật chiều sâu báo cáo ngày 05/11/2026: PowerPoint 18 slide, bổ 
 - [x] Viết implementation 25 CP và 14 RV công khai, khai báo lý do skip cho 15 RV.
 - [x] Sửa locator/popup và chạy đủ CP/RV: 39 Passed, 0 Failed, 15 Skipped.
 - [x] Lưu report HTML/JSON, log, ảnh theo case và ảnh tổng quan report.
-- [ ] Hai lượt đủ liên tiếp cùng source để theo dõi ổn định.
+- [x] CP/RV đã có hai lượt đủ cùng source/spec/fixture/config: 39 Passed, 15 Skipped mỗi lượt; tiếp tục theo dõi dài hạn.
 - [ ] Thực thi các case RV form cần phiên tài khoản phù hợp.
 - [ ] Xác minh ba quy tắc validation trên môi trường được phép (người dùng yêu cầu giữ Untested).
-- [ ] Chạy chung cả 82 khai báo PD/CP/RV trong một lượt mới.
+- [x] Chạy chung cả 82 khai báo PD/CP/RV trong lượt asm8-20261105222818-34028: 64 Passed, 0 Failed, 18 Skipped.
 - [ ] Cập nhật bộ nộp cá nhân đủ ba chức năng khi người dùng yêu cầu; bộ PD đã duyệt giữ nguyên.

@@ -36,10 +36,14 @@ Số liệu trên được kiểm tra lại từ execution-summary.json gốc, r
 
 Hồ sơ đã đủ thành phần để nộp tiến độ cá nhân một chức năng PD theo phạm vi người dùng xác nhận. Phần toàn nhóm theo đề ASM8 còn phải thu thập/tích hợp script các thành viên, chạy suite chung, xuất report/evidence toàn nhóm, thống nhất template slide và đẩy project lên GitHub. Project PD hiện chưa thay thế cho bộ test toàn nhóm.
 
-Thư mục assignment8/ hiện chưa được Git theo dõi. Không commit, push, checkout hoặc merge trong lần kiểm tra này. Không thay đổi source, kết quả, slide hoặc ZIP gốc.
+Ghi chú lịch sử trước commit 3aac5f8: thư mục assignment8/ lúc đó chưa được Git theo dõi. Không commit, push, checkout hoặc merge trong lần kiểm tra này. Không thay đổi source, kết quả, slide hoặc ZIP gốc.
 
 ## Bổ sung minh chứng trên slide ngày 05/11/2026
 
 Slide 10–12 dùng ba ảnh mới từ báo cáo HTML gốc, bước/assertion của test 512GB và log lưu. Mỗi ảnh chiếm phần lớn slide, có chú thích nguồn và ngày. Bản PPTX đã qua kiểm tra cấu trúc, bố cục và render; chưa mở trong PowerPoint native. ZIP mới 51 file, có cùng ảnh trong Evidence/PlaywrightReport/. Kết quả 25/0/3 vẫn thuộc lượt chạy ngày 31/10, không phải một lượt test mới.
 
 Cập nhật chiều sâu báo cáo ngày 05/11/2026: PowerPoint 18 slide, bổ sung phạm vi 28 test, dữ liệu và tiêu chí, selector/assertion, cấu hình, code 512GB, luồng lưu bằng chứng, lý do Skipped, phân tích lỗi tải động và kết quả chạy lại. Giữ kết quả gốc ngày 31/10/2026. Chỉ cập nhật PPTX, không chạy website hoặc sửa source/ZIP.
+
+## Trạng thái sau tích hợp ngày 05/11
+
+Đã commit source/workbook/bộ nộp PD bằng thông điệp tiếng Việt. Đã chạy chung ba project cá nhân (64 Passed/0 Failed/18 Skipped), xem INTEGRATION-RUN-REPORT.md. Bộ PPTX/ZIP đã duyệt vẫn là phạm vi nộp trước PD, chưa thay thế bằng bộ đủ ba chức năng. Không lấy kết quả của cả ba project để gán vào gói PD lịch sử.

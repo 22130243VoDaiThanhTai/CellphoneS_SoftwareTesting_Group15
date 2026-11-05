@@ -1,0 +1,17 @@
+{
+  "commit": "3aac5f88f39f91bee67f95e80915ede868e1f12e",
+  "scope": "PD/CP/RV cá nhân 22130275, không phải suite tất cả thành viên",
+  "sourceSha256": {
+    "sources.json": "a21c1efad81a1c335d691f187cd291c4d7ce44f37a420771f215c8aa8a2f7a9d",
+    "README.md": "78e8fb8de34e0322c66727f56af1e8e713d828d0db01ca7632838e4febd46ee0",
+    ".gitignore": "db46d0ae929cf3f3ae034987a4556e8004c6cde947d45639c1330aa50ba9657c",
+    "package-lock.json": "3ce2b8fb0f60c3e6bd74756486a77b2daa6a642d41aa66e05827cbea698b7bd1",
+    "package.json": "32121f25310bb43812ec62c104636ee4e2ed603324693b87640c952121db6226",
+    "playwright.config.cjs": "c4bde42ede5300be46858b37a3eaf4219a17b7010011561db64146b85ea2ae9f",
+    "support/summary-reporter.cjs": "6e329d368e6ca200a1a58504b7105e690e84917a23c4d612fdf4d4955df20c29",
+    "support/fixtures.cjs": "8da52bc94bc8e3c69284e903869ccc67ea892159f86eae67a700efcad65e8c15",
+    "scripts/run-suite.cjs": "9a28ec015c8e1293b042c94dbc39eac6b6c38b145d812f2032c5b622765bae71",
+    "tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js": "a9791bc2318e67e71d48f7dddd9b2432089dc58da01c0bdb33f5f7b97084af24",
+    "tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js": "0952f8071a3966292186c0f8febcf17bda43de8bc3197a8362f6c121e9b7e1db"
+  }
+}

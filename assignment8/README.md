@@ -1,3 +1,5 @@
+> **Kết quả tích hợp mới nhất 05/11/2026:** 82 khai báo cá nhân, 64 Passed / 0 Failed / 18 Skipped, 552,83 giây. Source commit `3aac5f8`. [Báo cáo chung PD/CP/RV](INTEGRATION-RUN-REPORT.md). Chưa phải kết quả suite tất cả thành viên.
+
 > Cập nhật phạm vi ngày 05/11/2026: project đang bổ sung CP/RV của 22130275. Các kết quả PD và gói nộp bên dưới giữ lịch sử ngày 31/10. Xem [triển khai CP/RV](CP-RV-IMPLEMENTATION.md) và [kết quả mới](CP-RV-RUN-REPORT.md). Chưa phải tích hợp toàn nhóm.
 
 # Assignment 8 — Trịnh Quang Thông, 22130275
