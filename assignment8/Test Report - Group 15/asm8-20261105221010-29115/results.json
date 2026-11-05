@@ -1,0 +1,350 @@
+{
+  "config": {
+    "argv": [
+      "/Users/admin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/node_modules/@playwright/test/cli.js",
+      "test",
+      "--project=cp",
+      "--project=rv",
+      "--grep",
+      "SEARCH_(Open_01|Search_01)|FILTER_Clear_01"
+    ],
+    "configFile": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/playwright.config.cjs",
+    "rootDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "cp",
+        "name": "cp",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "rv",
+        "name": "rv",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "pd",
+        "name": "pd",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/22130275_TrinhQuangThong_ASM8.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "cp",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/quangthong/*_CP_RV.spec.js",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": false,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 500
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "cp"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "rv",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/quangthong/*_CP_RV.spec.js",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": false,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 500
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "rv"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Test Report - Group 15/asm8-20261105221010-29115",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Test Report - Group 15/asm8-20261105221010-29115/results.json"
+        }
+      ],
+      [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/support/summary-reporter.cjs",
+        {
+          "reportDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Test Report - Group 15/asm8-20261105221010-29115",
+          "runId": "asm8-20261105221010-29115"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+      "file": "quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "So sánh sản phẩm",
+          "file": "quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+          "line": 59,
+          "column": 6,
+          "specs": [
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4980,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-05T15:10:11.748Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/attachments/execution-screenshot-e6f6333e1f7c0e6c08bab44d0493c93e0686f46a.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e89f452cbe6c955426c9-0a4610c4df6500c109c8",
+              "file": "quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+              "line": 64,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7900,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-05T15:10:17.277Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/attachments/execution-screenshot-a8d44eb622bbd498e91ec1dc5adacd083d766472.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e89f452cbe6c955426c9-6b355af9cde4ed835f8d",
+              "file": "quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+              "line": 65,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Đánh giá sản phẩm",
+          "file": "quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+          "line": 119,
+          "column": 6,
+          "specs": [
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10258,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-05T15:10:26.186Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/attachments/execution-screenshot-84cc2b42390fc7b3f1f927be233c58a3bffef287.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e89f452cbe6c955426c9-69510fa86c10f1708fbe",
+              "file": "quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+              "line": 128,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-05T15:10:11.176Z",
+    "duration": 26318.079,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

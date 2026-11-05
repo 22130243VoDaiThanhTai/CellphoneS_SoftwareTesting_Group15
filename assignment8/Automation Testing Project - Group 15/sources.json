@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-11-05",
+  "status": "personal-pd-cp-rv",
+  "source_repo": "https://github.com/22130243VoDaiThanhTai/CellphoneS_SoftwareTesting_Group15",
+  "integrated_modules": [
+    "product-detail",
+    "product-compare",
+    "product-review-public"
+  ],
+  "files": [
+    {
+      "source_branch": "origin/QuangThong",
+      "source_commit": "9daef5481216a59e157c3da6bcf1d0387f002d96",
+      "source_path": "scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+      "source_blob": "2989565d10b38d9ce6b4c64414be366b807f2333",
+      "source_sha256": "842bac5334bbb1481bcfb016f079506047f11874564782e681861db5e1678031",
+      "target_path": "tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+      "target_sha256": "0952f8071a3966292186c0f8febcf17bda43de8bc3197a8362f6c121e9b7e1db"
+    },
+    {
+      "source_ref": "QuangThong working tree, không phải commit mới",
+      "source_path": "testcases/Group15_22130275_TrinhQuangThong.xlsx",
+      "source_sha256": "1ca19f2e161f24f776bc384f1535e9047b030314da4bbbfaa92a48bd7315af66",
+      "source_sheets": [
+        "So sánh SP",
+        "Đánh giá SP"
+      ],
+      "target_path": "tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+      "target_sha256": "a9791bc2318e67e71d48f7dddd9b2432089dc58da01c0bdb33f5f7b97084af24",
+      "implementation": "25 CP, 14 RV thực thi, 15 RV khai báo skip có lý do"
+    }
+  ],
+  "changes": [
+    "PD: import shared fixtures; giữ assertion nghiệp vụ và ba skip giỏ/mua/payload.",
+    "Back/Forward chờ domcontentloaded thay vì load, giữ assertion URL và màu.",
+    "Lịch sử trước sửa 31/10: chưa chờ dữ liệu khu vực; sau đó đã bổ sung cho hai case PD (xem mục sau).",
+    "Fixture ghi nhận 403/CAPTCHA, ảnh theo case. Không chặn routing toàn bộ vì làm thay đổi HTTP cache.",
+    "Phạm vi lịch sử 31/10 chỉ PD. Ngày 05/11 thêm CP/RV cá nhân, không tích hợp bài thành viên khác.",
+    "31/10/2026: Chỉ COLOR_Select_02/INFO_View_04 chờ dữ liệu khu vực hết Đang tải tối đa 30s, assertion 15s, timeout case 60s. Giữ nguyên Expected; scope ảnh vào gallery-top.",
+    "05/11/2026: thêm project cp/rv, 54 ID khớp workbook. Khảo sát DOM Chrome thật, tách hộp tìm so sánh và khay PDP, xử lý cookie qua UI. Giữ workbook và bộ nộp PD."
+  ],
+  "pending_modules": [
+    "RV authenticated form implementation",
+    "RV validation behavior requiring permitted test environment"
+  ],
+  "personal_scope": "PD/CP/RV của 22130275. RV chỉ có 14 implementation công khai, 15 khai báo skip form/validation. Chưa phải suite cả nhóm."
+}

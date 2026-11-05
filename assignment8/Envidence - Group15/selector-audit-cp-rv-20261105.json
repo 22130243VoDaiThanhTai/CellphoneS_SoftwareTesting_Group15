@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "method": "DOM Chrome headed qua Playwright project, phiên guest riêng; không lấy cookie",
+  "pages": [
+    {
+      "observed_file": "compare.html (bản khảo sát riêng ngoài repository)",
+      "selectors": {
+        "h1.box-compare__title": 1,
+        ".box-none-product": 2
+      }
+    },
+    {
+      "observed_file": "search-results.html (bản khảo sát riêng ngoài repository)",
+      "selectors": {
+        "input placeholder Nhập tên sản phẩm muốn so sánh": 1,
+        ".select-to-compare": 10
+      }
+    },
+    {
+      "observed_file": "tray-search.html (bản khảo sát riêng ngoài repository)",
+      "selectors": {
+        "input placeholder Tìm sản phẩm muốn so sánh": 1,
+        ".popup-select-product.show": 1
+      }
+    },
+    {
+      "observed_file": "review.html (bản khảo sát riêng ngoài repository)",
+      "selectors": {
+        ".boxReview": 1,
+        ".rating-level": 5
+      }
+    },
+    {
+      "observed_file": "empty.html (bản khảo sát riêng ngoài repository)",
+      "selectors": {
+        ".boxReview-no-comment p": 1
+      }
+    }
+  ]
+}

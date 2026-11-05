@@ -1,0 +1,36 @@
+
+Running 28 tests using 1 worker
+
+(node:46872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:76:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_Open_01 - mở URL sản phẩm cố định (9.0s)
+  ✓   2 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:81:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_01 - hiển thị tên, giá, ảnh và thông số (8.3s)
+  ✓   3 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:89:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_02 - giá bán và giá gốc đang hiển thị (10.6s)
+  ✓   4 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:111:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_03 - không có nhãn phần trăm giảm cạnh giá (9.0s)
+  ✓   5 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:120:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Select_01 - chọn 256GB (9.3s)
+  ✓   6 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:128:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Select_02 - chọn 512GB (11.3s)
+  ✓   7 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:136:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Switch_01 - chuyển 512GB rồi về 256GB (17.4s)
+  ✓   8 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:146:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Open_01 - mở trực tiếp URL 512GB (6.8s)
+  ✓   9 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:152:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Select_01 - chọn lần lượt các màu đang hiển thị (15.2s)
+  ✓  10 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:157:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh (11.0s)
+  ✓  11 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:169:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Switch_02 - giữ màu Tím khi đổi sang 512GB (13.3s)
+  ✓  12 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:177:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Select_01 - chọn ảnh thu nhỏ (10.5s)
+  ✓  13 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:186:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Navigate_01 - chuyển ảnh bằng Next (7.9s)
+  ✓  14 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:194:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Navigate_02 - Previous tại slide đầu (7.7s)
+  ✓  15 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:201:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Open_01 - mở ảnh lớn, Escape và đóng hộp thoại video (10.4s)
+  ✓  16 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:214:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm (8.2s)
+  ✓  17 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:223:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_Open_02 - mở phần mô tả sản phẩm (9.5s)
+  ✓  18 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:229:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_View_01 - hiển thị các hàng thông số (8.3s)
+  ✓  19 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:236:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_Open_01 - mở bảng thông số mở rộng (9.3s)
+  ✓  20 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:245:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_Switch_01 - chuyển nhóm Màn hình (11.7s)
+  -  21 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:255:32 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ACTION_Add_01 - thêm vào giỏ và dọn sản phẩm kiểm thử
+  -  22 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:262:32 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ACTION_Buy_01 - MUA NGAY tới giỏ rồi dọn sản phẩm kiểm thử
+  ✓  23 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:269:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Switch_01 - đổi giữa hai màu (12.0s)
+  ✓  24 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:277:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ERROR_Open_01 - URL không tồn tại (3.3s)
+  -  25 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:285:8 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ERROR_Security_01 - URL chứa payload script
+  ✓  26 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:289:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_Reload_01 - tải lại vẫn giữ màu và URL (13.4s)
+  ✓  27 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:299:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_Navigate_01 - Back rồi Forward (19.1s)
+  ✓  28 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:311:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_View_01 - hiển thị ở viewport 390x844 (7.7s)
+
+  3 skipped
+  25 passed (4.4m)

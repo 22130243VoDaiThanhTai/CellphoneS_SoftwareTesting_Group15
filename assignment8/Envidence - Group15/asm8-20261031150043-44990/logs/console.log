@@ -1,0 +1,9 @@
+
+Running 2 tests using 1 worker
+
+(node:44996) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:157:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh (10.5s)
+  ✓  2 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:214:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm (7.3s)
+
+  2 passed (20.3s)

@@ -1,0 +1,18 @@
+# Bản thử, trace lỗi và bản sao giữ cục bộ, không đưa tự động lên Git.
+_archive/
+personal/
+Envidence - Group15/asm8-*/
+Test Report - Group 15/asm8-*/
+!Envidence - Group15/asm8-20261031150043-44990/
+!Test Report - Group 15/asm8-20261031150043-44990/
+!Envidence - Group15/asm8-20261031150713-45912/
+!Test Report - Group 15/asm8-20261031150713-45912/
+!Envidence - Group15/asm8-20261031151155-46642/
+!Test Report - Group 15/asm8-20261031151155-46642/
+!Envidence - Group15/asm8-20261105221010-29115/
+!Test Report - Group 15/asm8-20261105221010-29115/
+!Envidence - Group15/asm8-20261105221047-29496/
+!Test Report - Group 15/asm8-20261105221047-29496/
+# Lượt mới cần xem lại và thêm ngoại lệ trước khi commit.
+*.tmp
+~$*

@@ -1,0 +1,12 @@
+
+Running 3 tests using 1 worker
+
+(node:29384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:64:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm (5.0s)
+  ✓  2 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:65:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17 (7.9s)
+(node:29442) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:128:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao (10.3s)
+
+  3 passed (26.3s)

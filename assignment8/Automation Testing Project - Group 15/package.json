@@ -1,0 +1,22 @@
+{
+  "name": "cellphones-group15-asm8-integration",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Assignment 8 personal scope: Product Detail — 22130275 Trịnh Quang Thông",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node scripts/run-suite.cjs",
+    "test:pd": "node scripts/run-suite.cjs --project=pd",
+    "test:list": "playwright test --list",
+    "test:list:pd": "playwright test --list --project=pd",
+    "test:cp": "node scripts/run-suite.cjs --project=cp",
+    "test:rv": "node scripts/run-suite.cjs --project=rv",
+    "test:cp-rv": "node scripts/run-suite.cjs --project=cp --project=rv"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

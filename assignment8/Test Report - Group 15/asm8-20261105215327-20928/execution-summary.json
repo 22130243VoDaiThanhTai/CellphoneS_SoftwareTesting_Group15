@@ -1,0 +1,45 @@
+{
+  "runId": "asm8-20261105215327-20928",
+  "startedAt": "2026-11-05T14:53:28.614Z",
+  "finishedAt": "2026-11-05T14:53:57.859Z",
+  "status": "interrupted",
+  "durationMs": 29202.847999999998,
+  "discovered": 54,
+  "counts": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 1
+  },
+  "records": [
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4582,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215327-20928/artifacts/quangthong-22130275_TrinhQ-b5a90-n-01---mở-bảng-một-sản-phẩm-cp/attachments/execution-screenshot-84c907086c44285255386bec07a60959c6b1b322.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP",
+      "status": "interrupted",
+      "retry": 0,
+      "durationMs": 20445,
+      "errors": [
+        "Error: locator.click: Test ended.\nBrowser logs:\n\n<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/var/folders/h4/3qhhx50s75vd0hfpfxp6zs780000gn/T/playwright_chromiumdev_profile-GSLLdu --remote-debugging-pipe --no-startup-window\n<launched> pid=21162\n[pid=21162][err] [21162:7723316:1105/215329.738070:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.\n[pid=21162][err] Trying to load the allocator multiple times. This is *not* supported.\n[pid=21162][err] 2026-11-05 21:53:34.125 Google Chrome[21162:7723316] error messaging the mach port for IMKCFRunLoopWakeUpReliable\n[pid=21162][err] [21162:7723316:1105/215334.509154:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.\n[pid=21162][err] [21219:7724620:1105/215341.855074:ERROR:sandbox/mac/system_services.cc:31] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 \"paramErr: error in user parameter list\" (-50)\n[pid=21162] <gracefully close start>\n[pid=21162][err] [21162:7723412:1105/215354.727195:ERROR:base/process/process_mac.cc:90] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)\nCall log:\n\u001b[2m  - waiting for locator('.compare-products').locator('.compare-product.has-product').first().locator('.remove-compare-product')\u001b[22m\n\u001b[2m    - locator resolved to <div data-v-0c8104f5=\"\" class=\"remove-compare-product\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    23 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215327-20928/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215327-20928/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/execution-screenshot-1bbda60208d51bb2b53041f2ed1b516260322f0c.png"
+      ]
+    }
+  ],
+  "scope": "Personal scope: PD/CP/RV — 22130275 Trịnh Quang Thông. Only modules selected in this run; not a full group suite."
+}

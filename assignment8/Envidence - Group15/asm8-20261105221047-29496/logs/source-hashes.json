@@ -1,0 +1,7 @@
+{
+  "tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js": "a9791bc2318e67e71d48f7dddd9b2432089dc58da01c0bdb33f5f7b97084af24",
+  "playwright.config.cjs": "c4bde42ede5300be46858b37a3eaf4219a17b7010011561db64146b85ea2ae9f",
+  "support/fixtures.cjs": "8da52bc94bc8e3c69284e903869ccc67ea892159f86eae67a700efcad65e8c15",
+  "support/summary-reporter.cjs": "6e329d368e6ca200a1a58504b7105e690e84917a23c4d612fdf4d4955df20c29",
+  "sources.json": "a21c1efad81a1c335d691f187cd291c4d7ce44f37a420771f215c8aa8a2f7a9d"
+}

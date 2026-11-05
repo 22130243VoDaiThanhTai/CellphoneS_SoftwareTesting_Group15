@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-03",
+  "method": "Thao tác Chrome thật qua CUA; không phải run Ghost Inspector/Playwright",
+  "limit": {
+    "result": "Passed",
+    "steps": [
+      "Chuẩn bị iPhone 17 256GB, iPhone 17 Pro 256GB, Samsung Galaxy S26 Ultra",
+      "Nhấn liên kết 512GB trên PDP để điều hướng trong website",
+      "Xác nhận So sánh (3)",
+      "Nhấn So sánh trên PDP iPhone 17 512GB",
+      "Đối chiếu ba mục cũ không đổi"
+    ],
+    "observed": {
+      "h1": "iPhone 17 512GB | Chính hãng",
+      "products": [
+        "iPhone 17 256GB | Chính hãng",
+        "iPhone 17 Pro 256GB | Chính hãng",
+        "Samsung Galaxy S26 Ultra 5G 12GB 256GB"
+      ],
+      "tray": "iPhone 17 256GB | Chính hãng\n\niPhone 17 Pro 256GB | Chính hãng\n\nSamsung Galaxy S26 Ultra 5G 12GB 256GB\n\nĐã chọn 3 sản phẩm\nThu gọn\nSo sánh",
+      "url": "https://cellphones.com.vn/iphone-17-512gb.html"
+    }
+  },
+  "duplicate": {
+    "result": "Passed",
+    "steps": [
+      "Dọn khay so sánh",
+      "Mở phiên bản iPhone 17 256GB bằng liên kết 256GB",
+      "Nhấn So sánh lần đầu",
+      "Nhấn So sánh lần thứ hai trên cùng PDP",
+      "Đối chiếu chỉ một mục iPhone 17 256GB"
+    ],
+    "observed": {
+      "products": [
+        "iPhone 17 256GB | Chính hãng"
+      ],
+      "tray": "iPhone 17 256GB | Chính hãng\n\nChọn sản phẩm so sánh\n\nChọn sản phẩm so sánh\n\nĐã chọn 1 sản phẩm\nThu gọn\nSo sánh",
+      "url": "https://cellphones.com.vn/iphone-17-256gb.html"
+    }
+  }
+}

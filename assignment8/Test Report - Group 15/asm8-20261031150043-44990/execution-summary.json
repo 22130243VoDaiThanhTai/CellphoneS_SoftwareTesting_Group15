@@ -1,0 +1,42 @@
+{
+  "runId": "asm8-20261031150043-44990",
+  "startedAt": "2026-10-31T08:00:44.333Z",
+  "finishedAt": "2026-10-31T08:01:04.505Z",
+  "status": "passed",
+  "durationMs": 20269.985,
+  "discovered": 2,
+  "counts": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "records": [
+    {
+      "module": "pd",
+      "title": "PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 10469,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261031150043-44990/artifacts/quangthong-22130275_TrinhQ-dfc04--Lá-Xô-Thơm-và-kiểm-tra-ảnh-pd/attachments/execution-screenshot-3b9bb6951a4521ac672779c9f3ce51eefb739fbc.png"
+      ]
+    },
+    {
+      "module": "pd",
+      "title": "PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7346,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261031150043-44990/artifacts/quangthong-22130275_TrinhQ-c34e6--thị-khối-Khuyến-mãi-đi-kèm-pd/attachments/execution-screenshot-ec75f6bf7383f6daa17b703b7b07664fa7f58a4d.png"
+      ]
+    }
+  ],
+  "scope": "Personal scope: Product Detail only — 22130275 Trịnh Quang Thông. Not a full group suite."
+}

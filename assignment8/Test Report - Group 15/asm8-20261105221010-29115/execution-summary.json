@@ -1,0 +1,54 @@
+{
+  "runId": "asm8-20261105221010-29115",
+  "startedAt": "2026-11-05T15:10:11.321Z",
+  "finishedAt": "2026-11-05T15:10:37.523Z",
+  "status": "passed",
+  "durationMs": 26318.079,
+  "discovered": 3,
+  "counts": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "records": [
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4980,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/attachments/execution-screenshot-e6f6333e1f7c0e6c08bab44d0493c93e0686f46a.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7900,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/attachments/execution-screenshot-a8d44eb622bbd498e91ec1dc5adacd083d766472.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 10258,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105221010-29115/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/attachments/execution-screenshot-84cc2b42390fc7b3f1f927be233c58a3bffef287.png"
+      ]
+    }
+  ],
+  "scope": "Personal scope: PD/CP/RV — 22130275 Trịnh Quang Thông. Only modules selected in this run; not a full group suite."
+}
