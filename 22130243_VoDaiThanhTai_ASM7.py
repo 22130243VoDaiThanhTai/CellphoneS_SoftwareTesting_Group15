@@ -1,8 +1,8 @@
 import time
 from playwright.sync_api import sync_playwright
 
-SMEMBER_USERNAME = "your_username"
-SMEMBER_PASSWORD = "your_password"
+SMEMBER_USERNAME = "username"
+SMEMBER_PASSWORD = "password"
 
 BASE_URL = "https://cellphones.com.vn/iphone-18-pro-max.html"
 
