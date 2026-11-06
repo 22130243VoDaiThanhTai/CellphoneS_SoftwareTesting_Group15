@@ -1,0 +1,9 @@
+{
+  "22130275_TrinhQuangThong_ASM7.spec.js": "967bf78b9d810c926d4aa7dbf0f79633e48453436011706ab66ca1e3e3c6c5aa",
+  "playwright.config.js": "f8a8adcdf751c081b2558198464005bb33332ff53e4f98698b67f696d44fb688",
+  "support/fixtures.cjs": "8da52bc94bc8e3c69284e903869ccc67ea892159f86eae67a700efcad65e8c15",
+  "support/summary-reporter.cjs": "6e329d368e6ca200a1a58504b7105e690e84917a23c4d612fdf4d4955df20c29",
+  "package.json": "2c75bfb7b195375561beccf1d05796ca504d83e94d70e8fa1e39cce1fd16d4b0",
+  "package-lock.json": "469a21fb8cf77282fd2569968bf5f2524d68e64ba25f65eb03cf5ccf1be17307",
+  "run-suite.cjs": "85370f893daa84142abca5b991b96ead4fdfa348a0524cf3a8c83733806c5419"
+}

@@ -1,13 +1,17 @@
 {
-  "name": "cellphones-product-detail-playwright",
+  "name": "cellphones-quangthong-asm7",
   "version": "1.0.0",
   "private": true,
-  "description": "Playwright tests for CellphoneS product detail page",
+  "description": "Assignment 7: PD, CP và RV cá nhân 22130275",
   "scripts": {
-    "test": "playwright test",
-    "test:headed": "playwright test --headed"
+    "test": "node run-suite.cjs",
+    "test:headed": "node run-suite.cjs --headed",
+    "test:pd": "node run-suite.cjs --project=pd",
+    "test:cp": "node run-suite.cjs --project=cp",
+    "test:rv": "node run-suite.cjs --project=rv",
+    "test:list": "playwright test --list"
   },
   "devDependencies": {
-    "@playwright/test": "^1.64.1"
+    "@playwright/test": "1.64.1"
   }
 }

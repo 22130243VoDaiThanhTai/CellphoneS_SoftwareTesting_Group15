@@ -5,7 +5,7 @@ Sinh viên: Trịnh Quang Thông — 22130275 — Group15. Thiết kế cập nh
 ## Nguồn và phạm vi
 
 - Workbook chính: `../testcases/Group15_22130275_TrinhQuangThong.xlsx`.
-- So sánh: https://cellphones.com.vn/so-sanh/iphone-17-256gb. Bảng một sản phẩm có ba vị trí; nút thêm mở hộp tìm; phải nhấn + Chọn để so sánh để thêm. Không tự khẳng định đã kiểm thử giới hạn sản phẩm thứ tư.
+- So sánh: https://cellphones.com.vn/so-sanh/iphone-17-256gb. Bảng một sản phẩm có ba vị trí; nút thêm mở hộp tìm; phải nhấn + Chọn để so sánh để thêm. Giới hạn sản phẩm thứ tư đã kiểm tra bằng khay UI ngày03/11 và Playwright ngày05/11, xem báo cáo theo ngày.
 - Đánh giá: https://cellphones.com.vn/iphone-17-256gb.html. Có bộ lọc sao/ảnh/mua hàng, form sao+nội dung, placeholder tối thiểu 15 kí tự. Trong phiên tài khoản đang có, không thấy trường họ tên/SĐT/email trong form đánh giá. Chưa xác minh luồng khách chưa đăng nhập.
 - Trước 05/11/2026 chưa tạo/chạy test Ghost Inspector hoặc Playwright cho CP/RV. Xem phần cập nhật 05/11 cuối tài liệu cho script mới. Ngày 02/11/2026 đã kiểm tra Chrome thật: 51 Passed, 3 Untested; xem [báo cáo thực thi](22130275_CP_RV_execution-20261102.md). Lựa chọn Automate không đồng nghĩa đã chạy automation.
 - PD giữ kế hoạch và bằng chứng lịch sử trong automation-plan.md; lựa chọn Yes/No trong đó dành cho Ghost Inspector giai đoạn ASM6, không áp đặt cho script Playwright ASM7/ASM8.
@@ -94,7 +94,7 @@ Yes: có assertion UI rõ, không cần gửi dữ liệu hoặc đăng nhập t
 - [ ] Xác minh ba quy tắc RV về validation/giới hạn trên môi trường cho phép gửi dữ liệu thử.
 - [x] Dùng phiên tài khoản thường đang có để kiểm tra UI form; không đăng nhập và không lưu thông tin xác thực.
 - [x] Tạo test các case Yes, thêm assertion và chạy thử Playwright ngày 05/11; giữ baseline lỗi và các lần sửa.
-- [ ] Kiểm tra độ ổn định, lưu ảnh/log và cập nhật Result/Test date theo từng lần chạy.
+- [x] Chạy lại CP/RV hai lượt đầy đủ ngày 05/11, cùng spec/fixture/config: 39 Passed, 0 Failed, 15 Skipped. Lưu ảnh/log ở ASM8. Workbook giữ lịch sử kiểm tra thủ công, không thay bằng kết quả automation. Tiếp tục theo dõi flaky dài hạn.
 
 ## Quy trình
 
@@ -112,7 +112,7 @@ flowchart TD
 
 ## Thực thi ngày 02/11/2026
 
-Ngày 02/11 có 49 case CP/RV Passed, 5 Untested; ngày 03/11 hoàn tất thêm hai case CP, hiện 51 Passed/3 Untested. Xem [bảng kết quả và ảnh từng case](22130275_CP_RV_execution-20261102.md). Các case Yes mới chỉ đủ điều kiện xây automation, chưa có script/run GI hoặc Playwright cho CP/RV. Giữ việc kiểm tra độ ổn định automation ở trạng thái chưa hoàn tất.
+Ngày 02/11 có 49 case CP/RV Passed, 5 Untested; ngày 03/11 hoàn tất thêm hai case CP, hiện 51 Passed/3 Untested. Xem [bảng kết quả và ảnh từng case](22130275_CP_RV_execution-20261102.md). Đó là trạng thái lịch sử ngày02–03/11. Đến05/11 đã có script và hai lượt chạy Playwright CP/RV cùng source, xem mục cập nhật05/11. Chưa chạy Ghost Inspector choCP/RV, không bắt buộc dùng thêm công cụ thứ hai theo đề.
 
 ## Cập nhật ngày 03/11/2026
 
@@ -130,3 +130,7 @@ Lỗi script đã xác định trong quá trình chạy: scope locator, khoảng
 Workbook và bộ nộp PD vẫn giữ nguyên trong lần triển khai này. Ba Expected RV CẦN XÁC MINH tiếp tục giữ nguyên cho đến khi có đặc tả/môi trường kiểm thử phù hợp.
 
 Lượt đủ sau sửa asm8-20261105221047-29496: CP 25 Passed, RV 14 Passed/15 Skipped, tổng 54 khai báo, 341,11 giây. Chưa có hai lượt đủ liên tiếp cùng source. Người dùng xác nhận tiếp tục giữ ba quy tắc RV validation Untested.
+
+## Đồng bộ ASM7 ngày 06/11/2026
+
+Đã đưa cùng logic PD/CP/RV vào một file cá nhân `../scripts/22130275_TrinhQuangThong_ASM7.spec.js`, cấu hình ba project chạy riêng/chung. Kết quả lượt mới chỉ lấy từ `../scripts/RUN-REPORT.md`, không gán kết quả ASM8 sang ASM7. Lựa chọn Yes/No của kế hoạch ASM6 và lịch sử workbook không tự đổi theo runner. Ba validation RV vẫn giữ Untested theo quyết định người dùng.

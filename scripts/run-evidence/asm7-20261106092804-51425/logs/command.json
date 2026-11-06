@@ -1,0 +1,10 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test"
+  ],
+  "runId": "asm7-20261106092804-51425",
+  "startedAt": "2026-11-06T02:28:04.159Z",
+  "node": "v24.22.1"
+}

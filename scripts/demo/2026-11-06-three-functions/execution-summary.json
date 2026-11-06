@@ -1,0 +1,54 @@
+{
+  "runId": "asm7-20261106093848-56296",
+  "startedAt": "2026-11-06T02:38:49.426Z",
+  "finishedAt": "2026-11-06T02:39:41.176Z",
+  "status": "passed",
+  "durationMs": 51725.705,
+  "discovered": 3,
+  "counts": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "records": [
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 17723,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106093848-56296/artifacts/22130275_TrinhQuangThong_A-d644f-IST-Add-04---ba-cột-độc-lập-cp/attachments/execution-screenshot-147ff52fb59159f937f3768000d05166b7f29d1d.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 12879,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106093848-56296/artifacts/22130275_TrinhQuangThong_A-f13fd-Clear-01---Tất-cả-sau-4-sao-rv/attachments/execution-screenshot-7182593e7531c15597eee2df48b9c7e388cea2d7.png"
+      ]
+    },
+    {
+      "module": "pd",
+      "title": "PRODUCT_DETAIL_VARIANT_Select_02 - chọn 512GB",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 15984,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106093848-56296/artifacts/22130275_TrinhQuangThong_A-fcaaa-IANT-Select-02---chọn-512GB-pd/attachments/execution-screenshot-5c9e0b08595efa51b84c9319177ed5b95c7eae8a.png"
+      ]
+    }
+  ],
+  "scope": "Personal scope: PD/CP/RV — 22130275 Trịnh Quang Thông. Only modules selected in this run; not a full group suite."
+}

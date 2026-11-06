@@ -1,31 +1,26 @@
-# Assignment 7 — Trang chi tiết sản phẩm
+# Assignment 7 — Ba chức năng cá nhân
 
-Sinh viên: 22130275 — Trịnh Quang Thông — Group15.
-Phạm vi đợt nộp: một chức năng Trang chi tiết sản phẩm (PD). CP/RV không nằm trong gói này; đề đầy đủ yêu cầu ba chức năng.
+Trịnh Quang Thông, MSSV 22130275, Group15. Chức năng: Trang chi tiết sản phẩm, So sánh sản phẩm, Đánh giá sản phẩm.
 
-## File nộp Classroom
+## Hồ sơ nộp
 
-- `22130275_TrinhQuangThong_ASM7.zip`: mã nguồn và môi trường chạy.
-- `22130275_TrinhQuangThong_ASM7.txt`: chính xác hai dòng, dòng 1 link YouTube, dòng 2 repo nhóm.
+- `22130275_TrinhQuangThong_ASM7.zip`: một spec cá nhân, cấu hình, package/lock, fixture, runner và minh chứng.
+- `22130275_TrinhQuangThong_ASM7.txt`: dòng 1 YouTube, dòng 2 repository nhóm.
 
-Video YouTube do người dùng xác nhận đã upload: https://youtu.be/rdBQQNcqgkg
-Repo nhóm public: https://github.com/22130243VoDaiThanhTai/CellphoneS_SoftwareTesting_Group15
-Nhánh cá nhân: QuangThong.
+TXT giữ https://youtu.be/rdBQQNcqgkg, video PD do người dùng đã upload. Video này chưa demo CP/RV. Cần link video mở rộng sau khi upload. Không bịa link hoặc thay dòng đầu bằng đường dẫn local.
 
-## Chạy script
+## Chạy
 
-Giải nén ZIP, mở Terminal trong thư mục có package.json, chạy `npm ci`, sau đó `npx playwright test --headed`. Cần Node.js và Google Chrome. Script cá nhân là `22130275_TrinhQuangThong_ASM7.spec.js`; không cần workbook Excel lúc chạy. Xem README.md để dùng Chromium thay thế.
+Giải nén ZIP, mở thư mục có package.json. Cài `npm ci`, chạy `npm test`. Có `npm run test:pd`, `npm run test:cp`, `npm run test:rv` để chạy riêng. Chrome headed và context sạch. Không cần Excel hoặc đăng nhập CellphoneS.
 
-## Kết quả và giới hạn
+Có 82 khai báo, 64 test được triển khai để chạy và 18 skip. Mười lăm RV skip chưa triển khai thao tác form. Ba PD skip là giỏ, mua và payload. Khóa giỏ/mua vẫn giữ kể cả ALLOW_CART=1. Ba validation RV tiếp tục Untested theo quyết định người dùng.
 
-Hai lượt xác minh theo quy tắc giá mới và lượt quay demo thực tế đều có 25 Passed, 0 Failed, 3 Skipped. Báo cáo chi tiết: RUN-REPORT.md.
+## Nguồn và kết quả
 
-Ba case bỏ qua: thêm giỏ, mua ngay và URL payload. Hai case giỏ chưa có code cleanup đã xác minh nên vẫn bị khóa dù ALLOW_CART=1. Test giá bán kiểm tra giá trị hợp lệ; chỉ so sánh giá gốc > giá bán khi phần tử gạch ngang tồn tại. Nhánh so sánh không chạy trong các lượt này vì trang không có giá gốc.
+Source ghép từ hai spec ASM8 đã chạy ngày 05/11, giữ ID và assertion. Kết quả ASM7 mới ở RUN-REPORT.md, chỉ ghi số liệu runner thật. Không gán kết quả ASM8 sang lượt ASM7 sau ghép.
 
-## Gói mã nguồn
+## GitHub
 
-ZIP chứa một file spec cá nhân, cấu hình Playwright, package.json/lock, README, tài liệu bàn giao và báo cáo/bằng chứng. Không đóng gói node_modules, browser cache, Excel hay video MP4. Video xem qua link YouTube. Workbook v8 được giữ riêng trong testcases.
+Repository: https://github.com/22130243VoDaiThanhTai/CellphoneS_SoftwareTesting_Group15
 
-## Trạng thái chia sẻ GitHub
-
-Kiểm tra ngày 30/10/2026: repo public qua GitHub API, nhưng đường dẫn scripts/22130275_TrinhQuangThong_ASM7.spec.js trên QuangThong trả HTTP 404. Git cục bộ cho thấy scripts/ chưa được theo dõi. Cần commit/push mã nguồn trước khi kết luận yêu cầu chia sẻ GitHub đã hoàn tất. Phiên chuẩn bị gói nộp không commit/push/checkout.
+Nhánh cá nhân QuangThong. Script PD đã push trước đây qua commit 4b7bc38/9daef54. Bản ba chức năng ngày 06/11 có commit riêng. Xem lịch sử Git và ASM678_22130275_STATUS.md ở root để đối chiếu phạm vi, không dùng ghi chú “chưa commit” lịch sử của ngày 30/10 làm trạng thái hiện tại.

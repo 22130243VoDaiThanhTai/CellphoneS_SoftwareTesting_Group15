@@ -1,45 +1,40 @@
-> Cập nhật phạm vi ngày 05/11/2026: project đang bổ sung CP/RV của 22130275. Các kết quả PD và gói nộp bên dưới giữ lịch sử ngày 31/10. Xem [triển khai CP/RV](CP-RV-IMPLEMENTATION.md) và [kết quả mới](CP-RV-RUN-REPORT.md). Chưa phải tích hợp toàn nhóm.
-
 # Kế hoạch ASM8 cá nhân — Trịnh Quang Thông
 
-Cập nhật 31/10/2026. Repo: `/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15`, nhánh QuangThong.
+Cập nhật 06/11/2026. Repository CellphoneS_SoftwareTesting_Group15, nhánh QuangThong.
 
-## Phạm vi đã xác nhận
+## Phạm vi hiện tại
 
-Chỉ làm Trang chi tiết sản phẩm (PD) của Trịnh Quang Thông — 22130275. Không tích hợp/chạy/sửa module của thành viên khác trong công việc hiện tại. CP/RV chưa triển khai và không được báo đã hoàn tất. Phần Assigned Functions của slide nhắc ba chức năng được giao, ghi rõ chỉ PD là phạm vi đợt này.
+Ba chức năng của 22130275: PD, CP và RV. Không tích hợp, chạy hoặc sửa bài thành viên khác. Đề toàn nhóm giữ tại ASSIGNMENT-8.md. Ban đầu nộp tiến độ PD trước, sau đó mở rộng theo yêu cầu người dùng sang CP/RV.
 
-## Các chặng
+## Đã thực hiện
 
-| Chặng | Công việc | Trạng thái |
-|---|---|---|
-| 1 | Lưu đề và xác định source PD | Xong; kiểm kê toàn repo chỉ là tham khảo |
-| 2 | Đưa PD vào cấu trúc ASM8 với package/config, report và evidence riêng | Đã tạo; cấu hình chỉ còn PD, 28 test |
-| 3 | Rà lỗi PD, chạy và phân tích ổn định, lưu kết quả thật | Lượt đủ mới: 25 Passed, 0 Failed, 3 Skipped; hai case sửa Passed ở hai lượt riêng và lượt đủ, tiếp tục theo dõi độ ổn định |
-| 4 | Tạo PPTX cá nhân, đủ 8 phần đề, 18 slide, có ảnh chạy PD thật | Đã cập nhật 18 slide; có báo cáo Playwright, Test Steps và log gốc; dùng mẫu tạm, cần thống nhất template nhóm |
-| 5 | Đóng gói 22130275_TrinhQuangThong_TestScript.zip | Đã làm gọn: 51 file, khoảng 7.51 MiB; chỉ PD, source + ba lượt kết quả/ảnh/log |
+- [x] Dựng project ASM8 riêng, giữ source ASM7 gốc.
+- [x] Cấu hình ba project cp/rv/pd, dùng chung fixture, reporter và runner. Có lệnh chạy riêng và chạy chung.
+- [x] Triển khai 28 khai báo PD, 25 implementation CP và 14 implementation RV công khai.
+- [x] Khai báo lý do skip cho 15 RV chưa triển khai form/validation.
+- [x] Khảo sát DOM, sửa selector/popup/cookie và chạy CP/RV: 39 Passed, 0 Failed, 15 Skipped.
+- [x] Chạy chung 82 khai báo ngày 05/11: 64 Passed, 0 Failed, 18 Skipped.
+- [x] Đối chiếu hai lượt CP/RV cùng spec/fixture/config. Lưu kết quả, log và ảnh thật.
+- [x] Cập nhật PPTX cá nhân 25 slide, đủ tám phần đề và bằng chứng cho cả ba chức năng.
+- [x] Đóng gói ZIP 73 file, khoảng 9,42 MiB, giữ source, báo cáo từng case, ảnh và log. Gộp ảnh trùng nội dung.
+- [x] Sao lưu bộ PD trước khi thay thế, kiểm tra ZIP/manifest/liên kết và render slide.
 
-## Template và nguồn
+## Giới hạn cần giữ rõ
 
-Link người dùng cung cấp là Google Sheets, mẫu bảng tính dùng ở ASM6, không phải slide template. Chưa thấy PPTX/POTX/ODP trong repo đã rà soát. Khi làm PPT dùng mẫu tạm, không tự nhận là template thống nhất của nhóm.
+- [ ] RV 12 case form/input: cần phiên tài khoản phù hợp trong môi trường được phép. Không sao chép cookie/đăng nhập trong bước này.
+- [ ] RV ba validation: chưa có đặc tả/môi trường gửi thử. Người dùng quyết định giữ Untested trong workbook.
+- [ ] PD giỏ/mua: cleanup chưa xác minh, giữ khóa. Payload giữ skip để tránh 403.
+- [ ] Theo dõi flaky dài hạn khi dữ liệu và mạng thay đổi. Hai lượt giống kết quả chưa chứng minh ổn định tuyệt đối.
 
-Nguồn PD: `scripts/22130275_TrinhQuangThong_ASM7.spec.js`; Expected mới trong workbook v8; dự án ASM8 nằm trong `Automation Testing Project - Group 15/`. Quy cách đề nhóm vẫn lưu ở `ASSIGNMENT-8.md`; yêu cầu toàn nhóm do nhóm xử lý riêng, không tự mở rộng sang bài của thành viên khác.
+## Công việc cấp nhóm
 
-## Bảo toàn lịch sử
+- [ ] Thu thập và tích hợp script các thành viên vào project thống nhất.
+- [ ] Chạy suite tất cả thành viên và xuất report/evidence của toàn nhóm.
+- [ ] Thống nhất template slide để ghép báo cáo tuần sau. Mẫu hiện tại là mẫu cá nhân tạm thời, link Sheets trước đây là mẫu Excel ASM6.
+- [x] Chuẩn bị cập nhật cá nhân để đồng bộ QuangThong và dev theo yêu cầu ngày06/11. Xác nhận push/merge bằng hash remote và báo cáo cuối công việc.
 
-Bản sao Build PC tạo nhầm phạm vi được chuyển vào `_archive/build-pc-integration/`, không nằm trong testDir. Bài gốc `automation/` không sửa. Các report/ảnh/log cũ giữ nguyên, số liệu cá nhân chỉ lấy module `pd`. Không commit/push/checkout/merge. Không ghi đè hồ sơ ASM6/ASM7 hoặc file đã nộp.
+## Lịch sử và bảo toàn
 
-Cập nhật slide ngày 05/11/2026: thêm ảnh báo cáo Playwright, Test Steps và log lưu của lượt 31/10/2026. ZIP bổ sung Evidence/PlaywrightReport/ gồm ba ảnh và ghi chú nguồn; không chạy lại website. File nộp mới nhất nằm tại ../submission/Assignment8_22130275_TrinhQuangThong/.
+PD ngày 31/10 có lượt 25 Passed/0 Failed/3 Skipped sau sửa chờ dữ liệu vùng. Ngày 05/11 bổ sung CP/RV và chạy chung. Ngày 06/11 cập nhật bộ nộp từ kết quả đã lưu, không chạy website mới hoặc đổi workbook.
 
-Cập nhật chiều sâu báo cáo ngày 05/11/2026: PowerPoint 18 slide, bổ sung phạm vi 28 test, dữ liệu và tiêu chí, selector/assertion, cấu hình, code 512GB, luồng lưu bằng chứng, lý do Skipped, phân tích lỗi tải động và kết quả chạy lại. Giữ kết quả gốc ngày 31/10/2026. Chỉ cập nhật PPTX, không chạy website hoặc sửa source/ZIP.
-
-## CP/RV ngày 05/11/2026
-
-- [x] Đối chiếu 25 CP và 29 RV với workbook, khảo sát DOM thật.
-- [x] Viết implementation 25 CP và 14 RV công khai, khai báo lý do skip cho 15 RV.
-- [x] Sửa locator/popup và chạy đủ CP/RV: 39 Passed, 0 Failed, 15 Skipped.
-- [x] Lưu report HTML/JSON, log, ảnh theo case và ảnh tổng quan report.
-- [x] CP/RV đã có hai lượt đủ cùng source/spec/fixture/config: 39 Passed, 15 Skipped mỗi lượt; tiếp tục theo dõi dài hạn.
-- [ ] Thực thi các case RV form cần phiên tài khoản phù hợp.
-- [ ] Xác minh ba quy tắc validation trên môi trường được phép (người dùng yêu cầu giữ Untested).
-- [x] Chạy chung cả 82 khai báo PD/CP/RV trong lượt asm8-20261105222818-34028: 64 Passed, 0 Failed, 18 Skipped.
-- [ ] Cập nhật bộ nộp cá nhân đủ ba chức năng khi người dùng yêu cầu; bộ PD đã duyệt giữ nguyên.
+Giữ nguyên source ASM6/ASM7 và dữ liệu thành viên khác. Bản PD cũ và ZIP sao lưu ngoài repo trong `~/Documents/ChatGPT/Software Testing/backups/asm8-pd-before-full-20261106/`. Thư mục personal/TestScript 2 đã tồn tại trước đó giữ nguyên, không coi đó là bản nộp mới nhất.

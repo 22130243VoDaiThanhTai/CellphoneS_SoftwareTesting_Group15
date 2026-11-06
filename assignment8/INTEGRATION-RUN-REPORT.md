@@ -27,7 +27,7 @@ Chrome headed, 1280×800 mặc định, locale vi-VN, 1 worker, retries=0. Mỗi
 - RV: 12 case form/input chưa có phiên tài khoản phù hợp trong context sạch. Không sao chép cookie/đăng nhập hoặc thao tác form ẩn.
 - RV: ba case validation chưa đủ đặc tả/môi trường gửi thử (14 ký tự, 1000 ký tự, 15 dấu cách). Người dùng yêu cầu giữ Untested trong workbook.
 - Skipped không tương đương Passed hoặc Failed. Case cần tiền đề dữ liệu khác còn được ghi lý do ở từng dòng.
-- Không cập nhật workbook/Expected hoặc bộ nộp PD đã duyệt chỉ để khớp kết quả runner. Bộ PPT/ZIP đủ cả ba chức năng chưa được thay thế trong bước này.
+- Không cập nhật workbook/Expected hoặc bộ nộp PD đã duyệt chỉ để khớp kết quả runner. Ngày 06/11 đã cập nhật PPTX/ZIP đủ ba chức năng từ kết quả đã lưu, xem SUBMISSION-CHECK.md. Không chạy lại website khi đóng gói.
 
 ## Từng case
 
