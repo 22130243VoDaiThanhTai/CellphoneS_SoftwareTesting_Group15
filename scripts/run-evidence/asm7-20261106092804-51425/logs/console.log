@@ -1,0 +1,94 @@
+
+Running 82 tests using 1 worker
+
+(node:51739) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:393:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm (6.4s)
+  ✓   2 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:395:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP (11.4s)
+  ✓   3 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:396:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm (5.2s)
+  ✓   4 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:397:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17 (8.4s)
+  ✓   5 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:398:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng (11.0s)
+  ✓   6 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:399:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_03 - thêm khác hãng (11.4s)
+  ✓   7 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:400:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập (15.6s)
+  ✓   8 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:401:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay (22.7s)
+  ✓   9 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:402:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP (11.1s)
+  ✓  10 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:403:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai (11.7s)
+  ✓  11 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:404:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_02 - bỏ cột cuối (6.0s)
+  ✓  12 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:405:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Replace_01 - thêm lại ô đã bỏ (12.0s)
+  ✓  13 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:406:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_01 - tên hàng cơ bản (4.6s)
+  ✓  14 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:407:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_02 - dung lượng 256 GB (3.9s)
+  ✓  15 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:408:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_03 - giá trị cùng hàng Chipset (10.7s)
+  ✓  16 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:409:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_Open_01 - mở cấu hình chi tiết (5.4s)
+  ✓  17 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:410:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_02 - từ khóa không tồn tại (8.4s)
+  ✓  18 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:411:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Clear_01 - xóa từ khóa (9.5s)
+  ✓  19 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:412:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_01 - ba dấu cách (8.4s)
+  ✓  20 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:413:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_02 - ký tự đặc biệt (8.8s)
+  ✓  21 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:414:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_03 - tiếng Việt có dấu (8.6s)
+  ✓  22 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:415:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Reload_01 - reload theo URL (6.0s)
+  ✓  23 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:416:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_02 - tab mới từ URL (4.2s)
+  ✓  24 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:417:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_View_01 - chỉ kiểm tra href Mua ngay (4.2s)
+  ✓  25 [cp] › 22130275_TrinhQuangThong_ASM7.spec.js:418:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Responsive_01 - viewport 390x844 (4.9s)
+(node:53505) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  26 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:453:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_01 - tiêu đề khu vực (9.7s)
+  ✓  27 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:454:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_02 - điểm trung bình (8.9s)
+  ✓  28 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:455:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại (9.3s)
+  ✓  29 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:456:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao (11.2s)
+  ✓  30 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:457:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm (9.6s)
+  ✓  31 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:458:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao (11.0s)
+  ✓  32 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:459:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao (10.0s)
+  ✓  33 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:459:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao (9.9s)
+  ✓  34 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:459:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao (9.8s)
+  ✓  35 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:459:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_05 - nhánh rỗng 1 sao (10.0s)
+  ✓  36 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:460:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao (11.1s)
+  ✓  37 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:461:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng (9.8s)
+  ✓  38 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:462:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng (10.8s)
+  ✓  39 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:463:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_LIST_Open_01 - Xem tất cả đánh giá (11.6s)
+  -  40 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:465:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_FORM_Open_01 - Mở form khi tài khoản thường đã đăng nhập
+  -  41 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:466:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_FORM_View_01 - Hiển thị năm nhãn đánh giá sao
+  -  42 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:467:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_RATING_Select_01 - Chọn mức sao thấp nhất
+  -  43 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:468:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_RATING_Switch_01 - Đổi từ sao thấp nhất sang cao nhất
+  -  44 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:469:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_View_01 - Hiển thị hướng dẫn tối thiểu 15 ký tự
+  -  45 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:470:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Clear_01 - Xóa nội dung về rỗng trước khi gửi
+  -  46 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:471:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Validate_01 - Nội dung ngắn hơn hướng dẫn tối thiểu
+  -  47 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:472:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_01 - Nhập đúng 15 ký tự, chưa gửi
+  -  48 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:473:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_02 - Nhập 16 ký tự, chưa gửi
+  -  49 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:474:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Limit_01 - Nhập nội dung dài 1000 ký tự
+  -  50 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:475:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Validate_02 - Nội dung chỉ có 15 dấu cách
+  -  51 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:476:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_03 - Nhập ký tự đặc biệt dưới dạng văn bản
+  -  52 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:477:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_04 - Nhập tiếng Việt và emoji
+  -  53 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:478:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Security_01 - Nhập chuỗi script như văn bản, không gửi
+  -  54 [rv] › 22130275_TrinhQuangThong_ASM7.spec.js:479:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_ATTACHMENT_View_01 - Hiển thị tùy chọn thêm ảnh và loại file khai báo
+(node:54388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  55 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:79:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_Open_01 - mở URL sản phẩm cố định (7.0s)
+  ✓  56 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:84:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_01 - hiển thị tên, giá, ảnh và thông số (7.2s)
+  ✓  57 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:92:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_02 - giá bán và giá gốc đang hiển thị (7.0s)
+  ✓  58 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:114:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_03 - không có nhãn phần trăm giảm cạnh giá (6.6s)
+  ✓  59 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:123:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Select_01 - chọn 256GB (9.7s)
+  ✓  60 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:131:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Select_02 - chọn 512GB (9.5s)
+  ✓  61 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:139:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Switch_01 - chuyển 512GB rồi về 256GB (12.1s)
+  ✓  62 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:149:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Open_01 - mở trực tiếp URL 512GB (8.7s)
+  ✓  63 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:155:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Select_01 - chọn lần lượt các màu đang hiển thị (13.4s)
+  ✓  64 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:160:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh (9.3s)
+  ✓  65 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:172:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Switch_02 - giữ màu Tím khi đổi sang 512GB (11.5s)
+  ✓  66 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:180:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Select_01 - chọn ảnh thu nhỏ (8.7s)
+  ✓  67 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:189:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Navigate_01 - chuyển ảnh bằng Next (7.4s)
+  ✓  68 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:197:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Navigate_02 - Previous tại slide đầu (7.6s)
+  ✓  69 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:204:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Open_01 - mở ảnh lớn, Escape và đóng hộp thoại video (11.2s)
+  ✓  70 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:217:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm (7.4s)
+  ✓  71 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:226:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_Open_02 - mở phần mô tả sản phẩm (8.5s)
+  ✓  72 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:232:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_View_01 - hiển thị các hàng thông số (7.1s)
+  ✓  73 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:239:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_Open_01 - mở bảng thông số mở rộng (9.2s)
+  ✓  74 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:248:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_Switch_01 - chuyển nhóm Màn hình (9.7s)
+  -  75 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:258:32 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ACTION_Add_01 - thêm vào giỏ và dọn sản phẩm kiểm thử
+  -  76 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:265:32 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ACTION_Buy_01 - MUA NGAY tới giỏ rồi dọn sản phẩm kiểm thử
+  ✓  77 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:272:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Switch_01 - đổi giữa hai màu (11.7s)
+  ✓  78 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:280:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ERROR_Open_01 - URL không tồn tại (3.3s)
+  -  79 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:288:8 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ERROR_Security_01 - URL chứa payload script
+  ✓  80 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:292:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_Reload_01 - tải lại vẫn giữ màu và URL (15.8s)
+  ✓  81 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:302:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_Navigate_01 - Back rồi Forward (18.3s)
+  ✓  82 [pd] › 22130275_TrinhQuangThong_ASM7.spec.js:314:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_View_01 - hiển thị ở viewport 390x844 (8.8s)
+
+  18 skipped
+  64 passed (10.1m)

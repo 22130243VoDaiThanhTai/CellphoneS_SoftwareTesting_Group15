@@ -1,0 +1,138 @@
+{
+  "runId": "asm8-20261105215044-18789",
+  "startedAt": "2026-11-05T14:50:45.598Z",
+  "finishedAt": "2026-11-05T14:52:57.762Z",
+  "status": "interrupted",
+  "durationMs": 131878.382,
+  "discovered": 29,
+  "counts": {
+    "passed": 5,
+    "failed": 3,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 1
+  },
+  "records": [
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_01 - tiêu đề khu vực",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7408,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-0c72c-Y-View-01---tiêu-đề-khu-vực-rv/attachments/execution-screenshot-27e585708996818941af1793b2a9ba0859c88016.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_02 - điểm trung bình",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7498,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-84eca-Y-View-02---điểm-trung-bình-rv/attachments/execution-screenshot-7129f93220f518426a947b2076aacf4b0056420b.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 8194,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-b5c5f-iew-03---tổng-lượt-hiện-tại-rv/attachments/execution-screenshot-66ee7a0deb566d78eba8cecf2b871604acace5ff.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 8135,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-259d3-Y-View-04---phân-bố-năm-sao-rv/attachments/execution-screenshot-5c22a26e97ba4d3cea44429f83342e410e8f5439.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 16979,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.experience-review__item').filter({ has: locator('.boxReview').getByText('Hiệu năng', { exact: true }) }).locator('.item-point')\nExpected pattern: \u001b[32m/^\\d(?:\\.\\d+)?\\/5$/\u001b[39m\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('.boxReview').locator('.experience-review__item').filter({ has: locator('.boxReview').getByText('Hiệu năng', { exact: true }) }).locator('.item-point') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.experience-review__item').filter({ has: locator('.boxReview').getByText('Hiệu năng', { exact: true }) }).locator('.item-point')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/attachments/execution-screenshot-758bfd24c9f0590b5a598de4d1d3036975c879b3.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 9414,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-c05a4-ILTER-Select-01---lọc-5-sao-rv/attachments/execution-screenshot-b5e841d5db62fd48d5be97c6d9c3df5feee6b9e5.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 24564,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress')\nExpected pattern: \u001b[32m/^\\d+$/\u001b[39m\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/attachments/execution-screenshot-1d0b9a363802a391a947954f19bbbcff4d692669.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 22463,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress')\nExpected pattern: \u001b[32m/^\\d+$/\u001b[39m\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/attachments/execution-screenshot-1f50371e6155a52b1fd3ed775681aeaa7fae9ac1.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao",
+      "status": "interrupted",
+      "retry": 0,
+      "durationMs": 13687,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress')\nExpected pattern: \u001b[32m/^\\d+$/\u001b[39m\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress')\u001b[22m\n\u001b[2m  - Test ended.\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/attachments/execution-screenshot-315a93a3da897b564e30704d17cfd4c4d6132e0e.png"
+      ]
+    }
+  ],
+  "scope": "Personal scope: PD/CP/RV — 22130275 Trịnh Quang Thông. Only modules selected in this run; not a full group suite."
+}

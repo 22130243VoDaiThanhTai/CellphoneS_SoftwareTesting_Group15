@@ -1,0 +1,132 @@
+{
+  "runId": "asm8-20261105220228-26696",
+  "startedAt": "2026-11-05T15:02:29.718Z",
+  "finishedAt": "2026-11-05T15:05:31.137Z",
+  "status": "failed",
+  "durationMs": 181500.206,
+  "discovered": 9,
+  "counts": {
+    "passed": 8,
+    "failed": 1,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "records": [
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 15432,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/compare-tray-before-cleanup-216689b155268c4422d97f16a2270b1b36b3a30d.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/execution-screenshot-9eb8c3ecc930eeaf2cab7e9f5e1871432a521202.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 32873,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-6fbf5--thử-thêm-thứ-tư-trong-khay-cp/attachments/compare-tray-before-cleanup-4897c60a27bf3a878a7da9466eb739f0a18fcf01.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-6fbf5--thử-thêm-thứ-tư-trong-khay-cp/attachments/execution-screenshot-ddb231a86e7ec551fb8e4cee8dbf5be7a32516d7.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 16163,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-8a175-cate-01---thêm-lại-cùng-PDP-cp/attachments/compare-tray-before-cleanup-a9523770cc3840b1835e3b1a0552a5b822b96619.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-8a175-cate-01---thêm-lại-cùng-PDP-cp/attachments/execution-screenshot-580bdcb0226ac0ee9de14551d65e0f013135a08c.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 14694,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/attachments/execution-screenshot-08b7a0572703d423ba731c8c079fb65dc2145a1e.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 14897,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/attachments/execution-screenshot-c04141d80d796eb83c619944cca916ea2e07c9ca.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 14116,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/attachments/execution-screenshot-d6f24105eed29df37c1893aa3a9ddac99c0ffd5b.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_05 - nhánh rỗng 1 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 14336,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-eafe2-elect-05---nhánh-rỗng-1-sao-rv/attachments/execution-screenshot-a6478aedf4843afd7d330d9ddb9185d7ad2adc1f.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 32943,
+      "errors": [
+        "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Từ chối', exact: true })\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n\u001b[2m    - locator handler has finished, waiting for getByRole('button', { name: 'Từ chối', exact: true }) to be hidden\u001b[22m\n\u001b[2m    - interception handler has finished, continuing\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/attachments/execution-screenshot-85489ebbc4dab49a4dcf21020aa8e1e6214bbef5.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 14001,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-72df8-06---Có-hình-ảnh-nhánh-rỗng-rv/attachments/execution-screenshot-faa621499fbaedd7fc4700cecf497c085f436916.png"
+      ]
+    }
+  ],
+  "scope": "Personal scope: PD/CP/RV — 22130275 Trịnh Quang Thông. Only modules selected in this run; not a full group suite."
+}

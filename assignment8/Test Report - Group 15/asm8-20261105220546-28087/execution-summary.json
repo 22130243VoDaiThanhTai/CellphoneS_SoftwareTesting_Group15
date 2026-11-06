@@ -1,0 +1,160 @@
+{
+  "runId": "asm8-20261105220546-28087",
+  "startedAt": "2026-11-05T15:05:47.576Z",
+  "finishedAt": "2026-11-05T15:10:09.666Z",
+  "status": "interrupted",
+  "durationMs": 262033.60400000002,
+  "discovered": 54,
+  "counts": {
+    "passed": 5,
+    "failed": 3,
+    "skipped": 0,
+    "timedOut": 1,
+    "interrupted": 1
+  },
+  "records": [
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6167,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-b5a90-n-01---mở-bảng-một-sản-phẩm-cp/attachments/execution-screenshot-b666ec96605954f0c6eadc9b31783130a96427de.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 15755,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/compare-tray-before-cleanup-c90311a35523ff5678a866c6e1ae8fb9eaa7a977.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/execution-screenshot-da50278ffd42c8ac52ad86331ecea5d49a17fd67.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 18016,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })\nExpected: visible\nReceived: undefined\nTimeout:  8000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n",
+        "Error: locator.click: Test ended.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Từ chối', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"btn btn-outline\">Từ chối</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    13 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/attachments/execution-screenshot-7593db6f5e04c96dd7a59454c658f09a7abea5f8.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 23151,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })\nExpected: visible\nReceived: undefined\nTimeout:  8000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n",
+        "Error: locator.click: Test ended.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Từ chối', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"btn btn-outline\">Từ chối</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    13 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/attachments/execution-screenshot-6b74ec3e339e79f7575867037a1f4bddfa5d3581.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng",
+      "status": "timedOut",
+      "retry": 0,
+      "durationMs": 80784,
+      "errors": [
+        "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+        "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \\| Chính hãng$/ }) }).getByText('+ Chọn để so sánh', { exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"select-to-compare has-text-centered mt-1\">+ Chọn để so sánh</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-5255b-IST-Add-02---thêm-cùng-hãng-cp/attachments/execution-screenshot-e4f5c94811ad711b96b6e81f32436ce7c568a520.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_03 - thêm khác hãng",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 21570,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-cdcf2-IST-Add-03---thêm-khác-hãng-cp/attachments/execution-screenshot-520a761d2ff686354fe411354535c2c1c78ff939.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 17957,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })\nExpected: visible\nReceived: undefined\nTimeout:  8000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n",
+        "Error: locator.click: Test ended.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Từ chối', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"btn btn-outline\">Từ chối</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  13 × retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/attachments/execution-screenshot-5306ffa91efb030178583bca1bc137ecd487dc86.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 29086,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-6fbf5--thử-thêm-thứ-tư-trong-khay-cp/attachments/compare-tray-before-cleanup-ad8d2db5441e5bb29092eadf4eca19827c6f547d.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-6fbf5--thử-thêm-thứ-tư-trong-khay-cp/attachments/execution-screenshot-e4f65eba6d0f387f418421229625f5ecdfffdbd8.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 10976,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-8a175-cate-01---thêm-lại-cùng-PDP-cp/attachments/compare-tray-before-cleanup-0dc9cfc3a67f07f7bb34242f299638aa489d1a67.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-8a175-cate-01---thêm-lại-cùng-PDP-cp/attachments/execution-screenshot-5c8407fb3d2b417d7167debcb4151c4887e8e5d2.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai",
+      "status": "interrupted",
+      "retry": 0,
+      "durationMs": 7075,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \\| Chính hãng$/ }) })\nExpected: \u001b[32m1\u001b[39m\nError: Test ended.\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \\| Chính hãng$/ }) }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \\| Chính hãng$/ }) })\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n\u001b[2m  - Test ended.\u001b[22m\n",
+        "Error: locator.click: Test ended.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Từ chối', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"btn btn-outline\">Từ chối</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    3 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a class=\"product-name\">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class=\"cps-container cps-body\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/attachments/execution-screenshot-5658e3be75379b007512c72d68da5f1c2fb29edb.png"
+      ]
+    }
+  ],
+  "scope": "Personal scope: PD/CP/RV — 22130275 Trịnh Quang Thông. Only modules selected in this run; not a full group suite."
+}

@@ -1,0 +1,23 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const { spawn } = require('node:child_process');
+const root = path.resolve(__dirname, '..');
+const stamp = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Ho_Chi_Minh', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).format(new Date()).replace(/[^0-9]/g, '');
+const runId = `asm8-${stamp}-${process.pid}`;
+const logDir = path.resolve(root, '..', 'Envidence - Group15', runId, 'logs');
+fs.mkdirSync(logDir, { recursive: true });
+const stream = fs.createWriteStream(path.join(logDir, 'console.log'));
+const args = ['test', ...process.argv.slice(2)];
+const env = { ...process.env, GROUP15_RUN_ID: runId };
+fs.writeFileSync(path.join(logDir, 'command.json'), JSON.stringify({ command: ['npx', 'playwright', ...args], runId, node: process.version, cwd: root, startedAt: new Date().toISOString() }, null, 2));
+console.log('ASM8 run:', runId);
+const cli = path.join(root, 'node_modules', '@playwright', 'test', 'cli.js');
+const child = spawn(process.execPath, [cli, ...args], { cwd: root, env, stdio: ['ignore', 'pipe', 'pipe'] });
+child.stdout.on('data', data => { process.stdout.write(data); stream.write(data); });
+child.stderr.on('data', data => { process.stderr.write(data); stream.write(data); });
+child.on('error', error => { console.error(error); stream.end(String(error)); process.exitCode = 1; });
+child.on('close', code => {
+  stream.end();
+  fs.writeFileSync(path.join(logDir, 'exit.json'), JSON.stringify({ code, endedAt: new Date().toISOString() }, null, 2));
+  process.exitCode = code === null ? 1 : code;
+});

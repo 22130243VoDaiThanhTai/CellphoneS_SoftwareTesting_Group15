@@ -1,0 +1,1154 @@
+{
+  "config": {
+    "argv": [
+      "/Users/admin/.nvm/versions/node/v24.15.0/bin/node",
+      "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/node_modules/.bin/playwright",
+      "test",
+      "--headed"
+    ],
+    "configFile": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/playwright.config.js",
+    "rootDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "22130275_TrinhQuangThong_ASM7.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "snapshotDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": "22130275_TrinhQuangThong_ASM7.spec.js",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "headless": false,
+          "channel": "chrome",
+          "launchOptions": {
+            "slowMo": 500
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "video": "off",
+          "trace": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "22130275_TrinhQuangThong_ASM7.spec.js",
+      "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Trang chi tiết sản phẩm",
+          "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+          "line": 65,
+          "column": 6,
+          "specs": [
+            {
+              "title": "PRODUCT_DETAIL_INFO_Open_01 - mở URL sản phẩm cố định",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3809,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:38:36.247Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-b231223d8a354b7612ea",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_01 - hiển thị tên, giá, ảnh và thông số",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3276,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:38:40.726Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-782a4d43e187a64d68ce",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 71,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_02 - giá bán và giá gốc đang hiển thị",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "price-observation",
+                      "description": "Không có phần tử giá gốc gạch ngang; nhánh so sánh không áp dụng"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3486,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:38:44.029Z",
+                      "annotations": [
+                        {
+                          "type": "price-observation",
+                          "description": "Không có phần tử giá gốc gạch ngang; nhánh so sánh không áp dụng"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-2f056c08c5a85273a173",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 79,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_03 - không có nhãn phần trăm giảm cạnh giá",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3358,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:38:47.538Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f8738922c720079bde26",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 101,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Select_01 - chọn 256GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5298,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:38:50.929Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-47f9e31544aa0362955d",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 110,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Select_02 - chọn 512GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5556,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:38:56.250Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-729c3c2b840c1384ef9e",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 118,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Switch_01 - chuyển 512GB rồi về 256GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7904,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:01.826Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f92fb9ae64889198225b",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 126,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Open_01 - mở trực tiếp URL 512GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2804,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:09.753Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-9431b0ee157f66b03a40",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 136,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COLOR_Select_01 - chọn lần lượt các màu đang hiển thị",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7889,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:12.585Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-a766ef69734739bfd3d8",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 142,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4724,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:20.503Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-aee039eee25fe464a583",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 147,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Switch_02 - giữ màu Tím khi đổi sang 512GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6156,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:25.245Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-a3559fbe030e31ea7e51",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 156,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Select_01 - chọn ảnh thu nhỏ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5460,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:31.417Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-246d4e580bd403759fc4",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 164,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Navigate_01 - chuyển ảnh bằng Next",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3894,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:36.903Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-3fd905fbe31133cbf24a",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 173,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Navigate_02 - Previous tại slide đầu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5404,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:40.820Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-133b9932f6b7141cb12d",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 181,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Open_01 - mở ảnh lớn, Escape và đóng hộp thoại video",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6364,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:46.242Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f2c1eed94f52c523e411",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 188,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3486,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:52.624Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-39c7d24a99a5ffd90086",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 201,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_Open_02 - mở phần mô tả sản phẩm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4302,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:39:56.130Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-683849418065a98d851e",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 208,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_SPECS_View_01 - hiển thị các hàng thông số",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3343,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:00.451Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f6a41add7cc3f5e9231c",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 214,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_SPECS_Open_01 - mở bảng thông số mở rộng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4467,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:03.818Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-6ae7050577e7585d857d",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 221,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_SPECS_Switch_01 - chuyển nhóm Màn hình",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5186,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:08.306Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-1b2ec4b43acc640e39e7",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 230,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_ACTION_Add_01 - thêm vào giỏ và dọn sản phẩm kiểm thử",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 240,
+                        "column": 32
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:13.521Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 240,
+                            "column": 32
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-e444265f7eee0f9053d4",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 240,
+              "column": 32
+            },
+            {
+              "title": "PRODUCT_DETAIL_ACTION_Buy_01 - MUA NGAY tới giỏ rồi dọn sản phẩm kiểm thử",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 247,
+                        "column": 32
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:13.521Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 247,
+                            "column": 32
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-3c5ce04dca5d6c61d7e3",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 247,
+              "column": 32
+            },
+            {
+              "title": "PRODUCT_DETAIL_COLOR_Switch_01 - đổi giữa hai màu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6084,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:13.522Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-3f66d87250c74df10c42",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 254,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_ERROR_Open_01 - URL không tồn tại",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1598,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:19.630Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-7c6767b2f4dd1a41adcd",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 262,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_ERROR_Security_01 - URL chứa payload script",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 270,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:21.244Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 270,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-0f785c597b176cac3d09",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 270,
+              "column": 8
+            },
+            {
+              "title": "PRODUCT_DETAIL_COMPAT_Reload_01 - tải lại vẫn giữ màu và URL",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11232,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:21.244Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-ee46113690d3f7f5caa3",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 274,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COMPAT_Navigate_01 - Back rồi Forward",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12184,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:32.494Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-1ccadf72b0d18e72910a",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 284,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COMPAT_View_01 - hiển thị ở viewport 390x844",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5398,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-30T14:40:44.695Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-60590007757e23dbf0e9",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 296,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-30T14:38:35.578Z",
+    "duration": 134990.635,
+    "expected": 25,
+    "skipped": 3,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,376 @@
+Browser tab: 393379589, Title: "So sánh iPhone 17 256GB | Chính hãng và iPhone 17 Pro 256GB | Chính hãng", URL: "https://cellphones.com.vn/so-sanh/iphone-17-256gb-vs-iphone-17-pro".
+1 AXWebArea So sánh iPhone 17 256GB | Chính hãng và iPhone 17 Pro 256GB | Chính hãng, URL: cellphones.com.vn/so-sanh/iph…
+	2 container layout-desktop
+		3 container cpsHeaderOutLine
+			4 container cpsHeader
+				5 container topInfoBar
+					6 container
+						7 image
+						8 text Sản phẩm  Chính hãng - Xuất VAT  đầy đủ
+						9 image
+						10 text Giao nhanh - Miễn phí  cho đơn 300k
+						11 image
+						12 text Thu cũ  giá ngon -  Lên đời  tiết kiệm
+						13 image
+						14 text Sản phẩm  Chính hãng - Xuất VAT  đầy đủ
+						15 image
+						16 text Giao nhanh - Miễn phí  cho đơn 300k
+						17 image
+						18 text Thu cũ  giá ngon -  Lên đời  tiết kiệm
+					19 link Description: Cửa hàng gần bạn, Value: cellphones.com.vn/dia-chi-cua…
+					20 link Description: Tra cứu đơn hàng, Value: smember.com.vn/order
+					21 link Description: 1800 2097, Value: tel:18002097
+				22 container
+					23 link Description: CellphoneS CellphoneS, Value: cellphones.com.vn/
+					24 button Danh mục
+						25 image
+						26 text Danh mục
+						27 image
+					28 button Đang tải...
+						29 image
+						30 text Đang tải...
+						31 image
+					32 button
+						33 image
+					34 text field (settable) inp$earch
+					35 link Giỏ hàng 4
+						36 text Giỏ hàng
+						37 container
+							38 image
+							39 text 4
+					40 button Đăng nhập
+						41 text Đăng nhập
+						42 image
+		43 container
+			44 heading So Sánh iPhone 17 256GB | Chính hãng và iPhone 17 Pro 256GB | Chính hãng, Value: 1
+				45 container
+					46 text So Sánh  iPhone 17 256GB | Chính hãng và  iPhone 17 Pro 256GB | Chính hãng
+			47 container
+				48 link cdn2.cellphones.com.vn/x/medi…
+				49 link cdn2.cellphones.com.vn/x/medi…
+				50 link cdn2.cellphones.com.vn/x/medi…
+				51 link cdn2.cellphones.com.vn/x/medi…
+				52 link cdn2.cellphones.com.vn/x/medi…
+				53 link cdn2.cellphones.com.vn/x/medi…
+				54 link cdn2.cellphones.com.vn/x/medi…
+				55 link cdn2.cellphones.com.vn/x/medi…
+				56 link cdn2.cellphones.com.vn/x/medi…
+				57 link cdn2.cellphones.com.vn/x/medi…
+				58 link cdn2.cellphones.com.vn/x/medi…
+				59 link cdn2.cellphones.com.vn/x/medi…
+				60 button
+					61 image
+			62 link cellphones.com.vn/so-sanh/iph…
+			63 container
+				64 link cdn2.cellphones.com.vn/x/medi…
+				65 link cdn2.cellphones.com.vn/x/medi…
+				66 link cdn2.cellphones.com.vn/x/medi…
+				67 link cdn2.cellphones.com.vn/x/medi…
+				68 link cdn2.cellphones.com.vn/x/medi…
+				69 link cdn2.cellphones.com.vn/x/medi…
+				70 link cdn2.cellphones.com.vn/x/medi…
+				71 link cdn2.cellphones.com.vn/x/medi…
+				72 link cdn2.cellphones.com.vn/x/medi…
+				73 link cdn2.cellphones.com.vn/x/medi…
+				74 link cdn2.cellphones.com.vn/x/medi…
+				75 link cdn2.cellphones.com.vn/x/medi…
+				76 button
+					77 image
+			78 link cellphones.com.vn/so-sanh/iph…
+			79 link Description: Mua ngay, Value: cellphones.com.vn/iphone-17-2…
+			80 link Description: Mua ngay, Value: cellphones.com.vn/iphone-17-p…
+			81 text Thông tin cơ bản
+			82 table d-basic-spec-compare
+				83 row
+					84 cell
+						85 text Hệ điều hành khi ra mắt
+					86 cell
+						87 text iOS 26
+					88 cell
+						89 text iOS 26
+				90 row
+					91 cell
+						92 text Chipset
+					93 cell
+						94 text Apple A19
+					95 cell
+						96 text Chip A19 Pro
+				97 row
+					98 cell
+						99 text Bộ nhớ trong
+					100 cell
+						101 text 256 GB
+					102 cell
+						103 text 256 GB
+				104 row
+					105 cell
+						106 text Loại CPU
+					107 cell
+						108 text 6 lõi (2 hiệu năng + 4 tiết kiệm điện)
+					109 cell
+						110 text CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện
+				111 row
+					112 cell
+						113 text GPU
+					114 cell
+						115 text GPU 5 lõi với Neural Accelerator
+					116 cell
+						117 text GPU 6 lõi với Neural Accelerator
+				118 row
+					119 cell
+						120 text Kích thước màn hình
+					121 cell
+						122 text 6.3 inches
+					123 cell
+						124 text 6.3 inches
+				125 row
+					126 cell
+						127 text Công nghệ màn hình
+					128 cell
+						129 link Description: Super Retina XDR OLED, Value: cellphones.com.vn/sforum/man-…
+					130 cell
+						131 text Super Retina XDR
+				132 row
+					133 cell
+						134 text Độ phân giải màn hình
+					135 cell
+						136 text 2622 x 1206 pixels
+					137 cell
+						138 text 2622 x 1206 pixels
+				139 row
+					140 cell
+						141 text Tính năng màn hình
+					142 cell
+						143 container
+							144 text Dynamic Island
+							145 text Màn hình luôn bật
+							146 text HDR
+							147 text 460 ppi
+							148 text True Tone
+							149 text Dải màu rộng (P3)
+							150 text Haptic Touch
+							151 text Tỷ lệ tương phản 2.000.000:1
+							152 text Độ sáng 1000 nit (typ)
+							153 text Đỉnh 1600 nit (HDR)
+							154 text Đỉnh 3000 nit (ngoài trời)
+							155 text Lớp phủ chống vân tay, chống phản chi
+					156 cell
+						157 text Màn hình Luôn Bật, ProMotion 120Hz, HDR, True Tone, Dải màu rộng (P3), Haptic Touch, Tỷ lệ tương phản 2.000.000:1, Độ sáng 1000 nit (tiêu chuẩn), 1600 nit (HDR), 3000 nit (ngoài trời) / tối thiểu 1 nit, Lớp phủ kháng dầu, Chống phản chiếu, Hỗ trợ đa ngôn
+				158 row
+					159 cell
+						160 text Camera sau
+					161 cell
+						162 container
+							163 text 48MP Fusion Main f/1.6 OIS
+							164 text 12MP Tele 2x f/1.6 OIS
+							165 text 48MP Ultra Wide f/2.2 120°
+					166 cell
+						167 container
+							168 text Chính: 48MP khẩu độ ƒ/1.6 OIS hỗ trợ chụp 24MP hoặc 48MP
+							169 text Góc Siêu Rộng: 48MP khẩu độ ƒ/2.2 góc nhìn 120°
+							170 text Telephoto: 48MP khẩu độ ƒ/2.8 OIS zoom quang học lên đến 8x
+				171 row
+					172 cell
+						173 text Camera trước
+					174 cell
+						175 text 18MP Center Stage, f/1.9, PDAF
+					176 cell
+						177 text Camera 18MP Center Stage Khẩu độ ƒ/1.9
+				178 row
+					179 cell
+						180 text Pin
+					181 cell
+						182 container
+							183 text Xem video: 30 giờ
+							184 text Xem video trực tuyến: 27 giờ
+				185 row
+					186 cell
+						187 text Hỗ trợ mạng
+					188 cell
+						189 link Description: 5G, Value: cellphones.com.vn/sforum/mang…
+				190 row
+					191 cell
+						192 text Thẻ SIM
+					193 cell
+						194 text Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim
+					195 cell
+						196 text Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim
+				197 row
+					198 cell
+						199 text Công nghệ NFC
+					200 cell
+						201 text Có
+					202 cell
+						203 text Có
+				204 row
+					205 cell
+						206 text Thời điểm ra mắt
+					207 cell
+						208 text 09/2025
+					209 cell
+						210 text 09/2025
+			211 link Xem so sánh cấu hình chi tiết  
+				212 text Xem so sánh cấu hình chi tiết  
+			213 container search-to-compare
+				214 container
+					215 text Tìm sản phẩm để so sánh
+					216 button close
+					217 container
+						218 text field (settable)
+					219 text Không tìm được sản phẩm phù hợp
+			220 container block-comment-cps
+				221 text Hỏi và đáp
+				222 image cps ant icon
+				223 text Hãy đặt câu hỏi cho chúng tôi
+				224 container
+					225 text CellphoneS sẽ phản hồi trong vòng 1 giờ. Nếu Quý khách gửi câu hỏi sau 22h, chúng tôi sẽ trả lời vào sáng hôm sau.
+					226 text Thông tin có thể thay đổi theo thời gian, vui lòng đặt câu hỏi để nhận được cập nhật mới nhất!
+				227 text entry area (settable)
+				228 button Gửi câu hỏi
+					229 text Gửi câu hỏi
+					230 image
+			231 image confetti
+		232 container
+			233 text Tổng đài hỗ trợ miễn phí
+			234 content list
+				235 container
+					236 text Mua hàng - bảo hành 
+					237 link Description: 1800.2097, Value: tel:18002097
+					238 text  (7h30 - 22h00)
+				239 container
+					240 text Khiếu nại 
+					241 link Description: 1800.2063, Value: tel:18002063
+					242 text  (8h00 - 21h30)
+			243 text Phương thức thanh toán
+			244 content list
+				245 link Description: Apple Pay, Value: cellphones.com.vn/sforum/appl…
+				246 link Description: Vnpay, Value: cellphones.com.vn/sforum/vnpa…
+				247 link Description: MoMo, Value: cellphones.com.vn/huong-dan-t…
+				248 link Description: Onepay, Value: cellphones.com.vn/huong-dan-m…
+				249 link Description: Kredivo, Value: cellphones.com.vn/uu-dai-doi-…
+				250 link Description: Zalopay, Value: cellphones.com.vn/sforum/huon…
+				251 link Description: Fundiin, Value: cellphones.com.vn/huong-dan-t…
+			252 container subscriber-form
+				253 text ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI
+				254 text Nhận ngay voucher 10%
+				255 text Voucher sẽ được gửi sau 24h, chỉ áp dụng cho khách hàng mới
+				256 container
+					257 text Email
+					258 text field (settable) Email
+				259 container
+					260 text Số điện thoại
+					261 text field (settable) Số điện thoại
+				262 container
+					263 text Bằng việc đăng ký nhận tin, bạn đã đọc và đồng ý với 
+					264 link Description: Chính sách bảo mật của CellphoneS., Value: cellphones.com.vn/tos
+				265 button ĐĂNG KÝ NGAY
+			266 text Thông tin và chính sách
+			267 content list
+				268 link Description: Mua hàng và thanh toán Online, Value: cellphones.com.vn/chinh-sach-…
+				269 link Description: Mua hàng trả góp, Value: cellphones.com.vn/tra-gop
+				270 link Description: Mua hàng trả góp bằng thẻ tín dụng, Value: cellphones.com.vn/huong-dan-m…
+				271 link Description: Chính sách giao hàng, Value: cellphones.com.vn/chinh-sach-…
+				272 link Description: Chính sách đổi trả, Value: cellphones.com.vn/tos
+				273 link Description: Tra điểm Smember, Value: smember.com.vn/
+				274 link Description: Xem ưu đãi Smember, Value: cellphones.com.vn/uu-dai-smem…
+				275 link Description: Tra thông tin bảo hành, Value: smember.com.vn/warranty
+				276 link Description: Tra cứu hoá đơn điện tử, Value: hddt.cellphones.com.vn/
+				277 link Description: Thông tin hoá đơn mua hàng, Value: cellphones.com.vn/quy-dinh-ve…
+				278 link Description: Trung tâm bảo hành chính hãng, Value: cellphones.com.vn/bao-hanh/ap…
+				279 link Description: Quy định về việc sao lưu dữ liệu, Value: cellphones.com.vn/quy-dinh-ve…
+				280 link Description: Chính sách khui hộp sản phẩm Apple, Value: cellphones.com.vn/chinh-sach-…
+				281 link Description: VAT Refund, Value: cellphones.com.vn/vat-refund
+			282 text Dịch vụ và thông tin khác
+			283 content list
+				284 link Description: Khách hàng doanh nghiệp (B2B), Value: cellphones.com.vn/dich-vu-kha…
+				285 link Description: Ưu đãi thanh toán, Value: cellphones.com.vn/danh-sach-k…
+				286 link Description: Quy chế hoạt động, Value: cellphones.com.vn/tos
+				287 link Description: Chính sách bảo mật thông tin cá nhân, Value: cellphones.com.vn/tos
+				288 link Description: Chính sách bảo mật dữ liệu đánh giá trên Zalo mini app, Value: cellphones.com.vn/quy-dinh-da…
+				289 link Description: Chính sách Bảo hành, Value: cellphones.com.vn/chinh-sach-…
+				290 link Description: Liên hệ hợp tác kinh doanh, Value: cellphones.com.vn/lien-he-hop…
+				291 link Description: Tuyển dụng, Value: tuyendung.cellphones.com.vn/
+				292 link Description: Dịch vụ bảo hành mở rộng, Value: cellphones.com.vn/bieu-phi-ba…
+				293 link Description: YouTube Shopping Affiliate, Value: cellphones.com.vn/youtube-sho…
+				294 container
+					295 text Mua sắm dễ dàng – Ưu đãi ngập tràn cùng app CellphoneS
+					296 image QR tải app
+					297 link Description: Tải app từ Google Play, Value: play.google.com/store/apps/de…
+					298 link Description: Tải app từ App Store, Value: apps.apple.com/vn/app/smember…
+			299 text Định giá máy chuyên sâu
+			300 text Miễn phí • Chỉ 2 phút
+			301 button Định giá ngay
+			302 text Kết nối với CellphoneS
+			303 link Description: CellphoneS Youtube Chanel, Value: youtube.com/@CellphoneSOffici…
+			304 link Description: CellphoneS Fanpage, Value: facebook.com/CellphoneSVietnam
+			305 link Description: CellphoneS Instagram, Value: instagram.com/cellphonesvn/
+			306 link Description: CellphoneS Tiktok, Value: tiktok.com/@cellphones.offici…
+			307 link Description: CellphoneS Zalo, Value: oa.zalo.me/3894196696036261863
+			308 text Website thành viên
+			309 text Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính
+			310 link Description: Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính, Value: dienthoaivui.com.vn/
+			311 text Trung tâm bảo hành uỷ quyền Apple
+			312 link Description: Trung tâm bảo hành uỷ quyền Apple, Value: cares.vn/
+			313 text Kênh thông tin giải trí công nghệ cho giới trẻ
+			314 link Description: Kênh thông tin giải trí công nghệ cho giới trẻ, Value: schannel.vn/
+			315 text Trang thông tin công nghệ mới nhất
+			316 link Description: Trang thông tin công nghệ mới nhất, Value: cellphones.com.vn/sforum
+			317 link Description: iPhone 18 Pro, Value: cellphones.com.vn/iphone-18-p…
+			318 text  | 
+			319 link Description: iPhone 18 Pro Max, Value: cellphones.com.vn/iphone-18-p…
+			320 link Description: iPhone Duo, Value: cellphones.com.vn/mobile/appl…
+			321 text  | 
+			322 link Description: iPhone 17, Value: cellphones.com.vn/mobile/appl…
+			323 text  | 
+			324 link Description: iPhone 17 Pro Max, Value: cellphones.com.vn/iphone-17-p…
+			325 link Description: iPhone 16, Value: cellphones.com.vn/mobile/appl…
+			326 text  | 
+			327 link Description: iPhone cũ, Value: cellphones.com.vn/hang-cu/iph…
+			328 text  | 
+			329 link Description: Macbook Neo, Value: cellphones.com.vn/laptop/mac/…
+			330 link Description: Điện thoại, Value: cellphones.com.vn/mobile.html
+			331 text  | 
+			332 link Description: Điện thoại iPhone, Value: cellphones.com.vn/mobile/appl…
+			333 text  | 
+			334 link Description: Xiaomi, Value: cellphones.com.vn/mobile/xiao…
+			335 link Description: Điện thoại Samsung Galaxy, Value: cellphones.com.vn/mobile/sams…
+			336 text  | 
+			337 link Description: Điện thoại OPPO, Value: cellphones.com.vn/mobile/oppo…
+			338 link Description: Camera giám sát an ninh, Value: cellphones.com.vn/phu-kien/ca…
+			339 link Description: Laptop, Value: cellphones.com.vn/laptop.html
+			340 text  | 
+			341 link Description: Laptop Acer, Value: cellphones.com.vn/laptop/acer…
+			342 text  | 
+			343 link Description: Laptop Dell, Value: cellphones.com.vn/laptop/dell…
+			344 text  | 
+			345 link Description: Laptop HP, Value: cellphones.com.vn/laptop/hp.h…
+			346 link Description: Tivi, Value: cellphones.com.vn/tivi.html
+			347 text  | 
+			348 link Description: Tivi Samsung, Value: cellphones.com.vn/tivi/samsun…
+			349 text  | 
+			350 link Description: Tivi Xiaomi, Value: cellphones.com.vn/tivi/xiaomi…
+			351 text  | 
+			352 link Description: Tivi LG, Value: cellphones.com.vn/tivi/lg.html
+			353 link Description: Z Flip 8, Value: cellphones.com.vn/dien-thoai-…
+			354 text  | 
+			355 link Description: Z Fold 8, Value: cellphones.com.vn/dien-thoai-…
+			356 text  | 
+			357 link Description: Z Fold 8 Ultra, Value: cellphones.com.vn/dien-thoai-…
+			358 text  | 
+			359 link Description: Build PC, Value: cellphones.com.vn/may-tinh-de…
+			360 link Description: Máy hút bụi, Value: cellphones.com.vn/nha-thong-m…
+			361 text  | 
+			362 link Description: Máy lọc không khí, Value: cellphones.com.vn/nha-thong-m…
+			363 link Description: Airpods 5, Value: cellphones.com.vn/apple-airpo…
+			364 text  | 
+			365 link Description: Redmi Note 17, Value: cellphones.com.vn/mobile/xiao…
+			366 text  | 
+			367 link Description: Xiaomi 17T, Value: cellphones.com.vn/dien-thoai-…
+			368 link Description: Apple Watch Series 12, Value: cellphones.com.vn/do-choi-con…
+			369 text  | 
+			370 link Description: Apple Watch Ultra 4, Value: cellphones.com.vn/do-choi-con…
+			371 text Công ty Cổ phần Thương Mại và Dịch Vụ Kỹ Thuật DIỆU PHÚC - GPĐKKD: 0316172372 cấp tại Sở KH & ĐT TP. HCM. Địa chỉ văn phòng: 350-352 Võ Văn Kiệt, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh, Việt Nam. Điện thoại: 028.7108.9666.
+			372 link Description: Đã thông báo bộ công thương, Value: online.gov.vn/nen-tang/eda5eb…
+			373 link Description: DMCA.com Protection Status, Value: dmca.com/Protection/Status.as…
+
+The focused UI element is 1 AXWebArea So sánh iPhone 17 256GB | Chính hãng và iPhone 17 Pro 256GB | Chính hãng, URL: cellphones.com.vn/so-sanh/iph…

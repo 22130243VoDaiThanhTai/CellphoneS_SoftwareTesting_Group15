@@ -1,0 +1,196 @@
+
+Running 29 tests using 1 worker
+
+(node:19022) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:89:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_01 - tiêu đề khu vực (7.4s)
+  ✓   2 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:90:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_02 - điểm trung bình (7.5s)
+  ✓   3 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:91:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại (8.2s)
+  ✓   4 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:92:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao (8.1s)
+  ✘   5 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:93:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm (17.0s)
+(node:19630) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:94:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao (9.4s)
+  ✘   7 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao (24.6s)
+(node:20242) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao (22.5s)
+(node:20311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao (13.7s)
+
+
+  1) [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:93:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator: locator('.boxReview').locator('.experience-review__item').filter({ has: locator('.boxReview').getByText('Hiệu năng', { exact: true }) }).locator('.item-point')
+    Expected pattern: /^\d(?:\.\d+)?\/5$/
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveText" locator('.boxReview').locator('.experience-review__item').filter({ has: locator('.boxReview').getByText('Hiệu năng', { exact: true }) }).locator('.item-point') with timeout 8000ms
+      - waiting for locator('.boxReview').locator('.experience-review__item').filter({ has: locator('.boxReview').getByText('Hiệu năng', { exact: true }) }).locator('.item-point')
+
+
+      91 |  test('PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại',async({page})=>{const b=await reviews(page);await expect(b.locator('.boxReview-score__count')).toHaveText(/^\s*\d+ lượt đánh giá\s*$/);});
+      92 |  test('PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao',async({page})=>{const b=await reviews(page);const levels=b.locator('.rating-level');await expect(levels).toHaveCount(5);for(const [i,n]of[5,4,3,2,1].entries()){await expect(levels.nth(i).locator('.star-count')).toHaveText(String(n));await expect(levels.nth(i).locator('progress')).toBeVisible();await expect(levels.nth(i).locator('span')).toHaveText(/^\d+ đánh giá$/);}});
+    > 93 |  test('PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm',async({page})=>{const b=await reviews(page);for(const n of ['Hiệu năng','Thời lượng pin','Chất lượng camera']){const item=b.locator('.experience-review__item').filter({has:b.getByText(n,{exact:true})});await expect(item.locator('.item-point')).toHaveText(/^\d(?:\.\d+)?\/5$/);await expect(item.locator('.item-review-count')).toContainText(/\d+ đánh giá/);}});
+         |                                                                                                                                                                                                                                                                                                               ^
+      94 |  test('PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao',async({page})=>{await reviews(page);await filter(page,'5 sao');await expect(cards(page).first()).toBeVisible();await expect.poll(async()=>cards(page).locator('.rating-label').allTextContents()).toEqual(expect.arrayContaining(['Tuyệt vời']));for(const card of await cards(page).all()){await expect(card.locator('.rating-label')).toHaveText('Tuyệt vời');await expect(card.locator('.item-review-rating__star > .icon.is-active')).toHaveCount(5);}});
+      95 |  for(const[n,id]of[[4,'02'],[3,'03'],[2,'04'],[1,'05']])test(`PRODUCT_REVIEW_FILTER_Select_${id} - nhánh rỗng ${n} sao`,async({page})=>{const b=await reviews(page);const level=b.locator('.rating-level').filter({has:b.locator('.star-count',{hasText:new RegExp('^'+n+'$')})});await expect(level.locator('progress')).toHaveAttribute('value',/^\d+$/);const count=Number(await level.locator('progress').getAttribute('value'));test.skip(count!==0,`Tiền đề workbook không còn: ${n} sao đang có ${count} đánh giá, không dùng case dữ liệu rỗng.`);await filter(page,`${n} sao`);await emptyReviews(page);});
+      96 |  test('PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao',async({page})=>{await reviews(page);const count=Number(await reviewBox(page).locator('.rating-level').nth(1).locator('progress').getAttribute('value'));test.skip(count!==0,'Nhánh 4 sao rỗng trong workbook không còn đúng.');await filter(page,'4 sao');await emptyReviews(page);await filter(page,'Tất cả');await expect(cards(page).first()).toBeVisible();await expect(reviewBox(page).getByText('Hiện chưa có đánh giá nào.',{exact:true})).toBeHidden();});
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:93:303
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/attachments/execution-screenshot-758bfd24c9f0590b5a598de4d1d3036975c879b3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress')
+    Expected pattern: /^\d+$/
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress') with timeout 8000ms
+      - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress')
+
+
+      93 |  test('PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm',async({page})=>{const b=await reviews(page);for(const n of ['Hiệu năng','Thời lượng pin','Chất lượng camera']){const item=b.locator('.experience-review__item').filter({has:b.getByText(n,{exact:true})});await expect(item.locator('.item-point')).toHaveText(/^\d(?:\.\d+)?\/5$/);await expect(item.locator('.item-review-count')).toContainText(/\d+ đánh giá/);}});
+      94 |  test('PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao',async({page})=>{await reviews(page);await filter(page,'5 sao');await expect(cards(page).first()).toBeVisible();await expect.poll(async()=>cards(page).locator('.rating-label').allTextContents()).toEqual(expect.arrayContaining(['Tuyệt vời']));for(const card of await cards(page).all()){await expect(card.locator('.rating-label')).toHaveText('Tuyệt vời');await expect(card.locator('.item-review-rating__star > .icon.is-active')).toHaveCount(5);}});
+    > 95 |  for(const[n,id]of[[4,'02'],[3,'03'],[2,'04'],[1,'05']])test(`PRODUCT_REVIEW_FILTER_Select_${id} - nhánh rỗng ${n} sao`,async({page})=>{const b=await reviews(page);const level=b.locator('.rating-level').filter({has:b.locator('.star-count',{hasText:new RegExp('^'+n+'$')})});await expect(level.locator('progress')).toHaveAttribute('value',/^\d+$/);const count=Number(await level.locator('progress').getAttribute('value'));test.skip(count!==0,`Tiền đề workbook không còn: ${n} sao đang có ${count} đánh giá, không dùng case dữ liệu rỗng.`);await filter(page,`${n} sao`);await emptyReviews(page);});
+         |                                                                                                                                                                                                                                                                                                                           ^
+      96 |  test('PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao',async({page})=>{await reviews(page);const count=Number(await reviewBox(page).locator('.rating-level').nth(1).locator('progress').getAttribute('value'));test.skip(count!==0,'Nhánh 4 sao rỗng trong workbook không còn đúng.');await filter(page,'4 sao');await emptyReviews(page);await filter(page,'Tất cả');await expect(cards(page).first()).toBeVisible();await expect(reviewBox(page).getByText('Hiện chưa có đánh giá nào.',{exact:true})).toBeHidden();});
+      97 |  test('PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng',async({page})=>{await reviews(page);await filter(page,'Có hình ảnh');await emptyReviews(page);});
+      98 |  test('PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng',async({page})=>{await reviews(page);await filter(page,'Đã mua hàng');await expect(cards(page).first().locator('.bought-cps')).toBeVisible();await expect.poll(async()=>cards(page).count()).toBeGreaterThan(0);for(const card of await cards(page).all())await expect(card.locator('.bought-cps')).toContainText('Đã mua tại CellphoneS');});
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:315
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/attachments/execution-screenshot-1d0b9a363802a391a947954f19bbbcff4d692669.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress')
+    Expected pattern: /^\d+$/
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress') with timeout 8000ms
+      - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress')
+
+
+      93 |  test('PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm',async({page})=>{const b=await reviews(page);for(const n of ['Hiệu năng','Thời lượng pin','Chất lượng camera']){const item=b.locator('.experience-review__item').filter({has:b.getByText(n,{exact:true})});await expect(item.locator('.item-point')).toHaveText(/^\d(?:\.\d+)?\/5$/);await expect(item.locator('.item-review-count')).toContainText(/\d+ đánh giá/);}});
+      94 |  test('PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao',async({page})=>{await reviews(page);await filter(page,'5 sao');await expect(cards(page).first()).toBeVisible();await expect.poll(async()=>cards(page).locator('.rating-label').allTextContents()).toEqual(expect.arrayContaining(['Tuyệt vời']));for(const card of await cards(page).all()){await expect(card.locator('.rating-label')).toHaveText('Tuyệt vời');await expect(card.locator('.item-review-rating__star > .icon.is-active')).toHaveCount(5);}});
+    > 95 |  for(const[n,id]of[[4,'02'],[3,'03'],[2,'04'],[1,'05']])test(`PRODUCT_REVIEW_FILTER_Select_${id} - nhánh rỗng ${n} sao`,async({page})=>{const b=await reviews(page);const level=b.locator('.rating-level').filter({has:b.locator('.star-count',{hasText:new RegExp('^'+n+'$')})});await expect(level.locator('progress')).toHaveAttribute('value',/^\d+$/);const count=Number(await level.locator('progress').getAttribute('value'));test.skip(count!==0,`Tiền đề workbook không còn: ${n} sao đang có ${count} đánh giá, không dùng case dữ liệu rỗng.`);await filter(page,`${n} sao`);await emptyReviews(page);});
+         |                                                                                                                                                                                                                                                                                                                           ^
+      96 |  test('PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao',async({page})=>{await reviews(page);const count=Number(await reviewBox(page).locator('.rating-level').nth(1).locator('progress').getAttribute('value'));test.skip(count!==0,'Nhánh 4 sao rỗng trong workbook không còn đúng.');await filter(page,'4 sao');await emptyReviews(page);await filter(page,'Tất cả');await expect(cards(page).first()).toBeVisible();await expect(reviewBox(page).getByText('Hiện chưa có đánh giá nào.',{exact:true})).toBeHidden();});
+      97 |  test('PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng',async({page})=>{await reviews(page);await filter(page,'Có hình ảnh');await emptyReviews(page);});
+      98 |  test('PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng',async({page})=>{await reviews(page);await filter(page,'Đã mua hàng');await expect(cards(page).first().locator('.bought-cps')).toBeVisible();await expect.poll(async()=>cards(page).count()).toBeGreaterThan(0);for(const card of await cards(page).all())await expect(card.locator('.bought-cps')).toContainText('Đã mua tại CellphoneS');});
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:315
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/attachments/execution-screenshot-1f50371e6155a52b1fd3ed775681aeaa7fae9ac1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao 
+
+    Test was interrupted.
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress')
+    Expected pattern: /^\d+$/
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress') with timeout 8000ms
+      - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.boxReview').locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress')
+      - Test ended.
+
+
+      93 |  test('PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm',async({page})=>{const b=await reviews(page);for(const n of ['Hiệu năng','Thời lượng pin','Chất lượng camera']){const item=b.locator('.experience-review__item').filter({has:b.getByText(n,{exact:true})});await expect(item.locator('.item-point')).toHaveText(/^\d(?:\.\d+)?\/5$/);await expect(item.locator('.item-review-count')).toContainText(/\d+ đánh giá/);}});
+      94 |  test('PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao',async({page})=>{await reviews(page);await filter(page,'5 sao');await expect(cards(page).first()).toBeVisible();await expect.poll(async()=>cards(page).locator('.rating-label').allTextContents()).toEqual(expect.arrayContaining(['Tuyệt vời']));for(const card of await cards(page).all()){await expect(card.locator('.rating-label')).toHaveText('Tuyệt vời');await expect(card.locator('.item-review-rating__star > .icon.is-active')).toHaveCount(5);}});
+    > 95 |  for(const[n,id]of[[4,'02'],[3,'03'],[2,'04'],[1,'05']])test(`PRODUCT_REVIEW_FILTER_Select_${id} - nhánh rỗng ${n} sao`,async({page})=>{const b=await reviews(page);const level=b.locator('.rating-level').filter({has:b.locator('.star-count',{hasText:new RegExp('^'+n+'$')})});await expect(level.locator('progress')).toHaveAttribute('value',/^\d+$/);const count=Number(await level.locator('progress').getAttribute('value'));test.skip(count!==0,`Tiền đề workbook không còn: ${n} sao đang có ${count} đánh giá, không dùng case dữ liệu rỗng.`);await filter(page,`${n} sao`);await emptyReviews(page);});
+         |                                                                                                                                                                                                                                                                                                                           ^
+      96 |  test('PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao',async({page})=>{await reviews(page);const count=Number(await reviewBox(page).locator('.rating-level').nth(1).locator('progress').getAttribute('value'));test.skip(count!==0,'Nhánh 4 sao rỗng trong workbook không còn đúng.');await filter(page,'4 sao');await emptyReviews(page);await filter(page,'Tất cả');await expect(cards(page).first()).toBeVisible();await expect(reviewBox(page).getByText('Hiện chưa có đánh giá nào.',{exact:true})).toBeHidden();});
+      97 |  test('PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng',async({page})=>{await reviews(page);await filter(page,'Có hình ảnh');await emptyReviews(page);});
+      98 |  test('PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng',async({page})=>{await reviews(page);await filter(page,'Đã mua hàng');await expect(cards(page).first().locator('.bought-cps')).toBeVisible();await expect.poll(async()=>cards(page).count()).toBeGreaterThan(0);for(const card of await cards(page).all())await expect(card.locator('.bought-cps')).toContainText('Đã mua tại CellphoneS');});
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:315
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/attachments/execution-screenshot-315a93a3da897b564e30704d17cfd4c4d6132e0e.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105215044-18789/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:93:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm 
+    [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao 
+    [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao 
+  1 interrupted
+    [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:95:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao 
+  20 did not run
+  5 passed (2.2m)

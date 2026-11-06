@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+.DS_Store
+
+# Giữ một lượt ASM7 đầy đủ đã chọn. Các lượt thử/video thô giữ cục bộ.
+run-evidence/asm7-*/
+!run-evidence/asm7-20261106092804-51425/
+run-evidence/asm7-20261106092804-51425/artifacts/
+run-evidence/asm7-20261106092804-51425/screenshots/
+22130275_TrinhQuangThong_ASM7.zip

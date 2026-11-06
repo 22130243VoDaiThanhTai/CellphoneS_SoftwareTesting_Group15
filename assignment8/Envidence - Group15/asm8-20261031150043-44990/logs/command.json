@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--project=pd",
+    "--grep",
+    "COLOR_Select_02|INFO_View_04"
+  ],
+  "runId": "asm8-20261031150043-44990",
+  "node": "v24.15.0",
+  "cwd": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15",
+  "startedAt": "2026-10-31T08:00:43.484Z"
+}
