@@ -1,0 +1,1 @@
+{"query":"query JSON_SERVER {\n                    cps_json(filter: {code: \"mini_game_secret_voucher\"})\n                  }","variables":{}}

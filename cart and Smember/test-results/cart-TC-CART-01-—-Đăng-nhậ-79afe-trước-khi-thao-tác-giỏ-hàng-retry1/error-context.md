@@ -1,0 +1,1984 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: cart.spec.js >> TC_CART_01 — Đăng nhập tài khoản Smember trước khi thao tác giỏ hàng
+- Location: tests\cart.spec.js:6:3
+
+# Error details
+
+```
+Error: No visible match for "button.items-center.justify-center.border-0.bg-gradient-to-r". URL=https://cellphones.com.vn/
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /black-friday
+        - paragraph [ref=e7]: Black Fire-Day 2026 sắp trở lại - Đăng ký ngay!
+      - generic [ref=e8]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - text: Sản phẩm
+            - strong [ref=e15]: Chính hãng - Xuất VAT
+            - text: đầy đủ
+          - generic [ref=e16]:
+            - strong [ref=e20]: Giao nhanh - Miễn phí
+            - text: cho đơn 300k
+          - generic [ref=e21]:
+            - strong [ref=e24]: Thu cũ
+            - text: giá ngon -
+            - strong [ref=e25]: Lên đời
+            - text: tiết kiệm
+          - generic [ref=e26]:
+            - text: Sản phẩm
+            - strong [ref=e30]: Chính hãng - Xuất VAT
+            - text: đầy đủ
+          - generic [ref=e31]:
+            - strong [ref=e35]: Giao nhanh - Miễn phí
+            - text: cho đơn 300k
+          - generic [ref=e36]:
+            - strong [ref=e39]: Thu cũ
+            - text: giá ngon -
+            - strong [ref=e40]: Lên đời
+            - text: tiết kiệm
+        - generic [ref=e41]:
+          - link "Cửa hàng gần bạn" [ref=e42] [cursor=pointer]:
+            - /url: /dia-chi-cua-hang
+          - link "Tra cứu đơn hàng" [ref=e48] [cursor=pointer]:
+            - /url: https://smember.com.vn/order?company_id=cellphones
+          - link "1800 2097" [ref=e53] [cursor=pointer]:
+            - /url: tel:18002097
+      - generic [ref=e57]:
+        - link [ref=e58] [cursor=pointer]:
+          - /url: /
+          - img "CellphoneS Logo" [ref=e61]
+          - generic:
+            - generic:
+              - img "CellphoneS Logo"
+        - button "Danh mục" [ref=e62] [cursor=pointer]
+        - button "Hồ Chí Minh" [ref=e70] [cursor=pointer]
+        - textbox "Bạn muốn mua gì hôm nay?" [ref=e85]
+        - generic [ref=e86] [cursor=pointer]: Giỏ hàng
+        - button "Đăng nhập" [active] [ref=e94] [cursor=pointer]
+    - main [ref=e99]:
+      - generic [ref=e100]:
+        - heading "CellphoneS - Điện thoại, laptop, tablet, phụ kiện chính hãng" [level=1] [ref=e101]
+        - generic [ref=e102]:
+          - generic [ref=e106]:
+            - generic [ref=e107] [cursor=pointer]:
+              - img "Điện thoại, Tablet" [ref=e109]
+              - generic [ref=e110]:
+                - link "Điện thoại" [ref=e111]:
+                  - /url: /mobile.html
+                - text: ","
+              - link "Tablet" [ref=e113]:
+                - /url: /tablet.html
+            - link [ref=e116] [cursor=pointer]:
+              - /url: /laptop.html
+              - img "Laptop" [ref=e118]
+              - paragraph [ref=e119]: Laptop
+            - generic [ref=e122] [cursor=pointer]:
+              - img "Âm thanh, Mic thu âm" [ref=e124]
+              - generic [ref=e125]:
+                - link "Âm thanh" [ref=e126]:
+                  - /url: /thiet-bi-am-thanh.html
+                - text: ","
+              - link "Mic thu âm" [ref=e128]:
+                - /url: /thiet-bi-am-thanh/micro-thu-am.html
+            - generic [ref=e131] [cursor=pointer]:
+              - img "Đồng hồ, Camera" [ref=e133]
+              - generic [ref=e134]:
+                - link "Đồng hồ" [ref=e135]:
+                  - /url: /do-choi-cong-nghe.html
+                - text: ","
+              - link "Camera" [ref=e137]:
+                - /url: /phu-kien/camera.html
+            - generic [ref=e140] [cursor=pointer]:
+              - img "Đồ gia dụng" [ref=e142]
+              - generic [ref=e143]:
+                - link "Đồ gia dụng" [ref=e144]:
+                  - /url: "/do-gia-dung.html\n"
+                - text: ","
+              - link "Làm đẹp" [ref=e146]:
+                - /url: /nha-thong-minh/suc-khoe-lam-dep.html
+            - link [ref=e149] [cursor=pointer]:
+              - /url: /phu-kien.html
+              - img "Phụ kiện" [ref=e151]
+              - paragraph [ref=e152]: Phụ kiện
+            - generic [ref=e155] [cursor=pointer]:
+              - img "PC, Màn hình, Máy in" [ref=e157]
+              - generic [ref=e158]:
+                - link "PC" [ref=e159]:
+                  - /url: /may-tinh-de-ban.html
+                - text: ","
+              - generic [ref=e160]:
+                - link "Màn hình" [ref=e161]:
+                  - /url: /man-hinh.html
+                - text: ","
+              - link "Máy in" [ref=e163]:
+                - /url: /may-in.html
+            - generic [ref=e166] [cursor=pointer]:
+              - img "Tivi, Điện máy" [ref=e168]
+              - generic [ref=e169]:
+                - link "Tivi" [ref=e170]:
+                  - /url: /tivi.html
+                - text: ","
+              - link "Điện máy" [ref=e172]:
+                - /url: /dien-may.html
+            - link [ref=e175] [cursor=pointer]:
+              - /url: /thu-cu-doi-moi
+              - img "Thu cũ đổi mới" [ref=e177]
+              - paragraph [ref=e178]: Thu cũ đổi mới
+            - link [ref=e181] [cursor=pointer]:
+              - /url: /hang-cu.html
+              - img "Hàng cũ" [ref=e183]
+              - paragraph [ref=e184]: Hàng cũ
+            - link [ref=e187] [cursor=pointer]:
+              - /url: /danh-sach-khuyen-mai
+              - img "Khuyến mãi" [ref=e189]
+              - paragraph [ref=e190]: Khuyến mãi
+            - link [ref=e193] [cursor=pointer]:
+              - /url: /sforum
+              - img "Tin công nghệ" [ref=e195]
+              - paragraph [ref=e196]: Tin công nghệ
+          - generic [ref=e199]:
+            - generic [ref=e201]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: IPHONE DUOĐặt trước ngay
+                - generic [ref=e208]: GALAXY Z8 SERIESGập mở đẳng cấp
+                - generic [ref=e219]: OPPO FIND X10 SERIESQuà tặng đến 12 triệu
+                - generic [ref=e222]: IPHONE 18 PRO MAXSẵn hàng. Giao liền tay!
+                - generic [ref=e225]: MUA KÍNH AI ROKIDTặng kèm gọng kính
+                - generic [ref=e228]: HUAWEI WATCH GT7Chăm sóc sức khỏe toàn diện
+                - generic [ref=e231]: HONOR 600S 5GƯu đãi mở bán
+                - generic [ref=e234]: OPPO PAD MINIGọn Nhẹ Trong Tay
+                - generic [ref=e237]: TAI NGHE SONY WH-1000XM4CGiá cực tốt
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - link [ref=e243] [cursor=pointer]:
+                    - /url: /mobile/apple/iphone-duo.html
+                    - img "IPHONE DUO Đặt trước ngay" [ref=e245]
+                  - link [ref=e247] [cursor=pointer]:
+                    - /url: /mobile/samsung/galaxy-z/z8-series.html
+                    - img "GALAXY Z8 SERIES Gập mở đẳng cấp" [ref=e249]
+                  - link [ref=e251] [cursor=pointer]:
+                    - /url: /dien-thoai-oppo-find-x10.html
+                    - img "OPPO FIND X10 SERIES Quà tặng đến 12 triệu" [ref=e253]
+                  - link [ref=e255] [cursor=pointer]:
+                    - /url: /mobile/apple/iphone-18.html
+                    - img "IPHONE 18 PRO MAX Sẵn hàng. Giao liền tay!" [ref=e257]
+                  - link [ref=e259] [cursor=pointer]:
+                    - /url: /kinh-thong-minh-ai-ar-rokid-glasses-rv101.html
+                    - img "MUA KÍNH AI ROKID Tặng kèm gọng kính" [ref=e261]
+                  - link [ref=e263] [cursor=pointer]:
+                    - /url: /dong-ho-thong-minh-huawei-watch-gt7.html
+                    - img "HUAWEI WATCH GT7 Chăm sóc sức khỏe toàn diện" [ref=e265]
+                  - link [ref=e267] [cursor=pointer]:
+                    - /url: /dien-thoai-honor-600s.html
+                    - img "HONOR 600S 5G Ưu đãi mở bán" [ref=e269]
+                  - link [ref=e271] [cursor=pointer]:
+                    - /url: /may-tinh-bang-oppo-pad-mini-wifi.html
+                    - img "OPPO PAD MINI Gọn Nhẹ Trong Tay" [ref=e273]
+                  - link [ref=e275] [cursor=pointer]:
+                    - /url: /tai-nghe-chup-tai-sony-wh-1000xm4c.html
+                    - img "TAI NGHE SONY WH-1000XM4C Giá cực tốt" [ref=e277]
+                - button [ref=e278] [cursor=pointer]
+                - button [ref=e281] [cursor=pointer]
+            - generic [ref=e284]:
+              - link [ref=e285] [cursor=pointer]:
+                - /url: /do-choi-cong-nghe/apple-watch/series-12.html
+                - img "Apple Watch Series 12" [ref=e287]
+              - link [ref=e288] [cursor=pointer]:
+                - /url: /dien-thoai-samsung-galaxy-a08.html
+                - img "Samsung Galaxy A08" [ref=e290]
+              - link [ref=e291] [cursor=pointer]:
+                - /url: /laptop.html
+                - img "B2S Laptop" [ref=e293]
+          - generic [ref=e295]:
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - img "icon-cellphones" [ref=e301]
+                - paragraph [ref=e302]: Chào mừng bạn đến với CellphoneS
+              - paragraph [ref=e303]: Nhập hội thành viên Smember để không bỏ lỡ các ưu đãi hấp dẫn.
+              - generic [ref=e304]:
+                - button "Đăng nhập" [ref=e305] [cursor=pointer]
+                - text: hoặc
+                - button "Đăng ký" [ref=e306] [cursor=pointer]
+              - link "Xem ưu đãi Smember" [ref=e307] [cursor=pointer]:
+                - /url: https://smember.com.vn/promotion
+            - generic [ref=e315]:
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - link "Ưu đãi cho giáo dục" [ref=e318] [cursor=pointer]:
+                    - /url: /uu-dai-sinh-vien-hoc-sinh
+                  - link "Đăng ký <b>nhận ưu đãi</b> Đăng ký nhận ưu đãi" [ref=e319] [cursor=pointer]:
+                    - /url: https://smember.com.vn/promotion/s-edu
+                    - img "Đăng ký <b>nhận ưu đãi</b>" [ref=e321]
+                    - generic [ref=e322]: Đăng ký nhận ưu đãi
+                  - link "Deal hot <b>học sinh sinh viên</b> Deal hot học sinh sinh viên" [ref=e323] [cursor=pointer]:
+                    - /url: /uu-dai-sinh-vien-hoc-sinh
+                    - img "Deal hot <b>học sinh sinh viên</b>" [ref=e325]
+                    - generic [ref=e326]: Deal hot học sinh sinh viên
+                  - link "Laptop <b>ưu đãi khủng</b> Laptop ưu đãi khủng" [ref=e327] [cursor=pointer]:
+                    - /url: /laptop.html
+                    - img "Laptop <b>ưu đãi khủng</b>" [ref=e329]
+                    - generic [ref=e330]: Laptop ưu đãi khủng
+                - generic [ref=e331]:
+                  - link "Thu cũ lên đời giá hời" [ref=e332] [cursor=pointer]:
+                    - /url: /thu-cu-doi-moi
+                  - link "Định giá máy chuyên sâu Định giá máy chuyên sâu" [ref=e333] [cursor=pointer]:
+                    - /url: /?action=modal-valuation
+                    - img "Định giá máy chuyên sâu" [ref=e335]
+                    - generic [ref=e336]: Định giá máy chuyên sâu
+                  - link "iPhone trợ giá <b>đến 5 triệu</b> iPhone trợ giá đến 5 triệu" [ref=e339] [cursor=pointer]:
+                    - /url: /thu-cu-doi-moi/trade-in-iphone
+                    - img "iPhone trợ giá <b>đến 5 triệu</b>" [ref=e341]
+                    - generic [ref=e342]: iPhone trợ giá đến 5 triệu
+                  - link "Samsung trợ giá <b>đến 6 triệu</b> Samsung trợ giá đến 6 triệu" [ref=e343] [cursor=pointer]:
+                    - /url: /thu-cu-doi-moi/trade-in-samsung
+                    - img "Samsung trợ giá <b>đến 6 triệu</b>" [ref=e345]
+                    - generic [ref=e346]: Samsung trợ giá đến 6 triệu
+                - generic [ref=e347]:
+                  - link "Khách hàng doanh nghiệp (B2B)" [ref=e348] [cursor=pointer]:
+                    - /url: /dich-vu-khach-hang-doanh-nghiep
+                  - link "Đăng ký <b>S-Business</b> Đăng ký S-Business" [ref=e349] [cursor=pointer]:
+                    - /url: https://smember.com.vn/promotion/s-business
+                    - img "Đăng ký <b>S-Business</b>" [ref=e351]
+                    - generic [ref=e352]: Đăng ký S-Business
+                  - link "Chính sách <b>ưu đãi</b> Chính sách ưu đãi" [ref=e353] [cursor=pointer]:
+                    - /url: /dich-vu-khach-hang-doanh-nghiep
+                    - img "Chính sách <b>ưu đãi</b>" [ref=e355]
+                    - generic [ref=e356]: Chính sách ưu đãi
+              - link [ref=e358] [cursor=pointer]:
+                - /url: /danh-sach-khuyen-mai
+                - img "Promotion banner 1" [ref=e360]
+        - link [ref=e361] [cursor=pointer]:
+          - /url: /uu-dai-sinh-vien-hoc-sinh
+          - img "ƯU ĐÃI SINH VIÊN" [ref=e363]
+        - generic [ref=e365]:
+          - generic [ref=e368]:
+            - generic [ref=e369]: FLASHSALE
+            - generic [ref=e374] [cursor=pointer]: SĂN DEAL CHUẨN GU
+            - generic [ref=e379] [cursor=pointer]: HOT SALE CUỐI TUẦN
+          - generic [ref=e384]:
+            - img "Gift Box Left" [ref=e385]
+            - img "Gift Box Right" [ref=e386]
+            - generic [ref=e387]:
+              - button "07/11" [ref=e388] [cursor=pointer]
+              - button "08/11" [ref=e389] [cursor=pointer]
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e393]:
+                  - button "12-14h 07/11" [ref=e394] [cursor=pointer]
+                  - button "20-22h 07/11" [ref=e395] [cursor=pointer]
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Bắt đầu sau
+                  - generic [ref=e398]:
+                    - generic [ref=e399]: "00"
+                    - generic [ref=e402]: ":"
+                    - generic [ref=e403]: "13"
+                    - generic [ref=e406]: ":"
+                    - generic [ref=e407]: "30"
+                    - generic [ref=e410]: ":"
+                    - generic [ref=e412]:
+                      - generic [ref=e413]: "17"
+                      - generic [ref=e414]: "16"
+              - generic [ref=e415]:
+                - generic [ref=e416]:
+                  - link "OPPO Reno10 Pro+ 5G 12GB 256GB OPPO Reno10 Pro+ 5G 12GB 256GB 9.400.000đ 13.990.000đ Đã bán 0/10 suất Flash Sale Icon" [ref=e418] [cursor=pointer]:
+                    - /url: /oppo-reno10-pro-plus.html
+                    - img "OPPO Reno10 Pro+ 5G 12GB 256GB" [ref=e421]
+                    - heading "OPPO Reno10 Pro+ 5G 12GB 256GB" [level=3] [ref=e422]
+                    - generic [ref=e423]:
+                      - generic [ref=e424]:
+                        - generic [ref=e425]: 9.400.000đ
+                        - deletion [ref=e426]: 13.990.000đ
+                      - generic [ref=e427]:
+                        - generic [ref=e428]: Đã bán 0/10 suất
+                        - img "Flash Sale Icon" [ref=e431]
+                  - link "Camera IP ngoài trời 360 độ 3MP 365 Selection OC1 Camera IP ngoài trời 360 độ 3MP 365 Selection OC1 290.000đ 580.000đ Đã bán 0/15 suất Flash Sale Icon" [ref=e433] [cursor=pointer]:
+                    - /url: /camera-ip-ngoai-troi-wifi-365-selection-oc1-2k.html
+                    - img "Camera IP ngoài trời 360 độ 3MP 365 Selection OC1" [ref=e436]
+                    - heading "Camera IP ngoài trời 360 độ 3MP 365 Selection OC1" [level=3] [ref=e437]
+                    - generic [ref=e438]:
+                      - generic [ref=e439]:
+                        - generic [ref=e440]: 290.000đ
+                        - deletion [ref=e441]: 580.000đ
+                      - generic [ref=e442]:
+                        - generic [ref=e443]: Đã bán 0/15 suất
+                        - img "Flash Sale Icon" [ref=e446]
+                  - link "Tai nghe Bluetooth True Wireless JBL Wave Buds Tai nghe Bluetooth True Wireless JBL Wave Buds 990.000đ 1.490.000đ Đã bán 0/10 suất Flash Sale Icon" [ref=e448] [cursor=pointer]:
+                    - /url: /tai-nghe-bluetooth-jbl-wave-buds.html
+                    - img "Tai nghe Bluetooth True Wireless JBL Wave Buds" [ref=e451]
+                    - heading "Tai nghe Bluetooth True Wireless JBL Wave Buds" [level=3] [ref=e452]
+                    - generic [ref=e453]:
+                      - generic [ref=e454]:
+                        - generic [ref=e455]: 990.000đ
+                        - deletion [ref=e456]: 1.490.000đ
+                      - generic [ref=e457]:
+                        - generic [ref=e458]: Đã bán 0/10 suất
+                        - img "Flash Sale Icon" [ref=e461]
+                  - link "RAM Laptop Kingston 1.2V 8GB 3200MHz KVR32S22S8/8 RAM Laptop Kingston 1.2V 8GB 3200MHz KVR32S22S8/8 1.690.000đ 3.590.000đ Đã bán 0/20 suất Flash Sale Icon" [ref=e463] [cursor=pointer]:
+                    - /url: /ram-laptop-kingston-8gb-3200mhz-sodimm-1-2v-cl22.html
+                    - img "RAM Laptop Kingston 1.2V 8GB 3200MHz KVR32S22S8/8" [ref=e466]
+                    - heading "RAM Laptop Kingston 1.2V 8GB 3200MHz KVR32S22S8/8" [level=3] [ref=e467]
+                    - generic [ref=e468]:
+                      - generic [ref=e469]:
+                        - generic [ref=e470]: 1.690.000đ
+                        - deletion [ref=e471]: 3.590.000đ
+                      - generic [ref=e472]:
+                        - generic [ref=e473]: Đã bán 0/20 suất
+                        - img "Flash Sale Icon" [ref=e476]
+                  - link "Nồi cơm điện đa năng Gaabor EC-30T01A Nồi cơm điện đa năng Gaabor EC-30T01A 419.000đ 690.000đ Đã bán 0/20 suất Flash Sale Icon" [ref=e478] [cursor=pointer]:
+                    - /url: /noi-dien-da-nang-gaabor-ec-30t01a.html
+                    - img "Nồi cơm điện đa năng Gaabor EC-30T01A" [ref=e481]
+                    - heading "Nồi cơm điện đa năng Gaabor EC-30T01A" [level=3] [ref=e482]
+                    - generic [ref=e483]:
+                      - generic [ref=e484]:
+                        - generic [ref=e485]: 419.000đ
+                        - deletion [ref=e486]: 690.000đ
+                      - generic [ref=e487]:
+                        - generic [ref=e488]: Đã bán 0/20 suất
+                        - img "Flash Sale Icon" [ref=e491]
+                  - link "Điều khiển vạn năng Beecube Remotee - Lightning Điều khiển vạn năng Beecube Remotee - Lightning 269.000đ 700.000đ Đã bán 0/10 suất Flash Sale Icon" [ref=e493] [cursor=pointer]:
+                    - /url: /beecube-remotee-lightning.html
+                    - img "Điều khiển vạn năng Beecube Remotee - Lightning" [ref=e496]
+                    - heading "Điều khiển vạn năng Beecube Remotee - Lightning" [level=3] [ref=e497]
+                    - generic [ref=e498]:
+                      - generic [ref=e499]:
+                        - generic [ref=e500]: 269.000đ
+                        - deletion [ref=e501]: 700.000đ
+                      - generic [ref=e502]:
+                        - generic [ref=e503]: Đã bán 0/10 suất
+                        - img "Flash Sale Icon" [ref=e506]
+                  - link "Loa vi tính Havit SK763 Loa vi tính Havit SK763 175.000đ 260.000đ Đã bán 0/15 suất Flash Sale Icon" [ref=e508] [cursor=pointer]:
+                    - /url: /loa-bluetooth-havit-sk763.html
+                    - img "Loa vi tính Havit SK763" [ref=e511]
+                    - heading "Loa vi tính Havit SK763" [level=3] [ref=e512]
+                    - generic [ref=e513]:
+                      - generic [ref=e514]:
+                        - generic [ref=e515]: 175.000đ
+                        - deletion [ref=e516]: 260.000đ
+                      - generic [ref=e517]:
+                        - generic [ref=e518]: Đã bán 0/15 suất
+                        - img "Flash Sale Icon" [ref=e521]
+                  - link "Máy hút bụi cầm tay Magic A-064 Máy hút bụi cầm tay Magic A-064 449.000đ 790.000đ Đã bán 0/10 suất Flash Sale Icon" [ref=e523] [cursor=pointer]:
+                    - /url: /may-hut-bui-cam-tay-magic-a-064.html
+                    - img "Máy hút bụi cầm tay Magic A-064" [ref=e526]
+                    - heading "Máy hút bụi cầm tay Magic A-064" [level=3] [ref=e527]
+                    - generic [ref=e528]:
+                      - generic [ref=e529]:
+                        - generic [ref=e530]: 449.000đ
+                        - deletion [ref=e531]: 790.000đ
+                      - generic [ref=e532]:
+                        - generic [ref=e533]: Đã bán 0/10 suất
+                        - img "Flash Sale Icon" [ref=e536]
+                  - link "Loa Karaoke xách tay Acnos S60 Loa Karaoke xách tay Acnos S60 2.490.000đ 2.840.000đ Đã bán 0/10 suất Flash Sale Icon" [ref=e538] [cursor=pointer]:
+                    - /url: /loa-karaoke-xach-tay-acnos-s60.html
+                    - img "Loa Karaoke xách tay Acnos S60" [ref=e541]
+                    - heading "Loa Karaoke xách tay Acnos S60" [level=3] [ref=e542]
+                    - generic [ref=e543]:
+                      - generic [ref=e544]:
+                        - generic [ref=e545]: 2.490.000đ
+                        - deletion [ref=e546]: 2.840.000đ
+                      - generic [ref=e547]:
+                        - generic [ref=e548]: Đã bán 0/10 suất
+                        - img "Flash Sale Icon" [ref=e551]
+                  - link "Tủ lạnh AQUA Multidoor 506 lít 2026 (AQR-M570XA(FS)) Tủ lạnh AQUA Multidoor 506 lít 2026 (AQR-M570XA(FS)) 12.290.000đ 15.990.000đ Đã bán 0/10 suất Flash Sale Icon" [ref=e553] [cursor=pointer]:
+                    - /url: /tu-lanh-aqua-inverter-multi-door-506-lit-aqr-m570xafs.html
+                    - img "Tủ lạnh AQUA Multidoor 506 lít 2026 (AQR-M570XA(FS))" [ref=e556]
+                    - heading "Tủ lạnh AQUA Multidoor 506 lít 2026 (AQR-M570XA(FS))" [level=3] [ref=e557]
+                    - generic [ref=e558]:
+                      - generic [ref=e559]:
+                        - generic [ref=e560]: 12.290.000đ
+                        - deletion [ref=e561]: 15.990.000đ
+                      - generic [ref=e562]:
+                        - generic [ref=e563]: Đã bán 0/10 suất
+                        - img "Flash Sale Icon" [ref=e566]
+                  - link "Chuột không dây Rapoo M320 Chuột không dây Rapoo M320 169.000đ 290.000đ Đã bán 0/30 suất Flash Sale Icon" [ref=e568] [cursor=pointer]:
+                    - /url: /chuot-khong-day-silent-rapoo-m320.html
+                    - img "Chuột không dây Rapoo M320" [ref=e571]
+                    - heading "Chuột không dây Rapoo M320" [level=3] [ref=e572]
+                    - generic [ref=e573]:
+                      - generic [ref=e574]:
+                        - generic [ref=e575]: 169.000đ
+                        - deletion [ref=e576]: 290.000đ
+                      - generic [ref=e577]:
+                        - generic [ref=e578]: Đã bán 0/30 suất
+                        - img "Flash Sale Icon" [ref=e581]
+                - button [ref=e582] [cursor=pointer]
+                - button [ref=e585] [cursor=pointer]
+              - generic [ref=e588]: Chỉ áp dụng thanh toán online thành công — Mỗi SĐT chỉ được mua 1 sản phẩm cùng loại - Không áp dụng cùng ưu đãi S-Student
+        - region "Xu hướng & Hàng mới về" [ref=e590]:
+          - tablist [ref=e591]:
+            - tab "DEAL SỐC MỖI NGÀY Deal sốc mỗi ngày" [selected]:
+              - generic: DEAL SỐC MỖI NGÀY
+              - generic:
+                - generic:
+                  - img "Deal sốc mỗi ngày"
+            - tab "SẢN PHẨM HOT TREND Sản phẩm hot trend" [ref=e592] [cursor=pointer]:
+              - generic [ref=e593]: SẢN PHẨM HOT TREND
+              - img "Sản phẩm hot trend" [ref=e596]
+            - tab "HÀNG MỚI VỀ Hàng mới về" [ref=e597] [cursor=pointer]:
+              - generic [ref=e598]: HÀNG MỚI VỀ
+              - img "Hàng mới về" [ref=e601]
+          - generic [ref=e603]:
+            - generic [ref=e605]:
+              - generic [ref=e606]:
+                - generic [ref=e607]:
+                  - button "Phụ kiện"
+                - button "Đồng hồ, âm thanh" [ref=e609] [cursor=pointer]
+                - button "Điện thoại" [ref=e611] [cursor=pointer]
+                - button "Máy tính bảng" [ref=e613] [cursor=pointer]
+                - button "Laptop" [ref=e615] [cursor=pointer]
+                - button "Màn hình, PC" [ref=e617] [cursor=pointer]
+                - button "Điện máy, gia dụng" [ref=e619] [cursor=pointer]
+              - button "Previous" [disabled] [ref=e620]
+              - button "Next" [disabled] [ref=e623]
+            - generic [ref=e627]:
+              - generic [ref=e628]:
+                - generic [ref=e629]:
+                  - button "Tất cả"
+                - button "Củ cáp Củ cáp" [ref=e631] [cursor=pointer]:
+                  - img "Củ cáp" [ref=e633]
+                  - generic [ref=e634]: Củ cáp
+                - button "Chuột, bàn phím Chuột, bàn phím" [ref=e636] [cursor=pointer]:
+                  - img "Chuột, bàn phím" [ref=e638]
+                  - generic [ref=e639]: Chuột, bàn phím
+                - button "Sạc dự phòng Sạc dự phòng" [ref=e641] [cursor=pointer]:
+                  - img "Sạc dự phòng" [ref=e643]
+                  - generic [ref=e644]: Sạc dự phòng
+                - button "Camera Camera" [ref=e646] [cursor=pointer]:
+                  - img "Camera" [ref=e648]
+                  - generic [ref=e649]: Camera
+                - button "Phụ kiện Apple Phụ kiện Apple" [ref=e651] [cursor=pointer]:
+                  - img "Phụ kiện Apple" [ref=e653]
+                  - generic [ref=e654]: Phụ kiện Apple
+                - button "Phụ kiện tiện ích Phụ kiện tiện ích" [ref=e656] [cursor=pointer]:
+                  - img "Phụ kiện tiện ích" [ref=e658]
+                  - generic [ref=e659]: Phụ kiện tiện ích
+                - button "Ốp lưng Ốp lưng" [ref=e661] [cursor=pointer]:
+                  - img "Ốp lưng" [ref=e663]
+                  - generic [ref=e664]: Ốp lưng
+                - button "Dàn màn hình Dàn màn hình" [ref=e666] [cursor=pointer]:
+                  - img "Dàn màn hình" [ref=e668]
+                  - generic [ref=e669]: Dàn màn hình
+              - button "Previous" [disabled] [ref=e670]
+              - button "Next" [ref=e673] [cursor=pointer]
+            - generic [ref=e679]:
+              - generic [ref=e680]:
+                - generic [ref=e683]:
+                  - link "Tai nghe Apple EarPods Lightning MWTY3ZA/A | Chính hãng Apple Việt Nam Tai nghe Apple EarPods Lightning MWTY3ZA/A | Chính hãng Apple Việt Nam 510.000đ 790.000đ Smember giảm đến 5.000đ Giảm 35%" [ref=e684] [cursor=pointer]:
+                    - /url: /apple-earpods-lightning.html
+                    - img "Tai nghe Apple EarPods Lightning MWTY3ZA/A | Chính hãng Apple Việt Nam" [ref=e686]
+                    - paragraph [ref=e687]: Tai nghe Apple EarPods Lightning MWTY3ZA/A | Chính hãng Apple Việt Nam
+                    - generic [ref=e688]:
+                      - paragraph [ref=e689]: 510.000đ
+                      - paragraph [ref=e690]: 790.000đ
+                    - generic [ref=e691]: Smember giảm đến 5.000đ
+                    - generic [ref=e692]:
+                      - text: Giảm
+                      - generic [ref=e693]: 35%
+                  - generic [ref=e694]:
+                    - generic [ref=e695]: 2 Giờ
+                    - generic [ref=e705]: "5"
+                    - button [ref=e709] [cursor=pointer]
+                - generic [ref=e714]:
+                  - link "DJI Pocket 3 Creator Combo DJI Pocket 3 Creator Combo 11.281.000đ 17.995.000đ Smember giảm đến 113.000đ Giảm 37% Trả góp 0% PMH 560,000 ₫" [ref=e715] [cursor=pointer]:
+                    - /url: /may-quay-chong-rung-dji-osmo-pocket-3-advanced-4k.html
+                    - img "DJI Pocket 3 Creator Combo" [ref=e717]
+                    - paragraph [ref=e718]: DJI Pocket 3 Creator Combo
+                    - generic [ref=e719]:
+                      - paragraph [ref=e720]: 11.281.000đ
+                      - paragraph [ref=e721]: 17.995.000đ
+                    - generic [ref=e722]: Smember giảm đến 113.000đ
+                    - generic [ref=e723]:
+                      - text: Giảm
+                      - generic [ref=e724]: 37%
+                    - generic [ref=e725]: Trả góp 0%
+                    - generic [ref=e729]:
+                      - list [ref=e731]:
+                        - listitem [ref=e732]: PMH
+                        - listitem [ref=e733]: 560,000 ₫
+                      - paragraph
+                  - generic [ref=e734]:
+                    - generic [ref=e735]: 2 Giờ
+                    - generic [ref=e745]: "4.9"
+                    - button [ref=e749] [cursor=pointer]
+                - generic [ref=e754]:
+                  - link "Ốp lưng iPhone 16 Pro Max Spigen Crystal Hybrid With Magsafe White Ốp lưng iPhone 16 Pro Max Spigen Crystal Hybrid With Magsafe White 805.000đ 1.150.000đ Smember giảm đến 40.000đ Giảm 30%" [ref=e755] [cursor=pointer]:
+                    - /url: /op-lung-iphone-16-pro-max-spigen-crystal-hybrid-with-magsafe.html
+                    - img "Ốp lưng iPhone 16 Pro Max Spigen Crystal Hybrid With Magsafe White" [ref=e757]
+                    - paragraph [ref=e758]: Ốp lưng iPhone 16 Pro Max Spigen Crystal Hybrid With Magsafe White
+                    - generic [ref=e759]:
+                      - paragraph [ref=e760]: 805.000đ
+                      - paragraph [ref=e761]: 1.150.000đ
+                    - generic [ref=e762]: Smember giảm đến 40.000đ
+                    - generic [ref=e763]:
+                      - text: Giảm
+                      - generic [ref=e764]: 30%
+                  - generic [ref=e765]:
+                    - generic [ref=e766]: 2 Giờ
+                    - button [ref=e776] [cursor=pointer]
+                - generic [ref=e781]:
+                  - link "Bàn phím cơ gaming E-Dra EK398X Beta đen xám Bàn phím cơ gaming E-Dra EK398X Beta đen xám 690.000đ 890.000đ Smember giảm đến 14.000đ Giảm 22%" [ref=e782] [cursor=pointer]:
+                    - /url: /ban-phim-co-gaming-e-dra-ek398x-beta-den-xam.html
+                    - img "Bàn phím cơ gaming E-Dra EK398X Beta đen xám" [ref=e784]
+                    - paragraph [ref=e785]: Bàn phím cơ gaming E-Dra EK398X Beta đen xám
+                    - generic [ref=e786]:
+                      - paragraph [ref=e787]: 690.000đ
+                      - paragraph [ref=e788]: 890.000đ
+                    - generic [ref=e789]: Smember giảm đến 14.000đ
+                    - generic [ref=e790]:
+                      - text: Giảm
+                      - generic [ref=e791]: 22%
+                  - generic [ref=e792]:
+                    - generic [ref=e793]: 2 Giờ
+                    - button [ref=e803] [cursor=pointer]
+                - generic [ref=e808]:
+                  - link "Cáp Mophie USB-C to USB-C 100W 3m Cáp Mophie USB-C to USB-C 100W 3m 490.000đ 690.000đ Smember giảm đến 25.000đ Giảm 29%" [ref=e809] [cursor=pointer]:
+                    - /url: /cap-type-c-to-type-c-mophie-100w-3m.html
+                    - img "Cáp Mophie USB-C to USB-C 100W 3m" [ref=e811]
+                    - paragraph [ref=e812]: Cáp Mophie USB-C to USB-C 100W 3m
+                    - generic [ref=e813]:
+                      - paragraph [ref=e814]: 490.000đ
+                      - paragraph [ref=e815]: 690.000đ
+                    - generic [ref=e816]: Smember giảm đến 25.000đ
+                    - generic [ref=e817]:
+                      - text: Giảm
+                      - generic [ref=e818]: 29%
+                  - generic [ref=e819]:
+                    - generic [ref=e820]: 2 Giờ
+                    - generic [ref=e830]: "5"
+                    - button [ref=e834] [cursor=pointer]
+                - generic [ref=e839]:
+                  - link "Ốp lưng Samsung Galaxy A35 2024 Samsung Silicon Ốp lưng Samsung Galaxy A35 2024 Samsung Silicon 110.000đ 183.000đ Smember giảm đến 2.000đ Giảm 40%" [ref=e840] [cursor=pointer]:
+                    - /url: /op-lung-samsung-galaxy-a35-silicon.html
+                    - img "Ốp lưng Samsung Galaxy A35 2024 Samsung Silicon" [ref=e842]
+                    - paragraph [ref=e843]: Ốp lưng Samsung Galaxy A35 2024 Samsung Silicon
+                    - generic [ref=e844]:
+                      - paragraph [ref=e845]: 110.000đ
+                      - paragraph [ref=e846]: 183.000đ
+                    - generic [ref=e847]: Smember giảm đến 2.000đ
+                    - generic [ref=e848]:
+                      - text: Giảm
+                      - generic [ref=e849]: 40%
+                  - generic [ref=e850]:
+                    - generic [ref=e851]: 2 Giờ
+                    - generic [ref=e861]: "4"
+                    - button [ref=e865] [cursor=pointer]
+                - generic [ref=e870]:
+                  - link "DJI Pocket 3 Standard Combo DJI Pocket 3 Standard Combo 9.204.000đ 13.990.000đ Smember giảm đến 92.000đ Giảm 34% Trả góp 0% PMH 480,000 ₫" [ref=e871] [cursor=pointer]:
+                    - /url: /may-quay-chong-rung-dji-osmo-pocket-3-standard-4k.html
+                    - img "DJI Pocket 3 Standard Combo" [ref=e873]
+                    - paragraph [ref=e874]: DJI Pocket 3 Standard Combo
+                    - generic [ref=e875]:
+                      - paragraph [ref=e876]: 9.204.000đ
+                      - paragraph [ref=e877]: 13.990.000đ
+                    - generic [ref=e878]: Smember giảm đến 92.000đ
+                    - generic [ref=e879]:
+                      - text: Giảm
+                      - generic [ref=e880]: 34%
+                    - generic [ref=e881]: Trả góp 0%
+                    - generic [ref=e885]:
+                      - list [ref=e887]:
+                        - listitem [ref=e888]: PMH
+                        - listitem [ref=e889]: 480,000 ₫
+                      - paragraph
+                  - generic [ref=e890]:
+                    - generic [ref=e891]: 2 Giờ
+                    - button [ref=e901] [cursor=pointer]
+                - generic [ref=e906]:
+                  - link "Hub chuyển đổi Ugreen USB-C 5 IN 1 CM478 15495 Hub chuyển đổi Ugreen USB-C 5 IN 1 CM478 15495 320.000đ 416.000đ Smember giảm đến 16.000đ Giảm 23%" [ref=e907] [cursor=pointer]:
+                    - /url: /hub-chuyen-doi-ugreen-usb-c-to-usb-a-2-0-usb-a-3-0-hdmi-pd-ho-tro-4k-15495.html
+                    - img "Hub chuyển đổi Ugreen USB-C 5 IN 1 CM478 15495" [ref=e909]
+                    - paragraph [ref=e910]: Hub chuyển đổi Ugreen USB-C 5 IN 1 CM478 15495
+                    - generic [ref=e911]:
+                      - paragraph [ref=e912]: 320.000đ
+                      - paragraph [ref=e913]: 416.000đ
+                    - generic [ref=e914]: Smember giảm đến 16.000đ
+                    - generic [ref=e915]:
+                      - text: Giảm
+                      - generic [ref=e916]: 23%
+                  - generic [ref=e917]:
+                    - generic [ref=e918]: 2 Giờ
+                    - generic [ref=e928]: "4.8"
+                    - button [ref=e932] [cursor=pointer]
+                - generic [ref=e937]:
+                  - link "Pin sạc dự phòng Anker A1695 25.000mAh 165W tích hợp cáp rút gọn CellphoneS image placeholder Pin sạc dự phòng Anker A1695 25.000mAh 165W tích hợp cáp rút gọn 1.500.000đ 2.850.000đ Smember giảm đến 75.000đ Giảm 47%" [ref=e938] [cursor=pointer]:
+                    - /url: /pin-sac-du-phong-anker-a1695-25000mah-165w-kem-cap-rut-gon.html
+                    - generic [ref=e939]:
+                      - img "Pin sạc dự phòng Anker A1695 25.000mAh 165W tích hợp cáp rút gọn" [ref=e940]
+                      - img "CellphoneS image placeholder" [ref=e941]
+                    - paragraph [ref=e942]: Pin sạc dự phòng Anker A1695 25.000mAh 165W tích hợp cáp rút gọn
+                    - generic [ref=e943]:
+                      - paragraph [ref=e944]: 1.500.000đ
+                      - paragraph [ref=e945]: 2.850.000đ
+                    - generic [ref=e946]: Smember giảm đến 75.000đ
+                    - generic [ref=e947]:
+                      - text: Giảm
+                      - generic [ref=e948]: 47%
+                  - generic [ref=e949]:
+                    - generic [ref=e950]: 2 Giờ
+                    - generic [ref=e960]: "4.9"
+                    - button [ref=e964] [cursor=pointer]
+                - generic [ref=e969]:
+                  - link "DJI Action 4 Combo CellphoneS image placeholder DJI Action 4 Combo 8.150.000đ 11.690.000đ Smember giảm đến 82.000đ Giảm 30% Trả góp 0% PMH 400,000 ₫" [ref=e970] [cursor=pointer]:
+                    - /url: /combo-camera-hanh-dong-dji-action-4.html
+                    - generic [ref=e971]:
+                      - img "DJI Action 4 Combo" [ref=e972]
+                      - img "CellphoneS image placeholder" [ref=e973]
+                    - paragraph [ref=e974]: DJI Action 4 Combo
+                    - generic [ref=e975]:
+                      - paragraph [ref=e976]: 8.150.000đ
+                      - paragraph [ref=e977]: 11.690.000đ
+                    - generic [ref=e978]: Smember giảm đến 82.000đ
+                    - generic [ref=e979]:
+                      - text: Giảm
+                      - generic [ref=e980]: 30%
+                    - generic [ref=e981]: Trả góp 0%
+                    - generic [ref=e985]:
+                      - list [ref=e987]:
+                        - listitem [ref=e988]: PMH
+                        - listitem [ref=e989]: 400,000 ₫
+                      - paragraph
+                  - generic [ref=e990]:
+                    - generic [ref=e991]: 2 Giờ
+                    - generic [ref=e1001]: "5"
+                    - button [ref=e1005] [cursor=pointer]
+                - generic [ref=e1010]:
+                  - link "Chuột Gaming không dây Logitech G304 Lightspeed CellphoneS image placeholder Chuột Gaming không dây Logitech G304 Lightspeed 725.000đ 949.000đ Smember giảm đến 15.000đ S-Student giảm thêm 72.500đ Giảm 24%" [ref=e1011] [cursor=pointer]:
+                    - /url: /chuot-gaming-khong-day-logitech-g304-lightspeed.html
+                    - generic [ref=e1012]:
+                      - img "Chuột Gaming không dây Logitech G304 Lightspeed" [ref=e1013]
+                      - img "CellphoneS image placeholder" [ref=e1014]
+                    - paragraph [ref=e1015]: Chuột Gaming không dây Logitech G304 Lightspeed
+                    - generic [ref=e1016]:
+                      - paragraph [ref=e1017]: 725.000đ
+                      - paragraph [ref=e1018]: 949.000đ
+                    - generic [ref=e1019]: Smember giảm đến 15.000đ
+                    - generic [ref=e1020]: S-Student giảm thêm 72.500đ
+                    - generic [ref=e1021]:
+                      - text: Giảm
+                      - generic [ref=e1022]: 24%
+                  - generic [ref=e1023]:
+                    - generic [ref=e1024]: 2 Giờ
+                    - generic [ref=e1034]: "5"
+                    - button [ref=e1038] [cursor=pointer]
+                - generic [ref=e1043]:
+                  - link "Máy chơi game MSI Claw A8 BZ2EM CellphoneS image placeholder Máy chơi game MSI Claw A8 BZ2EM 25.990.000đ 33.990.000đ Smember giảm đến 260.000đ Giảm 24% Trả góp 0% Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop)" [ref=e1044] [cursor=pointer]:
+                    - /url: /may-choi-game-msi-claw-a8-bz2em.html
+                    - generic [ref=e1045]:
+                      - img "Máy chơi game MSI Claw A8 BZ2EM" [ref=e1046]
+                      - img "CellphoneS image placeholder" [ref=e1047]
+                    - paragraph [ref=e1048]: Máy chơi game MSI Claw A8 BZ2EM
+                    - generic [ref=e1049]:
+                      - paragraph [ref=e1050]: 25.990.000đ
+                      - paragraph [ref=e1051]: 33.990.000đ
+                    - generic [ref=e1052]: Smember giảm đến 260.000đ
+                    - generic [ref=e1053]:
+                      - text: Giảm
+                      - generic [ref=e1054]: 24%
+                    - generic [ref=e1055]: Trả góp 0%
+                    - paragraph [ref=e1060]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop)
+                  - generic [ref=e1061]:
+                    - generic [ref=e1062]: 2 Giờ
+                    - button [ref=e1072] [cursor=pointer]
+                - generic [ref=e1077]:
+                  - link "Bàn phím gaming có dây Logitech G515 TKL CellphoneS image placeholder Bàn phím gaming có dây Logitech G515 TKL 2.150.000đ 2.690.000đ Smember giảm đến 43.000đ S-Student giảm thêm 200.000đ Giảm 20%" [ref=e1078] [cursor=pointer]:
+                    - /url: /ban-phim-gaming-co-day-logitech-g515-tkl.html
+                    - generic [ref=e1079]:
+                      - img "Bàn phím gaming có dây Logitech G515 TKL" [ref=e1080]
+                      - img "CellphoneS image placeholder" [ref=e1081]
+                    - paragraph [ref=e1082]: Bàn phím gaming có dây Logitech G515 TKL
+                    - generic [ref=e1083]:
+                      - paragraph [ref=e1084]: 2.150.000đ
+                      - paragraph [ref=e1085]: 2.690.000đ
+                    - generic [ref=e1086]: Smember giảm đến 43.000đ
+                    - generic [ref=e1087]: S-Student giảm thêm 200.000đ
+                    - generic [ref=e1088]:
+                      - text: Giảm
+                      - generic [ref=e1089]: 20%
+                  - generic [ref=e1090]:
+                    - generic [ref=e1091]: 2 Giờ
+                    - button [ref=e1101] [cursor=pointer]
+                - generic [ref=e1106]:
+                  - link "Bàn phím Bluetooth Logitech Pebble Key 2 K380S CellphoneS image placeholder Bàn phím Bluetooth Logitech Pebble Key 2 K380S 730.000đ 1.129.000đ Smember giảm đến 15.000đ S-Student giảm thêm 73.000đ Giảm 35%" [ref=e1107] [cursor=pointer]:
+                    - /url: /ban-phim-bluetooth-logitech-pebble-k380s.html
+                    - generic [ref=e1108]:
+                      - img "Bàn phím Bluetooth Logitech Pebble Key 2 K380S" [ref=e1109]
+                      - img "CellphoneS image placeholder" [ref=e1110]
+                    - paragraph [ref=e1111]: Bàn phím Bluetooth Logitech Pebble Key 2 K380S
+                    - generic [ref=e1112]:
+                      - paragraph [ref=e1113]: 730.000đ
+                      - paragraph [ref=e1114]: 1.129.000đ
+                    - generic [ref=e1115]: Smember giảm đến 15.000đ
+                    - generic [ref=e1116]: S-Student giảm thêm 73.000đ
+                    - generic [ref=e1117]:
+                      - text: Giảm
+                      - generic [ref=e1118]: 35%
+                  - generic [ref=e1119]:
+                    - generic [ref=e1120]: 2 Giờ
+                    - generic [ref=e1130]: "4.8"
+                    - button [ref=e1134] [cursor=pointer]
+                - generic [ref=e1139]:
+                  - link "Chuột Gaming Logitech G502 Hero CellphoneS image placeholder Chuột Gaming Logitech G502 Hero 920.000đ 1.390.000đ Smember giảm đến 18.000đ S-Student giảm thêm 92.000đ Giảm 34%" [ref=e1140] [cursor=pointer]:
+                    - /url: /chuot-choi-game-co-day-logitech-g502-hero.html
+                    - generic [ref=e1141]:
+                      - img "Chuột Gaming Logitech G502 Hero" [ref=e1142]
+                      - img "CellphoneS image placeholder" [ref=e1143]
+                    - paragraph [ref=e1144]: Chuột Gaming Logitech G502 Hero
+                    - generic [ref=e1145]:
+                      - paragraph [ref=e1146]: 920.000đ
+                      - paragraph [ref=e1147]: 1.390.000đ
+                    - generic [ref=e1148]: Smember giảm đến 18.000đ
+                    - generic [ref=e1149]: S-Student giảm thêm 92.000đ
+                    - generic [ref=e1150]:
+                      - text: Giảm
+                      - generic [ref=e1151]: 34%
+                  - generic [ref=e1152]:
+                    - generic [ref=e1153]: 2 Giờ
+                    - generic [ref=e1163]: "4.9"
+                    - button [ref=e1167] [cursor=pointer]
+                - generic [ref=e1172]:
+                  - link "Sạc Anker Nano thông minh 1C 45W màn hình led A121D CellphoneS image placeholder Sạc Anker Nano thông minh 1C 45W màn hình led A121D 450.000đ 850.000đ Smember giảm đến 23.000đ Giảm 47%" [ref=e1173] [cursor=pointer]:
+                    - /url: /cu-sac-anker-nano-45w-a121d.html
+                    - generic [ref=e1174]:
+                      - img "Sạc Anker Nano thông minh 1C 45W màn hình led A121D" [ref=e1175]
+                      - img "CellphoneS image placeholder" [ref=e1176]
+                    - paragraph [ref=e1177]: Sạc Anker Nano thông minh 1C 45W màn hình led A121D
+                    - generic [ref=e1178]:
+                      - paragraph [ref=e1179]: 450.000đ
+                      - paragraph [ref=e1180]: 850.000đ
+                    - generic [ref=e1181]: Smember giảm đến 23.000đ
+                    - generic [ref=e1182]:
+                      - text: Giảm
+                      - generic [ref=e1183]: 47%
+                  - generic [ref=e1184]:
+                    - generic [ref=e1185]: 2 Giờ
+                    - generic [ref=e1195]: "5"
+                    - button [ref=e1199] [cursor=pointer]
+                - generic [ref=e1204]:
+                  - link "Camera DJI Osmo Action 4 CellphoneS image placeholder Camera DJI Osmo Action 4 5.670.000đ 9.190.000đ Smember giảm đến 57.000đ Giảm 38% Trả góp 0% PMH 280,000 ₫" [ref=e1205] [cursor=pointer]:
+                    - /url: /camera-hanh-dong-dji-action-4.html
+                    - generic [ref=e1206]:
+                      - img "Camera DJI Osmo Action 4" [ref=e1207]
+                      - img "CellphoneS image placeholder" [ref=e1208]
+                    - paragraph [ref=e1209]: Camera DJI Osmo Action 4
+                    - generic [ref=e1210]:
+                      - paragraph [ref=e1211]: 5.670.000đ
+                      - paragraph [ref=e1212]: 9.190.000đ
+                    - generic [ref=e1213]: Smember giảm đến 57.000đ
+                    - generic [ref=e1214]:
+                      - text: Giảm
+                      - generic [ref=e1215]: 38%
+                    - generic [ref=e1216]: Trả góp 0%
+                    - generic [ref=e1220]:
+                      - list [ref=e1222]:
+                        - listitem [ref=e1223]: PMH
+                        - listitem [ref=e1224]: 280,000 ₫
+                      - paragraph
+                  - generic [ref=e1225]:
+                    - generic [ref=e1226]: 2 Giờ
+                    - generic [ref=e1236]: "5"
+                    - button [ref=e1240] [cursor=pointer]
+                - generic [ref=e1245]:
+                  - link "Camera IP 360 độ 3MP Imou IPC-A32EP CellphoneS image placeholder Camera IP 360 độ 3MP Imou IPC-A32EP 380.000đ 700.000đ Smember giảm đến 8.000đ Giảm 46%" [ref=e1246] [cursor=pointer]:
+                    - /url: /camera-imou-ipc-a32e-khong-day-3mp.html
+                    - generic [ref=e1247]:
+                      - img "Camera IP 360 độ 3MP Imou IPC-A32EP" [ref=e1248]
+                      - img "CellphoneS image placeholder" [ref=e1249]
+                    - paragraph [ref=e1250]: Camera IP 360 độ 3MP Imou IPC-A32EP
+                    - generic [ref=e1251]:
+                      - paragraph [ref=e1252]: 380.000đ
+                      - paragraph [ref=e1253]: 700.000đ
+                    - generic [ref=e1254]: Smember giảm đến 8.000đ
+                    - generic [ref=e1255]:
+                      - text: Giảm
+                      - generic [ref=e1256]: 46%
+                  - generic [ref=e1257]:
+                    - generic [ref=e1258]: 2 Giờ
+                    - generic [ref=e1268]: "4.9"
+                    - button [ref=e1272] [cursor=pointer]
+                - generic [ref=e1277]:
+                  - link "Pin sạc dự phòng Ugreen không dây Magnetic PB561 10000mAh 20W CellphoneS image placeholder Pin sạc dự phòng Ugreen không dây Magnetic PB561 10000mAh 20W 690.000đ 900.000đ Smember giảm đến 35.000đ Giảm 23%" [ref=e1278] [cursor=pointer]:
+                    - /url: /pin-sac-du-phong-khong-day-ugreen-magnetic-pb561-10-000mah-20w.html
+                    - generic [ref=e1279]:
+                      - img "Pin sạc dự phòng Ugreen không dây Magnetic PB561 10000mAh 20W" [ref=e1280]
+                      - img "CellphoneS image placeholder" [ref=e1281]
+                    - paragraph [ref=e1282]: Pin sạc dự phòng Ugreen không dây Magnetic PB561 10000mAh 20W
+                    - generic [ref=e1283]:
+                      - paragraph [ref=e1284]: 690.000đ
+                      - paragraph [ref=e1285]: 900.000đ
+                    - generic [ref=e1286]: Smember giảm đến 35.000đ
+                    - generic [ref=e1287]:
+                      - text: Giảm
+                      - generic [ref=e1288]: 23%
+                  - generic [ref=e1289]:
+                    - generic [ref=e1290]: 2 Giờ
+                    - generic [ref=e1300]: "5"
+                    - button [ref=e1304] [cursor=pointer]
+                - generic [ref=e1309]:
+                  - link "Chuột Gaming không dây Logitech Pro X2 Superstrike Lightspeed CellphoneS image placeholder Chuột Gaming không dây Logitech Pro X2 Superstrike Lightspeed 4.290.000đ 7.149.000đ Smember giảm đến 86.000đ S-Student giảm thêm 200.000đ Giảm 40% Trả góp 0% Giảm thêm 20% khi mua cùng Laptop/Macbook áp dụng cùng giá khuyến mãi hiện hành" [ref=e1310] [cursor=pointer]:
+                    - /url: /chuot-gaming-khong-day-logitech-pro-x2-superstrike-lightspeed.html
+                    - generic [ref=e1311]:
+                      - img "Chuột Gaming không dây Logitech Pro X2 Superstrike Lightspeed" [ref=e1312]
+                      - img "CellphoneS image placeholder" [ref=e1313]
+                    - paragraph [ref=e1314]: Chuột Gaming không dây Logitech Pro X2 Superstrike Lightspeed
+                    - generic [ref=e1315]:
+                      - paragraph [ref=e1316]: 4.290.000đ
+                      - paragraph [ref=e1317]: 7.149.000đ
+                    - generic [ref=e1318]: Smember giảm đến 86.000đ
+                    - generic [ref=e1319]: S-Student giảm thêm 200.000đ
+                    - generic [ref=e1320]:
+                      - text: Giảm
+                      - generic [ref=e1321]: 40%
+                    - generic [ref=e1322]: Trả góp 0%
+                    - paragraph [ref=e1327]: Giảm thêm 20% khi mua cùng Laptop/Macbook áp dụng cùng giá khuyến mãi hiện hành
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]: 2 Giờ
+                    - generic [ref=e1339]: "5"
+                    - button [ref=e1343] [cursor=pointer]
+              - button "Previous" [disabled] [ref=e1346]
+              - button "Next" [ref=e1349] [cursor=pointer]
+        - generic [ref=e1353]:
+          - generic [ref=e1354]:
+            - link [ref=e1355] [cursor=pointer]:
+              - /url: /dien-thoai-xiaomi-redmi-note-17.html
+              - img "Xiaomi Redmi Note 17 Series ưu đãi mở bán" [ref=e1357]
+            - link [ref=e1358] [cursor=pointer]:
+              - /url: /dien-thoai-samsung-galaxy-s26-ultra.html
+              - img "Samsung Galaxy S26 Ultra 5G 12GB 256GB" [ref=e1360]
+          - generic [ref=e1361]:
+            - generic [ref=e1362]:
+              - button [ref=e1363] [cursor=pointer]:
+                - heading "Điện thoại" [level=2] [ref=e1364]
+              - button [ref=e1366] [cursor=pointer]:
+                - heading "Máy tính bảng" [level=2] [ref=e1367]
+            - generic [ref=e1368]:
+              - generic [ref=e1370]:
+                - generic [ref=e1371]:
+                  - link [ref=e1373] [cursor=pointer]:
+                    - /url: /mobile/dien-thoai-gaming.html
+                    - img "Điện thoại chơi game" [ref=e1375]
+                    - paragraph [ref=e1376]: Điện thoại chơi game
+                  - link [ref=e1378] [cursor=pointer]:
+                    - /url: /mobile/dien-thoai-pin-trau.html
+                    - img "Điện thoại pin trâu" [ref=e1380]
+                    - paragraph [ref=e1381]: Điện thoại pin trâu
+                  - link [ref=e1383] [cursor=pointer]:
+                    - /url: /bo-loc/dien-thoai-5g
+                    - img "Điện thoại 5G" [ref=e1385]
+                    - paragraph [ref=e1386]: Điện thoại 5G
+                  - link [ref=e1388] [cursor=pointer]:
+                    - /url: /mobile/dien-thoai-chup-anh-quay-phim.html
+                    - img "Điện thoại chụp ảnh đẹp" [ref=e1390]
+                    - paragraph [ref=e1391]: Điện thoại chụp ảnh đẹp
+                  - link [ref=e1393] [cursor=pointer]:
+                    - /url: /bo-loc/dien-thoai-man-hinh-gap-moi-nhat
+                    - img "Điện thoại gập" [ref=e1395]
+                    - paragraph [ref=e1396]: Điện thoại gập
+                  - link [ref=e1398] [cursor=pointer]:
+                    - /url: /mobile/ai.html
+                    - img "Điện thoại AI" [ref=e1400]
+                    - paragraph [ref=e1401]: Điện thoại AI
+                  - link [ref=e1403] [cursor=pointer]:
+                    - /url: /mobile/dien-thoai-pho-thong.html
+                    - img "Điện thoại phổ thông" [ref=e1405]
+                    - paragraph [ref=e1406]: Điện thoại phổ thông
+                - button "Previous" [disabled] [ref=e1407]
+                - button "Next" [ref=e1410] [cursor=pointer]
+              - generic [ref=e1413]:
+                - generic [ref=e1415]:
+                  - generic [ref=e1416]:
+                    - link "Apple" [ref=e1418] [cursor=pointer]:
+                      - /url: /mobile/apple.html
+                    - link "Samsung" [ref=e1420] [cursor=pointer]:
+                      - /url: /mobile/samsung.html
+                    - link "Xiaomi" [ref=e1422] [cursor=pointer]:
+                      - /url: /mobile/xiaomi.html
+                    - link "OPPO" [ref=e1424] [cursor=pointer]:
+                      - /url: /mobile/oppo.html
+                    - link "TECNO" [ref=e1426] [cursor=pointer]:
+                      - /url: /mobile/tecno.html
+                    - link "HONOR" [ref=e1428] [cursor=pointer]:
+                      - /url: /mobile/honor.html
+                    - link "Nubia" [ref=e1430] [cursor=pointer]:
+                      - /url: /mobile/nubia.html
+                    - link "Sony" [ref=e1432] [cursor=pointer]:
+                      - /url: /mobile/sony.html
+                    - link "Nokia" [ref=e1434] [cursor=pointer]:
+                      - /url: /mobile/nokia.html
+                    - link "Infinix" [ref=e1436] [cursor=pointer]:
+                      - /url: /mobile/infinix.html
+                    - link "Nothing Phone" [ref=e1438] [cursor=pointer]:
+                      - /url: /mobile/nothing-phone.html
+                    - link "Masstel" [ref=e1440] [cursor=pointer]:
+                      - /url: /mobile/masstel.html
+                    - link "Realme" [ref=e1442] [cursor=pointer]:
+                      - /url: /mobile/realme.html
+                    - link "Itel" [ref=e1444] [cursor=pointer]:
+                      - /url: /mobile/itel.html
+                    - link "vivo" [ref=e1446] [cursor=pointer]:
+                      - /url: /mobile/vivo.html
+                  - button "Previous" [disabled] [ref=e1447]
+                  - button "Next" [ref=e1450] [cursor=pointer]
+                - link "Xem tất cả" [ref=e1453] [cursor=pointer]:
+                  - /url: /mobile.html
+              - generic [ref=e1457]:
+                - generic [ref=e1458]:
+                  - generic [ref=e1461]:
+                    - link "iPhone 18 Pro Max 256GB CellphoneS image placeholder iPhone 18 Pro Max 256GB 41.990.000đ Smember giảm đến 420.000đ Trả góp 0% Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e1462] [cursor=pointer]:
+                      - /url: /iphone-18-pro-max.html
+                      - generic [ref=e1463]:
+                        - img "iPhone 18 Pro Max 256GB" [ref=e1464]
+                        - img "CellphoneS image placeholder" [ref=e1465]
+                      - heading "iPhone 18 Pro Max 256GB" [level=3] [ref=e1466]
+                      - paragraph [ref=e1468]: 41.990.000đ
+                      - generic [ref=e1469]: Smember giảm đến 420.000đ
+                      - generic [ref=e1470]: Trả góp 0%
+                      - paragraph [ref=e1475]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                    - generic [ref=e1476]:
+                      - generic [ref=e1477]: 2 Giờ
+                      - generic [ref=e1487]: "5"
+                      - button [ref=e1491] [cursor=pointer]
+                  - generic [ref=e1496]:
+                    - link "iPhone Duo 256GB CellphoneS image placeholder iPhone Duo 256GB Hàng đặt trước 64.990.000đ Smember giảm đến 650.000đ Trả góp 0% Ưu đãi 1TR cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone Duo và 1 km khác" [ref=e1497] [cursor=pointer]:
+                      - /url: /iphone-duo-256gb.html
+                      - generic [ref=e1498]:
+                        - img "iPhone Duo 256GB" [ref=e1499]
+                        - img "CellphoneS image placeholder" [ref=e1500]
+                      - heading "iPhone Duo 256GB" [level=3] [ref=e1501]
+                      - generic [ref=e1502]: Hàng đặt trước
+                      - paragraph [ref=e1504]: 64.990.000đ
+                      - generic [ref=e1505]: Smember giảm đến 650.000đ
+                      - generic [ref=e1506]: Trả góp 0%
+                      - paragraph [ref=e1511]: Ưu đãi 1TR cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone Duo và 1 km khác
+                    - button [ref=e1513] [cursor=pointer]
+                  - generic [ref=e1518]:
+                    - link "OPPO Find X10 Pro Max 16GB 512GB CellphoneS image placeholder OPPO Find X10 Pro Max 16GB 512GB Hàng mới về 49.990.000đ Smember giảm đến 500.000đ Trả góp 0% Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng" [ref=e1519] [cursor=pointer]:
+                      - /url: /dien-thoai-oppo-find-x10-pro-max.html
+                      - generic [ref=e1520]:
+                        - img "OPPO Find X10 Pro Max 16GB 512GB" [ref=e1521]
+                        - img "CellphoneS image placeholder" [ref=e1522]
+                      - heading "OPPO Find X10 Pro Max 16GB 512GB" [level=3] [ref=e1523]
+                      - generic [ref=e1524]: Hàng mới về
+                      - paragraph [ref=e1526]: 49.990.000đ
+                      - generic [ref=e1527]: Smember giảm đến 500.000đ
+                      - generic [ref=e1528]: Trả góp 0%
+                      - generic [ref=e1530]: Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng
+                    - generic [ref=e1532]:
+                      - generic [ref=e1533]: "5"
+                      - button [ref=e1537] [cursor=pointer]
+                  - generic [ref=e1542]:
+                    - link "iPhone 18 Pro 256GB CellphoneS image placeholder iPhone 18 Pro 256GB 38.690.000đ 38.990.000đ Smember giảm đến 387.000đ Giảm 1% Trả góp 0% Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e1543] [cursor=pointer]:
+                      - /url: /iphone-18-pro.html
+                      - generic [ref=e1544]:
+                        - img "iPhone 18 Pro 256GB" [ref=e1545]
+                        - img "CellphoneS image placeholder" [ref=e1546]
+                      - heading "iPhone 18 Pro 256GB" [level=3] [ref=e1547]
+                      - generic [ref=e1548]:
+                        - paragraph [ref=e1549]: 38.690.000đ
+                        - paragraph [ref=e1550]: 38.990.000đ
+                      - generic [ref=e1551]: Smember giảm đến 387.000đ
+                      - generic [ref=e1552]:
+                        - text: Giảm
+                        - generic [ref=e1553]: 1%
+                      - generic [ref=e1554]: Trả góp 0%
+                      - paragraph [ref=e1559]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                    - generic [ref=e1560]:
+                      - generic [ref=e1561]: 2 Giờ
+                      - generic [ref=e1571]: "5"
+                      - button [ref=e1575] [cursor=pointer]
+                  - generic [ref=e1580]:
+                    - link "iPhone 17 Pro 256GB | Chính hãng CellphoneS image placeholder iPhone 17 Pro 256GB | Chính hãng 31.990.000đ 34.990.000đ Smember giảm đến 320.000đ Giảm 9% Trả góp 0% Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác" [ref=e1581] [cursor=pointer]:
+                      - /url: /iphone-17-pro.html
+                      - generic [ref=e1582]:
+                        - img "iPhone 17 Pro 256GB | Chính hãng" [ref=e1583]
+                        - img "CellphoneS image placeholder" [ref=e1584]
+                      - heading "iPhone 17 Pro 256GB | Chính hãng" [level=3] [ref=e1585]
+                      - generic [ref=e1586]:
+                        - paragraph [ref=e1587]: 31.990.000đ
+                        - paragraph [ref=e1588]: 34.990.000đ
+                      - generic [ref=e1589]: Smember giảm đến 320.000đ
+                      - generic [ref=e1590]:
+                        - text: Giảm
+                        - generic [ref=e1591]: 9%
+                      - generic [ref=e1592]: Trả góp 0%
+                      - paragraph [ref=e1597]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác
+                    - generic [ref=e1598]:
+                      - generic [ref=e1599]: 2 Giờ
+                      - generic [ref=e1609]: "5"
+                      - button [ref=e1613] [cursor=pointer]
+                  - generic [ref=e1618]:
+                    - link "iPhone 17 Pro Max 256GB | Chính hãng CellphoneS image placeholder iPhone 17 Pro Max 256GB | Chính hãng 34.990.000đ 37.990.000đ Smember giảm đến 350.000đ Giảm 8% Trả góp 0% Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác" [ref=e1619] [cursor=pointer]:
+                      - /url: /iphone-17-pro-max.html
+                      - generic [ref=e1620]:
+                        - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e1621]
+                        - img "CellphoneS image placeholder" [ref=e1622]
+                      - heading "iPhone 17 Pro Max 256GB | Chính hãng" [level=3] [ref=e1623]
+                      - generic [ref=e1624]:
+                        - paragraph [ref=e1625]: 34.990.000đ
+                        - paragraph [ref=e1626]: 37.990.000đ
+                      - generic [ref=e1627]: Smember giảm đến 350.000đ
+                      - generic [ref=e1628]:
+                        - text: Giảm
+                        - generic [ref=e1629]: 8%
+                      - generic [ref=e1630]: Trả góp 0%
+                      - paragraph [ref=e1635]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác
+                    - generic [ref=e1636]:
+                      - generic [ref=e1637]: 2 Giờ
+                      - generic [ref=e1647]: "5"
+                      - button [ref=e1651] [cursor=pointer]
+                  - generic [ref=e1656]:
+                    - link "OPPO Find X10 5G 12GB 256GB CellphoneS image placeholder OPPO Find X10 5G 12GB 256GB Hàng mới về 34.990.000đ Smember giảm đến 350.000đ Trả góp 0% Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng" [ref=e1657] [cursor=pointer]:
+                      - /url: /dien-thoai-oppo-find-x10.html
+                      - generic [ref=e1658]:
+                        - img "OPPO Find X10 5G 12GB 256GB" [ref=e1659]
+                        - img "CellphoneS image placeholder" [ref=e1660]
+                      - heading "OPPO Find X10 5G 12GB 256GB" [level=3] [ref=e1661]
+                      - generic [ref=e1662]: Hàng mới về
+                      - paragraph [ref=e1664]: 34.990.000đ
+                      - generic [ref=e1665]: Smember giảm đến 350.000đ
+                      - generic [ref=e1666]: Trả góp 0%
+                      - generic [ref=e1668]: Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng
+                    - generic [ref=e1670]:
+                      - generic [ref=e1671]: "5"
+                      - button [ref=e1675] [cursor=pointer]
+                  - generic [ref=e1680]:
+                    - link "Samsung Galaxy S26 Ultra 5G 12GB 256GB CellphoneS image placeholder Samsung Galaxy S26 Ultra 5G 12GB 256GB 30.600.000đ 40.990.000đ Smember giảm đến 306.000đ S-Student giảm thêm 500.000đ Giảm 25% Trả góp 0% Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop)" [ref=e1681] [cursor=pointer]:
+                      - /url: /dien-thoai-samsung-galaxy-s26-ultra.html
+                      - generic [ref=e1682]:
+                        - img "Samsung Galaxy S26 Ultra 5G 12GB 256GB" [ref=e1683]
+                        - img "CellphoneS image placeholder" [ref=e1684]
+                      - heading "Samsung Galaxy S26 Ultra 5G 12GB 256GB" [level=3] [ref=e1685]
+                      - generic [ref=e1686]:
+                        - paragraph [ref=e1687]: 30.600.000đ
+                        - paragraph [ref=e1688]: 40.990.000đ
+                      - generic [ref=e1689]: Smember giảm đến 306.000đ
+                      - generic [ref=e1690]: S-Student giảm thêm 500.000đ
+                      - generic [ref=e1691]:
+                        - text: Giảm
+                        - generic [ref=e1692]: 25%
+                      - generic [ref=e1693]: Trả góp 0%
+                      - paragraph [ref=e1698]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop)
+                    - generic [ref=e1699]:
+                      - generic [ref=e1700]: 2 Giờ
+                      - generic [ref=e1710]: "5"
+                      - button [ref=e1714] [cursor=pointer]
+                  - generic [ref=e1719]:
+                    - link "iPhone 18 Pro Max 512GB CellphoneS image placeholder iPhone 18 Pro Max 512GB 48.490.000đ Smember giảm đến 485.000đ Trả góp 0% Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác" [ref=e1720] [cursor=pointer]:
+                      - /url: /iphone-18-pro-max-512gb.html
+                      - generic [ref=e1721]:
+                        - img "iPhone 18 Pro Max 512GB" [ref=e1722]
+                        - img "CellphoneS image placeholder" [ref=e1723]
+                      - heading "iPhone 18 Pro Max 512GB" [level=3] [ref=e1724]
+                      - paragraph [ref=e1726]: 48.490.000đ
+                      - generic [ref=e1727]: Smember giảm đến 485.000đ
+                      - generic [ref=e1728]: Trả góp 0%
+                      - paragraph [ref=e1733]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác
+                    - generic [ref=e1734]:
+                      - generic [ref=e1735]: 2 Giờ
+                      - button [ref=e1745] [cursor=pointer]
+                  - generic [ref=e1750]:
+                    - link "iPhone 17 256GB | Chính hãng CellphoneS image placeholder iPhone 17 256GB | Chính hãng 28.490.000đ 28.990.000đ Smember giảm đến 285.000đ Giảm 2% Trả góp 0% Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác" [ref=e1751] [cursor=pointer]:
+                      - /url: /iphone-17-256gb.html
+                      - generic [ref=e1752]:
+                        - img "iPhone 17 256GB | Chính hãng" [ref=e1753]
+                        - img "CellphoneS image placeholder" [ref=e1754]
+                      - heading "iPhone 17 256GB | Chính hãng" [level=3] [ref=e1755]
+                      - generic [ref=e1756]:
+                        - paragraph [ref=e1757]: 28.490.000đ
+                        - paragraph [ref=e1758]: 28.990.000đ
+                      - generic [ref=e1759]: Smember giảm đến 285.000đ
+                      - generic [ref=e1760]:
+                        - text: Giảm
+                        - generic [ref=e1761]: 2%
+                      - generic [ref=e1762]: Trả góp 0%
+                      - paragraph [ref=e1767]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác
+                    - generic [ref=e1768]:
+                      - generic [ref=e1769]: 2 Giờ
+                      - generic [ref=e1779]: "5"
+                      - button [ref=e1783] [cursor=pointer]
+                  - generic [ref=e1788]:
+                    - link "Samsung Galaxy Z Fold8 5G 12GB 256GB CellphoneS image placeholder Samsung Galaxy Z Fold8 5G 12GB 256GB 40.790.000đ 46.990.000đ Smember giảm đến 408.000đ S-Student giảm thêm 500.000đ Giảm 13% Trả góp 0% Ưu đãi dịch vụ hậu mãi độc quyền Galaxy Z Care và 3 km khác" [ref=e1789] [cursor=pointer]:
+                      - /url: /dien-thoai-samsung-galaxy-z-fold-8.html
+                      - generic [ref=e1790]:
+                        - img "Samsung Galaxy Z Fold8 5G 12GB 256GB" [ref=e1791]
+                        - img "CellphoneS image placeholder" [ref=e1792]
+                      - heading "Samsung Galaxy Z Fold8 5G 12GB 256GB" [level=3] [ref=e1793]
+                      - generic [ref=e1794]:
+                        - paragraph [ref=e1795]: 40.790.000đ
+                        - paragraph [ref=e1796]: 46.990.000đ
+                      - generic [ref=e1797]: Smember giảm đến 408.000đ
+                      - generic [ref=e1798]: S-Student giảm thêm 500.000đ
+                      - generic [ref=e1799]:
+                        - text: Giảm
+                        - generic [ref=e1800]: 13%
+                      - generic [ref=e1801]: Trả góp 0%
+                      - paragraph [ref=e1806]: Ưu đãi dịch vụ hậu mãi độc quyền Galaxy Z Care và 3 km khác
+                    - generic [ref=e1807]:
+                      - generic [ref=e1808]: 2 Giờ
+                      - button [ref=e1818] [cursor=pointer]
+                  - generic [ref=e1823]:
+                    - link "Xiaomi POCO F9 Ultra 5G 12GB 256GB CellphoneS image placeholder Xiaomi POCO F9 Ultra 5G 12GB 256GB 24.490.000đ 29.990.000đ Smember giảm đến 245.000đ S-Student giảm thêm 500.000đ Giảm 18% Trả góp 0% Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng" [ref=e1824] [cursor=pointer]:
+                      - /url: /dien-thoai-xiaomi-poco-f9-ultra.html
+                      - generic [ref=e1825]:
+                        - img "Xiaomi POCO F9 Ultra 5G 12GB 256GB" [ref=e1826]
+                        - img "CellphoneS image placeholder" [ref=e1827]
+                      - heading "Xiaomi POCO F9 Ultra 5G 12GB 256GB" [level=3] [ref=e1828]
+                      - generic [ref=e1829]:
+                        - paragraph [ref=e1830]: 24.490.000đ
+                        - paragraph [ref=e1831]: 29.990.000đ
+                      - generic [ref=e1832]: Smember giảm đến 245.000đ
+                      - generic [ref=e1833]: S-Student giảm thêm 500.000đ
+                      - generic [ref=e1834]:
+                        - text: Giảm
+                        - generic [ref=e1835]: 18%
+                      - generic [ref=e1836]: Trả góp 0%
+                      - generic [ref=e1838]: Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng
+                    - generic [ref=e1840]:
+                      - generic [ref=e1841]: 2 Giờ
+                      - button [ref=e1851] [cursor=pointer]
+                  - generic [ref=e1856]:
+                    - link "Samsung Galaxy A37 5G 8GB 128GB CellphoneS image placeholder Samsung Galaxy A37 5G 8GB 128GB 9.700.000đ 11.790.000đ Smember giảm đến 97.000đ S-Student giảm thêm 485.000đ Giảm 18% Trả góp 0% Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 1 km khác" [ref=e1857] [cursor=pointer]:
+                      - /url: /dien-thoai-samsung-galaxy-a37.html
+                      - generic [ref=e1858]:
+                        - img "Samsung Galaxy A37 5G 8GB 128GB" [ref=e1859]
+                        - img "CellphoneS image placeholder" [ref=e1860]
+                      - heading "Samsung Galaxy A37 5G 8GB 128GB" [level=3] [ref=e1861]
+                      - generic [ref=e1862]:
+                        - paragraph [ref=e1863]: 9.700.000đ
+                        - paragraph [ref=e1864]: 11.790.000đ
+                      - generic [ref=e1865]: Smember giảm đến 97.000đ
+                      - generic [ref=e1866]: S-Student giảm thêm 485.000đ
+                      - generic [ref=e1867]:
+                        - text: Giảm
+                        - generic [ref=e1868]: 18%
+                      - generic [ref=e1869]: Trả góp 0%
+                      - paragraph [ref=e1874]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 1 km khác
+                    - generic [ref=e1875]:
+                      - generic [ref=e1876]: 2 Giờ
+                      - button [ref=e1886] [cursor=pointer]
+                  - generic [ref=e1891]:
+                    - link "Samsung Galaxy Z Fold8 Ultra 5G 12GB 256GB CellphoneS image placeholder Samsung Galaxy Z Fold8 Ultra 5G 12GB 256GB 45.990.000đ 52.990.000đ Smember giảm đến 460.000đ S-Student giảm thêm 500.000đ Giảm 13% Trả góp 0% Ưu đãi dịch vụ hậu mãi độc quyền Galaxy Z Care và 3 km khác" [ref=e1892] [cursor=pointer]:
+                      - /url: /dien-thoai-samsung-galaxy-z-fold-8-ultra.html
+                      - generic [ref=e1893]:
+                        - img "Samsung Galaxy Z Fold8 Ultra 5G 12GB 256GB" [ref=e1894]
+                        - img "CellphoneS image placeholder" [ref=e1895]
+                      - heading "Samsung Galaxy Z Fold8 Ultra 5G 12GB 256GB" [level=3] [ref=e1896]
+                      - generic [ref=e1897]:
+                        - paragraph [ref=e1898]: 45.990.000đ
+                        - paragraph [ref=e1899]: 52.990.000đ
+                      - generic [ref=e1900]: Smember giảm đến 460.000đ
+                      - generic [ref=e1901]: S-Student giảm thêm 500.000đ
+                      - generic [ref=e1902]:
+                        - text: Giảm
+                        - generic [ref=e1903]: 13%
+                      - generic [ref=e1904]: Trả góp 0%
+                      - paragraph [ref=e1909]: Ưu đãi dịch vụ hậu mãi độc quyền Galaxy Z Care và 3 km khác
+                    - generic [ref=e1910]:
+                      - generic [ref=e1911]: 2 Giờ
+                      - button [ref=e1921] [cursor=pointer]
+                  - generic [ref=e1926]:
+                    - link "iPhone 18 Pro 512GB CellphoneS image placeholder iPhone 18 Pro 512GB 45.490.000đ Smember giảm đến 455.000đ Trả góp 0% Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e1927] [cursor=pointer]:
+                      - /url: /iphone-18-pro-512gb.html
+                      - generic [ref=e1928]:
+                        - img "iPhone 18 Pro 512GB" [ref=e1929]
+                        - img "CellphoneS image placeholder" [ref=e1930]
+                      - heading "iPhone 18 Pro 512GB" [level=3] [ref=e1931]
+                      - paragraph [ref=e1933]: 45.490.000đ
+                      - generic [ref=e1934]: Smember giảm đến 455.000đ
+                      - generic [ref=e1935]: Trả góp 0%
+                      - paragraph [ref=e1940]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                    - generic [ref=e1941]:
+                      - generic [ref=e1942]: 2 Giờ
+                      - button [ref=e1952] [cursor=pointer]
+                  - generic [ref=e1957]:
+                    - link "iPhone 18 Pro Max 2TB CellphoneS image placeholder iPhone 18 Pro Max 2TB 80.990.000đ Smember giảm đến 810.000đ Trả góp 0% Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác" [ref=e1958] [cursor=pointer]:
+                      - /url: /iphone-18-pro-max-2tb.html
+                      - generic [ref=e1959]:
+                        - img "iPhone 18 Pro Max 2TB" [ref=e1960]
+                        - img "CellphoneS image placeholder" [ref=e1961]
+                      - heading "iPhone 18 Pro Max 2TB" [level=3] [ref=e1962]
+                      - paragraph [ref=e1964]: 80.990.000đ
+                      - generic [ref=e1965]: Smember giảm đến 810.000đ
+                      - generic [ref=e1966]: Trả góp 0%
+                      - paragraph [ref=e1971]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác
+                    - generic [ref=e1972]:
+                      - generic [ref=e1973]: 2 Giờ
+                      - button [ref=e1983] [cursor=pointer]
+                  - generic [ref=e1988]:
+                    - link "HONOR 600 5G 8GB 256GB CellphoneS image placeholder HONOR 600 5G 8GB 256GB 16.430.000đ 17.990.000đ Smember giảm đến 164.000đ S-Student giảm thêm 300.000đ Giảm 9% Trả góp 0% Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng" [ref=e1989] [cursor=pointer]:
+                      - /url: /dien-thoai-honor-600.html
+                      - generic [ref=e1990]:
+                        - img "HONOR 600 5G 8GB 256GB" [ref=e1991]
+                        - img "CellphoneS image placeholder" [ref=e1992]
+                      - heading "HONOR 600 5G 8GB 256GB" [level=3] [ref=e1993]
+                      - generic [ref=e1994]:
+                        - paragraph [ref=e1995]: 16.430.000đ
+                        - paragraph [ref=e1996]: 17.990.000đ
+                      - generic [ref=e1997]: Smember giảm đến 164.000đ
+                      - generic [ref=e1998]: S-Student giảm thêm 300.000đ
+                      - generic [ref=e1999]:
+                        - text: Giảm
+                        - generic [ref=e2000]: 9%
+                      - generic [ref=e2001]: Trả góp 0%
+                      - generic [ref=e2003]: Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng
+                    - generic [ref=e2005]:
+                      - generic [ref=e2006]: 2 Giờ
+                      - button [ref=e2016] [cursor=pointer]
+                  - generic [ref=e2021]:
+                    - link "iPhone 18 Pro 2TB CellphoneS image placeholder iPhone 18 Pro 2TB 77.490.000đ 77.990.000đ Smember giảm đến 775.000đ Giảm 1% Trả góp 0% Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e2022] [cursor=pointer]:
+                      - /url: /iphone-18-pro-2tb.html
+                      - generic [ref=e2023]:
+                        - img "iPhone 18 Pro 2TB" [ref=e2024]
+                        - img "CellphoneS image placeholder" [ref=e2025]
+                      - heading "iPhone 18 Pro 2TB" [level=3] [ref=e2026]
+                      - generic [ref=e2027]:
+                        - paragraph [ref=e2028]: 77.490.000đ
+                        - paragraph [ref=e2029]: 77.990.000đ
+                      - generic [ref=e2030]: Smember giảm đến 775.000đ
+                      - generic [ref=e2031]:
+                        - text: Giảm
+                        - generic [ref=e2032]: 1%
+                      - generic [ref=e2033]: Trả góp 0%
+                      - paragraph [ref=e2038]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                    - generic [ref=e2039]:
+                      - generic [ref=e2040]: 2 Giờ
+                      - button [ref=e2050] [cursor=pointer]
+                  - generic [ref=e2055]:
+                    - link "Samsung Galaxy S25 Ultra 12GB 256GB CellphoneS image placeholder Samsung Galaxy S25 Ultra 12GB 256GB 25.990.000đ 33.380.000đ Smember giảm đến 260.000đ S-Student giảm thêm 500.000đ Giảm 22% Trả góp 0% Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop)" [ref=e2056] [cursor=pointer]:
+                      - /url: /dien-thoai-samsung-galaxy-s25-ultra.html
+                      - generic [ref=e2057]:
+                        - img "Samsung Galaxy S25 Ultra 12GB 256GB" [ref=e2058]
+                        - img "CellphoneS image placeholder" [ref=e2059]
+                      - heading "Samsung Galaxy S25 Ultra 12GB 256GB" [level=3] [ref=e2060]
+                      - generic [ref=e2061]:
+                        - paragraph [ref=e2062]: 25.990.000đ
+                        - paragraph [ref=e2063]: 33.380.000đ
+                      - generic [ref=e2064]: Smember giảm đến 260.000đ
+                      - generic [ref=e2065]: S-Student giảm thêm 500.000đ
+                      - generic [ref=e2066]:
+                        - text: Giảm
+                        - generic [ref=e2067]: 22%
+                      - generic [ref=e2068]: Trả góp 0%
+                      - paragraph [ref=e2073]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop)
+                    - generic [ref=e2074]:
+                      - generic [ref=e2075]: 2 Giờ
+                      - generic [ref=e2085]: "4.7"
+                      - button [ref=e2089] [cursor=pointer]
+                  - generic [ref=e2094]:
+                    - link "Xiaomi Redmi Note 17 4GB 128GB CellphoneS image placeholder Xiaomi Redmi Note 17 4GB 128GB 6.050.000đ 6.990.000đ Smember giảm đến 61.000đ S-Student giảm thêm 300.000đ Giảm 13% Trả góp 0% Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng" [ref=e2095] [cursor=pointer]:
+                      - /url: /dien-thoai-xiaomi-redmi-note-17.html
+                      - generic [ref=e2096]:
+                        - img "Xiaomi Redmi Note 17 4GB 128GB" [ref=e2097]
+                        - img "CellphoneS image placeholder" [ref=e2098]
+                      - heading "Xiaomi Redmi Note 17 4GB 128GB" [level=3] [ref=e2099]
+                      - generic [ref=e2100]:
+                        - paragraph [ref=e2101]: 6.050.000đ
+                        - paragraph [ref=e2102]: 6.990.000đ
+                      - generic [ref=e2103]: Smember giảm đến 61.000đ
+                      - generic [ref=e2104]: S-Student giảm thêm 300.000đ
+                      - generic [ref=e2105]:
+                        - text: Giảm
+                        - generic [ref=e2106]: 13%
+                      - generic [ref=e2107]: Trả góp 0%
+                      - generic [ref=e2109]: Trả góp 0% - 0đ phụ phí - 0đ trả trước - kỳ hạn đến 12 tháng
+                    - generic [ref=e2111]:
+                      - generic [ref=e2112]: 2 Giờ
+                      - generic [ref=e2122]: "5"
+                      - button [ref=e2126] [cursor=pointer]
+                - button [disabled] [ref=e2129]
+                - button [ref=e2132] [cursor=pointer]
+        - generic [ref=e2137]:
+          - heading "Sắm thêm phụ kiện chất lượng" [level=2] [ref=e2138]
+          - link "Xem tất cả" [ref=e2140] [cursor=pointer]:
+            - /url: /phu-kien.html
+        - generic [ref=e2144]:
+          - generic [ref=e2145]:
+            - link [ref=e2146] [cursor=pointer]:
+              - /url: /laptop/ai.html
+              - img "Banner laptop home desktop 1" [ref=e2148]
+            - link [ref=e2149] [cursor=pointer]:
+              - /url: /laptop/mac/macbook-pro/macbook-pro-m6.html
+              - img "Mac b2s desk" [ref=e2151]
+          - generic [ref=e2152]:
+            - generic [ref=e2153]:
+              - button [ref=e2154] [cursor=pointer]:
+                - heading "Laptop" [level=2] [ref=e2155]
+              - button [ref=e2157] [cursor=pointer]:
+                - heading "Màn hình máy tính" [level=2] [ref=e2158]
+              - button [ref=e2160] [cursor=pointer]:
+                - heading "PC" [level=2] [ref=e2161]
+              - button [ref=e2163] [cursor=pointer]:
+                - heading "Phụ kiện máy tính" [level=2] [ref=e2164]
+            - generic [ref=e2165]:
+              - generic [ref=e2166]:
+                - generic [ref=e2167]:
+                  - img "Loading" [ref=e2169]
+                  - paragraph [ref=e2170]: Đang tải...
+                - generic [ref=e2171]:
+                  - img "Loading" [ref=e2173]
+                  - paragraph [ref=e2174]: Đang tải...
+                - generic [ref=e2175]:
+                  - img "Loading" [ref=e2177]
+                  - paragraph [ref=e2178]: Đang tải...
+                - generic [ref=e2179]:
+                  - img "Loading" [ref=e2181]
+                  - paragraph [ref=e2182]: Đang tải...
+                - generic [ref=e2183]:
+                  - img "Loading" [ref=e2185]
+                  - paragraph [ref=e2186]: Đang tải...
+                - generic [ref=e2187]:
+                  - img "Loading" [ref=e2189]
+                  - paragraph [ref=e2190]: Đang tải...
+              - generic [ref=e2191]:
+                - generic [ref=e2193]:
+                  - generic [ref=e2194]:
+                    - link "MacBook" [ref=e2196] [cursor=pointer]:
+                      - /url: /laptop/mac.html
+                    - link "ASUS" [ref=e2198] [cursor=pointer]:
+                      - /url: /laptop/asus.html
+                    - link "Lenovo" [ref=e2200] [cursor=pointer]:
+                      - /url: /laptop/lenovo.html
+                    - link "MSI" [ref=e2202] [cursor=pointer]:
+                      - /url: /laptop/msi.html
+                    - link "Acer" [ref=e2204] [cursor=pointer]:
+                      - /url: /laptop/acer.html
+                    - link "HP" [ref=e2206] [cursor=pointer]:
+                      - /url: /laptop/hp.html
+                    - link "Dell" [ref=e2208] [cursor=pointer]:
+                      - /url: /laptop/dell.html
+                    - link "LG" [ref=e2210] [cursor=pointer]:
+                      - /url: /laptop/lg.html
+                    - link "Gigabyte" [ref=e2212] [cursor=pointer]:
+                      - /url: /laptop/gigabyte.html
+                    - link "Masstel" [ref=e2214] [cursor=pointer]:
+                      - /url: /laptop/masstel.html
+                  - button "Previous" [disabled] [ref=e2215]
+                  - button "Next" [disabled] [ref=e2218]
+                - link "Xem tất cả" [ref=e2221] [cursor=pointer]:
+                  - /url: /laptop.html
+              - generic [ref=e2224]:
+                - img "Loading" [ref=e2228]
+                - img "Loading" [ref=e2236]
+                - img "Loading" [ref=e2244]
+                - img "Loading" [ref=e2252]
+                - img "Loading" [ref=e2260]
+                - img "Loading" [ref=e2268]
+                - img "Loading" [ref=e2276]
+                - img "Loading" [ref=e2284]
+        - generic [ref=e2290]:
+          - link [ref=e2292] [cursor=pointer]:
+            - /url: /do-choi-cong-nghe.html
+            - img "Đồng hồ thông minh desktop" [ref=e2294]
+          - generic [ref=e2295]:
+            - generic [ref=e2296]:
+              - button [ref=e2297] [cursor=pointer]:
+                - heading "Đồng hồ" [level=2] [ref=e2298]
+              - button [ref=e2300] [cursor=pointer]:
+                - heading "Âm thanh" [level=2] [ref=e2301]
+            - generic [ref=e2302]:
+              - generic [ref=e2303]:
+                - generic [ref=e2304]:
+                  - img "Loading" [ref=e2306]
+                  - paragraph [ref=e2307]: Đang tải...
+                - generic [ref=e2308]:
+                  - img "Loading" [ref=e2310]
+                  - paragraph [ref=e2311]: Đang tải...
+                - generic [ref=e2312]:
+                  - img "Loading" [ref=e2314]
+                  - paragraph [ref=e2315]: Đang tải...
+                - generic [ref=e2316]:
+                  - img "Loading" [ref=e2318]
+                  - paragraph [ref=e2319]: Đang tải...
+                - generic [ref=e2320]:
+                  - img "Loading" [ref=e2322]
+                  - paragraph [ref=e2323]: Đang tải...
+                - generic [ref=e2324]:
+                  - img "Loading" [ref=e2326]
+                  - paragraph [ref=e2327]: Đang tải...
+              - generic [ref=e2328]:
+                - generic [ref=e2330]:
+                  - generic [ref=e2331]:
+                    - link "Apple Watch" [ref=e2333] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/apple-watch.html
+                    - link "Samsung" [ref=e2335] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/samsung.html
+                    - link "Xiaomi" [ref=e2337] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/xiaomi.html
+                    - link "Huawei" [ref=e2339] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/huawei.html
+                    - link "Garmin" [ref=e2341] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/garmin.html
+                    - link "Amazfit" [ref=e2343] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/amazfit.html
+                    - link "Kieslect" [ref=e2345] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/kieslect.html
+                    - link "Coros" [ref=e2347] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/coros.html
+                    - link "Soundpeats" [ref=e2349] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/soundpeats.html
+                    - link "Black Shark" [ref=e2351] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/black-shark.html
+                    - link "Masstel" [ref=e2353] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/masstel.html
+                    - link "MyAlo" [ref=e2355] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/myalo.html
+                    - link "Mibro" [ref=e2357] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/mibro.html
+                    - link "Viettel" [ref=e2359] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/viettel.html
+                    - link "Kospet" [ref=e2361] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/kospet.html
+                    - link "imoo" [ref=e2363] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/imoo.html
+                    - link "Goly" [ref=e2365] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/goly.html
+                    - link "KAVVO" [ref=e2367] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/kavvo.html
+                    - link "Riversong" [ref=e2369] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/riversong.html
+                    - link "Wonlex" [ref=e2371] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/wonlex.html
+                    - link "Itel" [ref=e2373] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe.html?phone_accessory_brands=itel
+                    - link "MyFirst" [ref=e2375] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe.html?phone_accessory_brands=myfirst
+                    - link "ELFDigi" [ref=e2377] [cursor=pointer]:
+                      - /url: /do-choi-cong-nghe/dong-ho-dinh-vi-tre-em.html?phone_accessory_brands=elfdigi
+                  - button "Previous" [disabled] [ref=e2378]
+                  - button "Next" [ref=e2381] [cursor=pointer]
+                - link "Xem tất cả" [ref=e2384] [cursor=pointer]:
+                  - /url: /do-choi-cong-nghe.html
+              - generic [ref=e2387]:
+                - img "Loading" [ref=e2391]
+                - img "Loading" [ref=e2399]
+                - img "Loading" [ref=e2407]
+                - img "Loading" [ref=e2415]
+        - generic [ref=e2421]:
+          - link [ref=e2423] [cursor=pointer]:
+            - /url: /tivi.html
+            - img "Banner tivi home desktop" [ref=e2425]
+          - generic [ref=e2426]:
+            - generic [ref=e2427]:
+              - heading "Tivi" [level=2] [ref=e2428]
+              - link "Xem tất cả" [ref=e2429] [cursor=pointer]:
+                - /url: /tivi.html
+            - generic [ref=e2432]:
+              - generic [ref=e2433]:
+                - generic [ref=e2434]:
+                  - img "Loading" [ref=e2436]
+                  - paragraph [ref=e2437]: Đang tải...
+                - generic [ref=e2438]:
+                  - img "Loading" [ref=e2440]
+                  - paragraph [ref=e2441]: Đang tải...
+                - generic [ref=e2442]:
+                  - img "Loading" [ref=e2444]
+                  - paragraph [ref=e2445]: Đang tải...
+                - generic [ref=e2446]:
+                  - img "Loading" [ref=e2448]
+                  - paragraph [ref=e2449]: Đang tải...
+                - generic [ref=e2450]:
+                  - img "Loading" [ref=e2452]
+                  - paragraph [ref=e2453]: Đang tải...
+                - generic [ref=e2454]:
+                  - img "Loading" [ref=e2456]
+                  - paragraph [ref=e2457]: Đang tải...
+              - generic [ref=e2460]:
+                - generic [ref=e2461]:
+                  - link "Samsung" [ref=e2463] [cursor=pointer]:
+                    - /url: /tivi/samsung.html
+                  - link "Xiaomi" [ref=e2465] [cursor=pointer]:
+                    - /url: /tivi/xiaomi.html
+                  - link "Coocaa" [ref=e2467] [cursor=pointer]:
+                    - /url: /tivi/coocaa.html
+                  - link "LG" [ref=e2469] [cursor=pointer]:
+                    - /url: /tivi/lg.html
+                  - link "Sony" [ref=e2471] [cursor=pointer]:
+                    - /url: /tivi/sony.html
+                  - link "TCL" [ref=e2473] [cursor=pointer]:
+                    - /url: /tivi/tcl.html
+                  - link "AQUA" [ref=e2475] [cursor=pointer]:
+                    - /url: /tivi/aqua.html
+                - button "Previous" [disabled] [ref=e2476]
+                - button "Next" [disabled] [ref=e2479]
+              - generic [ref=e2482]:
+                - img "Loading" [ref=e2486]
+                - img "Loading" [ref=e2494]
+                - img "Loading" [ref=e2502]
+                - img "Loading" [ref=e2510]
+        - generic [ref=e2517]:
+          - heading "Đồ gia dụng" [level=2] [ref=e2518]
+          - generic [ref=e2520]:
+            - button [ref=e2521] [cursor=pointer]:
+              - link "Roborock" [ref=e2522]:
+                - /url: /nha-thong-minh/may-hut-bui.html?phone_accessory_brands=roborock
+            - button [ref=e2523] [cursor=pointer]:
+              - link "Xiaomi" [ref=e2524]:
+                - /url: /do-gia-dung/xiaomi.html
+            - button [ref=e2525] [cursor=pointer]:
+              - link "Dreame" [ref=e2526]:
+                - /url: /do-gia-dung/dreame.html
+            - button [ref=e2527] [cursor=pointer]:
+              - link "Tineco" [ref=e2528]:
+                - /url: /nha-thong-minh/may-hut-bui/may-hut-bui-cam-tay/tineco.html
+            - button [ref=e2529] [cursor=pointer]:
+              - link "Sharp" [ref=e2530]:
+                - /url: /do-gia-dung/sharp.html
+          - link "Xem tất cả" [ref=e2531] [cursor=pointer]:
+            - /url: /do-gia-dung.html
+        - generic [ref=e2535]:
+          - link [ref=e2537] [cursor=pointer]:
+            - /url: /tu-lanh.html
+            - img "Tủ lạnh" [ref=e2539]
+          - generic [ref=e2540]:
+            - generic [ref=e2541]:
+              - button [ref=e2542] [cursor=pointer]:
+                - heading "Tủ lạnh - Tủ đông" [level=2] [ref=e2543]
+              - button [ref=e2545] [cursor=pointer]:
+                - heading "Máy giặt" [level=2] [ref=e2546]
+              - button [ref=e2548] [cursor=pointer]:
+                - heading "Máy sấy quần áo" [level=2] [ref=e2549]
+              - button [ref=e2551] [cursor=pointer]:
+                - heading "Điều hòa - Máy lạnh" [level=2] [ref=e2552]
+            - generic [ref=e2553]:
+              - generic [ref=e2554]:
+                - generic [ref=e2555]:
+                  - img "Loading" [ref=e2557]
+                  - paragraph [ref=e2558]: Đang tải...
+                - generic [ref=e2559]:
+                  - img "Loading" [ref=e2561]
+                  - paragraph [ref=e2562]: Đang tải...
+                - generic [ref=e2563]:
+                  - img "Loading" [ref=e2565]
+                  - paragraph [ref=e2566]: Đang tải...
+                - generic [ref=e2567]:
+                  - img "Loading" [ref=e2569]
+                  - paragraph [ref=e2570]: Đang tải...
+                - generic [ref=e2571]:
+                  - img "Loading" [ref=e2573]
+                  - paragraph [ref=e2574]: Đang tải...
+                - generic [ref=e2575]:
+                  - img "Loading" [ref=e2577]
+                  - paragraph [ref=e2578]: Đang tải...
+              - generic [ref=e2579]:
+                - generic [ref=e2581]:
+                  - generic [ref=e2582]:
+                    - link "Samsung" [ref=e2584] [cursor=pointer]:
+                      - /url: /tu-lanh/samsung.html
+                    - link "Panasonic" [ref=e2586] [cursor=pointer]:
+                      - /url: /tu-lanh/panasonic.html
+                    - link "LG" [ref=e2588] [cursor=pointer]:
+                      - /url: /tu-lanh/lg.html
+                    - link "AQUA" [ref=e2590] [cursor=pointer]:
+                      - /url: /tu-lanh/aqua.html
+                    - link "Toshiba" [ref=e2592] [cursor=pointer]:
+                      - /url: /tu-lanh/toshiba.html
+                    - link "Xiaomi" [ref=e2594] [cursor=pointer]:
+                      - /url: /tu-lanh/xiaomi.html
+                    - link "Sharp" [ref=e2596] [cursor=pointer]:
+                      - /url: /tu-lanh/sharp.html
+                    - link "Tủ đông" [ref=e2598] [cursor=pointer]:
+                      - /url: /tu-dong.html
+                  - button "Previous" [disabled] [ref=e2599]
+                  - button "Next" [disabled] [ref=e2602]
+                - link "Xem tất cả" [ref=e2605] [cursor=pointer]:
+                  - /url: /tu-lanh.html
+              - generic [ref=e2608]:
+                - img "Loading" [ref=e2612]
+                - img "Loading" [ref=e2620]
+                - img "Loading" [ref=e2628]
+                - img "Loading" [ref=e2636]
+        - generic [ref=e2643]:
+          - heading "Hàng cũ" [level=2] [ref=e2644]
+          - link "Xem tất cả" [ref=e2646] [cursor=pointer]:
+            - /url: /hang-cu.html
+        - button [ref=e2651]:
+          - generic [ref=e2652]:
+            - img "Tải ứng dụng CellphoneS" [ref=e2655] [cursor=pointer]
+            - generic [ref=e2656] [cursor=pointer]
+    - button "Lên đầu" [ref=e2659]
+    - button "Liên hệ" [ref=e2663] [cursor=pointer]
+    - contentinfo [ref=e2667]:
+      - generic [ref=e2669]:
+        - generic [ref=e2670]:
+          - generic [ref=e2671]:
+            - paragraph [ref=e2672]: Tổng đài hỗ trợ miễn phí
+            - list [ref=e2673]:
+              - listitem [ref=e2674]:
+                - generic [ref=e2675]:
+                  - text: Mua hàng - bảo hành
+                  - link "1800.2097":
+                    - /url: tel:18002097
+                    - strong: "1800.2097"
+                  - text: (7h30 - 22h00)
+              - listitem [ref=e2676]:
+                - generic [ref=e2677]:
+                  - text: Khiếu nại
+                  - link "1800.2063":
+                    - /url: tel:18002063
+                    - strong: "1800.2063"
+                  - text: (8h00 - 21h30)
+          - generic [ref=e2678]:
+            - paragraph [ref=e2679]: Phương thức thanh toán
+            - list [ref=e2680]:
+              - listitem [ref=e2681]:
+                - link [ref=e2682] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/sforum/apple-pay-viet-nam
+                  - img "Apple Pay" [ref=e2684]
+              - listitem [ref=e2685]:
+                - link [ref=e2686] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/sforum/vnpay-la-gi-cach-dang-ky-vnpay-thanh-toan-vnpay-chi-tiet
+                  - img "Vnpay" [ref=e2688]
+              - listitem [ref=e2689]:
+                - link [ref=e2690] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/huong-dan-thanh-toan-qua-vi-momo-cellphones
+                  - img "MoMo" [ref=e2692]
+              - listitem [ref=e2693]:
+                - link [ref=e2694] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/huong-dan-mua-hang-va-thanh-toan-qua-cong-onepay
+                  - img "Onepay" [ref=e2696]
+              - listitem [ref=e2697]:
+                - link [ref=e2698] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/uu-dai-doi-tac/kredivo
+                  - img "Kredivo" [ref=e2700]
+              - listitem [ref=e2701]:
+                - link [ref=e2702] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/sforum/huong-dan-toan-bang-zalopay-khi-mua-hang-tren-website-cellphones
+                  - img "Zalopay" [ref=e2704]
+              - listitem [ref=e2705]:
+                - link [ref=e2706] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/huong-dan-thanh-toan-qua-cong-fundiin-tren-website-cellphones
+                  - img "Fundiin" [ref=e2708]
+          - generic [ref=e2709]:
+            - paragraph [ref=e2710]: ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI
+            - generic [ref=e2711]:
+              - paragraph [ref=e2712]: Nhận ngay voucher 10%
+              - paragraph [ref=e2713]: Voucher sẽ được gửi sau 24h, chỉ áp dụng cho khách hàng mới
+            - generic [ref=e2714]:
+              - generic [ref=e2715]: Email
+              - textbox "Nhập email của bạn" [ref=e2718]
+            - generic [ref=e2719]:
+              - generic [ref=e2720]: Số điện thoại
+              - textbox "Nhập số điện thoại của bạn" [ref=e2723]
+            - paragraph [ref=e2724]:
+              - text: Bằng việc đăng ký nhận tin, bạn đã đọc và đồng ý với
+              - link "Chính sách bảo mật của CellphoneS." [ref=e2725] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/tos?part=privacy-policy
+            - button "ĐĂNG KÝ NGAY" [ref=e2727] [cursor=pointer]
+        - generic [ref=e2728]:
+          - paragraph [ref=e2729]: Thông tin về chính sách
+          - list [ref=e2730]:
+            - listitem [ref=e2731]:
+              - link "Mua hàng và thanh toán Online" [ref=e2732] [cursor=pointer]:
+                - /url: /chinh-sach-giao-hang
+            - listitem [ref=e2733]:
+              - link "Mua hàng trả góp" [ref=e2734] [cursor=pointer]:
+                - /url: /tra-gop
+            - listitem [ref=e2735]:
+              - link "Mua hàng trả góp bằng thẻ tín dụng" [ref=e2736] [cursor=pointer]:
+                - /url: /huong-dan-mua-hang-tra-gop-bang-the-tin-dung-tai-cellphones
+            - listitem [ref=e2737]:
+              - link "Chính sách giao hàng" [ref=e2738] [cursor=pointer]:
+                - /url: /chinh-sach-giao-hang
+            - listitem [ref=e2739]:
+              - link "Chính sách đổi trả" [ref=e2740] [cursor=pointer]:
+                - /url: /tos?part=refund-policy
+            - listitem [ref=e2741]:
+              - link "Tra điểm Smember" [ref=e2742] [cursor=pointer]:
+                - /url: https://smember.com.vn?company_id=cellphones
+            - listitem [ref=e2743]:
+              - link "Xem ưu đãi Smember" [ref=e2744] [cursor=pointer]:
+                - /url: /uu-dai-smember
+            - listitem [ref=e2745]:
+              - link "Tra thông tin bảo hành" [ref=e2746] [cursor=pointer]:
+                - /url: https://smember.com.vn/warranty?company_id=cellphones
+            - listitem [ref=e2747]:
+              - link "Tra cứu hoá đơn điện tử" [ref=e2748] [cursor=pointer]:
+                - /url: https://hddt.cellphones.com.vn
+            - listitem [ref=e2749]:
+              - link "Thông tin hoá đơn mua hàng" [ref=e2750] [cursor=pointer]:
+                - /url: /quy-dinh-ve-hoa-don-khi-mua-hang-cellphones
+            - listitem [ref=e2751]:
+              - link "Trung tâm bảo hành chính hãng" [ref=e2752] [cursor=pointer]:
+                - /url: /bao-hanh/apple
+            - listitem [ref=e2753]:
+              - link "Quy định về việc sao lưu dữ liệu" [ref=e2754] [cursor=pointer]:
+                - /url: /quy-dinh-ve-viec-sao-luu-du-lieu
+            - listitem [ref=e2755]:
+              - link "Chính sách khui hộp sản phẩm Apple" [ref=e2756] [cursor=pointer]:
+                - /url: /chinh-sach-khui-hop-apple
+            - listitem [ref=e2757]:
+              - link "VAT Refund" [ref=e2758] [cursor=pointer]:
+                - /url: /vat-refund
+        - generic [ref=e2759]:
+          - paragraph [ref=e2760]: Dịch vụ và thông tin khác
+          - list [ref=e2761]:
+            - listitem [ref=e2762]:
+              - link "Khách hàng doanh nghiệp (B2B)" [ref=e2763] [cursor=pointer]:
+                - /url: /dich-vu-khach-hang-doanh-nghiep
+            - listitem [ref=e2764]:
+              - link "Ưu đãi thanh toán" [ref=e2765] [cursor=pointer]:
+                - /url: /danh-sach-khuyen-mai
+            - listitem [ref=e2766]:
+              - link "Quy chế hoạt động" [ref=e2767] [cursor=pointer]:
+                - /url: /tos
+            - listitem [ref=e2768]:
+              - link "Chính sách bảo mật thông tin cá nhân" [ref=e2769] [cursor=pointer]:
+                - /url: /tos?part=privacy-policy
+            - listitem [ref=e2770]:
+              - link "Chính sách bảo mật dữ liệu đánh giá trên Zalo mini app" [ref=e2771] [cursor=pointer]:
+                - /url: /quy-dinh-dang-tai-danh-gia-tren-zalo-mini-app
+            - listitem [ref=e2772]:
+              - link "Chính sách Bảo hành" [ref=e2773] [cursor=pointer]:
+                - /url: /chinh-sach-bao-hanh
+            - listitem [ref=e2774]:
+              - link "Liên hệ hợp tác kinh doanh" [ref=e2775] [cursor=pointer]:
+                - /url: /lien-he-hop-tac
+            - listitem [ref=e2776]:
+              - link "Tuyển dụng" [ref=e2777] [cursor=pointer]:
+                - /url: https://tuyendung.cellphones.com.vn
+            - listitem [ref=e2778]:
+              - link "Dịch vụ bảo hành mở rộng" [ref=e2779] [cursor=pointer]:
+                - /url: /bieu-phi-bao-hanh-mo-rong
+            - listitem [ref=e2780]:
+              - link "YouTube Shopping Affiliate" [ref=e2781] [cursor=pointer]:
+                - /url: /youtube-shopping-affiliate
+          - generic [ref=e2782]:
+            - generic [ref=e2783]: Mua sắm dễ dàng – Ưu đãi ngập tràn cùng app CellphoneS
+            - generic [ref=e2785]:
+              - img "QR tải app CellphoneS" [ref=e2788]
+              - generic [ref=e2789]:
+                - link [ref=e2790] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=vn.com.cellphones.android.smember
+                  - img "Tải app từ Google Play" [ref=e2792]
+                - link [ref=e2793] [cursor=pointer]:
+                  - /url: https://apps.apple.com/vn/app/smember/id6502395577?l=vi
+                  - img "Tải app từ App Store" [ref=e2795]
+          - generic [ref=e2800]:
+            - paragraph [ref=e2801]: Định giá máy chuyên sâu
+            - generic [ref=e2802]:
+              - paragraph [ref=e2803]: Miễn phí • Chỉ 2 phút
+              - button "Định giá ngay" [ref=e2804] [cursor=pointer]
+        - generic [ref=e2805]:
+          - generic [ref=e2806]:
+            - paragraph [ref=e2807]: Kết nối với CellphoneS
+            - list [ref=e2808]:
+              - listitem [ref=e2809]:
+                - link [ref=e2810] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@CellphoneSOfficial
+                  - img "CellphoneS Youtube Chanel" [ref=e2812]
+              - listitem [ref=e2813]:
+                - link [ref=e2814] [cursor=pointer]:
+                  - /url: https://www.facebook.com/CellphoneSVietnam
+                  - img "CellphoneS Fanpage" [ref=e2816]
+              - listitem [ref=e2817]:
+                - link [ref=e2818] [cursor=pointer]:
+                  - /url: https://www.instagram.com/cellphonesvn
+                  - img "CellphoneS Instagram" [ref=e2820]
+              - listitem [ref=e2821]:
+                - link [ref=e2822] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@cellphones.official
+                  - img "CellphoneS Tiktok" [ref=e2824]
+              - listitem [ref=e2825]:
+                - link [ref=e2826] [cursor=pointer]:
+                  - /url: https://oa.zalo.me/3894196696036261863
+                  - img "CellphoneS Zalo" [ref=e2828]
+          - generic [ref=e2829]:
+            - paragraph [ref=e2830]: Website thành viên
+            - list [ref=e2831]:
+              - listitem [ref=e2832]:
+                - paragraph [ref=e2833]: Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính
+                - link "Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính" [ref=e2834] [cursor=pointer]:
+                  - /url: https://dienthoaivui.com.vn
+                  - img "Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính"
+              - listitem [ref=e2835]:
+                - paragraph [ref=e2836]: Trung tâm bảo hành uỷ quyền Apple
+                - link "Trung tâm bảo hành uỷ quyền Apple" [ref=e2837] [cursor=pointer]:
+                  - /url: https://cares.vn/
+                  - img "Trung tâm bảo hành uỷ quyền Apple"
+              - listitem [ref=e2838]:
+                - paragraph [ref=e2839]: Kênh thông tin giải trí công nghệ cho giới trẻ
+                - link "Kênh thông tin giải trí công nghệ cho giới trẻ" [ref=e2840] [cursor=pointer]:
+                  - /url: https://schannel.vn/
+                  - img "Kênh thông tin giải trí công nghệ cho giới trẻ"
+              - listitem [ref=e2841]:
+                - paragraph [ref=e2842]: Trang thông tin công nghệ mới nhất
+                - link "Trang thông tin công nghệ mới nhất" [ref=e2843] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/sforum
+                  - img "Trang thông tin công nghệ mới nhất"
+      - generic [ref=e2845]:
+        - generic [ref=e2846]:
+          - generic [ref=e2847]:
+            - generic [ref=e2848]:
+              - paragraph [ref=e2849]:
+                - link "iPhone 18 Pro" [ref=e2850] [cursor=pointer]:
+                  - /url: /iphone-18-pro.html
+                - text: "|"
+              - paragraph [ref=e2851]:
+                - link "iPhone 18 Pro Max" [ref=e2852] [cursor=pointer]:
+                  - /url: /iphone-18-pro-max.html
+            - generic [ref=e2853]:
+              - paragraph [ref=e2854]:
+                - link "iPhone Duo" [ref=e2855] [cursor=pointer]:
+                  - /url: /mobile/apple/iphone-duo.html
+                - text: "|"
+              - paragraph [ref=e2856]:
+                - link "iPhone 17" [ref=e2857] [cursor=pointer]:
+                  - /url: /mobile/apple/iphone-17.html
+                - text: "|"
+              - paragraph [ref=e2858]:
+                - link "iPhone 17 Pro Max" [ref=e2859] [cursor=pointer]:
+                  - /url: /iphone-17-pro-max.html
+            - generic [ref=e2860]:
+              - paragraph [ref=e2861]:
+                - link "iPhone 16" [ref=e2862] [cursor=pointer]:
+                  - /url: /mobile/apple/iphone-16.html
+                - text: "|"
+              - paragraph [ref=e2863]:
+                - link "iPhone cũ" [ref=e2864] [cursor=pointer]:
+                  - /url: /hang-cu/iphone.html
+                - text: "|"
+              - paragraph [ref=e2865]:
+                - link "Macbook Neo" [ref=e2866] [cursor=pointer]:
+                  - /url: /laptop/mac/macbook-neo.html
+          - generic [ref=e2867]:
+            - generic [ref=e2868]:
+              - paragraph [ref=e2869]:
+                - link "Điện thoại" [ref=e2870] [cursor=pointer]:
+                  - /url: /mobile.html
+                - text: "|"
+              - paragraph [ref=e2871]:
+                - link "Điện thoại iPhone" [ref=e2872] [cursor=pointer]:
+                  - /url: /mobile/apple.html
+                - text: "|"
+              - paragraph [ref=e2873]:
+                - link "Xiaomi" [ref=e2874] [cursor=pointer]:
+                  - /url: /mobile/xiaomi.html
+            - generic [ref=e2875]:
+              - paragraph [ref=e2876]:
+                - link "Điện thoại Samsung Galaxy" [ref=e2877] [cursor=pointer]:
+                  - /url: /mobile/samsung.html
+                - text: "|"
+              - paragraph [ref=e2878]:
+                - link "Điện thoại OPPO" [ref=e2879] [cursor=pointer]:
+                  - /url: /mobile/oppo.html
+            - paragraph [ref=e2881]:
+              - link "Camera giám sát an ninh" [ref=e2882] [cursor=pointer]:
+                - /url: /phu-kien/camera/an-ninh.html
+          - generic [ref=e2883]:
+            - generic [ref=e2884]:
+              - paragraph [ref=e2885]:
+                - link "Laptop" [ref=e2886] [cursor=pointer]:
+                  - /url: /laptop.html
+                - text: "|"
+              - paragraph [ref=e2887]:
+                - link "Laptop Acer" [ref=e2888] [cursor=pointer]:
+                  - /url: /laptop/acer.html
+                - text: "|"
+              - paragraph [ref=e2889]:
+                - link "Laptop Dell" [ref=e2890] [cursor=pointer]:
+                  - /url: /laptop/dell.html
+                - text: "|"
+              - paragraph [ref=e2891]:
+                - link "Laptop HP" [ref=e2892] [cursor=pointer]:
+                  - /url: /laptop/hp.html
+            - generic [ref=e2893]:
+              - paragraph [ref=e2894]:
+                - link "Tivi" [ref=e2895] [cursor=pointer]:
+                  - /url: /tivi.html
+                - text: "|"
+              - paragraph [ref=e2896]:
+                - link "Tivi Samsung" [ref=e2897] [cursor=pointer]:
+                  - /url: /tivi/samsung.html
+                - text: "|"
+              - paragraph [ref=e2898]:
+                - link "Tivi Xiaomi" [ref=e2899] [cursor=pointer]:
+                  - /url: /tivi/xiaomi.html
+                - text: "|"
+              - paragraph [ref=e2900]:
+                - link "Tivi LG" [ref=e2901] [cursor=pointer]:
+                  - /url: /tivi/lg.html
+            - generic [ref=e2902]:
+              - paragraph [ref=e2903]:
+                - link "Z Flip 8" [ref=e2904] [cursor=pointer]:
+                  - /url: /dien-thoai-samsung-galaxy-z-flip-8.html
+                - text: "|"
+              - paragraph [ref=e2905]:
+                - link "Z Fold 8" [ref=e2906] [cursor=pointer]:
+                  - /url: /dien-thoai-samsung-galaxy-z-fold-8.html
+                - text: "|"
+              - paragraph [ref=e2907]:
+                - link "Z Fold 8 Ultra" [ref=e2908] [cursor=pointer]:
+                  - /url: /dien-thoai-samsung-galaxy-z-fold-8-ultra.html
+                - text: "|"
+              - paragraph [ref=e2909]:
+                - link "Build PC" [ref=e2910] [cursor=pointer]:
+                  - /url: /may-tinh-de-ban/build-pc.html
+          - generic [ref=e2911]:
+            - generic [ref=e2912]:
+              - paragraph [ref=e2913]:
+                - link "Máy hút bụi" [ref=e2914] [cursor=pointer]:
+                  - /url: /nha-thong-minh/may-hut-bui.html
+                - text: "|"
+              - paragraph [ref=e2915]:
+                - link "Máy lọc không khí" [ref=e2916] [cursor=pointer]:
+                  - /url: /nha-thong-minh/may-loc-khong-khi.html
+            - generic [ref=e2917]:
+              - paragraph [ref=e2918]:
+                - link "Airpods 5" [ref=e2919] [cursor=pointer]:
+                  - /url: /apple-airpods-5.html
+                - text: "|"
+              - paragraph [ref=e2920]:
+                - link "Redmi Note 17" [ref=e2921] [cursor=pointer]:
+                  - /url: /mobile/xiaomi/redmi/note-17-series.html
+                - text: "|"
+              - paragraph [ref=e2922]:
+                - link "Xiaomi 17T" [ref=e2923] [cursor=pointer]:
+                  - /url: /dien-thoai-xiaomi-17t.html
+            - generic [ref=e2924]:
+              - paragraph [ref=e2925]:
+                - link "Apple Watch Series 12" [ref=e2926] [cursor=pointer]:
+                  - /url: /do-choi-cong-nghe/apple-watch/series-12.html
+                - text: "|"
+              - paragraph [ref=e2927]:
+                - link "Apple Watch Ultra 4" [ref=e2928] [cursor=pointer]:
+                  - /url: /do-choi-cong-nghe/apple-watch/ultra-4.html
+        - generic [ref=e2929]:
+          - paragraph [ref=e2930]: "Công ty Cổ phần Thương Mại và Dịch Vụ Kỹ Thuật DIỆU PHÚC - GPĐKKD: 0316172372 cấp tại Sở KH & ĐT TP. HCM. Địa chỉ văn phòng: 350-352 Võ Văn Kiệt, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh, Việt Nam. Điện thoại: 028.7108.9666."
+          - generic [ref=e2931]:
+            - link [ref=e2932] [cursor=pointer]:
+              - /url: https://online.gov.vn/nen-tang/eda5eb96-7aa4-4fb7-b5e6-3aefd3dd52c8
+              - img "Đã thông báo bộ công thương" [ref=e2934]
+            - link [ref=e2935] [cursor=pointer]:
+              - /url: https://www.dmca.com/Protection/Status.aspx?ID=158f5667-cce3-4a18-b2d1-826225e6b022
+              - img "DMCA.com Protection Status" [ref=e2937]
+  - region "Notifications alt+T"
+  - alert [ref=e2938]
+```
+
+# Test source
+
+```ts
+  1 | const { expect } = require('@playwright/test');
+  2 | const ENV = Object.fromEntries(['SMEMBER_PHONE','SMEMBER_PASSWORD','SMEMBER_NEW_PASSWORD','SMEMBER_EMAIL'].map(k => [k, process.env[k] || '']));
+  3 | function substitute(value) { return String(value ?? '').replace(/\{\{([A-Z_]+)\}\}/g, (_, key) => { if (!ENV[key]) throw new Error(`Missing required environment variable: ${key}`); return ENV[key]; }); }
+  4 | function candidates(target) { if (Array.isArray(target)) return target.map(x => typeof x === 'string' ? x : x.selector).filter(Boolean); return String(target).split(/,\s*(?![^\[]*\])/).map(x => x.trim()).filter(Boolean); }
+  5 | function locator(page, selector) { return selector.startsWith('//') || selector.startsWith('(//') ? page.locator(`xpath=${selector}`) : page.locator(selector); }
+> 6 | async function visible(page, target) { for (const s of candidates(target)) { const l=locator(page,s).first(); try { await l.waitFor({state:'visible',timeout:5000}); return l; } catch {} } throw new Error(`No visible match for ${JSON.stringify(target)}. URL=${page.url()}`); }
+    |                                                                                                                                                                                                   ^ Error: No visible match for "button.items-center.justify-center.border-0.bg-gradient-to-r". URL=https://cellphones.com.vn/
+  7 | async function runGhostSteps(page, steps) { for (const step of steps) { const target=substitute(step.target||''); const value=substitute(step.value||''); if(step.command==='goto') await page.goto(target,{waitUntil:'domcontentloaded'}); else if(['fill','assign'].includes(step.command)) await (await visible(page,target)).fill(value); else if(step.command==='click') await (await visible(page,target)).click(); else if(step.command==='assertElementPresent') await expect(await visible(page,target)).toBeVisible(); else if(step.command==='assertText') await expect(page.locator('body')).toContainText(value); else if(step.command==='select') await (await visible(page,target)).selectOption(value); else if(step.command==='reload') await page.reload({waitUntil:'domcontentloaded'}); else throw new Error(`Unsupported command: ${step.command}`); } }
+  8 | module.exports={runGhostSteps};
+  9 | 
+```

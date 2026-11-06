@@ -1,0 +1,2945 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: cart.spec.js >> TC_CART_02 — Thêm sản phẩm Điện thoại (iPhone/Samsung) vào giỏ hàng
+- Location: tests\cart.spec.js:6:3
+
+# Error details
+
+```
+Error: No visible match for "button[type=\"button\"].border-none". URL=https://cellphones.com.vn/mobile/apple.html
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e6]:
+      - link "Black Fire-Day 2026 sắp trở lại - Đăng ký ngay!" [ref=e10] [cursor=pointer]:
+        - /url: https://cellphones.com.vn/black-friday
+      - generic [ref=e11]:
+        - generic [ref=e13]:
+          - generic [ref=e19]:
+            - text: Sản phẩm
+            - strong [ref=e20]: Chính hãng - Xuất VAT
+            - text: đầy đủ
+          - generic [ref=e26]:
+            - strong [ref=e27]: Giao nhanh - Miễn phí
+            - text: cho đơn 300k
+          - generic [ref=e32]:
+            - strong [ref=e33]: Thu cũ
+            - text: giá ngon -
+            - strong [ref=e34]: Lên đời
+            - text: tiết kiệm
+          - generic [ref=e40]:
+            - text: Sản phẩm
+            - strong [ref=e41]: Chính hãng - Xuất VAT
+            - text: đầy đủ
+          - generic [ref=e47]:
+            - strong [ref=e48]: Giao nhanh - Miễn phí
+            - text: cho đơn 300k
+          - generic [ref=e53]:
+            - strong [ref=e54]: Thu cũ
+            - text: giá ngon -
+            - strong [ref=e55]: Lên đời
+            - text: tiết kiệm
+        - generic [ref=e56]:
+          - link "Cửa hàng gần bạn" [ref=e57] [cursor=pointer]:
+            - /url: /dia-chi-cua-hang
+          - link "Tra cứu đơn hàng" [ref=e65] [cursor=pointer]:
+            - /url: https://smember.com.vn/order?company_id=cellphones
+          - link "1800 2097" [ref=e70] [cursor=pointer]:
+            - /url: tel:18002097
+      - navigation [ref=e77]:
+        - link [ref=e78] [cursor=pointer]:
+          - /url: https://cellphones.com.vn/
+          - img "CellphoneS" [ref=e80]
+          - generic:
+            - img "CellphoneS"
+        - generic [ref=e81]:
+          - button "Danh mục" [ref=e82] [cursor=pointer]
+          - button "Hồ Chí Minh" [ref=e91] [cursor=pointer]
+        - generic [ref=e101]:
+          - button [ref=e103]
+          - textbox "Bạn muốn mua gì hôm nay?" [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]: Giỏ hàng
+            - generic [ref=e112]: "0"
+          - button "Đăng nhập" [ref=e119]
+    - generic [ref=e126]:
+      - generic [ref=e128]:
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link "Trang chủ" [ref=e140] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/
+          - listitem [ref=e141]:
+            - generic [ref=e142]: /
+            - link "Điện thoại" [ref=e143] [cursor=pointer]:
+              - /url: /mobile.html
+          - listitem [ref=e144]:
+            - generic [ref=e145]: /
+            - paragraph [ref=e146]: Apple
+        - generic [ref=e147]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - link [ref=e152] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - img "iPhone Duo" [ref=e153]
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                - img "iPhone 18 Pro Max" [ref=e156]
+              - link [ref=e158] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e159]
+              - link [ref=e161] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                - img "iPhone Air" [ref=e162]
+              - link [ref=e164] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17e.html
+                - img "https://cellphones.com.vn/iphone-17e.html" [ref=e165]
+              - link [ref=e167] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-256gb.html
+                - img "iPhone 17 256GB" [ref=e168]
+              - link [ref=e170] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - img "iPhone Duo" [ref=e171]
+              - link [ref=e173] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                - img "iPhone 18 Pro Max" [ref=e174]
+              - link [ref=e176] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e177]
+              - link [ref=e179] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                - img "iPhone Air" [ref=e180]
+              - link [ref=e182] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17e.html
+                - img "https://cellphones.com.vn/iphone-17e.html" [ref=e183]
+              - link [ref=e185] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-256gb.html
+                - img "iPhone 17 256GB" [ref=e186]
+              - link [ref=e188] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - img "iPhone Duo" [ref=e189]
+              - link [ref=e191] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                - img "iPhone 18 Pro Max" [ref=e192]
+              - link [ref=e194] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e195]
+              - link [ref=e197] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                - img "iPhone Air" [ref=e198]
+              - link [ref=e200] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17e.html
+                - img "https://cellphones.com.vn/iphone-17e.html" [ref=e201]
+              - link [ref=e203] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-256gb.html
+                - img "iPhone 17 256GB" [ref=e204]
+            - generic [ref=e205]:
+              - button "Go to slide 1" [ref=e206] [cursor=pointer]
+              - button "Go to slide 2" [ref=e207] [cursor=pointer]
+              - button "Go to slide 3" [ref=e208] [cursor=pointer]
+              - button "Go to slide 4" [ref=e209] [cursor=pointer]
+              - button "Go to slide 5" [ref=e210] [cursor=pointer]
+              - button "Go to slide 6" [ref=e211] [cursor=pointer]
+            - button "Previous slide" [ref=e212] [cursor=pointer]
+            - button "Next slide" [ref=e216] [cursor=pointer]
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - link [ref=e224] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-256gb.html
+                - img "iPhone 17 256GB" [ref=e225]
+              - link [ref=e227] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17e.html
+                - img "https://cellphones.com.vn/iphone-17e.html" [ref=e228]
+              - link [ref=e230] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                - img "iPhone Air" [ref=e231]
+              - link [ref=e233] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e234]
+              - link [ref=e236] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                - img "iPhone 18 Pro Max" [ref=e237]
+              - link [ref=e239] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - img "iPhone Duo" [ref=e240]
+              - link [ref=e242] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-256gb.html
+                - img "iPhone 17 256GB" [ref=e243]
+              - link [ref=e245] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17e.html
+                - img "https://cellphones.com.vn/iphone-17e.html" [ref=e246]
+              - link [ref=e248] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                - img "iPhone Air" [ref=e249]
+              - link [ref=e251] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e252]
+              - link [ref=e254] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                - img "iPhone 18 Pro Max" [ref=e255]
+              - link [ref=e257] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - img "iPhone Duo" [ref=e258]
+              - link [ref=e260] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-256gb.html
+                - img "iPhone 17 256GB" [ref=e261]
+              - link [ref=e263] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17e.html
+                - img "https://cellphones.com.vn/iphone-17e.html" [ref=e264]
+              - link [ref=e266] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                - img "iPhone Air" [ref=e267]
+              - link [ref=e269] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e270]
+              - link [ref=e272] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                - img "iPhone 18 Pro Max" [ref=e273]
+              - link [ref=e275] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - img "iPhone Duo" [ref=e276]
+            - generic [ref=e277]:
+              - button "Go to slide 1" [ref=e278] [cursor=pointer]
+              - button "Go to slide 2" [ref=e279] [cursor=pointer]
+              - button "Go to slide 3" [ref=e280] [cursor=pointer]
+              - button "Go to slide 4" [ref=e281] [cursor=pointer]
+              - button "Go to slide 5" [ref=e282] [cursor=pointer]
+              - button "Go to slide 6" [ref=e283] [cursor=pointer]
+            - button "Previous slide" [ref=e284] [cursor=pointer]
+            - button "Next slide" [ref=e288] [cursor=pointer]
+        - heading "iPhone" [level=1] [ref=e292]
+        - generic [ref=e293]:
+          - generic [ref=e295]:
+            - link "iPhone 18 Series" [ref=e296] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-18.html
+            - link "iPhone Duo" [ref=e298] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+            - link "iPhone 17 Series" [ref=e300] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-17.html
+            - link "iPhone Air" [ref=e302] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+            - link "iPhone 16 Series" [ref=e304] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-16.html
+            - link "iPhone 15 Series" [ref=e306] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-15.html
+            - link "iPhone 14 Series" [ref=e308] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-14.html
+            - link "iPhone 13 Series" [ref=e310] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/mobile/apple/iphone-13.html
+          - generic:
+            - generic:
+              - banner:
+                - paragraph: Chọn thương hiệu
+                - button "close"
+              - generic:
+                - generic:
+                  - link "iPhone 18 Series":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-18.html
+                  - link "iPhone Duo":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                  - link "iPhone 17 Series":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-17.html
+                  - link "iPhone Air":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                  - link "iPhone 16 Series":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-16.html
+                  - link "iPhone 15 Series":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-15.html
+                  - link "iPhone 14 Series":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-14.html
+                  - link "iPhone 13 Series":
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-13.html
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e314]: Chọn theo tiêu chí
+            - generic [ref=e315]:
+              - generic [ref=e317]:
+                - button "Bộ lọc" [ref=e319] [cursor=pointer]
+                - button "Sẵn hàng" [ref=e322] [cursor=pointer]
+                - button "Hàng mới về" [ref=e327] [cursor=pointer]
+                - button "Xem theo giá" [ref=e335] [cursor=pointer]
+                - button "Bộ nhớ trong" [ref=e341] [cursor=pointer]
+                - button "Dung lượng RAM" [ref=e345] [cursor=pointer]
+                - button "Kích thước màn hình" [ref=e349] [cursor=pointer]
+                - button "Nhu cầu sử dụng" [ref=e353] [cursor=pointer]
+                - button "Kiểu màn hình" [ref=e357] [cursor=pointer]
+                - button "Tính năng camera" [ref=e361] [cursor=pointer]
+                - button "Tần số quét" [ref=e365] [cursor=pointer]
+                - button "Tính năng đặc biệt" [ref=e369] [cursor=pointer]
+              - generic:
+                - generic:
+                  - banner:
+                    - button
+                    - paragraph: Bộ lọc
+                    - button "close"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - paragraph: Khoảng giá
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - textbox "0"
+                                  - generic: .000đ
+                              - text: "-"
+                              - generic:
+                                - generic:
+                                  - textbox "0": "104.000"
+                                  - generic: .000đ
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider
+                              - slider
+                      - generic:
+                        - generic:
+                          - paragraph: Trạng thái hàng
+                        - list:
+                          - listitem:
+                            - button "Sẵn hàng"
+                          - listitem:
+                            - button "Hàng mới về"
+                      - generic:
+                        - generic:
+                          - paragraph: Bộ nhớ trong
+                        - list:
+                          - listitem:
+                            - button "256 GB"
+                          - listitem:
+                            - button "1 TB"
+                          - listitem:
+                            - button "512 GB"
+                          - listitem:
+                            - button "2 TB"
+                          - listitem:
+                            - button "128 GB"
+                          - listitem:
+                            - button "Dưới 64 GB"
+                      - generic:
+                        - generic:
+                          - paragraph: Dung lượng RAM
+                        - list:
+                          - listitem:
+                            - button "8GB - 12GB"
+                          - listitem:
+                            - button "12GB trở lên"
+                          - listitem:
+                            - button "8 GB"
+                          - listitem:
+                            - button "6 GB"
+                          - listitem:
+                            - button "4 GB"
+                      - generic:
+                        - generic:
+                          - paragraph: Kích thước màn hình
+                        - list:
+                          - listitem:
+                            - button "Trên 6 inch"
+                      - generic:
+                        - generic:
+                          - paragraph: Nhu cầu sử dụng
+                        - list:
+                          - listitem:
+                            - button "Dung lượng lớn"
+                          - listitem:
+                            - button "Cấu hình cao"
+                          - listitem:
+                            - button "Chơi game"
+                          - listitem:
+                            - button "Pin trâu"
+                          - listitem:
+                            - button "Chụp ảnh đẹp"
+                          - listitem:
+                            - button "Livestream"
+                          - listitem:
+                            - button "Nhỏ gọn, dễ cầm nắm"
+                          - listitem:
+                            - button "Mỏng nhẹ"
+                      - generic:
+                        - generic:
+                          - paragraph: Kiểu màn hình
+                        - list:
+                          - listitem:
+                            - button "Dynamic Island"
+                          - listitem:
+                            - button "Tai thỏ"
+                          - listitem:
+                            - button "Màn hình gập"
+                      - generic:
+                        - generic:
+                          - paragraph: Tính năng camera
+                        - list:
+                          - listitem:
+                            - button "Chụp macro"
+                          - listitem:
+                            - button "Chụp xóa phông"
+                          - listitem:
+                            - button "Chụp góc rộng"
+                          - listitem:
+                            - button "Quay video 4K"
+                          - listitem:
+                            - button "Chống rung"
+                          - listitem:
+                            - button "Chụp Zoom xa"
+                          - listitem:
+                            - button "Quay video 8K"
+                          - listitem:
+                            - button "Chụp ảnh chuyển động"
+                          - listitem:
+                            - button "Chụp đêm"
+                          - listitem:
+                            - button "Camera AI"
+                      - generic:
+                        - generic:
+                          - paragraph: Tần số quét
+                        - list:
+                          - listitem:
+                            - button "60Hz"
+                          - listitem:
+                            - button "120Hz"
+                      - generic:
+                        - generic:
+                          - paragraph: Tính năng đặc biệt
+                        - list:
+                          - listitem:
+                            - button "Hỗ trợ 5G"
+                          - listitem:
+                            - button "Sạc không dây"
+                          - listitem:
+                            - button "Nhận diện khuôn mặt"
+                          - listitem:
+                            - button "Kháng nước, kháng bụi"
+                          - listitem:
+                            - button "Bảo mật vân tay"
+                          - listitem:
+                            - button "Điện thoại AI"
+                          - listitem:
+                            - button "Đi kèm bút cảm ứng"
+                  - contentinfo:
+                    - generic:
+                      - button "Đóng"
+                      - button "Xem kết quả" [disabled]
+          - generic [ref=e373]:
+            - generic [ref=e374]: Sắp xếp theo
+            - generic [ref=e375]:
+              - generic [ref=e376] [cursor=pointer]: Phổ biến
+              - generic [ref=e380] [cursor=pointer]: Khuyến mãi HOT
+              - generic [ref=e387] [cursor=pointer]: Giá Thấp - Cao
+              - generic [ref=e391] [cursor=pointer]: Giá Cao - Thấp
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - link "iPhone 18 Pro 256GB iPhone 18 Pro 256GB 38.690.000đ 38.990.000đ Giảm 1% 6.3 inches 256 GB Smember giảm đến 387.000đ Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e400] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro.html
+                  - img "iPhone 18 Pro 256GB" [ref=e402]
+                  - heading "iPhone 18 Pro 256GB" [level=3] [ref=e404]
+                  - generic [ref=e406]:
+                    - paragraph [ref=e407]: 38.690.000đ
+                    - paragraph [ref=e408]: 38.990.000đ
+                    - paragraph [ref=e410]:
+                      - text: Giảm
+                      - generic [ref=e411]: 1%
+                  - generic [ref=e412]:
+                    - paragraph [ref=e413]: 6.3 inches
+                    - paragraph [ref=e414]: 256 GB
+                  - generic [ref=e415]:
+                    - text: Smember giảm đến
+                    - generic [ref=e416]: 387.000đ
+                  - paragraph [ref=e420]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                - generic [ref=e421]:
+                  - generic [ref=e422]:
+                    - generic [ref=e423]: 2 Giờ
+                    - generic [ref=e434]: "5"
+                  - button [ref=e439]
+                - generic [ref=e458]:
+                  - text: Trả góp
+                  - strong [ref=e459]: 0%
+              - generic [ref=e460]:
+                - link "iPhone 17 Pro 256GB | Chính hãng iPhone 17 Pro 256GB | Chính hãng 31.990.000đ 34.990.000đ Giảm 9% 6.3 inches 256 GB Smember giảm đến 320.000đ Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác" [ref=e462] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-17-pro.html
+                  - img "iPhone 17 Pro 256GB | Chính hãng" [ref=e464]
+                  - heading "iPhone 17 Pro 256GB | Chính hãng" [level=3] [ref=e466]
+                  - generic [ref=e468]:
+                    - paragraph [ref=e469]: 31.990.000đ
+                    - paragraph [ref=e470]: 34.990.000đ
+                    - paragraph [ref=e472]:
+                      - text: Giảm
+                      - generic [ref=e473]: 9%
+                  - generic [ref=e474]:
+                    - paragraph [ref=e475]: 6.3 inches
+                    - paragraph [ref=e476]: 256 GB
+                  - generic [ref=e477]:
+                    - text: Smember giảm đến
+                    - generic [ref=e478]: 320.000đ
+                  - paragraph [ref=e482]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác
+                - generic [ref=e483]:
+                  - generic [ref=e484]:
+                    - generic [ref=e485]: 2 Giờ
+                    - generic [ref=e496]: "5"
+                  - button [ref=e501]
+                - generic [ref=e520]:
+                  - text: Trả góp
+                  - strong [ref=e521]: 0%
+              - generic [ref=e522]:
+                - link "iPhone 18 Pro Max 256GB iPhone 18 Pro Max 256GB 41.990.000đ 6.9 inches 256 GB Smember giảm đến 420.000đ Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e524] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                  - img "iPhone 18 Pro Max 256GB" [ref=e526]
+                  - heading "iPhone 18 Pro Max 256GB" [level=3] [ref=e528]
+                  - paragraph [ref=e531]: 41.990.000đ
+                  - generic [ref=e532]:
+                    - paragraph [ref=e533]: 6.9 inches
+                    - paragraph [ref=e534]: 256 GB
+                  - generic [ref=e535]:
+                    - text: Smember giảm đến
+                    - generic [ref=e536]: 420.000đ
+                  - paragraph [ref=e540]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: 2 Giờ
+                    - generic [ref=e554]: "5"
+                  - button [ref=e559]
+                - generic [ref=e578]:
+                  - text: Trả góp
+                  - strong [ref=e579]: 0%
+              - generic [ref=e580]:
+                - link "iPhone 17 Pro Max 256GB | Chính hãng iPhone 17 Pro Max 256GB | Chính hãng 34.990.000đ 37.990.000đ Giảm 8% 6.9 inches 256 GB Smember giảm đến 350.000đ Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác" [ref=e582] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                  - img "iPhone 17 Pro Max 256GB | Chính hãng" [ref=e584]
+                  - heading "iPhone 17 Pro Max 256GB | Chính hãng" [level=3] [ref=e586]
+                  - generic [ref=e588]:
+                    - paragraph [ref=e589]: 34.990.000đ
+                    - paragraph [ref=e590]: 37.990.000đ
+                    - paragraph [ref=e592]:
+                      - text: Giảm
+                      - generic [ref=e593]: 8%
+                  - generic [ref=e594]:
+                    - paragraph [ref=e595]: 6.9 inches
+                    - paragraph [ref=e596]: 256 GB
+                  - generic [ref=e597]:
+                    - text: Smember giảm đến
+                    - generic [ref=e598]: 350.000đ
+                  - paragraph [ref=e602]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác
+                - generic [ref=e603]:
+                  - generic [ref=e604]:
+                    - generic [ref=e605]: 2 Giờ
+                    - generic [ref=e616]: "5"
+                  - button [ref=e621]
+                - generic [ref=e640]:
+                  - text: Trả góp
+                  - strong [ref=e641]: 0%
+              - generic [ref=e642]:
+                - link "iPhone 18 Pro Max 512GB iPhone 18 Pro Max 512GB 48.490.000đ 6.9 inches 512 GB Smember giảm đến 485.000đ Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác" [ref=e644] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro-max-512gb.html
+                  - img "iPhone 18 Pro Max 512GB" [ref=e646]
+                  - heading "iPhone 18 Pro Max 512GB" [level=3] [ref=e648]
+                  - paragraph [ref=e651]: 48.490.000đ
+                  - generic [ref=e652]:
+                    - paragraph [ref=e653]: 6.9 inches
+                    - paragraph [ref=e654]: 512 GB
+                  - generic [ref=e655]:
+                    - text: Smember giảm đến
+                    - generic [ref=e656]: 485.000đ
+                  - paragraph [ref=e660]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác
+                - generic [ref=e661]:
+                  - generic [ref=e662]: 2 Giờ
+                  - button [ref=e675]
+                - generic [ref=e694]:
+                  - text: Trả góp
+                  - strong [ref=e695]: 0%
+              - generic [ref=e696]:
+                - link "iPhone 17 256GB | Chính hãng iPhone 17 256GB | Chính hãng 28.490.000đ 28.990.000đ Giảm 2% 6.3 inches 256 GB Smember giảm đến 285.000đ Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác" [ref=e698] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-17-256gb.html
+                  - img "iPhone 17 256GB | Chính hãng" [ref=e700]
+                  - heading "iPhone 17 256GB | Chính hãng" [level=3] [ref=e702]
+                  - generic [ref=e704]:
+                    - paragraph [ref=e705]: 28.490.000đ
+                    - paragraph [ref=e706]: 28.990.000đ
+                    - paragraph [ref=e708]:
+                      - text: Giảm
+                      - generic [ref=e709]: 2%
+                  - generic [ref=e710]:
+                    - paragraph [ref=e711]: 6.3 inches
+                    - paragraph [ref=e712]: 256 GB
+                  - generic [ref=e713]:
+                    - text: Smember giảm đến
+                    - generic [ref=e714]: 285.000đ
+                  - paragraph [ref=e718]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác
+                - generic [ref=e719]:
+                  - generic [ref=e720]:
+                    - generic [ref=e721]: 2 Giờ
+                    - generic [ref=e732]: "5"
+                  - button [ref=e737]
+                - generic [ref=e756]:
+                  - text: Trả góp
+                  - strong [ref=e757]: 0%
+              - generic [ref=e758]:
+                - link "iPhone 18 Pro 512GB iPhone 18 Pro 512GB 45.490.000đ 6.3 inches 512 GB Smember giảm đến 455.000đ Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e760] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro-512gb.html
+                  - img "iPhone 18 Pro 512GB" [ref=e762]
+                  - heading "iPhone 18 Pro 512GB" [level=3] [ref=e764]
+                  - paragraph [ref=e767]: 45.490.000đ
+                  - generic [ref=e768]:
+                    - paragraph [ref=e769]: 6.3 inches
+                    - paragraph [ref=e770]: 512 GB
+                  - generic [ref=e771]:
+                    - text: Smember giảm đến
+                    - generic [ref=e772]: 455.000đ
+                  - paragraph [ref=e776]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                - generic [ref=e777]:
+                  - generic [ref=e778]: 2 Giờ
+                  - button [ref=e791]
+                - generic [ref=e810]:
+                  - text: Trả góp
+                  - strong [ref=e811]: 0%
+              - generic [ref=e812]:
+                - link "iPhone 18 Pro Max 2TB iPhone 18 Pro Max 2TB 80.990.000đ 6.9 inches 2 TB Smember giảm đến 810.000đ Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác" [ref=e814] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro-max-2tb.html
+                  - img "iPhone 18 Pro Max 2TB" [ref=e816]
+                  - heading "iPhone 18 Pro Max 2TB" [level=3] [ref=e818]
+                  - paragraph [ref=e821]: 80.990.000đ
+                  - generic [ref=e822]:
+                    - paragraph [ref=e823]: 6.9 inches
+                    - paragraph [ref=e824]: 2 TB
+                  - generic [ref=e825]:
+                    - text: Smember giảm đến
+                    - generic [ref=e826]: 810.000đ
+                  - paragraph [ref=e830]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác
+                - generic [ref=e831]:
+                  - generic [ref=e832]: 2 Giờ
+                  - button [ref=e845]
+                - generic [ref=e864]:
+                  - text: Trả góp
+                  - strong [ref=e865]: 0%
+              - generic [ref=e866]:
+                - link "iPhone 18 Pro 2TB iPhone 18 Pro 2TB 77.490.000đ 77.990.000đ Giảm 1% 6.3 inches 2 TB Smember giảm đến 775.000đ Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e868] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro-2tb.html
+                  - img "iPhone 18 Pro 2TB" [ref=e870]
+                  - heading "iPhone 18 Pro 2TB" [level=3] [ref=e872]
+                  - generic [ref=e874]:
+                    - paragraph [ref=e875]: 77.490.000đ
+                    - paragraph [ref=e876]: 77.990.000đ
+                    - paragraph [ref=e878]:
+                      - text: Giảm
+                      - generic [ref=e879]: 1%
+                  - generic [ref=e880]:
+                    - paragraph [ref=e881]: 6.3 inches
+                    - paragraph [ref=e882]: 2 TB
+                  - generic [ref=e883]:
+                    - text: Smember giảm đến
+                    - generic [ref=e884]: 775.000đ
+                  - paragraph [ref=e888]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                - generic [ref=e889]:
+                  - generic [ref=e890]: 2 Giờ
+                  - button [ref=e903]
+                - generic [ref=e922]:
+                  - text: Trả góp
+                  - strong [ref=e923]: 0%
+              - generic [ref=e924]:
+                - link "iPhone Air 256GB | Chính hãng iPhone Air 256GB | Chính hãng 23.390.000đ 31.990.000đ Giảm 27% 6.5 inches 256 GB Smember giảm đến 234.000đ Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác" [ref=e926] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-air-256gb.html
+                  - img "iPhone Air 256GB | Chính hãng" [ref=e928]
+                  - heading "iPhone Air 256GB | Chính hãng" [level=3] [ref=e930]
+                  - generic [ref=e932]:
+                    - paragraph [ref=e933]: 23.390.000đ
+                    - paragraph [ref=e934]: 31.990.000đ
+                    - paragraph [ref=e936]:
+                      - text: Giảm
+                      - generic [ref=e937]: 27%
+                  - generic [ref=e938]:
+                    - paragraph [ref=e939]: 6.5 inches
+                    - paragraph [ref=e940]: 256 GB
+                  - generic [ref=e941]:
+                    - text: Smember giảm đến
+                    - generic [ref=e942]: 234.000đ
+                  - paragraph [ref=e946]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác
+                - generic [ref=e947]:
+                  - generic [ref=e948]:
+                    - generic [ref=e949]: 2 Giờ
+                    - generic [ref=e960]: "4.9"
+                  - button [ref=e965]
+                - generic [ref=e984]:
+                  - text: Trả góp
+                  - strong [ref=e985]: 0%
+              - generic [ref=e986]:
+                - link "iPhone 18 Pro Max 1TB iPhone 18 Pro Max 1TB 61.490.000đ 6.9 inches 1 TB Smember giảm đến 615.000đ Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác" [ref=e988] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro-max-1tb.html
+                  - img "iPhone 18 Pro Max 1TB" [ref=e990]
+                  - heading "iPhone 18 Pro Max 1TB" [level=3] [ref=e992]
+                  - paragraph [ref=e995]: 61.490.000đ
+                  - generic [ref=e996]:
+                    - paragraph [ref=e997]: 6.9 inches
+                    - paragraph [ref=e998]: 1 TB
+                  - generic [ref=e999]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1000]: 615.000đ
+                  - paragraph [ref=e1004]: Ưu đãi 500K cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone 18 Pro/Pro Max và 2 km khác
+                - generic [ref=e1005]:
+                  - generic [ref=e1006]: 2 Giờ
+                  - button [ref=e1019]
+                - generic [ref=e1038]:
+                  - text: Trả góp
+                  - strong [ref=e1039]: 0%
+              - generic [ref=e1040]:
+                - link "iPhone 17 Pro Max 512GB | Chính hãng iPhone 17 Pro Max 512GB | Chính hãng 41.390.000đ 46.490.000đ Giảm 11% 6.9 inches 512 GB Smember giảm đến 414.000đ Ưu đãi mua kèm Gói cam kết giá thu S-Buy Back vơi giá chỉ từ 1TR (giá gốc chỉ từ 1.4TR) và 3 km khác" [ref=e1042] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-17-pro-max-512gb.html
+                  - img "iPhone 17 Pro Max 512GB | Chính hãng" [ref=e1044]
+                  - heading "iPhone 17 Pro Max 512GB | Chính hãng" [level=3] [ref=e1046]
+                  - generic [ref=e1048]:
+                    - paragraph [ref=e1049]: 41.390.000đ
+                    - paragraph [ref=e1050]: 46.490.000đ
+                    - paragraph [ref=e1052]:
+                      - text: Giảm
+                      - generic [ref=e1053]: 11%
+                  - generic [ref=e1054]:
+                    - paragraph [ref=e1055]: 6.9 inches
+                    - paragraph [ref=e1056]: 512 GB
+                  - generic [ref=e1057]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1058]: 414.000đ
+                  - paragraph [ref=e1062]: Ưu đãi mua kèm Gói cam kết giá thu S-Buy Back vơi giá chỉ từ 1TR (giá gốc chỉ từ 1.4TR) và 3 km khác
+                - generic [ref=e1063]:
+                  - generic [ref=e1064]:
+                    - generic [ref=e1065]: 2 Giờ
+                    - generic [ref=e1076]: "5"
+                  - button [ref=e1081]
+                - generic [ref=e1100]:
+                  - text: Trả góp
+                  - strong [ref=e1101]: 0%
+              - generic [ref=e1102]:
+                - link "Điện thoại iPhone 16 Pro Max 256GB Điện thoại iPhone 16 Pro Max 256GB Sắp về hàng 30.990.000đ 34.990.000đ Giảm 11% 6.9 inches 8 GB 256 GB Smember giảm đến 310.000đ Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 3 km khác" [ref=e1104] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-16-pro-max.html
+                  - img "Điện thoại iPhone 16 Pro Max 256GB" [ref=e1106]
+                  - heading "Điện thoại iPhone 16 Pro Max 256GB" [level=3] [ref=e1108]
+                  - paragraph [ref=e1110]: Sắp về hàng
+                  - generic [ref=e1112]:
+                    - paragraph [ref=e1113]: 30.990.000đ
+                    - paragraph [ref=e1114]: 34.990.000đ
+                    - paragraph [ref=e1116]:
+                      - text: Giảm
+                      - generic [ref=e1117]: 11%
+                  - generic [ref=e1118]:
+                    - paragraph [ref=e1119]: 6.9 inches
+                    - paragraph [ref=e1120]: 8 GB
+                    - paragraph [ref=e1121]: 256 GB
+                  - generic [ref=e1122]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1123]: 310.000đ
+                  - paragraph [ref=e1127]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 3 km khác
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]: "4.9"
+                  - button [ref=e1135]
+                - generic [ref=e1154]:
+                  - text: Trả góp
+                  - strong [ref=e1155]: 0%
+              - generic [ref=e1156]:
+                - link "iPhone 18 Pro 1TB iPhone 18 Pro 1TB 57.990.000đ 58.490.000đ Giảm 1% 6.3 inches 1 TB Smember giảm đến 580.000đ Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác" [ref=e1158] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro-1tb.html
+                  - img "iPhone 18 Pro 1TB" [ref=e1160]
+                  - heading "iPhone 18 Pro 1TB" [level=3] [ref=e1162]
+                  - generic [ref=e1164]:
+                    - paragraph [ref=e1165]: 57.990.000đ
+                    - paragraph [ref=e1166]: 58.490.000đ
+                    - paragraph [ref=e1168]:
+                      - text: Giảm
+                      - generic [ref=e1169]: 1%
+                  - generic [ref=e1170]:
+                    - paragraph [ref=e1171]: 6.3 inches
+                    - paragraph [ref=e1172]: 1 TB
+                  - generic [ref=e1173]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1174]: 580.000đ
+                  - paragraph [ref=e1178]: Chi thêm 30K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 2 km khác
+                - generic [ref=e1179]:
+                  - generic [ref=e1180]: 2 Giờ
+                  - button [ref=e1193]
+                - generic [ref=e1212]:
+                  - text: Trả góp
+                  - strong [ref=e1213]: 0%
+              - generic [ref=e1214]:
+                - link "iPhone Duo 256GB iPhone Duo 256GB Hàng đặt trước 64.990.000đ Trong 7.6 inches - Ngoài 5.4 inches 256 GB Smember giảm đến 650.000đ Ưu đãi 1TR cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone Duo và 1 km khác" [ref=e1216] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-duo-256gb.html
+                  - img "iPhone Duo 256GB" [ref=e1218]
+                  - heading "iPhone Duo 256GB" [level=3] [ref=e1220]
+                  - paragraph [ref=e1222]: Hàng đặt trước
+                  - paragraph [ref=e1225]: 64.990.000đ
+                  - generic [ref=e1226]:
+                    - paragraph [ref=e1227]: Trong 7.6 inches - Ngoài 5.4 inches
+                    - paragraph [ref=e1228]: 256 GB
+                  - generic [ref=e1229]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1230]: 650.000đ
+                  - paragraph [ref=e1234]: Ưu đãi 1TR cho Apple Watch Series 12, Ultra 4 khi mua kèm Iphone Duo và 1 km khác
+                - button [ref=e1237]
+                - generic [ref=e1256]:
+                  - text: Trả góp
+                  - strong [ref=e1257]: 0%
+              - generic [ref=e1258]:
+                - link [ref=e1260] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-16e.html
+                  - img "iPhone 16e 128GB | Chính hãng VN/A" [ref=e1262]
+                  - heading "iPhone 16e 128GB | Chính hãng VN/A" [level=3] [ref=e1264]
+                  - paragraph [ref=e1267]: 14.290.000đ
+                  - generic [ref=e1268]:
+                    - paragraph [ref=e1269]: 6.1 inches
+                    - paragraph [ref=e1270]: 128 GB
+                  - paragraph [ref=e1274]: Giảm thêm 10% cho Pin dự phòng - Camera giám sát - Đồng hồ trẻ em - Gia dụng - Sức khỏe Làm đẹp khi mua Điện thoại/Laptop và 3 km khác
+                - generic [ref=e1275]:
+                  - generic [ref=e1276]:
+                    - generic [ref=e1277]: 2 Giờ
+                    - generic [ref=e1288]: "4.9"
+                  - button [ref=e1293]
+                - generic [ref=e1312]:
+                  - text: Trả góp
+                  - strong [ref=e1313]: 0%
+              - generic [ref=e1314]:
+                - link "iPhone 17 Pro 512GB | Chính hãng iPhone 17 Pro 512GB | Chính hãng 38.490.000đ 41.490.000đ Giảm 7% 6.3 inches 512 GB Smember giảm đến 385.000đ Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác" [ref=e1316] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-17-pro-512gb.html
+                  - img "iPhone 17 Pro 512GB | Chính hãng" [ref=e1318]
+                  - heading "iPhone 17 Pro 512GB | Chính hãng" [level=3] [ref=e1320]
+                  - generic [ref=e1322]:
+                    - paragraph [ref=e1323]: 38.490.000đ
+                    - paragraph [ref=e1324]: 41.490.000đ
+                    - paragraph [ref=e1326]:
+                      - text: Giảm
+                      - generic [ref=e1327]: 7%
+                  - generic [ref=e1328]:
+                    - paragraph [ref=e1329]: 6.3 inches
+                    - paragraph [ref=e1330]: 512 GB
+                  - generic [ref=e1331]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1332]: 385.000đ
+                  - paragraph [ref=e1336]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 2 km khác
+                - generic [ref=e1337]:
+                  - generic [ref=e1338]:
+                    - generic [ref=e1339]: 2 Giờ
+                    - generic [ref=e1350]: "5"
+                  - button [ref=e1355]
+                - generic [ref=e1374]:
+                  - text: Trả góp
+                  - strong [ref=e1375]: 0%
+              - generic [ref=e1376]:
+                - link "iPhone 15 128GB | Chính hãng VN/A iPhone 15 128GB | Chính hãng VN/A 21.490.000đ 22.990.000đ Giảm 7% 6.1 inches 6 GB 128 GB Smember giảm đến 215.000đ Chi thêm 10K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác" [ref=e1378] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-15.html
+                  - img "iPhone 15 128GB | Chính hãng VN/A" [ref=e1380]
+                  - heading "iPhone 15 128GB | Chính hãng VN/A" [level=3] [ref=e1382]
+                  - generic [ref=e1384]:
+                    - paragraph [ref=e1385]: 21.490.000đ
+                    - paragraph [ref=e1386]: 22.990.000đ
+                    - paragraph [ref=e1388]:
+                      - text: Giảm
+                      - generic [ref=e1389]: 7%
+                  - generic [ref=e1390]:
+                    - paragraph [ref=e1391]: 6.1 inches
+                    - paragraph [ref=e1392]: 6 GB
+                    - paragraph [ref=e1393]: 128 GB
+                  - generic [ref=e1394]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1395]: 215.000đ
+                  - paragraph [ref=e1399]: Chi thêm 10K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác
+                - generic [ref=e1400]:
+                  - generic [ref=e1401]:
+                    - generic [ref=e1402]: 2 Giờ
+                    - generic [ref=e1413]: "4.9"
+                  - button [ref=e1418]
+                - generic [ref=e1437]:
+                  - text: Trả góp
+                  - strong [ref=e1438]: 0%
+              - generic [ref=e1439]:
+                - link "iPhone 16 Pro Max 512GB | Chính hãng VN/A iPhone 16 Pro Max 512GB | Chính hãng VN/A Sắp về hàng 38.990.000đ 40.990.000đ Giảm 5% 6.9 inches 512 GB Smember giảm đến 390.000đ Chi thêm 10K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác" [ref=e1441] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-16-pro-max-512gb.html
+                  - img "iPhone 16 Pro Max 512GB | Chính hãng VN/A" [ref=e1443]
+                  - heading "iPhone 16 Pro Max 512GB | Chính hãng VN/A" [level=3] [ref=e1445]
+                  - paragraph [ref=e1447]: Sắp về hàng
+                  - generic [ref=e1449]:
+                    - paragraph [ref=e1450]: 38.990.000đ
+                    - paragraph [ref=e1451]: 40.990.000đ
+                    - paragraph [ref=e1453]:
+                      - text: Giảm
+                      - generic [ref=e1454]: 5%
+                  - generic [ref=e1455]:
+                    - paragraph [ref=e1456]: 6.9 inches
+                    - paragraph [ref=e1457]: 512 GB
+                  - generic [ref=e1458]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1459]: 390.000đ
+                  - paragraph [ref=e1463]: Chi thêm 10K - nhận Sim/Esim 5G VNSKY, có ngay 3GB data/ngày+500 phút gọi Mobifone & VNSKY, miễn phí 30 ngày đầu - chỉ áp dụng tại cửa hàng và 3 km khác
+                - generic [ref=e1464]:
+                  - generic [ref=e1465]: "4.9"
+                  - button [ref=e1471]
+                - generic [ref=e1490]:
+                  - text: Trả góp
+                  - strong [ref=e1491]: 0%
+              - generic [ref=e1492]:
+                - link "iPhone 16 128GB | Chính hãng VN/A iPhone 16 128GB | Chính hãng VN/A 24.990.000đ 6.1 inches 8 GB 128 GB Smember giảm đến 250.000đ Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 3 km khác" [ref=e1494] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-16.html
+                  - img "iPhone 16 128GB | Chính hãng VN/A" [ref=e1496]
+                  - heading "iPhone 16 128GB | Chính hãng VN/A" [level=3] [ref=e1498]
+                  - paragraph [ref=e1501]: 24.990.000đ
+                  - generic [ref=e1502]:
+                    - paragraph [ref=e1503]: 6.1 inches
+                    - paragraph [ref=e1504]: 8 GB
+                    - paragraph [ref=e1505]: 128 GB
+                  - generic [ref=e1506]:
+                    - text: Smember giảm đến
+                    - generic [ref=e1507]: 250.000đ
+                  - paragraph [ref=e1511]: Nhận Voucher 500K -mua ngay Robot hút bụi lau nhà, Tivi, Tủ lạnh, Máy giặt (Voucher phát ngay về tin nhắn sau khi mua điện thoại, laptop) và 3 km khác
+                - generic [ref=e1512]:
+                  - generic [ref=e1513]:
+                    - generic [ref=e1514]: 2 Giờ
+                    - generic [ref=e1525]: "4.9"
+                  - button [ref=e1530]
+                - generic [ref=e1549]:
+                  - text: Trả góp
+                  - strong [ref=e1550]: 0%
+            - generic [ref=e1551]: Xem thêm 22 sản phẩm
+        - generic [ref=e1555]:
+          - generic [ref=e1556]:
+            - generic [ref=e1557]:
+              - generic [ref=e1558]:
+                - paragraph [ref=e1559]:
+                  - link "iPhone 18" [ref=e1560] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-18.html
+                  - link "iPhone 17 Pro Max" [ref=e1561] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                  - link "iPhone 18 Pro Max" [ref=e1562] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+                  - link "iPhone 18 Pro" [ref=e1563] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/iphone-18-pro.html
+                  - link "iPhone Duo" [ref=e1564] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - blockquote [ref=e1565]:
+                  - paragraph [ref=e1566]:
+                    - strong [ref=e1567]: iPhone
+                    - text: là dòng điện thoại thông minh do Apple sản xuất, ra mắt lần đầu năm 2007 nổi bật cùng con chip Apple Bionic Apple bao gồm iPhone 17 Series, iPhone 16 Series, iPhone 15 Series, iPhone 14 Series,... cùng chip như A19; A18; A17,... sở hữu hiệu năng cực mạnh mẽ, thiết kế sang trọng và chạy hệ điều hành iOS độc quyền.
+              - generic [ref=e1568]:
+                - paragraph [ref=e1570] [cursor=pointer]: Nội dung chính
+                - generic [ref=e1574]:
+                  - link "1. Giá iPhone bao nhiêu tiền tháng 11/2026?" [ref=e1575] [cursor=pointer]:
+                    - /url: "#gia-iphone-bao-nhieu-tien-thang-11-2026"
+                  - link "2. Các dòng sản phẩm của Apple" [ref=e1576] [cursor=pointer]:
+                    - /url: "#cac-dong-san-pham-cua-apple"
+                  - link "3. Lịch sử hình thành Apple và iPhone" [ref=e1577] [cursor=pointer]:
+                    - /url: "#lich-su-hinh-thanh-apple-va-iphone"
+                  - link "4. iPhone có gì mới đáng mong đợi 2026" [ref=e1578] [cursor=pointer]:
+                    - /url: "#iphone-co-gi-moi-dang-mong-doi-2026"
+                  - link "4.1. Giá trị thương hiệu và giữ giá" [ref=e1579] [cursor=pointer]:
+                    - /url: "#gia-tri-thuong-hieu-va-giu-gia"
+                  - link "4.2. Thiết kế gập độc đáo" [ref=e1580] [cursor=pointer]:
+                    - /url: "#thiet-ke-gap-doc-dao"
+                  - link "4.3. Thiết kế cứng cáp, bền bỉ x3 lần" [ref=e1581] [cursor=pointer]:
+                    - /url: "#thiet-ke-cung-cap-ben-bi-x3-lan"
+                  - link "4.4. Màn hình iPhone sắc nét - Mãn nhãn với độ phân giải cao" [ref=e1582] [cursor=pointer]:
+                    - /url: "#man-hinh-iphone-sac-net-man-nhan-voi-do-phan-giai-cao"
+                  - link "4.5. Nâng tầm nhiếp ảnh Pro với camera khẩu độ thay đổi" [ref=e1583] [cursor=pointer]:
+                    - /url: "#nang-tam-nhiep-anh-pro-voi-camera-khau-do-thay-doi"
+                  - link "4.6. Hệ điều hành iOS và bảo mật cao" [ref=e1584] [cursor=pointer]:
+                    - /url: "#he-dieu-hanh-ios-va-bao-mat-cao"
+                  - link "4.7. Hiệu năng vượt trội và ổn định" [ref=e1585] [cursor=pointer]:
+                    - /url: "#hieu-nang-vuot-troi-va-on-dinh"
+                  - link "4.8. Hệ sinh thái Apple đồng bộ (Ecosystem)" [ref=e1586] [cursor=pointer]:
+                    - /url: "#he-sinh-thai-apple-dong-bo-ecosystem"
+                  - link "4.9. Thời lượng pin ấn tượng lên đến 43 giờ liên tục" [ref=e1587] [cursor=pointer]:
+                    - /url: "#thoi-luong-pin-an-tuong-len-den-43-gio-lien-tuc"
+                  - link "4.10. Trang bị chế độ an toàn và kết nối tiện lợi" [ref=e1588] [cursor=pointer]:
+                    - /url: "#trang-bi-che-do-an-toan-va-ket-noi-tien-loi"
+                  - link "4.11. Tích hợp Apple Intelligence thông minh" [ref=e1589] [cursor=pointer]:
+                    - /url: "#tich-hop-apple-intelligence-thong-minh"
+                  - link "5. iPhone có các dòng nào nên mua năm 2026?" [ref=e1590] [cursor=pointer]:
+                    - /url: "#iphone-co-cac-dong-nao-nen-mua-nam-2026"
+                  - link "5.1. iPhone thường (Standard) - Cân bằng giá/hiệu năng, gọn nhẹ" [ref=e1591] [cursor=pointer]:
+                    - /url: "#iphone-thuong-standard-can-bang-gia-hieu-nang-gon-nhe"
+                  - link "5.2. iPhone Plus - Màn lớn, pin trâu, giá mềm hơn Pro Max" [ref=e1592] [cursor=pointer]:
+                    - /url: "#iphone-plus-man-lon-pin-trau-gia-mem-hon-pro-max"
+                  - link "5.3. iPhone Pro - Titanium, ProMotion, camera 3 ống kính" [ref=e1593] [cursor=pointer]:
+                    - /url: "#iphone-pro-titanium-promotion-camera-3-ong-kinh"
+                  - link "5.4. iPhone Pro Max - Đỉnh cao camera (ống kính tiềm vọng), pin lớn nhất hiện tại" [ref=e1594] [cursor=pointer]:
+                    - /url: "#iphone-pro-max-dinh-cao-camera-ong-kinh-tiem-vong-pin-lon-nhat-hien-tai"
+                  - link "5.5. iPhone e (16e/17e) - Face ID + AI, giá kinh tế, thay thế SE" [ref=e1595] [cursor=pointer]:
+                    - /url: "#iphone-e-16e-17e-face-id-ai-gia-kinh-te-thay-the-se"
+                  - link "5.6. Air Series - Siêu mỏng nhẹ từ trước đến nay" [ref=e1596] [cursor=pointer]:
+                    - /url: "#air-series-sieu-mong-nhe-tu-truoc-den-nay"
+                  - link "5.7. iPhone Duo - Thiết kế gập đầu tiên với kiến trúc pin đôi" [ref=e1597] [cursor=pointer]:
+                    - /url: "#iphone-duo-thiet-ke-gap-dau-tien-voi-kien-truc-pin-doi"
+                  - link "5.8. Mini/SE - Ngừng sản xuất hàng mới" [ref=e1598] [cursor=pointer]:
+                    - /url: "#mini-se-ngung-san-xuat-hang-moi"
+                  - link "6. Mua iPhone dựa theo bộ nhớ trong" [ref=e1599] [cursor=pointer]:
+                    - /url: "#mua-iphone-dua-theo-bo-nho-trong"
+                  - link "6.1. iPhone 64GB - nhu cầu cơ bản" [ref=e1600] [cursor=pointer]:
+                    - /url: "#iphone-64gb-nhu-cau-co-ban"
+                  - link "6.2. iPhone 128GB - Lựa chọn \"Quốc dân\" (Khuyên dùng)" [ref=e1601] [cursor=pointer]:
+                    - /url: "#iphone-128gb-lua-chon-quoc-dan-khuyen-dung"
+                  - link "6.3. iPhone 256GB - Thoải mái lưu trữ" [ref=e1602] [cursor=pointer]:
+                    - /url: "#iphone-256gb-thoai-mai-luu-tru"
+                  - link "6.4. iPhone 512GB - Lưu trữ thoải mái, quay hình độ phân giải cao" [ref=e1603] [cursor=pointer]:
+                    - /url: "#iphone-512gb-luu-tru-thoai-mai-quay-hinh-do-phan-giai-cao"
+                  - link "6.5. iPhone 1TB - 2TB - Dành cho người sáng tạo, cần nhiều bộ nhớ quay chụp" [ref=e1604] [cursor=pointer]:
+                    - /url: "#iphone-1tb-2tb-danh-cho-nguoi-sang-tao-can-nhieu-bo-nho-quay-chup"
+                  - link "7. Mua iPhone dựa theo nhu cầu cá nhân" [ref=e1605] [cursor=pointer]:
+                    - /url: "#mua-iphone-dua-theo-nhu-cau-ca-nhan"
+                  - link "7.1. Mua iPhone dùng cơ bản, pin trâu" [ref=e1606] [cursor=pointer]:
+                    - /url: "#mua-iphone-dung-co-ban-pin-trau"
+                  - link "7.2. Mua iPhone chụp ảnh/quay video chuyên nghiệp" [ref=e1607] [cursor=pointer]:
+                    - /url: "#mua-iphone-chup-anh-quay-video-chuyen-nghiep"
+                  - link "7.3. Mua iPhone chơi game, tác vụ nặng" [ref=e1608] [cursor=pointer]:
+                    - /url: "#mua-iphone-choi-game-tac-vu-nang"
+                  - link "7.4. Mua iPhone giá rẻ, màn lớn" [ref=e1609] [cursor=pointer]:
+                    - /url: "#mua-iphone-gia-re-man-lon"
+                  - link "7.5. Mua iPhone siêu mỏng nhẹ" [ref=e1610] [cursor=pointer]:
+                    - /url: "#mua-iphone-sieu-mong-nhe"
+                  - link "7.6. Mua iPhone nhỏ gọn, dễ cầm" [ref=e1611] [cursor=pointer]:
+                    - /url: "#mua-iphone-nho-gon-de-cam"
+                  - link "8. So sánh iPhone iOS và Android, nên chọn mua hệ điều hành nào?" [ref=e1612] [cursor=pointer]:
+                    - /url: "#so-sanh-iphone-ios-va-android-nen-chon-mua-he-dieu-hanh-nao"
+                  - link "9. Top iPhone tại CellphoneS đang bán chạy tháng 11/2026 nên mua?" [ref=e1613] [cursor=pointer]:
+                    - /url: "#top-iphone-tai-cellphones-dang-ban-chay-thang-11-2026-nen-mua"
+                  - link "9.1. iPhone Duo - Thiết kế gập mở rộng không gian sử dụng" [ref=e1614] [cursor=pointer]:
+                    - /url: "#iphone-duo-thiet-ke-gap-mo-rong-khong-gian-su-dung"
+                  - link "9.2. iPhone 18 Pro series - Hiệu năng mạnh mẽ, nâng cấp trải nghiệm chụp ảnh" [ref=e1615] [cursor=pointer]:
+                    - /url: "#iphone-18-pro-series-hieu-nang-manh-me-nang-cap-trai-nghiem-chup-anh"
+                  - link "9.3. iPhone Air - mỏng nhẹ chỉ 5.6mm" [ref=e1616] [cursor=pointer]:
+                    - /url: "#iphone-air-mong-nhe-chi-5-6mm"
+                  - link "9.4. iPhone 17 series - Vapor Chamber lần đầu tiên trên iPhone" [ref=e1617] [cursor=pointer]:
+                    - /url: "#iphone-17-series-vapor-chamber-lan-dau-tien-tren-iphone"
+                  - link "9.5. iPhone 16 series - Camera Ultrawide 48MP nâng cấp" [ref=e1618] [cursor=pointer]:
+                    - /url: "#iphone-16-series-camera-ultrawide-48mp-nang-cap"
+                  - link "9.6. iPhone 15 series - Cột mốc chuyển từ Lightning sang USB-C" [ref=e1619] [cursor=pointer]:
+                    - /url: "#iphone-15-series-cot-moc-chuyen-tu-lightning-sang-usb-c"
+                  - link "9.7. iPhone 14 series - Dynamic Island ra mắt lần đầu" [ref=e1620] [cursor=pointer]:
+                    - /url: "#iphone-14-series-dynamic-island-ra-mat-lan-dau"
+                  - link "9.8. iPhone 13 series - mức giá thấp trong bảng giá hiện hành" [ref=e1621] [cursor=pointer]:
+                    - /url: "#iphone-13-series-muc-gia-thap-trong-bang-gia-hien-hanh"
+                  - link "10. Mua điện thoại iPhone chính hãng, giá tốt, trả góp 0% tại CellphoneS" [ref=e1622] [cursor=pointer]:
+                    - /url: "#mua-dien-thoai-iphone-chinh-hang-gia-tot-tra-gop-0-tai-cellphones"
+                  - link "11. Một vài câu hỏi thắc mắc khi mua iPhone tại CellphoneS" [ref=e1623] [cursor=pointer]:
+                    - /url: "#mot-vai-cau-hoi-thac-mac-khi-mua-iphone-tai-cellphones"
+                  - link "11.1. Mua iPhone trả góp tại CellphoneS cần những giấy tờ gì?" [ref=e1624] [cursor=pointer]:
+                    - /url: "#mua-iphone-tra-gop-tai-cellphones-can-nhung-giay-to-gi"
+                  - link "11.2. Cách kiểm tra iPhone chính hãng Apple trước khi mua" [ref=e1625] [cursor=pointer]:
+                    - /url: "#cach-kiem-tra-iphone-chinh-hang-apple-truoc-khi-mua"
+                  - link "11.3. iPhone VN/A là gì? Có nên mua iPhone hàng quốc tế và iPhone lock?" [ref=e1626] [cursor=pointer]:
+                    - /url: "#iphone-vn-a-la-gi-co-nen-mua-iphone-hang-quoc-te-va-iphone-lock"
+                  - link "11.4. iPhone bản thường khác gì bản Pro và Pro Max?" [ref=e1627] [cursor=pointer]:
+                    - /url: "#iphone-ban-thuong-khac-gi-ban-pro-va-pro-max"
+                  - link "11.5. Nên mua iPhone vào thời gian nào trong năm?" [ref=e1628] [cursor=pointer]:
+                    - /url: "#nen-mua-iphone-vao-thoi-gian-nao-trong-nam"
+                  - link "11.6. iPhone dùng có bền không?" [ref=e1629] [cursor=pointer]:
+                    - /url: "#iphone-dung-co-ben-khong"
+                  - link "11.7. Apple Intelligence có hỗ trợ tiếng Việt chưa? Có trên iPhone nào" [ref=e1630] [cursor=pointer]:
+                    - /url: "#apple-intelligence-co-ho-tro-tieng-viet-chua-co-tren-iphone-nao"
+                  - link "11.8. iPhone chơi game tốt không?" [ref=e1631] [cursor=pointer]:
+                    - /url: "#iphone-choi-game-tot-khong"
+                  - link "11.9. Học sinh, sinh viên nên dùng iPhone nào?" [ref=e1632] [cursor=pointer]:
+                    - /url: "#hoc-sinh-sinh-vien-nen-dung-iphone-nao"
+                  - link "11.10. iPhone có chống nước không?" [ref=e1633] [cursor=pointer]:
+                    - /url: "#iphone-co-chong-nuoc-khong"
+                  - link "11.11. iPhone Like New là gì?" [ref=e1634] [cursor=pointer]:
+                    - /url: "#iphone-like-new-la-gi"
+              - generic [ref=e1635]:
+                - heading [level=2] [ref=e1636]:
+                  - strong [ref=e1637]: Giá iPhone bao nhiêu tiền tháng 11/2026?
+                - paragraph [ref=e1638]: "Giá iPhone hiện tại dao động từ 5,39 đến 103,99 triệu đồng tùy dòng máy, phiên bản dung lượng và tình trạng mới hay cũ. Mức giá cụ thể cho các dòng máy chính hãng mới (VN/A) tại CellphoneS tháng 11/2026 như sau:"
+                - table [ref=e1639]:
+                  - rowgroup [ref=e1640]:
+                    - row [ref=e1641]:
+                      - cell [ref=e1642]:
+                        - paragraph [ref=e1643]:
+                          - strong [ref=e1644]: Dòng sản phẩm
+                      - cell [ref=e1645]:
+                        - paragraph [ref=e1646]:
+                          - strong [ref=e1647]: Dung lượng
+                      - cell [ref=e1648]:
+                        - paragraph [ref=e1649]:
+                          - strong [ref=e1650]: Giá máy mới (VNĐ)
+                      - cell [ref=e1651]:
+                        - paragraph [ref=e1652]:
+                          - strong [ref=e1653]: Giá máy cũ (VNĐ)
+                    - row [ref=e1654]:
+                      - cell [ref=e1655]:
+                        - paragraph [ref=e1656]:
+                          - strong [ref=e1657]: iPhone 11 Series
+                      - cell [ref=e1658]:
+                        - paragraph [ref=e1659]: 64GB-512GB
+                      - cell [ref=e1660]:
+                        - paragraph [ref=e1661]: Hết hàng
+                      - cell [ref=e1662]:
+                        - paragraph [ref=e1663]: Từ 5.390.000đ
+                    - row [ref=e1664]:
+                      - cell [ref=e1665]:
+                        - paragraph [ref=e1666]:
+                          - strong [ref=e1667]: iPhone 12 Series
+                      - cell [ref=e1668]:
+                        - paragraph [ref=e1669]: 64GB-512GB
+                      - cell [ref=e1670]:
+                        - paragraph [ref=e1671]: Hết hàng
+                      - cell [ref=e1672]:
+                        - paragraph [ref=e1673]: Từ 7.390.000đ
+                    - row [ref=e1674]:
+                      - cell [ref=e1675]:
+                        - paragraph [ref=e1676]:
+                          - strong [ref=e1677]: iPhone 13 Series
+                      - cell [ref=e1678]:
+                        - paragraph [ref=e1679]: 128GB-1TB
+                      - cell [ref=e1680]:
+                        - paragraph [ref=e1681]: Từ 15.990.000đ
+                      - cell [ref=e1682]:
+                        - paragraph [ref=e1683]: Từ 8.390.000đ
+                    - row [ref=e1684]:
+                      - cell [ref=e1685]:
+                        - paragraph [ref=e1686]:
+                          - strong [ref=e1687]:
+                            - link "iPhone 14 Series" [ref=e1688] [cursor=pointer]:
+                              - /url: https://cellphones.com.vn/mobile/apple/iphone-14.html
+                      - cell [ref=e1689]:
+                        - paragraph [ref=e1690]: 128GB-1TB
+                      - cell [ref=e1691]:
+                        - paragraph [ref=e1692]: Từ 15.990.000đ
+                      - cell [ref=e1693]:
+                        - paragraph [ref=e1694]: Từ 9.990.000đ
+                    - row [ref=e1695]:
+                      - cell [ref=e1696]:
+                        - paragraph [ref=e1697]:
+                          - strong [ref=e1698]:
+                            - link "iPhone 15 Series" [ref=e1699] [cursor=pointer]:
+                              - /url: https://cellphones.com.vn/mobile/apple/iphone-15.html
+                      - cell [ref=e1700]:
+                        - paragraph [ref=e1701]: 128GB-1TB
+                      - cell [ref=e1702]:
+                        - paragraph [ref=e1703]: Từ 22.990.000đ
+                      - cell [ref=e1704]:
+                        - paragraph [ref=e1705]: Từ 13.490.000đ
+                    - row [ref=e1706]:
+                      - cell [ref=e1707]:
+                        - paragraph [ref=e1708]:
+                          - strong [ref=e1709]:
+                            - link "iPhone 16 Series" [ref=e1710] [cursor=pointer]:
+                              - /url: https://cellphones.com.vn/mobile/apple/iphone-16.html
+                      - cell [ref=e1711]:
+                        - paragraph [ref=e1712]: 128GB-1TB
+                      - cell [ref=e1713]:
+                        - paragraph [ref=e1714]: Từ 14.290.000đ
+                      - cell [ref=e1715]:
+                        - paragraph [ref=e1716]: Từ 10.490.000đ
+                    - row [ref=e1717]:
+                      - cell [ref=e1718]:
+                        - paragraph [ref=e1719]:
+                          - strong [ref=e1720]:
+                            - link "iPhone 17 Series" [ref=e1721] [cursor=pointer]:
+                              - /url: https://cellphones.com.vn/mobile/apple/iphone-17.html
+                      - cell [ref=e1722]:
+                        - paragraph [ref=e1723]: 256GB-2TB
+                      - cell [ref=e1724]:
+                        - paragraph [ref=e1725]: Từ 28.990.000đ
+                      - cell [ref=e1726]:
+                        - paragraph [ref=e1727]: Từ 14.790.000đ
+                    - row [ref=e1728]:
+                      - cell [ref=e1729]:
+                        - paragraph [ref=e1730]:
+                          - strong [ref=e1731]: iPhone 18 Series
+                      - cell [ref=e1732]:
+                        - paragraph [ref=e1733]: 256GB-2TB
+                      - cell [ref=e1734]:
+                        - paragraph [ref=e1735]: Từ 38.990.000đ
+                      - cell [ref=e1736]:
+                        - paragraph [ref=e1737]: Từ 37.490.000đ
+                    - row [ref=e1738]:
+                      - cell [ref=e1739]:
+                        - paragraph [ref=e1740]:
+                          - strong [ref=e1741]:
+                            - link "iPhone Air series" [ref=e1742] [cursor=pointer]:
+                              - /url: https://cellphones.com.vn/mobile/apple/iphone-air.html
+                      - cell [ref=e1743]:
+                        - paragraph [ref=e1744]: 256GB-1TB
+                      - cell [ref=e1745]:
+                        - paragraph [ref=e1746]: Từ 31.990.000đ
+                      - cell [ref=e1747]:
+                        - paragraph [ref=e1748]: Từ 18.190.000đ
+                    - row [ref=e1749]:
+                      - cell [ref=e1750]:
+                        - paragraph [ref=e1751]:
+                          - strong [ref=e1752]: iPhone Duo
+                      - cell [ref=e1753]:
+                        - paragraph [ref=e1754]: 256GB-1TB
+                      - cell [ref=e1755]:
+                        - paragraph [ref=e1756]: Từ 64.990.000đ
+                      - cell [ref=e1757]:
+                        - paragraph
+                - paragraph [ref=e1758]: "Bảng giá niêm yết các dòng iPhone mới nhất tại CellphoneS:"
+                - list [ref=e1759]:
+                  - listitem [ref=e1760]:
+                    - paragraph [ref=e1761]:
+                      - strong [ref=e1762]: "iPhone Duo:"
+                      - text: Giá từ 64.990.000đ đến 103.990.000đ.
+                  - listitem [ref=e1763]:
+                    - paragraph [ref=e1764]:
+                      - strong [ref=e1765]: "iPhone 18 Pro Max:"
+                      - text: Giá từ 41.990.000đ - 80.990.000đ
+                  - listitem [ref=e1766]:
+                    - paragraph [ref=e1767]:
+                      - strong [ref=e1768]: "iPhone 18 Pro:"
+                      - text: Giá từ 38.990.000đ - 77.990.000đ
+                - paragraph [ref=e1769]: "Chi tiết bảng giá điện thoại iPhone còn lại tại CellphoneS:"
+                - paragraph [ref=e1770]:
+                  - strong [ref=e1771]: "iPhone 17 Series:"
+                - list [ref=e1772]:
+                  - listitem [ref=e1773]:
+                    - paragraph [ref=e1774]:
+                      - strong [ref=e1775]: iPhone 17
+                      - strong [ref=e1776]: ":"
+                      - text: Từ 28.990.000đ - 35.490.000đ
+                  - listitem [ref=e1777]:
+                    - paragraph [ref=e1778]:
+                      - strong [ref=e1779]: iPhone 17 Pro
+                      - strong [ref=e1780]: ":"
+                      - text: Từ 34.990.000đ - 47.990.000đ
+                  - listitem [ref=e1781]:
+                    - paragraph [ref=e1782]:
+                      - strong [ref=e1783]: iPhone 17 Pro Max
+                      - strong [ref=e1784]: ":"
+                      - text: 37.790.000đ - 63.990.000đ
+                  - listitem [ref=e1785]:
+                    - paragraph [ref=e1786]:
+                      - strong [ref=e1787]: iPhone 17e
+                      - strong [ref=e1788]: ":"
+                      - text: Từ 21.990.000đ - 28.490.000đ
+                - paragraph [ref=e1789]:
+                  - strong [ref=e1790]: "iPhone Air series:"
+                  - text: Từ 31.990.000đ - 44.990.000đ
+                - paragraph [ref=e1791]:
+                  - strong [ref=e1792]: "iPhone 16 Series:"
+                - list [ref=e1793]:
+                  - listitem [ref=e1794]:
+                    - paragraph [ref=e1795]:
+                      - strong [ref=e1796]: "iPhone 16:"
+                      - text: Từ 24.990.000đ - 31.990.000đ
+                  - listitem [ref=e1797]:
+                    - paragraph [ref=e1798]:
+                      - strong [ref=e1799]: "iPhone 16 Plus:"
+                      - text: Từ 27.990.000đ - 34.990.000đ
+                  - listitem [ref=e1800]:
+                    - paragraph [ref=e1801]:
+                      - strong [ref=e1802]: "iPhone 16 Pro:"
+                      - text: Từ 28.990.000đ - 43.990.000đ
+                  - listitem [ref=e1803]:
+                    - paragraph [ref=e1804]:
+                      - strong [ref=e1805]: iPhone 16 Pro Max
+                      - strong [ref=e1806]: ":"
+                      - text: Từ 34.990.000đ - 46.990.000đ
+                  - listitem [ref=e1807]:
+                    - paragraph [ref=e1808]:
+                      - strong [ref=e1809]: iPhone 16e
+                      - strong [ref=e1810]: ":"
+                      - text: Từ 14.290.000đ - 16.190.000đ
+                - paragraph [ref=e1811]:
+                  - strong [ref=e1812]: "iPhone 15 Series:"
+                - list [ref=e1813]:
+                  - listitem [ref=e1814]:
+                    - paragraph [ref=e1815]:
+                      - strong [ref=e1816]: iPhone 15
+                      - strong [ref=e1817]: ":"
+                      - text: Từ 22.990.000đ - 25.990.000đ
+                  - listitem [ref=e1818]:
+                    - paragraph [ref=e1819]:
+                      - strong [ref=e1820]: "iPhone 15 Plus:"
+                      - text: Từ 22.990.000đ - 25.990.000đ
+                  - listitem [ref=e1821]:
+                    - paragraph [ref=e1822]:
+                      - strong [ref=e1823]: iPhone 15 Pro
+                      - strong [ref=e1824]: ":"
+                      - text: Từ 28.990.000đ - 31.990.000đ
+                  - listitem [ref=e1825]:
+                    - paragraph [ref=e1826]:
+                      - strong [ref=e1827]: "iPhone 15 Pro Max:"
+                      - text: Từ 34.990.000đ - 46.990.000đ
+                - paragraph [ref=e1828]:
+                  - strong [ref=e1829]: "iPhone 14 Series:"
+                - list [ref=e1830]:
+                  - listitem [ref=e1831]:
+                    - paragraph [ref=e1832]:
+                      - strong [ref=e1833]: iPhone 14
+                      - strong [ref=e1834]: ":"
+                      - text: Từ 17.990.000đ - 20.990.000đ
+                  - listitem [ref=e1835]:
+                    - paragraph [ref=e1836]:
+                      - strong [ref=e1837]: iPhone 14 Plus
+                      - strong [ref=e1838]: ":"
+                      - text: Từ 19.990.000đ - 22.990.000đ
+                  - listitem [ref=e1839]:
+                    - paragraph [ref=e1840]:
+                      - strong [ref=e1841]: iPhone 14 Pro
+                      - strong [ref=e1842]: ":"
+                      - text: Từ 27.990.000đ - 39.990.000đ
+                  - listitem [ref=e1843]:
+                    - paragraph [ref=e1844]:
+                      - strong [ref=e1845]: iPhone 14 Pro Max
+                      - strong [ref=e1846]: ":"
+                      - text: Từ 29.990.000đ - 45.990.000đ
+                - paragraph [ref=e1847]:
+                  - strong [ref=e1848]: "iPhone 13 Series:"
+                - list [ref=e1849]:
+                  - listitem [ref=e1850]:
+                    - paragraph [ref=e1851]:
+                      - strong [ref=e1852]: iPhone 13
+                      - strong [ref=e1853]: ":"
+                      - text: Từ 15.990.000đ - 16.990.000đ
+                  - listitem [ref=e1854]:
+                    - paragraph [ref=e1855]:
+                      - strong [ref=e1856]: iPhone 13 Pro
+                      - strong [ref=e1857]: ":"
+                      - text: Từ 23.990.000đ - 30.990.000đ
+                  - listitem [ref=e1858]:
+                    - paragraph [ref=e1859]:
+                      - strong [ref=e1860]: iPhone 13 Pro Max
+                      - strong [ref=e1861]: ":"
+                      - text: Từ 28.990.000đ - 35.990.000đ
+                  - listitem [ref=e1862]:
+                    - strong [ref=e1863]: "iPhone 13 mini:"
+                    - text: Từ 21.990.000đ - 30.990.000đ
+                - paragraph [ref=e1864]:
+                  - emphasis [ref=e1865]: "Lưu ý: Đây là mức giá iPhone bán niêm yết tại CellphoneS tháng 11/2026, giá bán sẽ thay đổi liên tục dựa trên các chương trình khuyến mãi mà CellphoneS mang đến như các dịp lễ (Tết, Black Friday, Back to School) - các đợt sale ngày đôi lớn nhất trong năm."
+                - heading [level=2] [ref=e1866]:
+                  - strong [ref=e1867]: Các dòng sản phẩm của Apple
+                - paragraph [ref=e1868]:
+                  - link [ref=e1869] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/mobile/apple.html
+                    - strong [ref=e1870]: Apple
+                  - text: Inc. là
+                  - strong [ref=e1871]: tập đoàn công nghệ máy tính của Mỹ,
+                  - text: "nổi bật với các dòng sản phẩm phần cứng chủ lực bao gồm:"
+                  - strong [ref=e1872]: iPhone, iPad, máy tính Mac, Apple Watch, AirPods
+                  - text: và
+                  - strong [ref=e1873]: thiết bị thực tế hỗn hợp Vision Pro
+                  - text: ". Các dòng sản phẩm chính của hãng gồm:"
+                - list [ref=e1874]:
+                  - listitem [ref=e1875]:
+                    - paragraph [ref=e1876]:
+                      - strong [ref=e1877]: "iPhone:"
+                      - text: là chiếc điện thoại thuộc phân khúc cao cấp với hệ điều hành iOS, thiết kế đẹp mắt, camera chất lượng rõ nét và hiệu năng mạnh mẽ nhờ chip Apple.
+                  - listitem [ref=e1878]:
+                    - paragraph [ref=e1879]:
+                      - strong [ref=e1880]: "iPad:"
+                      - text: Máy tính bảng với nhiều dòng phù hợp đa dạng nhu cầu sử dụng đáp ứng các tính năng hữu ích cho công việc, học tập và giải trí.
+                  - listitem [ref=e1881]:
+                    - paragraph [ref=e1882]:
+                      - strong [ref=e1883]: "Macbook:"
+                      - text: Máy tính xách tay MacBook và máy tính để bàn iMac là hai thiết bị cao cấp với hệ điều hành macOS, hiện đang được ưa chuộng bởi các nhà thiết kế, rất phù hợp cho lập trình viên và người dùng chuyên nghiệp.
+                  - listitem [ref=e1884]:
+                    - paragraph [ref=e1885]:
+                      - strong [ref=e1886]: "Apple Watch:"
+                      - text: Đây là đồng hồ thông minh đi kèm với nhiều tính năng hỗ trợ sức khỏe và thể thao, chúng đồng bộ hệ sinh thái giúp việc sử dụng trở nên thông minh hơn bao giờ hết
+                  - listitem [ref=e1887]:
+                    - paragraph [ref=e1888]:
+                      - strong [ref=e1889]: "AirPods:"
+                      - text: Tai nghe Bluetooth không dây, có các chế độ chống ồn chủ động với chất lượng không gian âm thanh vô cùng tuyệt vời.
+                  - listitem [ref=e1890]:
+                    - paragraph [ref=e1891]:
+                      - strong [ref=e1892]: "Apple TV:"
+                      - text: Thiết bị nay dùng để giải trí đa phương tiện đáp ứng các tác vụ như xem phim, nghe nhạc và chơi game trên TV.
+                - paragraph [ref=e1893]:
+                  - text: Ngoài ra, Apple còn cung cấp cho người dùng nhiều dịch vụ khác như
+                  - strong [ref=e1894]: iCloud, Apple Music, Apple TV+ và Apple Arcade
+                  - text: liên kế một cách thông minh.
+                - heading [level=2] [ref=e1895]:
+                  - strong [ref=e1896]: Lịch sử hình thành Apple và iPhone
+                - paragraph [ref=e1897]: Apple được thành lập vào ngày 1/4/1976 bởi Steve Jobs, Steve Wozniak và Ronald Wayne. Công ty trải qua nhiều thập kỷ phát triển trong lĩnh vực máy tính trước khi mở rộng sang thị trường thiết bị di động.
+                - paragraph [ref=e1898]: Sự kiện Macworld tại San Francisco ngày 9/1/2007 đánh dấu thời điểm Steve Jobs ra mắt chiếc iPhone đầu tiên, mở đầu cho dòng iPhone 2G. Thiết bị tích hợp khả năng nghe nhạc, gọi điện và lướt web trên màn hình cảm ứng đa điểm, qua đó tạo dấu ấn lớn đối với ngành công nghiệp smartphone.
+                - paragraph [ref=e1899]: Từ dấu mốc đó, khái niệm smartphone hiện đại mà bạn đang sử dụng mỗi ngày bắt đầu hình thành. Trải qua gần hai thập kỷ phát triển, Apple liên tục điều chỉnh thiết kế và nâng cấp hiệu năng của dòng máy qua từng năm.
+                - paragraph [ref=e1900]:
+                  - img "iPhone cùng phụ kiện thay đổi thiết kế qua từng thế hệ"
+                - paragraph [ref=e1901]: Về chất liệu, khung máy khởi đầu được làm từ nhôm, sau đó chuyển sang thép không gỉ ở nhóm sản phẩm cao cấp để tăng độ cứng cáp. Sau đó, Apple chuyển tiếp sang hợp kim titan nhằm giảm trọng lượng máy mà vẫn giữ được độ bền cần thiết.
+                - paragraph [ref=e1902]: "Mỗi lần đổi vật liệu đều gắn với mục tiêu cụ thể: máy nhẹ tay hơn khi cầm lâu, ít trầy xước hơn khi va chạm trong túi quần hay balo. Song song đó, Apple cũng tự thiết kế dòng vi xử lý riêng cho iPhone thay vì phụ thuộc vào chip từ hãng khác."
+                - paragraph [ref=e1903]:
+                  - img "Chip xử lý iPhone ngày càng mạnh giúp thao tác mượt mà hơn"
+                - paragraph [ref=e1904]: Qua từng thế hệ, hiệu năng xử lý được cải tiến rõ rệt, giúp máy xử lý mượt hơn khi chụp ảnh, chơi game hay chạy nhiều ứng dụng cùng lúc. Nhờ những cải tiến liên tục này, iPhone hiện diện trong tay hàng trăm triệu người dùng trên khắp thế giới và trở thành một sản phẩm quen thuộc trong đời sống số hiện nay.
+                - paragraph [ref=e1905]: "Dưới đây là bảng tổng hợp lịch sử ra mắt iPhone qua các năm, từ thế hệ đầu tiên năm 2007 đến các dòng iPhone mới nhất:"
+                - table [ref=e1906]:
+                  - rowgroup [ref=e1907]:
+                    - row [ref=e1908]:
+                      - cell [ref=e1909]:
+                        - paragraph [ref=e1910]:
+                          - strong [ref=e1911]: Năm ra mắt
+                      - cell [ref=e1912]:
+                        - paragraph [ref=e1913]:
+                          - strong [ref=e1914]: Các dòng iPhone
+                      - cell [ref=e1915]:
+                        - paragraph [ref=e1916]:
+                          - strong [ref=e1917]: Điểm nổi bật
+                    - row [ref=e1918]:
+                      - cell [ref=e1919]:
+                        - paragraph [ref=e1920]: "2007"
+                      - cell [ref=e1921]:
+                        - paragraph [ref=e1922]: iPhone 2G
+                      - cell [ref=e1923]:
+                        - paragraph [ref=e1924]: Thế hệ iPhone đầu tiên, màn hình cảm ứng đa điểm.
+                    - row [ref=e1925]:
+                      - cell [ref=e1926]:
+                        - paragraph [ref=e1927]: "2008"
+                      - cell [ref=e1928]:
+                        - paragraph [ref=e1929]: iPhone 3G
+                      - cell [ref=e1930]:
+                        - paragraph [ref=e1931]: Hỗ trợ mạng 3G và kho ứng dụng App Store.
+                    - row [ref=e1932]:
+                      - cell [ref=e1933]:
+                        - paragraph [ref=e1934]: "2009"
+                      - cell [ref=e1935]:
+                        - paragraph [ref=e1936]: iPhone 3GS
+                      - cell [ref=e1937]:
+                        - paragraph [ref=e1938]: Cải thiện hiệu năng và hỗ trợ quay video.
+                    - row [ref=e1939]:
+                      - cell [ref=e1940]:
+                        - paragraph [ref=e1941]: "2010"
+                      - cell [ref=e1942]:
+                        - paragraph [ref=e1943]: iPhone 4
+                      - cell [ref=e1944]:
+                        - paragraph [ref=e1945]: Thiết kế hai mặt kính, màn hình Retina.
+                    - row [ref=e1946]:
+                      - cell [ref=e1947]:
+                        - paragraph [ref=e1948]: "2011"
+                      - cell [ref=e1949]:
+                        - paragraph [ref=e1950]: iPhone 4S
+                      - cell [ref=e1951]:
+                        - paragraph [ref=e1952]: Giới thiệu trợ lý ảo Siri.
+                    - row [ref=e1953]:
+                      - cell [ref=e1954]:
+                        - paragraph [ref=e1955]: "2012"
+                      - cell [ref=e1956]:
+                        - paragraph [ref=e1957]: iPhone 5
+                      - cell [ref=e1958]:
+                        - paragraph [ref=e1959]: Màn hình 4 inch, cổng kết nối Lightning.
+                    - row [ref=e1960]:
+                      - cell [ref=e1961]:
+                        - paragraph [ref=e1962]: "2013"
+                      - cell [ref=e1963]:
+                        - paragraph [ref=e1964]: iPhone 5s, iPhone 5c
+                      - cell [ref=e1965]:
+                        - paragraph [ref=e1966]: Ra mắt Touch ID, mở rộng lựa chọn màu sắc.
+                    - row [ref=e1967]:
+                      - cell [ref=e1968]:
+                        - paragraph [ref=e1969]: "2014"
+                      - cell [ref=e1970]:
+                        - paragraph [ref=e1971]: iPhone 6, iPhone 6 Plus
+                      - cell [ref=e1972]:
+                        - paragraph [ref=e1973]: Màn hình lớn 4,7 inch và 5,5 inch.
+                    - row [ref=e1974]:
+                      - cell [ref=e1975]:
+                        - paragraph [ref=e1976]: "2015"
+                      - cell [ref=e1977]:
+                        - paragraph [ref=e1978]: iPhone 6s, iPhone 6s Plus
+                      - cell [ref=e1979]:
+                        - paragraph [ref=e1980]: Bổ sung 3D Touch, nâng cấp camera.
+                    - row [ref=e1981]:
+                      - cell [ref=e1982]:
+                        - paragraph [ref=e1983]: "2016"
+                      - cell [ref=e1984]:
+                        - paragraph [ref=e1985]: iPhone SE, iPhone 7 series
+                      - cell [ref=e1986]:
+                        - paragraph [ref=e1987]: Thiết kế nhỏ gọn, camera kép trên iPhone 7 Plus.
+                    - row [ref=e1988]:
+                      - cell [ref=e1989]:
+                        - paragraph [ref=e1990]: "2017"
+                      - cell [ref=e1991]:
+                        - paragraph [ref=e1992]: iPhone 8, iPhone 8 Plus, iPhone X
+                      - cell [ref=e1993]:
+                        - paragraph [ref=e1994]: iPhone X có màn hình OLED và Face ID.
+                    - row [ref=e1995]:
+                      - cell [ref=e1996]:
+                        - paragraph [ref=e1997]: "2018"
+                      - cell [ref=e1998]:
+                        - paragraph [ref=e1999]: iPhone XR, iPhone XS, iPhone XS Max
+                      - cell [ref=e2000]:
+                        - paragraph [ref=e2001]: Đa dạng phân khúc, nâng cấp màn hình và hiệu năng.
+                    - row [ref=e2002]:
+                      - cell [ref=e2003]:
+                        - paragraph [ref=e2004]: "2019"
+                      - cell [ref=e2005]:
+                        - paragraph [ref=e2006]: iPhone 11 series
+                      - cell [ref=e2007]:
+                        - paragraph [ref=e2008]: Nâng cấp camera, bổ sung chế độ chụp đêm.
+                    - row [ref=e2009]:
+                      - cell [ref=e2010]:
+                        - paragraph [ref=e2011]: "2020"
+                      - cell [ref=e2012]:
+                        - paragraph [ref=e2013]: iPhone SE (thế hệ 2), iPhone 12 series
+                      - cell [ref=e2014]:
+                        - paragraph [ref=e2015]: iPhone 12 hỗ trợ 5G, sử dụng màn hình OLED.
+                    - row [ref=e2016]:
+                      - cell [ref=e2017]:
+                        - paragraph [ref=e2018]: "2021"
+                      - cell [ref=e2019]:
+                        - paragraph [ref=e2020]: iPhone 13 series
+                      - cell [ref=e2021]:
+                        - paragraph [ref=e2022]: Cải thiện thời lượng pin, camera và màn hình ProMotion.
+                    - row [ref=e2023]:
+                      - cell [ref=e2024]:
+                        - paragraph [ref=e2025]: "2022"
+                      - cell [ref=e2026]:
+                        - paragraph [ref=e2027]: iPhone SE (thế hệ 3), iPhone 14 series
+                      - cell [ref=e2028]:
+                        - paragraph [ref=e2029]: Thêm Dynamic Island và camera chính 48 MP trên bản Pro.
+                    - row [ref=e2030]:
+                      - cell [ref=e2031]:
+                        - paragraph [ref=e2032]: "2023"
+                      - cell [ref=e2033]:
+                        - paragraph [ref=e2034]: iPhone 15 series
+                      - cell [ref=e2035]:
+                        - paragraph [ref=e2036]: Chuyển sang cổng USB-C, bản Pro dùng khung titanium.
+                    - row [ref=e2037]:
+                      - cell [ref=e2038]:
+                        - paragraph [ref=e2039]: "2024"
+                      - cell [ref=e2040]:
+                        - paragraph [ref=e2041]: iPhone 16 series
+                      - cell [ref=e2042]:
+                        - paragraph [ref=e2043]: Bổ sung Camera Control, nâng cấp chip và hỗ trợ Apple Intelligence.
+                    - row [ref=e2044]:
+                      - cell [ref=e2045]:
+                        - paragraph [ref=e2046]: "2025"
+                      - cell [ref=e2047]:
+                        - paragraph [ref=e2048]: iPhone 17 series
+                      - cell [ref=e2049]:
+                        - paragraph [ref=e2050]: Tiếp tục cải tiến màn hình, hiệu năng và camera.
+                    - row [ref=e2051]:
+                      - cell [ref=e2052]:
+                        - paragraph [ref=e2053]: "2026"
+                      - cell [ref=e2054]:
+                        - paragraph [ref=e2055]: iPhone 18 Pro, iPhone 18 Pro Max
+                      - cell [ref=e2056]:
+                        - paragraph [ref=e2057]: Nâng cấp chip A20 Pro, camera khẩu độ thay đổi và cải thiện hiệu năng.
+                    - row [ref=e2058]:
+                      - cell [ref=e2059]:
+                        - paragraph [ref=e2060]: "2026"
+                      - cell [ref=e2061]:
+                        - paragraph [ref=e2062]: iPhone Duo
+                      - cell [ref=e2063]:
+                        - paragraph [ref=e2064]: Mẫu iPhone gập đầu tiên của Apple, kết hợp màn hình lớn 7,6 inch khi mở ra.
+                - heading [level=2] [ref=e2065]:
+                  - strong [ref=e2066]: iPhone có gì mới đáng mong đợi 2026
+                - paragraph [ref=e2067]: "Nhiều người thích sử dụng iPhone nhờ sự kết hợp hoàn hảo giữa hiệu năng mượt mà, hệ điều hành iOS dễ sử dụng và hệ sinh thái Apple đồng bộ. Ngoài ra, các dòng máy này cũng được ưa chuộng vì thiết kế sang trọng và giao diện cực kỳ thân thiện với người dùng. Dưới đây là những lý do cốt lõi tạo nên sức hút của thiết bị này:"
+                - list [ref=e2068]:
+                  - listitem [ref=e2069]:
+                    - paragraph [ref=e2070]:
+                      - strong [ref=e2071]: "Hệ điều hành iOS tối ưu:"
+                      - text: iOS có giao diện trực quan, dễ sử dụng, bảo mật cao và được Apple cập nhật phần mềm lâu dài (thường từ 4-5 năm) cho các thiết bị cũ
+                  - listitem [ref=e2072]:
+                    - paragraph [ref=e2073]:
+                      - strong [ref=e2074]: "Hiệu năng vượt trội:"
+                      - text: Việc tự nghiên cứu và sản xuất cả phần cứng lẫn vi xử lý giúp iPhone vận hành cực kỳ trơn tru, hạn chế giật lag và đáp ứng tốt các tác vụ nặng
+                  - listitem [ref=e2075]:
+                    - paragraph [ref=e2076]:
+                      - strong [ref=e2077]: "Hệ sinh thái Apple:"
+                      - text: Sự kết nối liền mạch qua các tính năng như AirDrop, iMessage, FaceTime hay Handoff giúp trải nghiệm làm việc và giải trí trên iPhone, iPad, và MacBook trở nên vô cùng tiện lợi.
+                  - listitem [ref=e2078]:
+                    - paragraph [ref=e2079]:
+                      - strong [ref=e2080]: "Giá trị thương hiệu và giữ giá:"
+                      - text: iPhone được định vị là sản phẩm cao cấp, mang lại sự sang trọng cho người dùng và có khả năng giữ giá trị bán lại (thanh lý cũ) tốt hơn rất nhiều so với điện thoại Android
+                  - listitem [ref=e2081]:
+                    - paragraph [ref=e2082]:
+                      - strong [ref=e2083]: "Camera chất lượng cao:"
+                      - text: iPhone nổi tiếng với khả năng chụp ảnh chân thực, màu sắc ổn định và là một trong những thiết bị quay video, sáng tạo nội dung hàng đầu hiện nay
+                - heading [level=3] [ref=e2084]:
+                  - strong [ref=e2085]: Giá trị thương hiệu và giữ giá
+                - paragraph [ref=e2086]: Thiết kế tinh tế, sang trọng là điểm nhận diện quen thuộc của điện thoại iPhone và Apple thay đổi vật liệu khung máy qua từng giai đoạn. Ở những phiên bản đời đầu như iPhone 3G và 3GS, mặt lưng máy làm bằng nhựa, sau đó iPhone 4 chuyển sang khung thép ghép cùng kính.
+                - paragraph [ref=e2087]: Từ dòng iPhone 5 trở đi, các dòng iPhone tiêu chuẩn dùng khung nhôm anod hóa và giữ chất liệu này tới iPhone 17, cho máy nhẹ và hoàn thiện chỉn chu. Với dòng Pro, máy trang bị vật liệu cao cấp hơn. Cụ thể, từ iPhone X đến iPhone 14 Pro, dòng Pro và Pro Max dùng khung thép không gỉ, cho cảm giác cầm chắc chắn và nặng tay.
+                - paragraph [ref=e2088]:
+                  - img "Thiết kế cao cấp, chống trầy xước tốt, đủ màu sắc"
+                - paragraph [ref=e2089]: Sang tới các dòng điện thoại iPhone 15 Pro và 16 Pro, Apple đổi sang khung titan để giảm trọng lượng mà vẫn giữ độ cứng cáp. Đến iPhone 17 Pro và 17 Pro Max, máy chuyển sang khung nhôm nguyên khối 7000-series, giúp tản nhiệt tốt hơn khi bạn chơi game hay quay video dài.
+                - paragraph [ref=e2090]: Riêng iPhone Air đã được hãng hoàn thiện với khung titan để giữ độ cứng cho thân máy chỉ mỏng 5.6mm. Mỗi dòng iPhone có một chất riêng, phù hợp với ưu tiên khác nhau về độ bền, trọng lượng và tản nhiệt.
+                - paragraph [ref=e2091]: Nhờ đó, các sản phẩm iPhone sau vài năm sử dụng vẫn có mức thu lại đáng kể khi lên đời. Do đó, chi phí thực tế để đổi sang máy mới thường dễ chịu hơn bạn nghĩ. Đây là lợi thế rõ khi bạn kết hợp cùng chương trình thu cũ đổi mới, lấy giá trị máy cũ để bù vào giá iPhone đời mới.
+                - heading [level=3] [ref=e2092]:
+                  - strong [ref=e2093]: Thiết kế gập độc đáo
+                - paragraph [ref=e2094]: iPhone Duo đánh dấu lần đầu Apple đưa thiết kế gập lên iPhone, kết hợp màn hình lớn với kiểu dáng có thể thu gọn khi mang theo. Khi mở ra, màn hình Super Retina XDR 7,6 inch cho diện tích hiển thị lớn hơn 50% so với iPhone 18 Pro Max, trong khi trạng thái đóng vẫn thuận tiện để cầm và sử dụng
+                - paragraph [ref=e2095]:
+                  - img "iPhone Duo sở hữu thiết kế gập độc đáo, linh hoạt giữa màn hình lớn và kiểu dáng nhỏ gọn"
+                - paragraph [ref=e2096]: Khả năng gập mở linh hoạt giúp iPhone Duo thích ứng tốt với nhiều nhu cầu sử dụng khác nhau, đặc biệt khi làm việc đa nhiệm hoặc giải trí. Người dùng có thể đặt máy ngang để chạy hai ứng dụng với Split View, dựng vuông góc khi xem nội dung hoặc đặt đứng để gọi FaceTime rảnh tay.
+                - heading [level=3] [ref=e2097]:
+                  - strong [ref=e2098]: Thiết kế cứng cáp, bền bỉ x3 lần
+                - paragraph [ref=e2099]: Về mặt kính, Ceramic Shield xuất hiện ở mặt trước từ iPhone 12, giúp bảo vệ mặt kính khi rơi so với kính thường. Đến dòng iPhone 17 và iPhone Air, mặt trước nâng lên Ceramic Shield 2, cho khả năng kháng trầy tốt hơn khoảng 3 lần.
+                - paragraph [ref=e2100]: Lớp kính này hạn chế vết xước dăm khi bạn để máy chung túi với chìa khóa. Riêng iPhone 17 Pro, 17 Pro Max và iPhone Air còn được thêm lớp Ceramic Shield ở mặt sau, kháng nứt vỡ tốt hơn khoảng 4 lần.
+                - paragraph [ref=e2101]:
+                  - img "Ceramic Shield ở mặt sau trên iPhone 17 thường khắng vỡ nứt tốt"
+                - paragraph [ref=e2102]: Về khả năng kháng nước và bụi, từ iPhone 11 trở đi các dòng iPhone đạt chuẩn IP68. Nhờ đó bạn yên tâm hơn khi đi mưa hoặc lỡ làm đổ nước lên máy. Theo khuyến nghị của Apple, bạn không nên chủ động thử khả năng kháng nước của máy. Bạn cũng nên tránh dùng máy ở nơi có hơi nóng hoặc hóa chất như phòng tắm hơi, vì các điều kiện này có thể làm giảm hiệu quả kháng nước theo thời gian.
+                - paragraph [ref=e2103]:
+                  - img "Lớp kính cường lực mới trên iPhone hạn chế trầy xước và nứt vỡ"
+                - paragraph [ref=e2104]: Ngoài độ bền, màu sắc các dòng iPhone cũng khác nhau. Các dòng e, tiêu chuẩn thường có nhiều tùy chọn và thiên về gam trẻ trung như xanh dương, hồng, trắng, vàng,... Sang thế hệ mới, điện thoại iPhone 17 nổi bật với các tùy chọn bắt mắt gồm tím oải hương, xanh rêu, xanh sương, trắng và đen.
+                - paragraph [ref=e2105]: Dòng Pro và Pro Max lại nghiêng về gam trầm và cao cấp. Các đời như iPhone 15 Pro và 16 Pro thiên về tông titan tự nhiên, xanh và đen. Còn iPhone 17 Pro chuyển sang cam vũ trụ, xanh đậm và bạc. Riêng iPhone Air đi theo gam pastel nhẹ, gồm xanh trời , vàng ánh kim , trắng mây và đen không gian. Các màu này giúp tôn lên thiết kế mỏng của dòng Air.
+                - heading [level=3] [ref=e2106]:
+                  - strong [ref=e2107]: Màn hình iPhone sắc nét - Mãn nhãn với độ phân giải cao
+                - paragraph [ref=e2108]: Màn hình Super Retina XDR sử dụng tấm nền OLED tùy chỉnh, mang lại độ tương phản 2.000.000:1 với màu đen sâu. Công nghệ True Tone tự động điều chỉnh nhiệt độ màu theo ánh sáng môi trường để bảo vệ mắt và giữ cho hình ảnh luôn trông tự nhiên.
+                - paragraph [ref=e2109]:
+                  - img "Màn hình iPhone chân thực, sắc nét"
+                - paragraph [ref=e2110]: Trên các dòng Pro, công nghệ ProMotion 120Hz cho phép tần số quét màn hình thay đổi linh hoạt từ 1Hz đến 120Hz tùy theo nội dung hiển thị. Điều này giúp các chuyển động cuộn lướt trở nên siêu mượt mà nhưng vẫn tiết kiệm điện năng tối ưu. Độ sáng cực đỉnh lên đến 2000 nits giúp nhìn rõ mọi chi tiết ngay cả dưới trời nắng gắt.
+                - paragraph [ref=e2111]: Tuy nhiên, từ thế hệ 17, bản thường và iPhone Air cũng được trang bị ProMotion 120Hz, thay vì dừng ở mức 60Hz như iPhone 16 tiêu chuẩn. Với 120Hz, thao tác lướt Facebook hay lướt danh sách dài, xem video trở nên mượt hơn rõ so với 60Hz.
+                - paragraph [ref=e2112]:
+                  - img "Màn hình iPhone tần số quét cao cho hình ảnh mượt mà, sắc nét"
+                - paragraph [ref=e2113]: Always-On Display trước đây gắn với dòng Pro, bắt đầu từ iPhone 14 Pro. Từ thế hệ 17, tính năng này có trên cả bản tiêu chuẩn, iPhone Air. Nhờ đó bạn xem nhanh giờ, thông báo và tiện ích khi máy đặt trên bàn mà không cần chạm vào màn hình.
+                - paragraph [ref=e2114]: Độ sáng đỉnh cũng tăng dần qua các đời, từ khoảng 2.000 nit trên iPhone 15 lên khoảng 3.000 nit trên dòng iPhone 17. Nhờ đó nội dung rõ hơn khi bạn dùng ngoài nắng gắt. Lớp phủ kháng phản chiếu trên dòng 17 còn giảm khoảng 33% phản xạ, giúp giảm chói khi bạn xem bản đồ hay đọc tin nhắn ngoài trời.
+                - heading [level=3] [ref=e2115]:
+                  - strong [ref=e2116]: Nâng tầm nhiếp ảnh Pro với camera khẩu độ thay đổi
+                - paragraph [ref=e2117]: iPhone dòng Pro và iPhone Pro Max được nâng cấp hệ thống camera 48MP Pro Fusion, trong đó camera Main lần đầu hỗ trợ khẩu độ thay đổi. Cơ chế này giúp máy kiểm soát lượng sáng và chiều sâu trường ảnh linh hoạt hơn theo từng bối cảnh chụp.
+                - paragraph [ref=e2118]: "Trên iPhone 18 Pro series, Camera 48MP Fusion Main có khả năng điều chỉnh khẩu độ với bốn mức khác nhau: ƒ/1,48, ƒ/1,8, ƒ/2,8 và ƒ/4,0. Ở ƒ/1,48, camera thu nhiều ánh sáng hơn để cải thiện khả năng chụp thiếu sáng khoảng 50%, còn khẩu độ hẹp hơn giúp tăng chiều sâu và giữ nhiều chi tiết trong khung hình."
+                - paragraph [ref=e2119]:
+                  - img "Camera 48MP Fusion Main trên iPhone 18 Pro series hỗ trợ thay đổi khẩu độ, kiểm soát hình ảnh linh hoạt"
+                - paragraph [ref=e2120]: Người dùng còn có thể chủ động điều chỉnh khẩu độ cùng tốc độ màn trập, cân bằng trắng và các thông số khác bằng bộ điều khiển Pro. Nhờ đó, iPhone Pro và iPhone Pro Max mang đến nhiều khả năng kiểm soát hình ảnh hơn, từ chân dung xóa phông đến các khung cảnh cần chiều sâu lớn.
+                - paragraph [ref=e2121]:
+                  - text: Ngoài iPhone khi nhắc đến chế độ chụp ảnh pro thì còn phải nhắc đến thương hiệu điện thoại
+                  - link [ref=e2122] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/mobile/sony.html
+                    - strong [ref=e2123]: Sony
+                  - text: đã từng được rất nhiều giới trẻ tin dùng bởi camera mang lại sắc nét, những thước phim cực kỳ bắt mắt không khác gì sử dụng máy ảnh cơ để lưu lại thước ảnh. Tại CellphoneS dù là iPhone hay Sony, tất cả thương hiệu đều đang có mặt tại các cửa hàng để bạn có thể thoải mái lựa chọn tùy theo nhu cầu. Cùng đến CellphoneS gần nhất để trải nghiệm nhé!
+                - heading [level=3] [ref=e2124]:
+                  - strong [ref=e2125]: Hệ điều hành iOS và bảo mật cao
+                - paragraph [ref=e2126]: iOS 27 tiếp tục hoàn thiện trải nghiệm iPhone với giao diện Liquid Glass được tinh chỉnh và khả năng phản hồi nhanh hơn. Hệ điều hành mới cũng mở rộng khả năng ứng dụng Apple Intelligence trên nhiều tính năng và ứng dụng quen thuộc của iPhone để hỗ trợ người dùng trong quá trình sử dụng.
+                - paragraph [ref=e2127]: Siri AI nay có khả năng nắm bắt mạch hội thoại tốt hơn, khai thác thông tin theo ngữ cảnh cá nhân, hỗ trợ xử lý tác vụ trên nhiều ứng dụng và hỗ trợ tiếng việt. Những cải tiến này giúp iPhone hỗ trợ công việc hằng ngày linh hoạt và chủ động hơn.
+                - paragraph [ref=e2128]:
+                  - img "iOS 27 nâng cấp trải nghiệm iPhone với giao diện Liquid Glass và khả năng bảo mật cao"
+                - paragraph [ref=e2129]: Apple đồng thời tăng cường khả năng bảo vệ người dùng thông qua các công cụ quản lý mật khẩu và cảnh báo an toàn. Ứng dụng Mật Khẩu có thể phát hiện mật khẩu yếu hoặc bị xâm phạm, qua đó giúp người dùng kiểm soát thông tin đăng nhập thuận tiện hơn.
+                - paragraph [ref=e2130]: Bên cạnh những nâng cấp đột phá, các dịch vụ của Apple vẫn ổn định nhằm tối ưu trải nghiệm người dùng. iCloud đồng bộ ảnh và dữ liệu giữa các thiết bị, Apple Pay cho thanh toán chạm nhanh, còn iMessage và FaceTime mã hóa đầu cuối.
+                - heading [level=3] [ref=e2131]:
+                  - strong [ref=e2132]: Hiệu năng vượt trội và ổn định
+                - paragraph [ref=e2133]: Một trong những lý do lớn nhất giúp iPhone luôn giữ vững vị thế dẫn đầu chính là sức mạnh từ các dòng chip Apple tự thiết kế. Nhờ khả năng tối ưu hóa điện năng vượt trội, các thế hệ chip từ A15 Bionic, A16 Bionic cho đến những dòng chip A20 Pro trên iPhone 18 Pro series và iPhone Duo đều giúp máy kiểm soát nhiệt độ cực tốt, mang lại trải nghiệm mượt mà.
+                - paragraph [ref=e2134]: Chip A20 Pro, mang đến sức mạnh xử lý cao cho các tác vụ nặng và chơi game. Con chip này sở hữu CPU 6 lõi, GPU 7 lõi cùng Neural Accelerators và băng thông bộ nhớ cao hơn đến 50% so với A19 Pro, hỗ trợ tốt hơn cho đồ họa và các tác vụ AI.
+                - paragraph [ref=e2135]:
+                  - img "Chip Apple A20 Pro trên iPhone 18 Pro series và iPhone Duo mang lại hiệu năng mạnh mẽ, xử lý AI vượt trội"
+                - heading [level=3] [ref=e2136]:
+                  - strong [ref=e2137]: Hệ sinh thái Apple đồng bộ (Ecosystem)
+                - paragraph [ref=e2138]: iPhone hoạt động liền mạch với Mac, iPad, Apple Watch qua các tính năng như Handoff, Phản chiếu màn hình, AirDrop giúp chuyển đổi dữ liệu nhanh chóng.
+                - paragraph [ref=e2139]:
+                  - img "Hệ sáng thái đồng bộ thông minh"
+                - paragraph [ref=e2140]: Tính năng AirDrop giúp truyền tải những tệp tin dung lượng lớn giữa các thiết bị Apple chỉ trong vài giây mà không cần dây cáp hay kết nối internet. Ngoài ra, bộ nhớ tạm chung (Universal Clipboard) cho phép sao chép một đoạn văn bản trên thiết bị này và dán trực tiếp vào thiết bị kia cực kỳ tiện lợi.
+                - paragraph [ref=e2141]: Ngoài các tính năng trên, iPhone còn kết nối sâu với máy Mac và iPad theo nhiều cách khác. Với Camera thông suốt, bạn có thể dùng iPhone làm webcam chất lượng cao cho Mac khi họp trực tuyến, thay cho webcam rời.
+                - paragraph [ref=e2142]:
+                  - img "iPhone làm camera cho Mac khi họp video trực tuyến"
+                - paragraph [ref=e2143]: Bên cạnh đó, tính năng Điều khiển chung còn cho phép bạn dùng chung một chuột và bàn phím để điều khiển cả Mac lẫn iPad, kéo thả tệp qua lại giữa hai máy. Đồng thời, Apple Watch và AirPods cũng hoạt động liền mạch trong hệ sinh thái Apple, giúp bạn chuyển đổi giữa các thiết bị mà không cần thao tác ghép nối thủ công.
+                - paragraph [ref=e2144]: Khi đeo Apple Watch, bạn có thể mở khóa iPhone hoặc Mac nhanh ngay cả khi đang đeo khẩu trang. Đồng thời, AirPods cũng tự động chuyển đổi âm thanh thông minh giữa các thiết bị iPhone, iPad hay Mac theo thời gian thực mà không cần thao tác ghép nối lại thủ công.
+                - paragraph [ref=e2145]:
+                  - img "Ứng dụng Find My giúp định vị thiết bị thất lạc"
+                - paragraph [ref=e2146]: Với ứng dụng Find My của Apple, bạn có thể dễ dàng định vị iPhone, iPad, AirPods hay AirTag bị thất lạc một cách nhanh chóng.
+                - paragraph [ref=e2147]:
+                  - text: Trong đó, hiện nay không chỉ iPhone với iPhone mới có thể sử dụng tính năng AirDrop mà ông lớn ngành điện thoại OPPO cũng đã có một vài thiết bị đời mới có khả năng Airdrop đồng bộ cùng iPhone. Nhờ vào tính năng này, không chỉ còn là iPhone mà
+                  - link [ref=e2148] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/mobile/oppo.html
+                    - strong [ref=e2149]: OPPO
+                  - text: cũng là một lựa chọn phù hợp nếu bạn có nhu cầu cần sử dụng thêm chiếc điện thoại thứ 2 cho mình.
+                - heading [level=3] [ref=e2150]:
+                  - strong [ref=e2151]: Thời lượng pin ấn tượng lên đến 43 giờ liên tục
+                - paragraph [ref=e2152]:
+                  - text: Dù không sở hữu viên pin dung lượng khổng lồ trên thông số, nhưng nhờ sự tối ưu phần mềm xuất sắc, máy luôn nằm trong top
+                  - link [ref=e2153] [cursor=pointer]:
+                    - /url: https://cellphones.com.vn/mobile.html
+                    - strong [ref=e2154]: điện thoại
+                  - text: pin "trâu". Công nghệ Lithium-ion kết hợp với quản lý nguồn điện thông minh giúp kéo dài tuổi thọ pin và duy trì thời gian sử dụng liên tục lên đến cả ngày dài.
+                - paragraph [ref=e2155]:
+                  - img "Thời lượng pin ấn tượng"
+                - paragraph [ref=e2156]: Khả năng sạc nhanh qua cổng USB-C hoặc sạc không dây MagSafe giúp nạp đầy năng lượng một cách nhanh chóng và an toàn. Đặc biệt, tính năng "Sạc pin tối ưu" giúp iPhone mới học hỏi thói quen sạc của người dùng để giảm thiểu tốc độ lão hóa pin, duy trì độ bền linh kiện trong dài hạn.
+                - paragraph [ref=e2157]: Nếu như dòng iPhone 17 series từng gây ấn tượng với thời gian xem video từ 30 giờ trên bản tiêu chuẩn và 39 giờ trên bản Pro Max, thì đến các thế hệ iPhone 18 series, có thể phát video liên tục trong 43 giờ, tăng thêm 6 giờ so với phiên bản trước đó.
+                - paragraph [ref=e2158]:
+                  - img "iPhone 18 series cải thiện thời lượng pin vượt trội, hỗ trợ xem video liên tục đến 43 giờ"
+                - paragraph [ref=e2159]: Thời lượng pin dài cũng giúp giảm nhu cầu sạc lại thường xuyên trong quá trình sử dụng. Với người thường xuyên di chuyển, làm việc ngoài văn phòng hoặc dùng iPhone cho nhiều tác vụ trong ngày, lợi thế này mang lại trải nghiệm chủ động và liền mạch hơn.
+                - paragraph [ref=e2160]:
+                  - img "Kiểm tra mức tiêu hao pin cụ thể của từng ứng dụng đang dùng trên iPhone"
+                - paragraph [ref=e2161]: Khả năng sạc nhanh qua cổng USB-C từ iPhone 15 hoặc sạc không dây MagSafe với cử sạc 40W trở lên giúp nạp đầy năng lượng một cách nhanh chóng và an toàn. Đặc biệt, tính năng "Sạc pin tối ưu" giúp iPhone mới học hỏi thói quen sạc của người dùng để giảm thiểu tốc độ lão hóa pin, duy trì độ bền linh kiện trong dài hạn.
+                - paragraph [ref=e2162]: Bạn có thể bật giới hạn sạc ở 80% trong phần cài đặt pin, giúp giảm tốc độ chai pin nếu hay cắm sạc qua đêm. Tính năng Sạc pin tối ưu cũng học thói quen sạc để hạn chế chai pin theo thời gian. Nhờ vậy, viên pin giữ được độ bền tốt hơn qua nhiều năm sử dụng.
+                - heading [level=3] [ref=e2163]:
+                  - strong [ref=e2164]: Trang bị chế độ an toàn và kết nối tiện lợi
+                - paragraph [ref=e2165]: Điện thoại Apple được trang bị những tính năng cứu sinh như Crash Detection (Phát hiện va chạm xe), sử dụng cảm biến gia tốc để tự động gọi cứu hộ khi gặp tai nạn. Bên cạnh đó là tính năng liên lạc khẩn cấp qua vệ tinh, cho phép gửi tin nhắn cứu trợ ngay cả khi đang ở vùng không có sóng điện thoại.
+                - paragraph [ref=e2166]: Ở các thế hệ iOS mới, Apple còn tích hợp kèm tính năng Kiểm tra (Check In) để bạn chia sẻ hành trình về nhà với người thân. Nếu bạn không tới nơi đúng hẹn, iPhone sẽ tự nhắc và có thể chia sẻ vị trí cùng mức pin cho người bạn chọn.
+                - paragraph [ref=e2167]:
+                  - img "Trang bị chế độ an toàn và kết nối tiện lợi"
+                - paragraph [ref=e2168]: Về kết nối, iPhone mới hỗ trợ Wi-Fi 7 – tiêu chuẩn mạng không dây thế hệ mới cho tốc độ nhanh gấp 4 lần Wi-Fi 6 và độ trễ cực thấp. Wi-Fi 7 sử dụng băng tần 6GHz rộng hơn, giúp việc tải các tệp tin nặng hay chơi game trực tuyến luôn ổn định dù có nhiều thiết bị cùng kết nối.
+                - heading [level=3] [ref=e2169]:
+                  - strong [ref=e2170]: Tích hợp Apple Intelligence thông minh
+                - paragraph [ref=e2171]:
+                  - strong [ref=e2172]: Apple Intelligence là hệ thống trí tuệ nhân tạo (AI) thông minh, tích hợp sâu vào từ iOS 26, iPadOS, và macOS để tối ưu hóa công việc.
+                  - text: "Trong đó, các tính năng nổi bẩ của tính năng thông minh này bao gồm: Writing Tools (viết/chỉnh sửa văn bản), Siri nâng cao hiểu ngữ cảnh, Image Playground tạo ảnh, Clean Up xóa vật thể trong ảnh và tích hợp ChatGPT,..."
+                - list [ref=e2173]:
+                  - listitem [ref=e2174]:
+                    - paragraph [ref=e2175]:
+                      - strong [ref=e2176]: "Bộ Công cụ Viết (Writing Tools):"
+                      - text: Tính năng này giúp hỗ trợ tóm tắt, viết lại, kiểm tra lỗi, tóm tắt văn bản và ứng dụng Emai, Notes và ứng dụng thứ ba khác.
+                  - listitem [ref=e2177]:
+                    - paragraph [ref=e2178]:
+                      - strong [ref=e2179]: "Siri thế hệ thông minh mới:"
+                      - text: Siri tiếng việt giúp tăng khả năng hiểu được ngữ cảnh, có khả năng nhập liệu văn bản và giọng nói tự nhiên và yêu cầu xử lý nhanh chóng hơn.
+                  - listitem [ref=e2180]:
+                    - paragraph [ref=e2181]:
+                      - strong [ref=e2182]: "Bộ Công cụ Viết (Writing Tools):"
+                      - text: đây là công cụ "Dọn dẹp" (Clean Up) giúp xóa vật thể thừa, xóa những vật thể thừa trong các thước phim hay bức ảnh để tạo ra nét ảnh thật Pro
+                  - listitem [ref=e2183]:
+                    - paragraph [ref=e2184]:
+                      - strong [ref=e2185]: "Tạo hình ảnh (Image Playground & Genmoji):"
+                      - text: iPhone được tích hợp tính năng này giúp tạo nhiều hình ảnh thú vị trong tin nhắn, ghi chú, tạo được biểu tưởng, cảm xúc mới dựa trên tin nhắn văn bản.
+                  - listitem [ref=e2186]:
+                    - paragraph [ref=e2187]:
+                      - strong [ref=e2188]: "Tóm tắt thông báo và thư:"
+                      - text: Với các Email dài, thông báo quan trọng - Khi dùng iPhone bạn sẽ không cần lo việc việc bị bỏ qua các thông tin quan trọng bằng tính năng tím tắt thư và nhóm các thông báo
+                  - listitem [ref=e2189]:
+                    - paragraph [ref=e2190]:
+                      - strong [ref=e2191]: "Tích hợp Chat GPT:"
+                      - text: Bạn có thể sử dụng chat GPT miễn phí thông qua Siri hoặc Writing Tools để giải quyết các tác vụ phức tạp, ví dụ như lập kế hoạch,...
+                  - listitem [ref=e2192]:
+                    - paragraph [ref=e2193]:
+                      - generic [ref=e2194]:
+                        - strong [ref=e2195]: "Bảo mật tối đa:"
+                        - text: Hầu hết tác vụ bảo vệ luôn được sử dụng trực tiếp trên thiết bị, ở các tác vụ phức tạp hơn thì Apple sẽ trang bị tính năng bảo vệ người dùng, không bị lưu trữ và đảm bảo quyền riêng tư tối đa khi sử dụng.
+                - paragraph [ref=e2196]: Với iOS 27, điểm nâng cấp đáng chú ý nhất chính là Siri AI, một phiên bản Siri được hỗ trợ của Apple Intelligence. Trợ lý này có thể hiểu ngữ cảnh cá nhân, nhận biết nội dung trên màn hình và tìm thông tin từ tin nhắn, email hay ảnh để đưa ra câu trả lời phù hợp hơn.
+                - paragraph [ref=e2197]: Apple Intelligence còn mang đến nhiều công cụ AI hữu ích trong các ứng dụng quen thuộc. Ứng dụng Ảnh hỗ trợ Định Lại Khung Không Gian, Mở Rộng và Dọn Dẹp, trong khi Image Playground có thể tạo hình ảnh chất lượng cao và chỉnh sửa theo mô tả.
+                - heading [level=2] [ref=e2198]:
+                  - strong [ref=e2199]: iPhone có các dòng nào nên mua năm 2026?
+                - paragraph [ref=e2200]: Danh mục iPhone năm 2026 được Apple sắp xếp theo từng dòng phù hợp với từng nhu cầu sử dụng thay vì chỉ phân tầng theo mức giá.
+                - table [ref=e2201]:
+                  - rowgroup [ref=e2202]:
+                    - row [ref=e2203]:
+                      - cell [ref=e2204]:
+                        - paragraph [ref=e2205]:
+                          - strong [ref=e2206]: Dòng iPhone
+                      - cell [ref=e2207]:
+                        - paragraph [ref=e2208]:
+                          - strong [ref=e2209]: Các mẫu cụ thể
+                      - cell [ref=e2210]:
+                        - paragraph [ref=e2211]:
+                          - strong [ref=e2212]: Tính năng nổi bật
+                    - row [ref=e2213]:
+                      - cell [ref=e2214]:
+                        - paragraph [ref=e2215]: iPhone thường
+                      - cell [ref=e2216]:
+                        - paragraph [ref=e2217]: iPhone 11
+                        - paragraph [ref=e2218]: iPhone 12
+                        - paragraph [ref=e2219]: iPhone 13
+                        - paragraph [ref=e2220]: iPhone 14
+                        - paragraph [ref=e2221]: iPhone 15
+                        - paragraph [ref=e2222]: iPhone 16
+                        - paragraph [ref=e2223]: iPhone 17
+                      - cell [ref=e2224]:
+                        - paragraph [ref=e2225]: Cân bằng giữa hiệu năng, camera, thiết kế và nhu cầu sử dụng hằng ngày
+                    - row [ref=e2226]:
+                      - cell [ref=e2227]:
+                        - paragraph [ref=e2228]: iPhone Plus
+                      - cell [ref=e2229]:
+                        - paragraph [ref=e2230]: iPhone 14 Plus
+                        - paragraph [ref=e2231]: iPhone 15 Plus
+                        - paragraph [ref=e2232]: iPhone 16 Plus
+                      - cell [ref=e2233]:
+                        - paragraph [ref=e2234]: Màn hình lớn, pin tốt, phù hợp giải trí và đa nhiệm
+                    - row [ref=e2235]:
+                      - cell [ref=e2236]:
+                        - paragraph [ref=e2237]: iPhone Pro
+                      - cell [ref=e2238]:
+                        - paragraph [ref=e2239]: iPhone 11 Pro
+                        - paragraph [ref=e2240]: iPhone 12 Pro
+                        - paragraph [ref=e2241]: iPhone 13 Pro
+                        - paragraph [ref=e2242]: iPhone 14 Pro
+                        - paragraph [ref=e2243]: iPhone 15 Pro
+                        - paragraph [ref=e2244]: iPhone 16 Pro
+                        - paragraph [ref=e2245]: iPhone 17 Pro
+                        - paragraph [ref=e2246]: iPhone 18 Pro
+                      - cell [ref=e2247]:
+                        - paragraph [ref=e2248]: Hiệu năng cao, camera chuyên nghiệp, màn hình ProMotion
+                    - row [ref=e2249]:
+                      - cell [ref=e2250]:
+                        - paragraph [ref=e2251]: iPhone Pro Max
+                      - cell [ref=e2252]:
+                        - paragraph [ref=e2253]: iPhone 11 Pro Max
+                        - paragraph [ref=e2254]: iPhone 12 Pro Max
+                        - paragraph [ref=e2255]: iPhone 13 Pro Max
+                        - paragraph [ref=e2256]: iPhone 14 Pro Max
+                        - paragraph [ref=e2257]: iPhone 15 Pro Max
+                        - paragraph [ref=e2258]: iPhone 16 Pro Max
+                        - paragraph [ref=e2259]: iPhone 17 Pro Max
+                        - paragraph [ref=e2260]: iPhone 18 Pro Max
+                      - cell [ref=e2261]:
+                        - paragraph [ref=e2262]: Màn hình lớn, pin dài, dung lượng lên đến 2TB
+                    - row [ref=e2263]:
+                      - cell [ref=e2264]:
+                        - paragraph [ref=e2265]: iPhone e
+                      - cell [ref=e2266]:
+                        - paragraph [ref=e2267]: iPhone 16e
+                        - paragraph [ref=e2268]: iPhone 17e
+                      - cell [ref=e2269]:
+                        - paragraph [ref=e2270]: Thiết kế gọn nhẹ, hiệu năng mạnh, đáp ứng tốt nhu cầu cơ bản
+                    - row [ref=e2271]:
+                      - cell [ref=e2272]:
+                        - paragraph [ref=e2273]: iPhone Air
+                      - cell [ref=e2274]:
+                        - paragraph [ref=e2275]: iPhone Air
+                      - cell [ref=e2276]:
+                        - paragraph [ref=e2277]: Thiết kế mỏng nhẹ, ưu tiên tính cơ động, hiệu năng mạnh, khả năng chụp ảnh linh hoạt
+                    - row [ref=e2278]:
+                      - cell [ref=e2279]:
+                        - paragraph [ref=e2280]: iPhone Duo
+                      - cell [ref=e2281]:
+                        - paragraph [ref=e2282]: iPhone Duo
+                      - cell [ref=e2283]:
+                        - paragraph [ref=e2284]: iPhone Duo sở hữu thiết kế gập đầu tiên của Apple, nổi bật với hai màn hình, khả năng đa nhiệm linh hoạt và nhiều tư thế sử dụng mới.
+                - heading [level=3] [ref=e2285]:
+                  - strong [ref=e2286]: iPhone thường (Standard) - Cân bằng giá/hiệu năng, gọn nhẹ
+                - paragraph [ref=e2287]: iPhone thường là lựa chọn phù hợp với số đông nhờ mức giá dễ tiếp cận nhưng vẫn giữ được hiệu năng ổn định. Máy có thiết kế gọn nhẹ, cầm nắm thoải mái và không gây nặng tay khi sử dụng trong thời gian dài.
+                - paragraph [ref=e2288]: Về hiệu năng, iPhone tiêu chuẩn vẫn đáp ứng mượt các ứng dụng phổ biến, chơi tốt nhiều game tầm trung và xử lý đa nhiệm ổn định. Nếu bạn muốn một chiếc iPhone dùng lâu dài, có kích thước vừa tay, màu sắc trẻ trung và không cần camera tele đây là lựa chọn rất hợp lý.
+                - paragraph [ref=e2289]: Trên thực tế, iPhone 16 vẫn đáp ứng tốt nhu cầu sử dụng cơ bản hằng ngày. Tuy nhiên, màn hình của máy chỉ dừng ở tần số quét 60Hz và camera góc siêu rộng có độ phân giải thấp hơn iPhone 17.
+                - paragraph [ref=e2290]:
+                  - img "iPhone thường mang đến hiệu năng và giá cân bằng"
+                - heading [level=3] [ref=e2291]:
+                  - strong [ref=e2292]: iPhone Plus - Màn lớn, pin trâu, giá mềm hơn Pro Max
+                - paragraph [ref=e2293]: iPhone Plus được thiết kế để phục vụ người dùng cần màn hình lớn và pin dài, không cần đến hệ thống camera cao cấp của dòng Pro Max. Hiện iPhone 16 Plus là phiên bản Plus còn được bán, bởi từ thế hệ iPhone 17, Apple đã thay bằng dòng iPhone Air.
+                - paragraph [ref=e2294]:
+                  - img "Màn hình dòng Plus lớn cùng viên pin dung lượng cao, giá dễ tiếp cận"
+                - paragraph [ref=e2295]: Điểm mạnh dễ nhận thấy của iPhone 16 Plus nằm ở màn hình Super Retina XDR 6,7 inch cùng thời lượng phát video ngoại tuyến tới 27 giờ theo công bố của Apple. Kích thước màn hình này giúp bạn xem phim, đọc tài liệu hay chia đôi màn hình khi nhắn tin thoải mái hơn bản 6,1 inch.
+                - paragraph [ref=e2296]: Bên trong, iPhone 16 Plus dùng chip A18 và hỗ trợ Apple Intelligence, kèm camera chính 48MP Fusion cùng camera góc siêu rộng 12MP. Nói ngắn gọn, các phiên bản Plus phù hợp với người xem nội dung nhiều, cần pin dài và chấp nhận đánh đổi tần số quét để có mức giá dễ chịu hơn dòng Pro Max. Đây cũng là lựa chọn đáng cân nhắc nếu bạn muốn màn hình lớn nhưng không có nhu cầu quay dựng chuyên sâu.
+                - heading [level=3] [ref=e2297]:
+                  - strong [ref=e2298]: iPhone Pro - Titanium, ProMotion, camera 3 ống kính
+                - paragraph [ref=e2299]: Dòng Pro là lựa chọn dành cho người dùng muốn trải nghiệm cao cấp hơn hẳn so với bản thường, nhưng chưa cần đến kích thước lớn nhất như Pro Max. Điểm hấp dẫn của dòng này là màn hình ProMotion với tần số quét 120Hz, cho cảm giác vuốt chạm mượt mà rõ rệt.
+                - paragraph [ref=e2300]:
+                  - img "Camera ba ống kính và khung titan dòng iPhone Pro cho trải nghiệm cao cấp"
+                - paragraph [ref=e2301]: Qua từng thế hệ, Apple cũng thay đổi vật liệu để tối ưu hiệu năng và khả năng tản nhiệt cho dòng máy này. Ở thế hệ 17 trở đi, iPhone 17 Pro, iPhone 18 Pro chuyển sang khung nhôm nguyên khối thay cho khung titanium của iPhone 16 Pro, với mục tiêu dẫn nhiệt tốt hơn cho chip A19 Pro. Bên cạnh việc đổi mới vật liệu, phiên bản iPhone Pro mới còn đi kèm hệ thống tản nhiệt buồng hơi, duy trì hiệu năng bền bỉ cao hơn tới 40% theo công bố của Apple.
+                - paragraph [ref=e2302]: Hệ thống camera 3 ống kính gồm camera chính, góc siêu rộng và ống kính tele bắt trọn mọi khoảnh khắc từ chụp chân dung đến quay video chất lượng cao. iPhone Pro là lựa chọn lý tưởng cho người làm sáng tạo nội dung, bán hàng online hay bất kỳ ai đam mê trải nghiệm công nghệ đỉnh cao.
+                - heading [level=3] [ref=e2303]:
+                  - strong [ref=e2304]: iPhone Pro Max - Đỉnh cao camera (ống kính tiềm vọng), pin lớn nhất hiện tại
+                - paragraph [ref=e2305]: Phiên bản Pro Max là dòng flagship cao cấp nhất của Apple, luôn được các nhà sáng tạo nội dung, tín đồ công nghệ và những người dùng chuyên nghiệp ưu tiên lựa chọn. Điểm nổi bật của dòng máy này nằm ở hệ thống camera chuyên nghiệp, đặc biệt là khả năng zoom xa giúp người dùng dễ dàng bắt trọn các chủ thể ở xa.
+                - paragraph [ref=e2306]: Bên cạnh khả năng nhiếp ảnh, Pro Max còn khẳng định vị thế dẫn đầu nhờ viên pin dung lượng lớn nhất, cho phép duy trì hoạt động với cường độ cao suốt cả ngày dài mà không lo cạn năng lượng.
+                - paragraph [ref=e2307]:
+                  - img "Cụm camera ba ống kính trên dòng Pro Max hỗ trợ zoom xa sắc nét"
+                - paragraph [ref=e2308]: Kết hợp cùng màn hình kích thước lớn mang lại không gian hiển thị rộng rãi cho các tác vụ giải trí, xem phim, chỉnh sửa hình ảnh hay xử lý công việc trực tiếp trên điện thoại. Nổi bật phải kể tới là iPhone 18 Pro Max tiếp tục sử dụng màn hình 6,9 inch ProMotion 120Hz và đạt thời gian xem video lên đến 43 giờ.
+                - paragraph [ref=e2309]:
+                  - img "Ống kính tele trên iPhone 18 Pro Max hỗ trợ zoom xa và chụp cận cảnh sắc nét"
+                - paragraph [ref=e2310]: Hệ thống ba camera 48MP Pro Fusion cho phép thay đổi khẩu độ giữa bốn mức ƒ/1,48, ƒ/1,8, ƒ/2,8 và ƒ/4,0, giúp linh hoạt hơn khi chụp thiếu sáng và kiểm soát chiều sâu trường ảnh. Kết hợp cùng phạm vi thu phóng quang học 16x, hệ thống camera mở rộng đáng kể khả năng sáng tạo hình ảnh và video chuyên nghiệp.
+                - heading [level=3] [ref=e2311]:
+                  - strong [ref=e2312]: iPhone e (16e/17e) - Face ID + AI, giá kinh tế, thay thế SE
+                - paragraph [ref=e2313]: Dòng "e" là câu trả lời của Apple cho phân khúc giá dễ tiếp cận sau khi iPhone SE dừng bán. Từ iPhone 16e trở đi, Apple đã thay thế dòng SE bằng dòng “e”, trang bị thiết kế màn hình tràn viền, Face ID, chip A18 và hỗ trợ Apple Intelligence.
+                - paragraph [ref=e2314]:
+                  - img "Dòng e thiết kế đơn giản, tối ưu chi phí nhưng vẫn đủ tính năng"
+                - paragraph [ref=e2315]: iPhone 16e, iPhone 17e chỉ có một camera sau 48MP, nhưng vẫn đủ tốt cho nhu cầu chụp ảnh cơ bản, quay video 4K và dùng hằng ngày. Máy cũng có thời lượng pin rất ổn trong phân khúc 6,1 inch. Cả iPhone 17e và iPhone 16e đều đạt chuẩn kháng nước, kháng bụi IP68 theo công bố của Apple, phù hợp với người dùng phổ thông, học sinh, sinh viên hoặc người lớn tuổi.
+                - heading [level=3] [ref=e2316]:
+                  - strong [ref=e2317]: Air Series - Siêu mỏng nhẹ từ trước đến nay
+                - paragraph [ref=e2318]: iPhone Air là model mới trong danh mục, hướng tới người dùng ưu tiên thiết kế mỏng nhẹ, sang trọng và cảm giác cầm nắm thoải mái. Máy dày 5,6mm với khung titan Grade 5 nên bạn bỏ máy vào túi áo hoặc túi quần ôm mà gần như không thấy cộm.
+                - paragraph [ref=e2319]:
+                  - img "iPhone Air có thân máy mỏng nhẹ, chỉ trang bị một camera sau"
+                - paragraph [ref=e2320]: Điểm đáng chú ý là iPhone Air không đánh đổi quá nhiều hiệu năng để lấy độ mỏng của thân máy. Model này dùng chip A19 Pro với GPU 5 nhân, chỉ ít hơn iPhone 17 Pro đúng một nhân GPU, nên hiệu năng xử lý gần tương đương.
+                - paragraph [ref=e2321]: Màn hình Super Retina XDR 6,5 inch của iPhone Air cũng có ProMotion và tính năng luôn bật màn hình, tương tự tấm nền trên dòng Pro. Điểm trừ của iPhone Air nằm ở cụm camera và thời lượng pin, hai điểm mà người dùng nên cân nhắc kỹ.
+                - paragraph [ref=e2322]: Máy chỉ có một camera sau 48MP Fusion kèm tele chất lượng quang học 2x, không có camera góc siêu rộng như iPhone 17 tiêu chuẩn. Thời lượng phát video ngoại tuyến của iPhone Air cũng dừng ở 27 giờ, thấp hơn mức 30 giờ trên iPhone 17 tiêu chuẩn.
+                - paragraph [ref=e2323]:
+                  - img "iPhone Air có thân máy mỏng nhẹ, cầm xem video thoải mái hơn"
+                - paragraph [ref=e2324]: Ngoài ra, iPhone Air dùng Ceramic Shield 2 ở mặt trước và Ceramic Shield ở mặt lưng, giúp mặt lưng chịu nứt vỡ tốt hơn iPhone 16 khoảng 4 lần theo Apple. Nếu bạn thường chụp phong cảnh rộng hoặc quay vlog, iPhone 17 sẽ là lựa chọn phù hợp, còn người ưu tiên máy nhẹ và mỏng sẽ hài lòng với iPhone Air.
+                - heading [level=3] [ref=e2325]:
+                  - strong [ref=e2326]: iPhone Duo - Thiết kế gập đầu tiên với kiến trúc pin đôi
+                - paragraph [ref=e2327]: iPhone Duo là chiếc iPhone gập đầu tiên của Apple, mở ra một phân khúc hoàn toàn mới bên cạnh các dòng iPhone truyền thống. Khi mở ra, máy sở hữu màn hình iPhone lớn nhất từ trước đến nay với kích thước 7,6 inch, nhưng vẫn có thể gập gọn để mang theo.
+                - paragraph [ref=e2328]: Màn hình gập còn mở rộng khả năng đa nhiệm với Split View, cho phép mở hai ứng dụng song song và kéo thả nội dung giữa chúng. Người dùng cũng có thể thay đổi tư thế máy để xem video, gọi FaceTime rảnh tay hoặc thao tác trên bàn phím rộng hơn, giúp Duo linh hoạt hơn cho cả công việc lẫn giải trí.
+                - paragraph [ref=e2329]:
+                  - img "iPhone Duo mang đến trải nghiệm đa nhiệm mới trên thiết kế gập đầu tiên của iPhone"
+                - paragraph [ref=e2330]: Duo cũng là chiếc iPhone đầu tiên sử dụng hệ thống pin đôi, kết hợp thiết kế eSIM để tối ưu không gian bên trong cho pin. Máy đạt thời gian xem video đến 44 giờ với màn hình ngoài hoặc 31 giờ với màn hình trong. Thiết bị còn hỗ trợ sạc 50% pin trong khoảng 20 phút với bộ tiếp hợp công suất 60W trở lên.
+                - heading [level=3] [ref=e2331]:
+                  - strong [ref=e2332]: Mini/SE - Ngừng sản xuất hàng mới
+                - paragraph [ref=e2333]: Hai dòng Mini/SE nhỏ gọn này hiện đã dừng bán và không còn hàng mới chính hãng để khách hàng lựa chọn ở thời điểm hiện tại. Apple ngừng phát triển iPhone mini sau thế hệ iPhone 13 mini, còn iPhone SE thế hệ ba dừng bán khi iPhone 16e ra mắt vào tháng 2/2025.
+                - paragraph [ref=e2334]:
+                  - img "Dòng mini/SE nhỏ gọn hiện chỉ còn ở dạng hàng cũ"
+                - paragraph [ref=e2335]: Việc dừng dòng SE cũng đồng nghĩa Apple không còn bán mẫu iPhone nào dùng nút Home, cảm biến Touch ID, màn hình LCD hay cổng Lightning. Nếu bạn từng gắn bó với iPhone SE vì kích thước nhỏ, iPhone 17e là mẫu có mức giá gần với dòng SE.
+                - paragraph [ref=e2336]: Với iPhone mini, thị trường hiện chỉ còn máy đã qua sử dụng nên rủi ro về chất lượng cũng cao hơn. Bạn nên cân nhắc kỹ tình trạng pin và khả năng nhận cập nhật iOS về lâu dài trước khi chọn, vì đây là các model đã ra mắt cách đây nhiều năm.
+                - paragraph [ref=e2337]: Nhìn chung, mỗi dòng iPhone đều được Apple định hướng cho nhóm nhu cầu riêng, từ phiên bản tiêu chuẩn dễ sử dụng đến các mẫu Pro Max và iPhone Air mỏng nhẹ. Người dùng có thể dựa vào kích thước màn hình, hiệu năng, camera, thời lượng pin và ngân sách để lựa chọn dòng iPhone phù hợp với nhu cầu sử dụng.
+                - heading [level=2] [ref=e2338]:
+                  - strong [ref=e2339]: Mua iPhone dựa theo bộ nhớ trong
+                - paragraph [ref=e2340]:
+                  - text: Việc chọn
+                  - strong [ref=e2341]: mua iPhone
+                  - text: dựa trên
+                  - strong [ref=e2342]: bộ nhớ trong (dung lượng lưu trữ)
+                  - text: phụ thuộc hoàn toàn vào
+                  - strong [ref=e2343]: nhu cầu sử dụng thực tế của bạn
+                  - text: ". Mức dung lượng phổ biến hiện nay dao động từ 128GB đến 1TB chi tiết nhu cầu sử dụng như sau:"
+                - table [ref=e2344]:
+                  - rowgroup [ref=e2345]:
+                    - row [ref=e2346]:
+                      - cell [ref=e2347]:
+                        - paragraph [ref=e2348]:
+                          - strong [ref=e2349]: Dung lượng iPhone
+                      - cell [ref=e2350]:
+                        - paragraph [ref=e2351]:
+                          - strong [ref=e2352]: Nhu cầu sử dụng
+                      - cell [ref=e2353]:
+                        - paragraph [ref=e2354]:
+                          - strong [ref=e2355]: Tần suất quay/chụp
+                    - row [ref=e2356]:
+                      - cell [ref=e2357]:
+                        - paragraph [ref=e2358]:
+                          - strong [ref=e2359]: Apple iPhone 64GB
+                      - cell [ref=e2360]:
+                        - paragraph [ref=e2361]: Cơ bản, ít game, dùng iCloud
+                      - cell "Thấp" [ref=e2362]
+                    - row [ref=e2363]:
+                      - cell [ref=e2364]:
+                        - paragraph [ref=e2365]:
+                          - strong [ref=e2366]: Apple iPhone 128GB
+                      - cell [ref=e2367]:
+                        - paragraph [ref=e2368]: Phổ thông, chụp ảnh, game vừa
+                      - cell "Vừa phải" [ref=e2369]
+                    - row [ref=e2370]:
+                      - cell [ref=e2371]:
+                        - paragraph [ref=e2372]:
+                          - strong [ref=e2373]: Apple iPhone 256GB
+                      - cell [ref=e2374]:
+                        - paragraph [ref=e2375]: Cao, lưu nhiều ảnh, video
+                      - cell "Thường xuyên" [ref=e2376]
+                    - row [ref=e2377]:
+                      - cell [ref=e2378]:
+                        - paragraph [ref=e2379]:
+                          - strong [ref=e2380]: Apple iPhone 512GB
+                      - cell [ref=e2381]:
+                        - paragraph [ref=e2382]: Rất cao, quay video Pro, game
+                      - cell "Cao (4K)" [ref=e2383]
+                    - row [ref=e2384]:
+                      - cell [ref=e2385]:
+                        - paragraph [ref=e2386]:
+                          - strong [ref=e2387]: Apple iPhone 1TB - 2TB
+                      - cell [ref=e2388]:
+                        - paragraph [ref=e2389]: Rất cao, quay video Pro, game, edit chỉnh sửa trực tiếp
+                      - cell "Rất cao (4K)" [ref=e2390]
+                - paragraph [ref=e2391]: "Chi tiêt từng phiên bản bộ nhớ iPhone bao gồm:"
+                - heading [level=3] [ref=e2392]:
+                  - strong [ref=e2393]: iPhone 64GB - nhu cầu cơ bản
+                - paragraph [ref=e2394]: "iPhone 64GB là phiên bản dung lượng cơ bản, chỉ còn trống khoảng 50GB - 54GB thực tế sau khi trừ đi hệ điều hành iOS. Đi kèm các ưu điểm như giá thành rẻ nhất trong các phiên bản. Tuy nhiên, vẫn có một vài điểm hạn chế như: Dung lượng đầy nhanh nếu bạn chụp nhiều ảnh, quay video 4K, tải game nặng hoặc sử dụng nhiều ứng dụng mạng xã hội."
+                - paragraph [ref=e2395]:
+                  - text: Thông qua một vài nghiên cứu thực tế, iPhone 64GB có thể
+                  - strong [ref=e2396]: dùng được từ 2 đến 5 năm
+                  - text: "tùy thuộc vào nhu cầu và cách quản lý bộ nhớ của bạn. Thời gian sử dụng sẽ phụ thuộc vào các yếu tố cụ thể sau:"
+                - list [ref=e2397]:
+                  - listitem [ref=e2398]:
+                    - paragraph [ref=e2399]:
+                      - strong [ref=e2400]: "Sử dụng cơ bản (2-4 năm):"
+                      - text: Đối với các tác vụ thông thường·chỉ nghe gọi, lướt Facebook/TikTok, thỉnh thoảng chụp ảnh. Mức 64GB này hoàn toàn đáp ứng tốt nếu bạn không cài nhiều game nặng hay quay phim 24/24.
+                  - listitem [ref=e2401]:
+                    - paragraph [ref=e2402]:
+                      - strong [ref=e2403]: "Người chụp ảnh và quay video thường xuyên (1-2 năm):"
+                      - text: Đối với nhu cầu quay chụp thường xuyên thì khả năng lưu trữ trên iphone 64GB tầm được 1-2 năm. Vì không gian lưu trữ ảnh và quay 4K sẽ thường bị hạn chế với mức dung lượng này.
+                  - listitem [ref=e2404]:
+                    - paragraph [ref=e2405]:
+                      - strong [ref=e2406]: "Game thủ (dưới 1 năm):"
+                      - text: Đối với game thủ thì đây chưa phải là lựa chọn nên mua khi chơi các tựa game nặng như Genshin Impact hay Liên Quân Mobile vì các bản cập nhật sẽ nhanh chóng làm đầy bộ nhớ máy.
+                - heading [level=3] [ref=e2407]:
+                  - strong [ref=e2408]: iPhone 128GB - Lựa chọn "Quốc dân" (Khuyên dùng)
+                - paragraph [ref=e2409]: iPhone 128GB thường phục vụ tốt trong khoảng 2 - 4 năm tùy thuộc vào thói quen sử dụng. Đối với các tác vụ thông thường, máy iPhone có thể lưu trữ thoải mái, nhưng nếu bạn quay nhiều video 4K hoặc chơi game nặng, dung lượng này có thể đầy sau 1 - 2 năm
+                - paragraph [ref=e2410]: "Dung lượng này cho phép bạn lưu trữ linh hoạt các nội dung sau trước khi bộ nhớ đầy:"
+                - list [ref=e2411]:
+                  - listitem [ref=e2412]:
+                    - paragraph [ref=e2413]:
+                      - strong [ref=e2414]: Hơn 30.000 bức ảnh
+                      - text: thông thường (tùy thuộc vào định dạng cài đặt)
+                  - listitem [ref=e2415]:
+                    - paragraph [ref=e2416]:
+                      - strong [ref=e2417]: "Ứng dụng:"
+                      - text: "Khoảng 50 - 80 ứng dụng thông thường. (Lưu ý: Các tựa game nặng từ 5 - 10 GB sẽ chiếm dụng bộ nhớ rất nhanh)."
+                  - listitem [ref=e2418]:
+                    - paragraph [ref=e2419]:
+                      - strong [ref=e2420]: "Video:"
+                      - text: Khoảng 45 - 85 giờ video chất lượng 1080p, nhưng chỉ khoảng 15 - 20 giờ nếu quay ở định dạng 4K.
+                - paragraph [ref=e2421]:
+                  - img "iPhone 128GB"
+                - paragraph [ref=e2422]: Về khả năng quay phim, 128GB đáp ứng tốt nhu cầu quay video 4K ở mức độ vừa phải cho người dùng cá nhân. Tuy nhiên, nếu bạn thường xuyên quay video 4K hoặc bật định dạng ProRAW thì bộ nhớ sẽ nhanh đầy hơn dự kiến.
+                - heading [level=3] [ref=e2423]:
+                  - strong [ref=e2424]: iPhone 256GB - Thoải mái lưu trữ
+                - paragraph [ref=e2425]: Một chiếc iPhone 256GB thường đáp ứng đủ nhu cầu sử dụng phổ thông trong khoảng 3 đến 5 năm mà không bị đầy bộ nhớ
+                - paragraph [ref=e2426]: "Dung lượng 256GB tương đương với sức chứa khoảng:"
+                - list [ref=e2427]:
+                  - listitem [ref=e2428]:
+                    - paragraph [ref=e2429]:
+                      - strong [ref=e2430]: "Ảnh:"
+                      - text: ~70.000 đến 214.000 bức ảnh
+                  - listitem [ref=e2431]:
+                    - paragraph [ref=e2432]:
+                      - strong [ref=e2433]: "Video:"
+                      - text: ~98 giờ video HD hoặc khoảng 10-15 giờ video 4K
+                  - listitem [ref=e2434]:
+                    - paragraph [ref=e2435]:
+                      - strong [ref=e2436]: "Ứng dụng:"
+                      - text: Cài đặt khoảng 50 - 60 tựa game nặng và các ứng dụng mạng xã hội phổ biến
+                - paragraph [ref=e2437]:
+                  - img "iPhone 256GB"
+                - paragraph [ref=e2438]: Mức dung lượng 256gb này đủ để bạn thoải mái chụp ảnh, quay video và tải ứng dụng mới trong thời gian dài mà không phụ thuộc hoàn toàn vào dịch vụ đám mây. Tuy nhiên, thời gian thực tế vẫn phụ thuộc vào thói quen cá nhân (đặc biệt là việc quay phim 4K).
+                - heading [level=3] [ref=e2439]:
+                  - strong [ref=e2440]: iPhone 512GB - Lưu trữ thoải mái, quay hình độ phân giải cao
+                - paragraph [ref=e2441]: Với 512GB, điện thoại iPhone của người dùng sẽ trở thành một kho lưu trữ di động khổng lồ cực kỳ tiện lợi. Dung lượng 512GB trên iPhone là mức lưu trữ rất lớn. Trong điều kiện sử dụng thông thường, bạn có thể thoải mái lưu trữ dữ liệu trong 5 - 6 năm mà không lo cạn kiệt bộ nhớ
+                - paragraph [ref=e2442]: "Với 512GB, chiếc iPhone của bạn có thể chứa khoảng:"
+                - list [ref=e2443]:
+                  - listitem [ref=e2444]:
+                    - paragraph [ref=e2445]:
+                      - text: Hơn 1
+                      - strong [ref=e2446]: 50.000 bức ảnh
+                      - text: (chất lượng tiêu chuẩn)
+                  - listitem [ref=e2447]:
+                    - paragraph [ref=e2448]:
+                      - text: Hơn
+                      - strong [ref=e2449]: 20 giờ video 4K hoặc khoảng 520 phút video độ phân giải siêu cao
+                  - listitem [ref=e2450]:
+                    - paragraph [ref=e2451]:
+                      - strong [ref=e2452]: Hàng trăm ứng dụng và hàng chục tựa game nặng
+                      - text: nhất hiện nay.
+                - paragraph [ref=e2453]:
+                  - img "iPhone 512GB"
+                - paragraph [ref=e2454]: Hệ thống sẽ hoạt động cực kỳ mượt mà nhờ không gian trống rộng rãi cho việc xử lý dữ liệu đệm của hệ điều hành iOS. Người dùng gần như ít phải đối mặt với thông báo "Bộ nhớ đầy" dù cài đặt bao nhiêu ứng dụng hay trò chơi.
+                - heading [level=3] [ref=e2455]:
+                  - strong [ref=e2456]: iPhone 1TB - 2TB - Dành cho người sáng tạo, cần nhiều bộ nhớ quay chụp
+                - paragraph [ref=e2457]: iPhone 1TB và 2TB có sức chứa khổng lồ. Với 1TB, bạn có thể lưu ~200.000 bức ảnh hoặc 20-40 giờ video 4K. Mức 2TB nhân đôi không gian, chứa được khoảng 400.000 ảnh hoặc hơn 40 giờ video 4K chất lượng cao.
+                - paragraph [ref=e2458]: "Dung lượng chi tiết có thể chứa ước tính như sau:"
+                - list [ref=e2459]:
+                  - listitem [ref=e2460]:
+                    - paragraph [ref=e2461]:
+                      - strong [ref=e2462]: "Ảnh (chất lượng cao):"
+                      - text: 100.000 - 400.000 ảnh
+                  - listitem [ref=e2463]:
+                    - paragraph [ref=e2464]:
+                      - strong [ref=e2465]: "Video 4K (hoặc ProRes):"
+                      - text: 40 - 80 giờ
+                  - listitem [ref=e2466]:
+                    - paragraph [ref=e2467]:
+                      - strong [ref=e2468]: "Ứng dụng & Trò chơi:"
+                      - text: Hàng ngàn ứng dụng nặng
+                - paragraph [ref=e2469]:
+                  - img "iPhone 1TB - 2TB"
+                - paragraph [ref=e2470]: Mức dung lượng này đáp ứng nhu cầu khắt khe của các nhà làm phim chuyên nghiệp hoặc những người muốn lưu trữ toàn bộ dữ liệu trên một thiết bị. Với không gian lưu trữ lớn, máy có khả năng duy trì hiệu suất đỉnh cao trong suốt vòng đời sử dụng lâu dài.
+                - paragraph [ref=e2471]:
+                  - emphasis [ref=e2472]:
+                    - strong [ref=e2473]: "Lưu ý:"
+                    - text: đây cũng là
+                    - strong [ref=e2474]: yếu tố ảnh hưởng
+                    - text: đến
+                    - strong [ref=e2475]: giá điện thoại iPhone
+                    - text: tại
+                    - strong [ref=e2476]: CellphoneS
+                    - text: .
+                - paragraph [ref=e2477]: "Ngoài ra, có một vài mẹo để bạn tiết kiệm không gian bộ nhớ để thời gian sử dụng kéo dài lâu hơn như:"
+                - list [ref=e2478]:
+                  - listitem [ref=e2479]:
+                    - paragraph [ref=e2480]:
+                      - strong [ref=e2481]: "Sử dụng iCloud:"
+                      - text: Bật tính năng tối ưu hóa dung lượng trên iCloud Photos để lưu ảnh gốc trên đám mây, chỉ giữ ảnh chất lượng thấp trên máy.
+                  - listitem [ref=e2482]:
+                    - paragraph [ref=e2483]:
+                      - strong [ref=e2484]: "Tắt tính năng tự động lưu ảnh:"
+                      - text: Tắt lưu ảnh từ các ứng dụng nhắn tin như Zalo, Telegram để tránh rác.
+                  - listitem [ref=e2485]:
+                    - paragraph [ref=e2486]:
+                      - strong [ref=e2487]: "Gỡ ứng dụng không dùng:"
+                      - text: Bật tính năng gỡ bỏ ứng dụng nhưng vẫn giữ lại tài liệu và dữ liệu.
+                - heading [level=2] [ref=e2488]:
+                  - strong [ref=e2489]: Mua iPhone dựa theo nhu cầu cá nhân
+                - paragraph [ref=e2490]: Chọn iPhone theo nhu cầu thường hiệu quả hơn chọn theo thứ tự đắt rẻ, bởi mỗi dòng đều có thế mạnh được Apple tối ưu riêng. Phần dưới đây chia theo năm nhóm nhu cầu phổ biến, kèm gợi ý các sản phẩm để bạn dễ dàng lựa chọn.
+                - heading [level=3] [ref=e2491]:
+                  - strong [ref=e2492]: Mua iPhone dùng cơ bản, pin trâu
+                - paragraph [ref=e2493]: Nhóm người dùng cơ bản cần một chiếc iPhone chạy mượt, pin đủ một ngày dài và giữ giá tốt, thay vì cần cụm camera nhiều ống kính. iPhone 16e hoặc iPhone 17e là lựa chọn phù hợp khi đều đạt thời gian xem video lên đến 26 giờ, cao hơn nhiều mẫu iPhone tiêu chuẩn đời cũ.
+                - paragraph [ref=e2494]:
+                  - img "Mua iPhone dùng cơ bản, pin trâu"
+                - paragraph [ref=e2495]: Nếu bạn muốn màn hình mượt hơn và pin dài hơn một chút, iPhone bản tiêu chuẩn là bước nâng cấp đáng cân nhắc so với dòng "e". Model này cũng sạc nhanh hơn, nên bạn cắm sạc trong lúc chuẩn bị đi làm là đã có đủ pin dùng cho cả buổi sáng.
+                - paragraph [ref=e2496]:
+                  - img "iPhone tiêu chuẩn phù hợp nhắn tin, lướt mạng xã hội suốt cả ngày"
+                - paragraph [ref=e2497]: Tóm lại, nếu ngân sách là yếu tố quyết định thì iPhone 17e cho giá trị sử dụng tốt trong ba lựa chọn kể trên. Trường hợp bạn có thêm ngân sách và muốn dùng máy ổn định trong thời gian dài, iPhone 17 thường sẽ là phương án cân bằng giữa hiệu năng, màn hình và pin.
+                - heading [level=3] [ref=e2498]:
+                  - strong [ref=e2499]: Mua iPhone chụp ảnh/quay video chuyên nghiệp
+                - paragraph [ref=e2500]: Với nhu cầu quay chụp chuyên nghiệp, người dùng nên ưu tiên dòng iPhone Pro và Pro Max có camera Telephoto, ProRAW, ProRes RAW và Apple Log 2. Những công cụ này cho phép kiểm soát hình ảnh tốt hơn và thuận tiện hơn khi hậu kỳ nội dung.
+                - paragraph [ref=e2501]:
+                  - img "iPhone dòng Pro quay video 4K sắc nét, ổn định cho nội dung chuyên nghiệp"
+                - paragraph [ref=e2502]: Điểm mạnh của dòng Pro nằm ở cụm ba camera sau, giúp bạn linh hoạt chuyển giữa ảnh toàn cảnh, ảnh chân dung và ảnh chụp chủ thể ở xa. Đây cũng là nhóm iPhone hỗ trợ các định dạng ảnh và video chuyên nghiệp, thuận tiện khi bạn cần chỉnh màu hoặc dựng lại trên máy tính.
+                - paragraph [ref=e2503]: Nếu muốn công nghệ camera mới nhất, iPhone 18 Pro series là lựa chọn đáng chú ý hơn. Camera 48MP Pro Fusion Main cho phép thay đổi khẩu độ và các điều khiển Pro để chủ động hơn khi chụp thiếu sáng, kiểm soát chiều sâu hay quay video chuyên nghiệp.
+                - heading [level=3] [ref=e2504]:
+                  - strong [ref=e2505]: Mua iPhone chơi game, tác vụ nặng
+                - paragraph [ref=e2506]: Với game thủ và người chạy tác vụ nặng, yếu tố quyết định không chỉ là sức mạnh chip mà còn là khả năng giữ hiệu năng ổn định trong thời gian dài. Đây là lý do dòng Pro phù hợp hơn cả, cụ thể là iPhone 18 Pro, iPhone 18 Pro Max và các model chạy chip A19 Pro.
+                - paragraph [ref=e2507]:
+                  - img "iPhone 17 dòng Pro trang bị GPU mạnh cùng khả năng tản nhiệt giúp chơi game ổn định"
+                - paragraph [ref=e2508]: iPhone 18 Pro series trang bị buồng hơi thế hệ mới có diện tích bề mặt lớn hơn, giúp tản nhiệt hiệu quả hơn khi chơi game hoặc xử lý tác vụ nặng.
+                - paragraph [ref=e2509]: iPhone 16 Pro và iPhone 16 Pro Max với chip A18 Pro cũng là gợi ý phù hợp để xử lý tốt các tựa game phổ biến hiện nay. Hai model này chưa có buồng hơi, nên bạn cần chấp nhận việc máy ấm hơn khi chơi lâu trong môi trường nóng.
+                - heading [level=3] [ref=e2510]:
+                  - strong [ref=e2511]: Mua iPhone giá rẻ, màn lớn
+                - paragraph [ref=e2512]: Nếu muốn màn hình rộng nhưng không cần các trang bị cao cấp của Pro Max, dòng iPhone Plus là lựa chọn phù hợp hơn về chi phí. iPhone 14 Plus, iPhone 15 Plus và iPhone 16 Plus đều sở hữu màn hình OLED Super Retina XDR 6,7 inch, mang lại không gian thoải mái để xem phim, đọc nội dung và giải trí.
+                - paragraph [ref=e2513]:
+                  - img "iPhone dòng Plus giá rẻ, màn lớn"
+                - paragraph [ref=e2514]: Về hiệu năng, iPhone 14 Plus dùng A15 Bionic, iPhone 15 Plus dùng A16 Bionic và iPhone 16 Plus nâng lên A18. Các con chip này vẫn đáp ứng tốt nhu cầu hằng ngày, trong khi mức giá thường dễ tiếp cận hơn dòng Pro Max cùng thế hệ.
+                - paragraph [ref=e2515]:
+                  - img "Dòng Plus màn hình lớn, mức giá dễ tiếp cận hơn bản Pro"
+                - heading [level=3] [ref=e2516]:
+                  - strong [ref=e2517]: Mua iPhone siêu mỏng nhẹ
+                - paragraph [ref=e2518]: Nếu ưu tiên cảm giác cầm nhẹ và dễ mang theo, người dùng nên chọn iPhone có thân máy mỏng, trọng lượng thấp nhưng vẫn giữ màn hình đủ lớn và hiệu năng tốt. Với nhóm nhu cầu này, iPhone Air là lựa chọn nổi bật nhờ thiết kế chỉ dày 5,64 mm và nặng 165 g.
+                - paragraph [ref=e2519]:
+                  - img "iPhone Air có thân máy mỏng nhẹ, cầm nắm thoải mái khi dùng cả ngày"
+                - paragraph [ref=e2520]: Đánh đổi rõ ràng của iPhone Air nằm ở cụm camera đơn và thời lượng pin ngắn hơn iPhone bản tiêu chuẩn. Máy cũng không có hệ thống tản nhiệt buồng hơi, nên iPhone Air hợp với nhu cầu giải trí nhẹ hơn là chơi game nặng trong nhiều giờ liền.
+                - paragraph [ref=e2521]: Máy còn được trang bị chip A19 Pro với CPU 6 lõi và GPU 5 lõi, đủ sức xử lý các tác vụ nặng và Apple Intelligence. Thời gian xem video lên đến 27 giờ cũng giúp iPhone Air cân bằng tốt giữa thiết kế mỏng nhẹ, hiệu năng và thời lượng sử dụng.
+                - paragraph [ref=e2522]:
+                  - img "iPhone Air thân máy mỏng, gọn nhẹ khi cầm nắm cả ngày"
+                - paragraph [ref=e2523]: Bạn nên chọn iPhone Air nếu thường xuyên di chuyển, muốn máy nhẹ trong túi và chấp nhận sạc thêm vào buổi tối. Ngược lại, nếu bạn cần camera góc siêu rộng hoặc thời lượng pin dài hơn, iPhone 17 tiêu chuẩn là phương án cân bằng hơn với mức giá thấp hơn.
+                - heading [level=3] [ref=e2524]:
+                  - strong [ref=e2525]: Mua iPhone nhỏ gọn, dễ cầm
+                - paragraph [ref=e2526]: iPhone 13 mini và iPhone 12 mini sở hữu màn hình 5.4 inch, có kích thước nhỏ gọn và trọng lượng nhẹ nên thuận tiện khi cầm bằng một tay. Hai mẫu máy phù hợp với người dùng yêu thích điện thoại nhỏ, dễ thao tác và thuận tiện mang theo bên mình.
+                - paragraph [ref=e2527]:
+                  - img "Kích thước vừa vặn, tạo cảm giác thuận tiện khi sử dụng"
+                - paragraph [ref=e2528]: Các mẫu iPhone 15, iPhone 14 và iPhone 13 sử dụng màn hình 6.1 inch, mang đến diện tích hiển thị hợp lý mà vẫn giữ được cảm giác cầm máy thoải mái. iPhone SE thế hệ thứ 3 sử dụng màn hình 4.7 inch cùng kiểu dáng nhỏ, phù hợp với người dùng yêu thích thiết kế truyền thống dù phần viền màn hình dày hơn.
+                - heading [level=2] [ref=e2529]:
+                  - strong [ref=e2530]: So sánh iPhone iOS và Android, nên chọn mua hệ điều hành nào?
+                - paragraph [ref=e2531]: Việc lựa chọn giữa iOS và điện thoại Android không chỉ là chọn một chiếc điện thoại mà là chọn cả một hệ sinh thái phục vụ công việc và cuộc sống. Mỗi nền tảng đều sở hữu những triết lý thiết kế và tính năng riêng biệt nhằm tối ưu hóa trải nghiệm người dùng.
+                - table [ref=e2532]:
+                  - rowgroup [ref=e2533]:
+                    - row [ref=e2534]:
+                      - cell [ref=e2535]:
+                        - paragraph [ref=e2536]:
+                          - strong [ref=e2537]: Tiêu chí so sánh
+                      - cell [ref=e2538]:
+                        - paragraph [ref=e2539]:
+                          - strong [ref=e2540]: Hệ điều hành iOS (iPhone)
+                      - cell [ref=e2541]:
+                        - paragraph [ref=e2542]:
+                          - strong [ref=e2543]: Hệ điều hành Android
+                    - row [ref=e2544]:
+                      - cell [ref=e2545]:
+                        - paragraph [ref=e2546]:
+                          - strong [ref=e2547]: Tính mở & Tùy biến
+                      - cell [ref=e2548]:
+                        - paragraph [ref=e2549]: Hệ điều hành đóng, tính tùy biến hạn chế nhưng giao diện nhất quán.
+                      - cell [ref=e2550]:
+                        - paragraph [ref=e2551]: Hệ điều hành mở, cho phép thay đổi giao diện, cài đặt ROM và can thiệp sâu vào hệ thống.
+                    - row [ref=e2552]:
+                      - cell [ref=e2553]:
+                        - paragraph [ref=e2554]:
+                          - strong [ref=e2555]: Sự ổn định
+                      - cell [ref=e2556]:
+                        - paragraph [ref=e2557]: Mượt mà nhờ sự tối ưu giữa phần cứng và phần mềm.
+                      - cell [ref=e2558]:
+                        - paragraph [ref=e2559]: Có thể xảy ra hiện tượng giật lag sau thời gian dài sử dụng (tùy thuộc vào phân khúc máy).
+                    - row [ref=e2560]:
+                      - cell [ref=e2561]:
+                        - paragraph [ref=e2562]:
+                          - strong [ref=e2563]: Kho ứng dụng
+                      - cell [ref=e2564]:
+                        - paragraph [ref=e2565]: App Store kiểm duyệt gắt gao, ứng dụng thường có chất lượng đồ họa và bảo mật cao hơn.
+                      - cell [ref=e2566]:
+                        - paragraph [ref=e2567]: Google Play đa dạng số lượng ứng dụng, cho phép cài đặt file APK từ nguồn bên ngoài dễ dàng.
+                    - row [ref=e2568]:
+                      - cell [ref=e2569]:
+                        - paragraph [ref=e2570]:
+                          - strong [ref=e2571]: Bảo mật & Quyền riêng tư
+                      - cell [ref=e2572]:
+                        - paragraph [ref=e2573]: Được đánh giá là an toàn với khả năng kiểm soát quyền truy cập dữ liệu chặt chẽ.
+                      - cell [ref=e2574]:
+                        - paragraph [ref=e2575]: Độ bảo mật khá tốt nhưng dễ bị tấn công hơn do tính mở và cài đặt ứng dụng không rõ nguồn gốc.
+                    - row [ref=e2576]:
+                      - cell [ref=e2577]:
+                        - paragraph [ref=e2578]:
+                          - strong [ref=e2579]: Cập nhật phần mềm
+                      - cell [ref=e2580]:
+                        - paragraph [ref=e2581]: Cập nhật đồng loạt và hỗ trợ lâu dài (thường từ 6 - 8 năm).
+                      - cell [ref=e2582]:
+                        - paragraph [ref=e2583]: Phụ thuộc vào từng hãng sản xuất, thường chỉ hỗ trợ cập nhật từ 2 - 4 năm.
+                    - row [ref=e2584]:
+                      - cell [ref=e2585]:
+                        - paragraph [ref=e2586]:
+                          - strong [ref=e2587]: Hệ sinh thái
+                      - cell [ref=e2588]:
+                        - paragraph [ref=e2589]: Kết nối phù hợp với Mac, iPad, Apple Watch qua các tính năng AirDrop, Handoff.
+                      - cell [ref=e2590]:
+                        - paragraph [ref=e2591]: Đa dạng kết nối với nhiều hãng khác nhau nhưng tính đồng bộ chưa thực sự mượt mà như Apple.
+                - paragraph [ref=e2592]: Ưu điểm lớn của iPhone giá rẻ chính là sự đơn giản, tính bảo mật và giữ giá tốt theo thời gian, tuy nhiên nhược điểm là giá thành thiết bị cao và ít sự lựa chọn về kiểu dáng. Ngược lại, Android chiếm ưu thế nhờ sự đa dạng về mẫu mã và mức giá linh hoạt, nhưng lại gặp hạn chế về tính ổn định lâu dài.
+                - paragraph [ref=e2593]:
+                  - img "So sánh iPhone iOS và Android"
+                - paragraph [ref=e2594]: Người dùng nên chọn mua điện thoại Apple nếu ưu tiên một thiết bị hoạt động ổn định trong nhiều năm và cần sự an toàn cho dữ liệu cá nhân. Ngược lại, hãy chọn Android nếu người dùng là người thích khám phá công nghệ mới, muốn tự do tùy chỉnh theo cá tính riêng và cần nhiều lựa chọn về mức giá.
+                - heading [level=2] [ref=e2595]:
+                  - strong [ref=e2596]: Top iPhone tại CellphoneS đang bán chạy tháng 11/2026 nên mua?
+                - paragraph [ref=e2597]: "Dưới đây là sáu dòng iPhone đang được quan tâm nhất tại CellphoneS, nổi bật về công nghệ, đáng để cân nhắc khi mua:"
+                - heading [level=3] [ref=e2598]:
+                  - strong [ref=e2599]: iPhone Duo - Thiết kế gập mở rộng không gian sử dụng
+                - paragraph [ref=e2600]: iPhone Duo đánh dấu bước chuyển mới của Apple với thiết kế gập dạng quyển sách, cho phép chuyển đổi giữa màn hình ngoài 5,4 inch và màn hình trong 7,6 inch. Thiết kế này mang đến không gian hiển thị rộng hơn khi mở máy, thuận tiện để xem video, đọc tài liệu và xử lý công việc trên điện thoại. Khi gập lại, thiết bị vẫn có màn hình ngoài để thực hiện các tác vụ thường ngày.
+                - paragraph [ref=e2601]
+                - paragraph
+                - paragraph [ref=e2602]: Bên cạnh thiết kế, iPhone Duo còn mở rộng cách sử dụng nhờ khả năng đa nhiệm trên màn hình lớn. Tính năng Split View cho phép hiển thị hai ứng dụng cạnh nhau, chẳng hạn vừa đọc tài liệu vừa trả lời tin nhắn, trong khi bản lề linh hoạt giúp đặt máy ở nhiều góc độ để xem nội dung hoặc gọi video rảnh tay.
+                - heading [level=3] [ref=e2603]:
+                  - strong [ref=e2604]: iPhone 18 Pro series - Hiệu năng mạnh mẽ, nâng cấp trải nghiệm chụp ảnh
+                - paragraph [ref=e2605]: iPhone 18 Pro và iPhone 18 Pro Max nổi bật với chip A20 Pro tiến trình 2nm, giúp cải thiện hiệu năng xử lý và đáp ứng tốt các tác vụ nặng như chơi game, chỉnh sửa video hay sử dụng tính năng AI. So với iPhone 17 Pro series, thế hệ mới còn được nâng cấp hệ thống tản nhiệt buồng hơi lớn gấp 3 lần.
+                - paragraph [ref=e2606]
+                - paragraph [ref=e2607]: Điểm đáng chú ý trên camera là khả năng điều chỉnh khẩu độ vật lý 4 nấc của camera chính Fusion 48MP, giúp người dùng linh hoạt hơn khi chụp trong nhiều điều kiện ánh sáng và kiểm soát độ sâu trường ảnh.
+                - heading [level=3] [ref=e2608]:
+                  - strong [ref=e2609]: iPhone Air - mỏng nhẹ chỉ 5.6mm
+                - paragraph [ref=e2610]: iPhone Air giữ sức hút nhờ hình dáng khác biệt hẳn so với phần còn lại của danh mục iPhone mà Apple đang bán. Thân máy dày 5,6mm, sử dụng khung titan Grade 5 với 80% titan tái chế theo công bố của Apple, cho cảm giác cầm chắc tay dù trọng lượng rất nhẹ.
+                - paragraph [ref=e2611]:
+                  - img "Thiết kế iPhone Air mỏng nhẹ nhưng đánh đổi ở dung lượng pin"
+                - paragraph [ref=e2612]: Bên trong, iPhone Air vẫn dùng chip A19 Pro cùng màn hình Super Retina XDR 6,5 inch có ProMotion, nên tốc độ xử lý gần bằng dòng Pro. Đây là lựa chọn phù hợp cho người dùng thường xuyên cầm máy để trả lời tin nhắn hoặc họp trực tuyến nhờ thân máy thoải mái khi cầm lâu.
+                - paragraph [ref=e2613]: Về độ bền, iPhone Air dùng Ceramic Shield 2 ở mặt trước và Ceramic Shield ở mặt lưng, giúp mặt lưng chịu nứt vỡ tốt hơn iPhone 16 khoảng 4 lần. Đây là lựa chọn dành cho khách hàng ưu tiên thiết kế, chấp nhận camera đơn và thời lượng pin ngắn hơn iPhone 17 tiêu chuẩn.
+                - heading [level=3] [ref=e2614]:
+                  - strong [ref=e2615]: iPhone 17 series - Vapor Chamber lần đầu tiên trên iPhone
+                - paragraph [ref=e2616]: iPhone 17 series là thế hệ đánh dấu lần đầu Apple đưa tản nhiệt buồng hơi lên iPhone, cụ thể là trên iPhone 17 Pro và iPhone 17 Pro Max. Buồng hơi được hàn laser vào khung nhôm nguyên khối, dẫn nhiệt và tản nhiệt tốt qua lớp vỏ nhôm.
+                - paragraph [ref=e2617]:
+                  - img "iPhone 17 bản Pro trang bị buồng hơi tản nhiệt giúp chơi game lâu không giảm hiệu năng"
+                - paragraph [ref=e2618]: Hai dòng này duy trì hiệu năng bền bỉ cao hơn tới 40% theo Apple, giúp bạn chơi game nặng hoặc dựng video 4K lâu hơn trước khi máy giảm xung nhịp. iPhone 17 tiêu chuẩn và iPhone Air không có chi tiết này, nhưng vẫn dùng chip 3nm thế hệ mới.
+                - paragraph [ref=e2619]: Ở bản tiêu chuẩn, iPhone 17 gây chú ý nhờ màn hình 120Hz, camera góc siêu rộng 48MP và pin 30 giờ phát video ngoại tuyến. Nếu bạn muốn sử dụng công nghệ mới của Apple mà không cần ống kính tele rời, iPhone 17 là điểm khởi đầu hợp lý trong series này.
+                - heading [level=3] [ref=e2620]:
+                  - strong [ref=e2621]: iPhone 16 series - Camera Ultrawide 48MP nâng cấp
+                - paragraph [ref=e2622]: iPhone 16 series thu hút sự chú ý ở nhóm Pro, khi phiên bản Pro và Pro Max lần đầu nâng camera góc siêu rộng lên 48MP thay cho cảm biến 12MP quen thuộc. Nhờ độ phân giải cao hơn, ảnh chụp góc rộng và ảnh macro giữ được nhiều chi tiết ở vùng rìa khung hình.
+                - paragraph [ref=e2623]: Hai model Pro này dùng chip A18 Pro, ống tele 12MP tiêu cự 120mm cho zoom 5x và dải zoom quang học 10x. Với người chụp kiến trúc, chụp món ăn hay quay vlog du lịch, bộ ba tiêu cự này đáp ứng tốt nhu cầu sử dụng.
+                - paragraph [ref=e2624]:
+                  - img "iPhone 16 series camera góc siêu rộng nâng cấp, hỗ trợ chụp ảnh chi tiết hơn"
+                - paragraph [ref=e2625]: Ở nhóm tiêu chuẩn, iPhone 16 và iPhone 16 Plus giữ camera chính 48MP kèm camera góc siêu rộng 12MP, cùng phím Điều Khiển Camera (Camera Control) mới. Đây là lựa chọn hợp lý cho khách hàng muốn dùng Apple Intelligence với chi phí thấp hơn thế hệ iPhone 17.
+                - heading [level=3] [ref=e2626]:
+                  - strong [ref=e2627]: iPhone 15 series - Cột mốc chuyển từ Lightning sang USB-C
+                - paragraph [ref=e2628]: iPhone 15 series là cột mốc Apple thay cổng Lightning bằng cổng USB-C trên cả bốn model của thế hệ này vào năm 2023. Thay đổi này giúp bạn dùng chung một sợi cáp cho iPhone, iPad và MacBook, đồng thời tận dụng được các phụ kiện USB-C phổ biến trên thị trường.
+                - paragraph [ref=e2629]:
+                  - img "iPhone 15 Series dùng cổng sạc chuẩn USB-C, dùng chung dây với nhiều thiết bị"
+                - paragraph [ref=e2630]: Cùng năm đó, Dynamic Island lần đầu xuất hiện trên bản tiêu chuẩn, và iPhone 15 cũng được nâng camera chính lên 48MP. So với iPhone 14 vốn dùng camera chính 12MP và thiết kế tai thỏ, iPhone 15 cho ảnh nhiều chi tiết hơn cùng cách hiển thị thông báo trực quan hơn.
+                - paragraph [ref=e2631]: Về hiệu năng, iPhone 15 dùng chip A16 Bionic, đủ mượt cho tác vụ hằng ngày và các tựa game phổ thông. Ở thời điểm này, iPhone 15 là lựa chọn cân bằng cho khách hàng muốn cổng USB-C và camera 48MP mà không cần trả quá nhiều chi phí.
+                - heading [level=3] [ref=e2632]:
+                  - strong [ref=e2633]: iPhone 14 series - Dynamic Island ra mắt lần đầu
+                - paragraph [ref=e2634]: iPhone 14 series là thế hệ đầu tiên mang Dynamic Island lên iPhone, cụ thể là trên iPhone 14 Pro và iPhone 14 Pro Max. Phần đục lỗ này hiển thị các hoạt động đang chạy như nhạc, hẹn giờ hay chỉ đường, giúp bạn theo dõi nhanh mà không cần mở lại ứng dụng.
+                - paragraph [ref=e2635]:
+                  - img "iPhone 14 Series trang bị Dynamic Island hiển thị linh hoạt thông báo, cuộc gọi và hẹn giờ"
+                - paragraph [ref=e2636]: Hai model Pro của series dùng chip A16 Bionic và camera chính 48MP, trong khi iPhone 14 bản tiêu chuẩn giữ chip A15 Bionic với thiết kế tai thỏ và camera kép 12MP.
+                - paragraph [ref=e2637]: iPhone 14 series hiện là nhóm máy có mức giá dễ tiếp cận, phù hợp với khách hàng cần một chiếc iPhone chạy iOS ổn định cho nhu cầu cơ bản. Nếu bạn muốn dùng Apple Intelligence, hãy cân nhắc iPhone 16e trở lên, vì thế hệ iPhone 14 chưa được Apple hỗ trợ tính năng này.
+                - heading [level=3] [ref=e2638]:
+                  - strong [ref=e2639]: iPhone 13 series - mức giá thấp trong bảng giá hiện hành
+                - paragraph [ref=e2640]: iPhone 13 series nằm ở vùng giá thấp trong bảng giá iPhone hiện hành, và bản tiêu chuẩn là model còn được phân phối rộng rãi của series này. iPhone 13 dùng chip A15 Bionic, màn hình Super Retina XDR 6,1 inch và cụm camera kép 12MP đặt chéo ở mặt lưng.
+                - paragraph [ref=e2641]:
+                  - img "iPhone 13 series có camera kép đáp ứng tốt nhu cầu chụp ảnh, quay phim cơ bản"
+                - paragraph [ref=e2642]: Sức mạnh của chip A15 Bionic vẫn đáp ứng tốt nhu cầu duyệt web, xem video và chơi game nhẹ sau nhiều năm ra mắt. Điểm cần lưu ý là iPhone 13 giữ tần số quét 60Hz và dùng cổng Lightning. Với khách hàng lần đầu sử dụng iPhone hoặc mua máy dùng các tác vụ cơ bản, iPhone 13 là lựa chọn hợp lý.
+                - heading [level=2] [ref=e2643]:
+                  - strong [ref=e2644]: Mua điện thoại iPhone chính hãng, giá tốt, trả góp 0% tại CellphoneS
+                - paragraph [ref=e2645]: CellphoneS là đại lý ủy quyền chính thức của Apple tại Việt Nam, cung cấp iPhone chính hãng từ Apple, phù hợp với nhu cầu mua sắm và sử dụng của khách hàng trong nước. Khi mua iPhone tại CellphoneS, bạn có thể tham khảo chính sách bảo hành chính hãng cùng các quyền lợi đi kèm theo quy định.
+                - paragraph [ref=e2646]: CellphoneS triển khai nhiều ưu đãi giúp khách hàng tiết kiệm chi phí khi mua iPhone chính hãng. Nổi bật là chương trình thu cũ đổi mới trợ giá lên đến 5 triệu đồng, giảm thêm đến 2 triệu đồng khi thanh toán qua ngân hàng hoặc ví điện tử và ưu đãi thành viên S-Member giảm thêm đến 1%. Khách hàng cũng có thể tiết kiệm đến 50% khi mua phụ kiện kèm máy.
+                - paragraph [ref=e2647]: Bên cạnh đó, CellphoneS hỗ trợ trả góp 0% lãi suất với kỳ hạn lên đến 18 tháng thông qua công ty tài chính hoặc thẻ tín dụng, tùy dòng iPhone và chương trình áp dụng. Một số phương án hỗ trợ trả trước từ 0 đồng hoặc từ 10% giá trị máy, tùy hồ sơ và đơn vị tài chính. Nhờ đó, khách hàng có thể chia nhỏ khoản thanh toán thay vì trả toàn bộ chi phí ngay khi mua máy.
+                - paragraph [ref=e2648]:
+                  - img "Mua iPhone giá tốt, nhận ưu đãi uy tín tại CellphoneS"
+                - heading [level=2] [ref=e2649]:
+                  - strong [ref=e2650]: Một vài câu hỏi thắc mắc khi mua iPhone tại CellphoneS
+                - heading [level=3] [ref=e2651]:
+                  - strong [ref=e2652]: Mua iPhone trả góp tại CellphoneS cần những giấy tờ gì?
+                - paragraph [ref=e2653]: "Mua iPhone trả góp tại CellphoneS trả góp 0% lãi suất qua thẻ tín dụng, trả góp qua công ty tài chính, hoặc trả góp iCloud, trả trước từ 30% - 50%. Về giấy tờ, chủ yếu cần thủ tục rất đơn giản, chỉ cần CCCD hoặc thẻ tín dụng, lãi suất từ 0% trong 12 tháng và có thể nhận máy sau 20-30 phút. Quy trình các hình thức bao gồm:"
+                - paragraph [ref=e2654]:
+                  - strong [ref=e2655]: Trả góp qua công ty tài chính (Home Credit, Shinhan Finance, FECredit, Mirae Asset) như sau
+                - list [ref=e2656]:
+                  - listitem [ref=e2657]:
+                    - paragraph [ref=e2658]:
+                      - strong [ref=e2659]: "Giấy tờ tùy thân:"
+                      - text: CCCD có gắn chip còn hiệu lực
+                  - listitem [ref=e2660]:
+                    - paragraph [ref=e2661]:
+                      - strong [ref=e2662]: "Đối tượng:"
+                      - text: từ 18 - 60 tuổi
+                  - listitem [ref=e2663]:
+                    - paragraph [ref=e2664]:
+                      - strong [ref=e2665]: "Thủ tục pháp lý:"
+                      - text: Đến cửa hàng trực tiếp để được nhân viên ngân hàng tài chính hỗ trợ duyệt tài chính
+                  - listitem [ref=e2666]:
+                    - paragraph [ref=e2667]:
+                      - strong [ref=e2668]: "Lưu ý:"
+                      - text: Nếu là sinh viên, bạn cần thêm sđt người thân và xác nhạn của người thân
+                - paragraph [ref=e2669]:
+                  - strong [ref=e2670]: "Trả góp 0% lãi suất qua thẻ tín dụng:"
+                - list [ref=e2671]:
+                  - listitem [ref=e2672]:
+                    - paragraph [ref=e2673]:
+                      - strong [ref=e2674]: "Giấy tờ tùy thân:"
+                      - text: Chỉ cần dùng thẻ tín dụng của các ngân hàng có liên kết trả góp với CellphoneS
+                  - listitem [ref=e2675]:
+                    - paragraph [ref=e2676]:
+                      - strong [ref=e2677]: "Thủ tục:"
+                      - text: Quẹt thẻ tại cửa hàng hoặc xử lý online
+                - paragraph [ref=e2678]: Ngoài ra, còn có các hình thức trả góp khác như Trả góp qua iCloud (Trả góp 40%) hoặc Trả góp qua ứng dụng (MoMo, Kredivo);...
+                - heading [level=3] [ref=e2679]:
+                  - strong [ref=e2680]: Cách kiểm tra iPhone chính hãng Apple trước khi mua
+                - paragraph [ref=e2681]: Để sở hữu một chiếc điện thoại iPhone chuẩn "zin" và tránh rủi ro mua phải hàng dựng, người dùng cần thực hiện quy trình kiểm tra nghiêm ngặt. Việc tuân thủ các bước dưới đây sẽ giúp xác định nguồn gốc và chất lượng thiết bị ngay tại cửa hàng.
+                - heading [level=4] [ref=e2682]:
+                  - strong [ref=e2683]: Kiểm tra vỏ hộp và seal bóc
+                - paragraph [ref=e2684]: "Bước 1: Quan sát dải seal giấy phía sau hộp điện thoại Apple phải còn nguyên vẹn, đường xé thẳng hàng và không có dấu hiệu bị dán đè keo."
+                - paragraph [ref=e2685]:
+                  - img "Kiểm tra vỏ hộp và seal bóc"
+                - paragraph [ref=e2686]: "Bước 2: Kiểm tra lớp bọc nhựa (nếu có) phải ôm khít vào thân hộp, không bị nhăn nhúm hay lỏng lẻo như seal đóng lại thủ công."
+                - paragraph [ref=e2687]: "Bước 3: Đối chiếu mã Model Part (ví dụ: VN/A, LL/A) in trên hộp để biết thị trường phân phối của sản phẩm."
+                - heading [level=4] [ref=e2688]:
+                  - strong [ref=e2689]: Kiểm tra thông tin Apple - tình trạng kích hoạt
+                - paragraph [ref=e2690]: "Bước 1: Truy cập trang web Check Coverage chính thức của Apple trên một thiết bị có kết nối mạng ổn định."
+                - paragraph [ref=e2691]:
+                  - img "Kiểm tra thông tin Apple - tình trạng kích hoạt"
+                - paragraph [ref=e2692]: "Bước 2: Nhập số IMEI hoặc Serial Number của máy vào ô tìm kiếm và xác nhận mã bảo mật để hệ thống truy xuất dữ liệu."
+                - paragraph [ref=e2693]: "Bước 3: Nếu hệ thống hiển thị thông báo \"Please activate your iPhone\", máy đó là hàng mới 100%. Nếu đã hiện ngày bảo hành, đó là máy đã qua sử dụng."
+                - heading [level=4] [ref=e2694]:
+                  - strong [ref=e2695]: Kiểm tra ngoại hình máy
+                - paragraph [ref=e2696]: "Bước 1: Kiểm tra các cạnh viền và mặt kính dưới ánh sáng mạnh để tìm vết trầy xước, đặc biệt là các con ốc ở đáy máy phải còn nguyên lớp sơn."
+                - paragraph [ref=e2697]:
+                  - img "Kiểm tra ngoại hình máy"
+                - paragraph [ref=e2698]: "Bước 2: Nhấn thử nút Nguồn, tăng giảm âm lượng và nút gạt rung để kiểm tra độ nảy; phím chuẩn sẽ nghe rõ tiếng “tạch”."
+                - paragraph [ref=e2699]: "Bước 3: Quan sát ống kính camera, kiểm tra mặt kính trong suốt, không có bụi bẩn hay dấu vân tay bám bên trong thấu kính."
+                - heading [level=4] [ref=e2700]:
+                  - strong [ref=e2701]: Kiểm tra iMEI/ Serial máy
+                - paragraph [ref=e2702]: "Bước 1: Vào Cài đặt > Cài đặt chung > Giới thiệu để xem số IMEI hoặc bấm cú pháp *#06# trong ứng dụng điện thoại."
+                - paragraph [ref=e2703]: "Bước 2: Tháo khay SIM và dùng kính lúp hoặc ánh sáng mạnh để soi dãy số IMEI được khắc sắc nét trên bề mặt khay SIM vật lý."
+                - paragraph [ref=e2704]: "Bước 3: So khớp hai dãy số trên với số IMEI in ở mặt sau vỏ hộp; cả ba vị trí này phải trùng khớp với nhau."
+                - heading [level=4] [ref=e2705]:
+                  - strong [ref=e2706]: Kiểm tra các chức năng phần cứng
+                - paragraph [ref=e2707]: "Bước 1: Nhấn giữ một icon ứng dụng và di chuyển; nếu icon bị rơi ra giữa chừng thì vị trí đó màn hình đã bị liệt cảm ứng."
+                - paragraph [ref=e2708]:
+                  - img "Kiểm tra các chức năng phần cứng"
+                - paragraph [ref=e2709]: "Bước 2: Thực hiện một cuộc gọi và dùng tay che vùng cảm biến phía trên camera trước; nếu màn hình tự tắt thì cảm biến tiệm cận hoạt động tốt."
+                - paragraph [ref=e2710]: "Bước 3: Thử tính năng AirDrop bằng cách gửi ảnh qua lại với một chiếc iPhone khác để kiểm tra máy đang chạy hệ điều hành iOS thật."
+                - heading [level=4] [ref=e2711]:
+                  - strong [ref=e2712]: Kiểm tra tình trạng pin
+                - paragraph [ref=e2713]: "Bước 1: Truy cập Cài đặt > Pin > Tình trạng pin để xem dung lượng tối đa (phải đạt 100% với máy mới và trên 85% với máy cũ)."
+                - paragraph [ref=e2714]:
+                  - img "Kiểm tra tình trạng pin"
+                - paragraph [ref=e2715]: "Bước 2: Mở ứng dụng Ghi âm, nói hoặc thổi nhẹ vào microphone cạnh dưới máy; nếu kim dao động mạnh chứng tỏ bộ phận này hoạt động ổn định."
+                - paragraph [ref=e2716]: "Bước 3: Thử quay video liên tục trong khoảng 5 phút để kiểm tra máy có bị nóng lên bất thường hoặc sụt pin nhanh đột ngột hay không."
+                - heading [level=4] [ref=e2717]:
+                  - strong [ref=e2718]: Kiểm tra iCloud ẩn
+                - paragraph [ref=e2719]: "Bước 1: Yêu cầu người bán thoát tài khoản Apple ID hiện có và vào mục Cài đặt chung > Chuyển hoặc đặt lại điện thoại iPhone."
+                - paragraph [ref=e2720]: "Bước 2: Chọn \"Xóa tất cả nội dung và cài đặt\" và đợi máy khởi động lại về màn hình chào mừng (Hello)."
+                - paragraph [ref=e2721]: "Bước 3: Tiến hành kích hoạt máy với mạng Wi-Fi; nếu điện thoại yêu cầu nhập một tài khoản lạ thì không nên mua vì máy đã dính iCloud ẩn."
+                - heading [level=3] [ref=e2722]:
+                  - strong [ref=e2723]: iPhone VN/A là gì? Có nên mua iPhone hàng quốc tế và iPhone lock?
+                - paragraph [ref=e2724]: iPhone VN/A được sử dụng để nhận diện các thiết bị iPhone được phân phối chính thức cho người dùng tại Việt Nam. Người dùng nên ưu tiên bản quốc tế hoặc VN/A từ nguồn uy tín, còn iPhone lock có thể phát sinh hạn chế về SIM và hay mắc lỗi mất sóng.
+                - paragraph [ref=e2725]:
+                  - img "Các phiên bản điện thoại theo từng thị trường"
+                - heading [level=3] [ref=e2726]:
+                  - strong [ref=e2727]: iPhone bản thường khác gì bản Pro và Pro Max?
+                - paragraph [ref=e2728]: iPhone bản thường hướng đến sự cân bằng giữa thiết kế, hiệu năng và mức giá. Trong khi đó, phiên bản Pro được trang bị thêm nhiều phần cứng cao cấp, đáp ứng tốt nhu cầu quay phim, chụp ảnh và sử dụng chuyên sâu.
+                - paragraph [ref=e2729]: Phiên bản Pro Max là bản thể cao cấp hơn của dòng Pro, sở hữu kích thước lớn hơn, không gian hiển thị rộng rãi cùng thời lượng pin dài hơn. Đây là lựa chọn phù hợp với người dùng ưu tiên trải nghiệm màn hình lớn và thời gian sử dụng lâu dài.
+                - paragraph [ref=e2730]:
+                  - img "So sánh nét riêng giữa bản thường và bản Pro"
+                - heading [level=3] [ref=e2731]:
+                  - strong [ref=e2732]: Nên mua iPhone vào thời gian nào trong năm?
+                - paragraph [ref=e2733]: Người dùng muốn tiết kiệm chi phí có thể theo dõi giai đoạn trước và sau mùa ra mắt thế hệ mới vào khoảng tháng 8 và tháng 9. Những dịp lễ, Tết hoặc các chương trình khuyến mại theo ngày đôi cũng là thời điểm đáng chú ý nếu bạn muốn tìm mức giá phù hợp.
+                - paragraph [ref=e2734]:
+                  - img "Thời điểm săn điện thoại với ưu đãi phù hợp"
+                - heading [level=3] [ref=e2735]:
+                  - strong [ref=e2736]: iPhone dùng có bền không?
+                - paragraph [ref=e2737]: Có. iPhone được đánh giá là dòng điện thoại có độ bền tốt, đặc biệt ở khả năng duy trì hiệu năng và cập nhật phần mềm trong nhiều năm. Tuy nhiên, độ bền thực tế còn phụ thuộc vào cách sử dụng, tình trạng pin và việc bảo quản thiết bị.
+                - paragraph [ref=e2738]:
+                  - img "Duy trì hiệu suất ổn định trong suốt thời gian sử dụng"
+                - heading [level=3] [ref=e2739]:
+                  - strong [ref=e2740]: Apple Intelligence có hỗ trợ tiếng Việt chưa? Có trên iPhone nào
+                - paragraph [ref=e2741]: Apple Intelligence đã hỗ trợ tiếng Việt và tiếp tục được Apple mở rộng tính năng trên các phiên bản phần mềm iOS mới. Tính năng áp dụng cho dòng máy sử dụng chip A17 Pro trở lên bao gồm iPhone 15 Pro, iPhone 15 Pro Max, iPhone 16 series, iPhone 17 series, iPhone 18 Pro Series, iPhone Air và iPhone Duo.
+                - paragraph [ref=e2742]:
+                  - img "Khả năng sử dụng Apple Intelligence bằng tiếng Việt"
+                - heading [level=3] [ref=e2743]:
+                  - strong [ref=e2744]: iPhone chơi game tốt không?
+                - paragraph [ref=e2745]: iPhone có khả năng xử lý tốt nhiều tựa game di động nhờ chip Apple A-series dành cho smartphone cùng khả năng tối ưu giữa phần cứng và iOS. Các phiên bản Pro và Pro Max phù hợp hơn với nhu cầu chơi game nặng hoặc sử dụng lâu nhờ hiệu năng mạnh và màn hình có tần số quét cao.
+                - paragraph [ref=e2746]:
+                  - img "Tận hưởng trải nghiệm chơi game ổn định"
+                - heading [level=3] [ref=e2747]:
+                  - strong [ref=e2748]: Học sinh, sinh viên nên dùng iPhone nào?
+                - paragraph [ref=e2749]: Học sinh và sinh viên có thể cân nhắc iPhone 13, iPhone 14, iPhone 15, dòng iPhone e hoặc các mẫu iPhone 14 Pro Max, iPhone 13 Pro Max. Những lựa chọn này có hiệu năng đủ dùng cho học tập, chụp tài liệu, liên lạc, giải trí và sử dụng nhiều ứng dụng trong thời gian dài.
+                - paragraph [ref=e2750]:
+                  - img "Các mẫu Apple phù hợp học tập giải trí"
+                - heading [level=3] [ref=e2751]:
+                  - strong [ref=e2752]: iPhone có chống nước không?
+                - paragraph [ref=e2753]: Từ thế hệ iPhone 7, Apple đã trang bị khả năng kháng nước và bụi trên các mẫu điện thoại của hãng Nhiều thế hệ iPhone mới, từ iPhone 12 đến iPhone 18 Pro Series, đạt IP68 theo tiêu chuẩn IEC 60529.
+                - paragraph [ref=e2754]:
+                  - img "Khả năng kháng bụi và nước an toàn"
+                - heading [level=3] [ref=e2755]:
+                  - strong [ref=e2756]: iPhone Like New là gì?
+                - paragraph [ref=e2757]: iPhone Like New thường dùng để chỉ những máy đã qua sử dụng nhưng có ngoại hình còn đẹp và tình trạng hoạt động gần với thiết bị mới. Sản phẩm có thể bao gồm máy đã sử dụng trong thời gian ngắn, máy đổi trả, máy kích hoạt hoặc máy trưng bày. Khi mua iPhone Like New người mua nên kiểm tra kỹ nguồn gốc và tình trạng linh kiện.
+                - paragraph [ref=e2758]:
+                  - img "Thiết bị đã sử dụng nhưng vẫn giữ được diện mạo bắt mắt"
+              - generic [ref=e2759]: Xem thêm
+            - generic [ref=e2764]:
+              - paragraph [ref=e2765]: Câu hỏi thường gặp
+              - tablist [ref=e2766]:
+                - generic [ref=e2767] [cursor=pointer]:
+                  - paragraph [ref=e2769]: Sản phẩm iPhone được bảo hành như thế nào? Đến đâu để được nhận bảo hành?
+                  - paragraph [ref=e2773]:
+                    - generic [ref=e2774]: Sản phẩm iPhone chính hãng được bảo hành đổi mới 30 ngày đầu tiên, bảo hành 12 tháng chính hãng tại CARES.vn - hệ thống trung tâm bảo hành uỷ quyền Apple của CellphoneS. Khách hàng có thể tìm địa chỉ gần nhất tại CareS.vn
+                - generic [ref=e2775] [cursor=pointer]:
+                  - paragraph [ref=e2777]: CellphoneS có hỗ trợ mua iPhone trả góp không?
+                  - paragraph [ref=e2781]:
+                    - generic [ref=e2782]:
+                      - text: Tại CellphoneS, khách hàng sẽ được mua điện thoại iPhone trả góp với mức
+                      - strong [ref=e2783]: lãi suất 0%
+                      - text: "ấn tượng:"
+                    - list [ref=e2784]:
+                      - listitem [ref=e2785]:
+                        - text: Đặc biệt, khi trả góp với
+                        - strong [ref=e2786]: kỳ hạn 3 - 6 tháng
+                        - text: ", khách hàng sẽ"
+                        - strong [ref=e2787]: không mất thêm phí chuyển đổi
+                      - listitem [ref=e2788]:
+                        - text: Khi
+                        - strong [ref=e2789]: trả góp qua công ty tài chính
+                        - text: ", khách hàng sẽ được"
+                        - strong [ref=e2790]: trả góp trên giá bán
+                        - text: (Thay vì giá niêm yết) với kỳ hạn thanh toán 4-6-8 tháng
+                - generic [ref=e2791] [cursor=pointer]:
+                  - paragraph [ref=e2793]: Việc chuyển dữ liệu và thiết lập iPhone mới có nhanh chóng không?
+                  - paragraph [ref=e2797]:
+                    - generic [ref=e2798]:
+                      - text: Bạn có thể chuyển toàn bộ dữ liệu từ iPhone cũ sang iPhone mới một cách
+                      - strong [ref=e2799]: nhanh chóng, mượt mà
+                      - text: bằng iCloud. Tất cả quá trình sao lưu sang điện thoại iPhone mới bằng iCloud chỉ mất khoảng vài phút để hoàn tất.Trong trường hợp iCloud không đủ dung lượng khi sao lưu, Apple sẽ cung cấp đủ dung lượng tạm thời để đảm bảo bạn có thể truyền dữ liệu thành công và miễn phí.Thông tin chi tiết, bạn có thể nhờ nhân viên CellphoneS hỗ trợ sao lưu dễ dàng hoặc tham khảo thêm hướng dẫn từ hãng.
+                - generic [ref=e2800] [cursor=pointer]:
+                  - paragraph [ref=e2802]: Cách kiểm tra iPhone chính hãng VN/A để an tâm khi mua hàng
+                  - paragraph [ref=e2806]:
+                    - generic [ref=e2807]:
+                      - text: Có rất nhiều cách khác nhau để
+                      - strong [ref=e2808]: kiểm tra iPhone
+                      - text: "của bạn có phải hàng chính hãng VN/A không. Bạn có thể thử 2 cách đơn giản sau:"
+                    - list [ref=e2809]:
+                      - listitem [ref=e2810]: "Kiểm tra qua IMEI, MEID: Nhấn *#06# hoặc vào Cài đặt >> Cài đặt chung >> Giới thiệu"
+                      - listitem [ref=e2811]: Xác minh mã iMEI trên web checkcoverage.apple.com/vn/en
+                    - generic [ref=e2812]: Khi mua iPhone tại CellphoneS, bạn hoàn toàn có thể yên tâm về chất lượng và nguồn gốc chính hãng của sản phẩm. Nhân viên tư vấn cũng sẽ hỗ trợ bạn kiểm tra iPhone chính hãng khi mua hàng.
+                - generic [ref=e2813] [cursor=pointer]:
+                  - paragraph [ref=e2815]: Có nên mua các dòng iPhone đời cũ sau khi ra mắt 2-3 năm?
+                  - paragraph [ref=e2819]:
+                    - generic [ref=e2820]: Việc mua iPhone cũ ra mắt 2-3 năm là lựa chọn phù hợp nếu bạn muốn tiết kiệm chi phí. Các dòng máy này vẫn có hiệu năng mượt mà, màn hình đẹp, giá bán hợp lý và được Apple hỗ trợ cập nhật hệ điều hành iOS lâu dài
+                - generic [ref=e2821] [cursor=pointer]:
+                  - paragraph [ref=e2823]: Mua iPhone chính hãng Apple bản Mỹ an toàn không?
+                  - paragraph [ref=e2827]:
+                    - generic [ref=e2828]: Điện thoại Apple bản Mỹ (LL/A) có chất lượng phần cứng đạt chuẩn quốc tế khắt khe nên an toàn và bền bỉ khi sử dụng. Tuy nhiên, các điện thoại iPhone 14 trở đi tại Mỹ chỉ sử dụng eSIM, vì vậy người dùng cần lưu ý lựa chọn nhà mạng.
+                - generic [ref=e2829] [cursor=pointer]:
+                  - paragraph [ref=e2831]: Học sinh, sinh viên nên mua iPhone nào?
+                  - paragraph [ref=e2835]:
+                    - generic [ref=e2836]: Điện thoại Apple dòng 14 hoặc 15 là lựa chọn lý tưởng nhờ sự cân bằng giữa hiệu năng mạnh mẽ và mức giá đã cực kỳ dễ tiếp cận. Các dòng máy này sở hữu camera sắc nét cùng thời lượng pin bền bỉ, đáp ứng nhu cầu học tập lẫn giải trí trong nhiều năm tới.
+                - generic [ref=e2837] [cursor=pointer]:
+                  - paragraph [ref=e2839]: Chơi game nhiều nên chọn iPhone nào?
+                  - paragraph [ref=e2843]:
+                    - generic [ref=e2844]: Dòng iPhone Pro Max là thiết bị chơi game tốt nhờ màn hình 120Hz siêu mượt và không gian hiển thị rộng rãi giúp thao tác chính xác. Bên cạnh đó, dung lượng pin "khủng" và khả năng tản nhiệt ưu việt trên dòng máy này giúp trải nghiệm leo rank ổn định, không bị giật lag.
+          - generic [ref=e2846]:
+            - generic [ref=e2847]:
+              - text: Tin tức sản phẩm
+              - link "Xem tất cả" [ref=e2848] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/sforum/tag/apple-iphone
+            - generic [ref=e2852]:
+              - link "Tổng hợp những tính năng nổi bật iPhone Duo mà bạn cần biết" [ref=e2853] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/sforum/tinh-nang-noi-bat-iphone-duo
+              - link "Cách sử dụng tính năng Chỉnh Sửa Ảnh Thông Minh trên iPhone Duo" [ref=e2856] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/sforum/cach-su-dung-tinh-nang-chinh-sua-anh-thong-minh-tren-iphone-duo
+              - link "Cách sử dụng Chụp Thông Minh (Smart Take) trên iPhone Duo đơn giản, hiệu quả" [ref=e2859] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/sforum/cach-su-dung-chup-thong-minh-tren-iphone-duo
+              - link "Hướng dẫn cách sử dụng Duo FaceTime trên iPhone Duo và các lưu ý quan trọng" [ref=e2862] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/sforum/cach-su-dung-iphone-duo-facetime
+              - link "Hướng dẫn cách Chia Đôi Màn Hình (Split View) trên iPhone Duo chi tiết" [ref=e2865] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/sforum/cach-chia-doi-man-hinh-tren-iphone-duo
+        - generic [ref=e2868]:
+          - generic [ref=e2869]:
+            - paragraph [ref=e2870]: Hỏi và đáp
+            - generic [ref=e2871]:
+              - img "cps ant icon" [ref=e2872]
+              - generic [ref=e2873]:
+                - paragraph [ref=e2875]: Hãy đặt câu hỏi cho chúng tôi
+                - paragraph [ref=e2876]: CellphoneS sẽ phản hồi trong vòng 1 giờ. Nếu Quý khách gửi câu hỏi sau 22h, chúng tôi sẽ trả lời vào sáng hôm sau. Thông tin có thể thay đổi theo thời gian, vui lòng đặt câu hỏi để nhận được cập nhật mới nhất!
+                - generic [ref=e2878]:
+                  - textbox "Viết câu hỏi của bạn tại đây" [ref=e2879]
+                  - button "Gửi câu hỏi" [ref=e2880] [cursor=pointer]
+          - generic [ref=e2884]:
+            - paragraph: CellphoneS sẽ trả lời trong 1 giờ (sau 22h, phản hồi vào sáng hôm sau). Một số thông tin có thể thay đổi, Quý khách hãy đặt câu hỏi để được cập nhật mới nhất.
+            - generic [ref=e2885]:
+              - generic [ref=e2887]:
+                - generic [ref=e2888]:
+                  - generic [ref=e2889]:
+                    - generic [ref=e2890]: T
+                    - paragraph [ref=e2892]: Thu Vân Trần
+                  - generic [ref=e2893]: 4 ngày trước
+                - generic [ref=e2897]:
+                  - paragraph [ref=e2899]: Ở bến tre, ipad pro m4 5G 512gb khi nào có hàng
+                  - button "Phản hồi" [ref=e2900] [cursor=pointer]
+                  - generic [ref=e2904]: Thu gọn phản hồi
+                - generic [ref=e2911]:
+                  - generic [ref=e2912]:
+                    - generic [ref=e2913]:
+                      - paragraph [ref=e2919]: Quản trị viên
+                      - generic [ref=e2920]: QTV
+                    - generic [ref=e2921]: 4 ngày trước
+                  - generic [ref=e2925]:
+                    - generic [ref=e2926]: Xin chào Chị Vân ạ!
+                    - generic [ref=e2928]: Dạ rất tiếc sản phẩm chưa có thông tin chính xác
+                    - link "https://cellphones.com.vn/ipad-pro-m5-11-inch-512gb.html" [ref=e2932] [cursor=pointer]:
+                      - /url: https://cellphones.com.vn/ipad-pro-m5-11-inch-512gb.html
+                    - link "https://cellphones.com.vn/ipad-pro-11-inch-m5-5g-256gb.html" [ref=e2935] [cursor=pointer]:
+                      - /url: https://cellphones.com.vn/ipad-pro-11-inch-m5-5g-256gb.html
+                    - generic [ref=e2936]: Thân mến!
+                    - button "Phản hồi" [ref=e2938] [cursor=pointer]
+              - generic [ref=e2943]:
+                - generic [ref=e2944]:
+                  - generic [ref=e2945]:
+                    - generic [ref=e2946]: P
+                    - paragraph [ref=e2948]: Phạm Quỳnh Trang
+                  - generic [ref=e2949]: 6 ngày trước
+                - generic [ref=e2953]:
+                  - paragraph [ref=e2955]: Bao giờ 16 pro 128gb về hàng ở Hà Nội. Có đăg ký trước đc ko
+                  - button "Phản hồi" [ref=e2956] [cursor=pointer]
+                  - generic [ref=e2960]: Thu gọn phản hồi
+                - generic [ref=e2967]:
+                  - generic [ref=e2968]:
+                    - generic [ref=e2969]:
+                      - paragraph [ref=e2975]: Quản trị viên
+                      - generic [ref=e2976]: QTV
+                    - generic [ref=e2977]: 6 ngày trước
+                  - generic [ref=e2981]:
+                    - generic [ref=e2982]: CellphoneS xin chào chị Phạm Quỳnh Trang
+                    - generic [ref=e2985]:
+                      - text: Dạ hiện tại em chưa có thông tin về hàng sắp tới, mình thông cảm, mình có thể đăng ký nhận tin tại trang web
+                      - link "https://cellphones.com.vn/iphone-16-pro.html," [ref=e2986] [cursor=pointer]:
+                        - /url: https://cellphones.com.vn/iphone-16-pro.html,
+                      - text: bên em khi có hàng sẽ thông báo cho mình ạ. Ngoài ra hiện tại bên em đang có dòng 17 Pro đang có giá tốt mình có tham khảo nhắn lại em hỗ trợ mình tìm hàng, lên đơn ạ
+                    - generic [ref=e2988]:
+                      - text: Dạ em gửi mình link tham khảo thêm sản phẩm ạ , mình nhớ chọn khu vực của mình hiện tại của mình để đúng ưu đãi ạ
+                      - link "https://cellphones.com.vn/iphone-17-pro.html" [ref=e2989] [cursor=pointer]:
+                        - /url: https://cellphones.com.vn/iphone-17-pro.html
+                    - generic [ref=e2990]: Mong sớm nhận được phản hồi từ mình ạ
+                    - generic [ref=e2992]: Thân mến.
+                    - button "Phản hồi" [ref=e2994] [cursor=pointer]
+              - generic [ref=e2999]:
+                - generic [ref=e3000]:
+                  - generic [ref=e3001]:
+                    - generic [ref=e3002]: T
+                    - paragraph [ref=e3004]: Trangia bach
+                  - generic [ref=e3005]: 1 tuần trước
+                - generic [ref=e3009]:
+                  - paragraph [ref=e3011]: 16e 128 bao giờ hành về tại Hà nội ?
+                  - button "Phản hồi" [ref=e3012] [cursor=pointer]
+                  - generic [ref=e3016]: Thu gọn phản hồi
+                - generic [ref=e3023]:
+                  - generic [ref=e3024]:
+                    - generic [ref=e3025]:
+                      - paragraph [ref=e3031]: Quản trị viên
+                      - generic [ref=e3032]: QTV
+                    - generic [ref=e3033]: 1 tuần trước
+                  - generic [ref=e3037]:
+                    - generic [ref=e3038]: Xin chào anh Bach,
+                    - generic [ref=e3040]: Dạ APPLE IPHONE 16E 128GB ĐEN_SIM VIETTEL 12 THÁNG (MD1Q4) giá thời điểm hiện tại là 14.290.000đ khi mua kèm sim/gói cước VIETTEL trong chương trình ạ. Sản phẩm có ở Hà Nội ạ.
+                    - generic [ref=e3043]:
+                      - link "https://cellphones.com.vn/chuong-trinh-tro-gia-iphone-16e-2026" [ref=e3044] [cursor=pointer]:
+                        - /url: https://cellphones.com.vn/chuong-trinh-tro-gia-iphone-16e-2026
+                      - text: Anh xem thêm điều kiện chương trình mua kèm tại website ạ.
+                    - generic [ref=e3045]: Dạ mình ở phường (quận cũ) nào em kiểm tra cửa hàng để tiện lên đơn giữ hàng + giá trong 24h qua SDT *****881 ạ,
+                    - button "Phản hồi" [ref=e3047] [cursor=pointer]
+              - generic [ref=e3052]:
+                - generic [ref=e3053]:
+                  - generic [ref=e3054]:
+                    - generic [ref=e3055]: H
+                    - paragraph [ref=e3057]: Hoang Han
+                  - generic [ref=e3058]: 2 tuần trước
+                - generic [ref=e3062]:
+                  - paragraph [ref=e3064]: ở btre còn 15prm titan nature kh ?
+                  - button "Phản hồi" [ref=e3065] [cursor=pointer]
+                  - generic [ref=e3069]: Thu gọn phản hồi
+                - generic [ref=e3076]:
+                  - generic [ref=e3077]:
+                    - generic [ref=e3078]:
+                      - paragraph [ref=e3084]: Quản trị viên
+                      - generic [ref=e3085]: QTV
+                    - generic [ref=e3086]: 2 tuần trước
+                  - generic [ref=e3090]:
+                    - generic [ref=e3091]: Chào anh Han
+                    - generic [ref=e3093]: Dạ hiện sản phẩm này bên em chưa về hàng ạ, Hiện chưa có lịch về hàng nên em chưa báo mình được ạ
+                    - generic [ref=e3096]:
+                      - text: Dạ mình tham khảo
+                      - link "https://cellphones.com.vn/iphone-17-pro-max.html" [ref=e3097] [cursor=pointer]:
+                        - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+                    - generic [ref=e3098]: Dạ mình tham khảo đúng khu vực để xem giá và khuyến mãi , hàng hóa chính xác ạ
+                    - button "Phản hồi" [ref=e3100] [cursor=pointer]
+              - generic [ref=e3105]:
+                - generic [ref=e3106]:
+                  - generic [ref=e3107]:
+                    - generic [ref=e3108]: "N"
+                    - paragraph [ref=e3110]: Nguyễn Mạnh Tiến
+                  - generic [ref=e3111]: 3 tuần trước
+                - generic [ref=e3115]:
+                  - paragraph [ref=e3117]: iPhone 16 thường 128Gb giá bao nhiêu
+                  - button "Phản hồi" [ref=e3118] [cursor=pointer]
+                  - generic [ref=e3122]: Thu gọn phản hồi
+                - generic [ref=e3129]:
+                  - generic [ref=e3130]:
+                    - generic [ref=e3131]:
+                      - paragraph [ref=e3137]: Quản trị viên
+                      - generic [ref=e3138]: QTV
+                    - generic [ref=e3139]: 3 tuần trước
+                  - generic [ref=e3143]:
+                    - generic [ref=e3144]: Xin chào anh Nguyễn Mạnh Tiến
+                    - generic [ref=e3146]: dạ sản phẩm APPLE IPHONE 16 128GB TRẮNG CHÍNH HÃNG VN/A (MYE93) Giá bán thời điểm hiện tại ( Giá có thể thay đổi liên tục ) 22.990.000 khu vực miền nam
+                    - generic [ref=e3148]: Dạ không biết khi nào mình tiện đến cửa hàng bên em để em lên đơn giữ hàng cho mình tại cửa hàng 24h tránh tình trạng hết hàng ạ.
+                    - generic [ref=e3150]: Thân mến
+                    - button "Phản hồi" [ref=e3152] [cursor=pointer]
+              - button "Xem thêm 2092 bình luận" [ref=e3156] [cursor=pointer]
+      - strong [ref=e3161] [cursor=pointer]: Liên hệ
+    - contentinfo [ref=e3167]:
+      - generic [ref=e3170]:
+        - generic [ref=e3171]:
+          - generic [ref=e3172]:
+            - paragraph [ref=e3174]: Tổng đài hỗ trợ miễn phí
+            - list [ref=e3176]:
+              - listitem [ref=e3177]:
+                - generic [ref=e3178]:
+                  - text: Mua hàng - bảo hành
+                  - link [ref=e3179] [cursor=pointer]:
+                    - /url: tel:18002097
+                    - strong [ref=e3180]: "1800.2097"
+                  - text: (7h30 - 22h00)
+              - listitem [ref=e3181]:
+                - generic [ref=e3182]:
+                  - text: Khiếu nại
+                  - link [ref=e3183] [cursor=pointer]:
+                    - /url: tel:18002063
+                    - strong [ref=e3184]: "1800.2063"
+                  - text: (8h00 - 21h30)
+          - generic [ref=e3185]:
+            - paragraph [ref=e3187]: Phương thức thanh toán
+            - list [ref=e3189]:
+              - listitem [ref=e3190]:
+                - link "Apple Pay":
+                  - /url: https://cellphones.com.vn/sforum/apple-pay-viet-nam
+                  - img "Apple Pay"
+              - listitem [ref=e3191]:
+                - link "Vnpay":
+                  - /url: https://cellphones.com.vn/sforum/vnpay-la-gi-cach-dang-ky-vnpay-thanh-toan-vnpay-chi-tiet
+                  - img "Vnpay"
+              - listitem [ref=e3192]:
+                - link "MoMo":
+                  - /url: https://cellphones.com.vn/huong-dan-thanh-toan-qua-vi-momo-cellphones
+                  - img "MoMo"
+              - listitem [ref=e3193]:
+                - link "Onepay":
+                  - /url: https://cellphones.com.vn/huong-dan-mua-hang-va-thanh-toan-qua-cong-onepay
+                  - img "Onepay"
+              - listitem [ref=e3194]:
+                - link "Kredivo":
+                  - /url: https://cellphones.com.vn/uu-dai-doi-tac/kredivo
+                  - img "Kredivo"
+              - listitem [ref=e3195]:
+                - link "Zalopay":
+                  - /url: https://cellphones.com.vn/sforum/huong-dan-toan-bang-zalopay-khi-mua-hang-tren-website-cellphones
+                  - img "Zalopay"
+              - listitem [ref=e3196]:
+                - link "Fundiin":
+                  - /url: https://cellphones.com.vn/huong-dan-thanh-toan-qua-cong-fundiin-tren-website-cellphones
+                  - img "Fundiin"
+          - generic [ref=e3197]:
+            - paragraph [ref=e3198]: ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI
+            - generic [ref=e3199]:
+              - paragraph [ref=e3200]: Nhận ngay voucher 10%
+              - paragraph [ref=e3201]: Voucher sẽ được gửi sau 24h, chỉ áp dụng cho khách hàng mới
+            - generic [ref=e3202]:
+              - text: Email
+              - textbox "Email" [ref=e3203]:
+                - /placeholder: Nhập email của bạn
+            - generic [ref=e3204]:
+              - text: Số điện thoại
+              - textbox "Số điện thoại" [ref=e3205]:
+                - /placeholder: Nhập số điện thoại của bạn
+            - paragraph [ref=e3206]:
+              - text: Bằng việc đăng ký nhận tin, bạn đã đọc và đồng ý với
+              - link "Chính sách bảo mật của CellphoneS." [ref=e3207] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/tos?part=privacy-policy
+            - button "ĐĂNG KÝ NGAY" [ref=e3209] [cursor=pointer]
+        - generic [ref=e3210]:
+          - paragraph [ref=e3212]: Thông tin và chính sách
+          - list [ref=e3214]:
+            - listitem [ref=e3215]:
+              - link "Mua hàng và thanh toán Online" [ref=e3216] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/chinh-sach-giao-hang
+            - listitem [ref=e3217]:
+              - link "Mua hàng trả góp" [ref=e3218] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/tra-gop
+            - listitem [ref=e3219]:
+              - link "Mua hàng trả góp bằng thẻ tín dụng" [ref=e3220] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/huong-dan-mua-hang-tra-gop-bang-the-tin-dung-tai-cellphones
+            - listitem [ref=e3221]:
+              - link "Chính sách giao hàng" [ref=e3222] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/chinh-sach-giao-hang
+            - listitem [ref=e3223]:
+              - link "Chính sách đổi trả" [ref=e3224] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/tos?part=refund-policy
+            - listitem [ref=e3225]:
+              - link "Tra điểm Smember" [ref=e3226] [cursor=pointer]:
+                - /url: https://smember.com.vn?company_id=cellphones
+            - listitem [ref=e3227]:
+              - link "Xem ưu đãi Smember" [ref=e3228] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/uu-dai-smember
+            - listitem [ref=e3229]:
+              - link "Tra thông tin bảo hành" [ref=e3230] [cursor=pointer]:
+                - /url: https://smember.com.vn/warranty?company_id=cellphones
+            - listitem [ref=e3231]:
+              - link "Tra cứu hoá đơn điện tử" [ref=e3232] [cursor=pointer]:
+                - /url: https://hddt.cellphones.com.vn/
+            - listitem [ref=e3233]:
+              - link "Thông tin hoá đơn mua hàng" [ref=e3234] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/quy-dinh-ve-hoa-don-khi-mua-hang-cellphones
+            - listitem [ref=e3235]:
+              - link "Trung tâm bảo hành chính hãng" [ref=e3236] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/bao-hanh/apple
+            - listitem [ref=e3237]:
+              - link "Quy định về việc sao lưu dữ liệu" [ref=e3238] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/quy-dinh-ve-viec-sao-luu-du-lieu
+            - listitem [ref=e3239]:
+              - link "Chính sách khui hộp sản phẩm Apple" [ref=e3240] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/chinh-sach-khui-hop-apple
+            - listitem [ref=e3241]:
+              - link "VAT Refund" [ref=e3242] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/vat-refund
+        - generic [ref=e3243]:
+          - paragraph [ref=e3245]: Dịch vụ và thông tin khác
+          - generic [ref=e3246]:
+            - list [ref=e3247]:
+              - listitem [ref=e3248]:
+                - link "Khách hàng doanh nghiệp (B2B)" [ref=e3249] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/dich-vu-khach-hang-doanh-nghiep
+              - listitem [ref=e3250]:
+                - link "Ưu đãi thanh toán" [ref=e3251] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/danh-sach-khuyen-mai
+              - listitem [ref=e3252]:
+                - link "Quy chế hoạt động" [ref=e3253] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/tos
+              - listitem [ref=e3254]:
+                - link "Chính sách bảo mật thông tin cá nhân" [ref=e3255] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/tos?part=privacy-policy
+              - listitem [ref=e3256]:
+                - link "Chính sách bảo mật dữ liệu đánh giá trên Zalo mini app" [ref=e3257] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/quy-dinh-dang-tai-danh-gia-tren-zalo-mini-app
+              - listitem [ref=e3258]:
+                - link "Chính sách Bảo hành" [ref=e3259] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/chinh-sach-bao-hanh
+              - listitem [ref=e3260]:
+                - link "Liên hệ hợp tác kinh doanh" [ref=e3261] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/lien-he-hop-tac
+              - listitem [ref=e3262]:
+                - link "Tuyển dụng" [ref=e3263] [cursor=pointer]:
+                  - /url: https://tuyendung.cellphones.com.vn/
+              - listitem [ref=e3264]:
+                - link "Dịch vụ bảo hành mở rộng" [ref=e3265] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/bieu-phi-bao-hanh-mo-rong
+              - listitem [ref=e3266]:
+                - link "YouTube Shopping Affiliate" [ref=e3267] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/youtube-shopping-affiliate
+              - listitem [ref=e3268]:
+                - generic [ref=e3269]:
+                  - paragraph [ref=e3270]: Mua sắm dễ dàng – Ưu đãi ngập tràn cùng app CellphoneS
+                  - generic [ref=e3271]:
+                    - img "QR tải app" [ref=e3272]
+                    - generic [ref=e3273]:
+                      - link "Tải app từ Google Play" [ref=e3274] [cursor=pointer]:
+                        - /url: https://play.google.com/store/apps/details?id=vn.com.cellphones.android.smember
+                        - img "Tải app từ Google Play"
+                      - link "Tải app từ App Store" [ref=e3275] [cursor=pointer]:
+                        - /url: https://apps.apple.com/vn/app/smember/id6502395577?l=vi
+                        - img "Tải app từ App Store"
+            - generic [ref=e3279]:
+              - paragraph [ref=e3280]: Định giá máy chuyên sâu
+              - generic [ref=e3281]:
+                - paragraph [ref=e3282]: Miễn phí • Chỉ 2 phút
+                - button "Định giá ngay" [ref=e3283] [cursor=pointer]
+        - generic [ref=e3284]:
+          - paragraph [ref=e3286]: Kết nối với CellphoneS
+          - generic [ref=e3287]:
+            - generic [ref=e3288]:
+              - link "CellphoneS Youtube Chanel":
+                - /url: https://www.youtube.com/@CellphoneSOfficial
+                - img "CellphoneS Youtube Chanel"
+            - generic [ref=e3289]:
+              - link "CellphoneS Fanpage":
+                - /url: https://www.facebook.com/CellphoneSVietnam
+                - img "CellphoneS Fanpage"
+            - generic [ref=e3290]:
+              - link "CellphoneS Instagram":
+                - /url: https://www.instagram.com/cellphonesvn/
+                - img "CellphoneS Instagram"
+            - generic [ref=e3291]:
+              - link "CellphoneS Tiktok":
+                - /url: https://www.tiktok.com/@cellphones.official
+                - img "CellphoneS Tiktok"
+            - generic [ref=e3292]:
+              - link "CellphoneS Zalo":
+                - /url: https://oa.zalo.me/3894196696036261863
+                - img "CellphoneS Zalo"
+          - paragraph [ref=e3294]: Website thành viên
+          - generic [ref=e3295]:
+            - generic [ref=e3296]:
+              - paragraph [ref=e3297]: Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính
+              - link "Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính" [ref=e3298] [cursor=pointer]:
+                - /url: https://dienthoaivui.com.vn
+                - img "Hệ thống bảo hành và chăm sóc Điện thoại - Máy tính"
+            - generic [ref=e3299]:
+              - paragraph [ref=e3300]: Trung tâm bảo hành uỷ quyền Apple
+              - link "Trung tâm bảo hành uỷ quyền Apple" [ref=e3301] [cursor=pointer]:
+                - /url: https://cares.vn/
+                - img "Trung tâm bảo hành uỷ quyền Apple"
+            - generic [ref=e3302]:
+              - paragraph [ref=e3303]: Kênh thông tin giải trí công nghệ cho giới trẻ
+              - link "Kênh thông tin giải trí công nghệ cho giới trẻ" [ref=e3304] [cursor=pointer]:
+                - /url: https://schannel.vn/
+                - img "Kênh thông tin giải trí công nghệ cho giới trẻ"
+            - generic [ref=e3305]:
+              - paragraph [ref=e3306]: Trang thông tin công nghệ mới nhất
+              - link "Trang thông tin công nghệ mới nhất" [ref=e3307] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/sforum
+                - img "Trang thông tin công nghệ mới nhất"
+      - generic [ref=e3309]:
+        - generic [ref=e3311]:
+          - generic [ref=e3312]:
+            - generic [ref=e3313]:
+              - generic [ref=e3315]:
+                - link "iPhone 18 Pro" [ref=e3316] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/iphone-18-pro.html
+                - generic [ref=e3318]: "|"
+              - link "iPhone 18 Pro Max" [ref=e3321] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-18-pro-max.html
+            - generic [ref=e3323]:
+              - generic [ref=e3325]:
+                - link "iPhone Duo" [ref=e3326] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/mobile/apple/iphone-duo.html
+                - generic [ref=e3328]: "|"
+              - generic [ref=e3330]:
+                - link "iPhone 17" [ref=e3331] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/mobile/apple/iphone-17.html
+                - generic [ref=e3333]: "|"
+              - link "iPhone 17 Pro Max" [ref=e3336] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/iphone-17-pro-max.html
+            - generic [ref=e3338]:
+              - generic [ref=e3340]:
+                - link "iPhone 16" [ref=e3341] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/mobile/apple/iphone-16.html
+                - generic [ref=e3343]: "|"
+              - generic [ref=e3345]:
+                - link "iPhone cũ" [ref=e3346] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/hang-cu/iphone.html
+                - generic [ref=e3348]: "|"
+              - link "Macbook Neo" [ref=e3351] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/laptop/mac/macbook-neo.html
+          - generic [ref=e3353]:
+            - generic [ref=e3354]:
+              - generic [ref=e3356]:
+                - link "Điện thoại" [ref=e3357] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/mobile.html
+                - generic [ref=e3359]: "|"
+              - generic [ref=e3361]:
+                - link "Điện thoại iPhone" [ref=e3362] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/mobile/apple.html
+                - generic [ref=e3364]: "|"
+              - link "Xiaomi" [ref=e3367] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/xiaomi.html
+            - generic [ref=e3369]:
+              - generic [ref=e3371]:
+                - link "Điện thoại Samsung Galaxy" [ref=e3372] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/mobile/samsung.html
+                - generic [ref=e3374]: "|"
+              - link "Điện thoại OPPO" [ref=e3377] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/mobile/oppo.html
+            - link "Camera giám sát an ninh" [ref=e3382] [cursor=pointer]:
+              - /url: https://cellphones.com.vn/phu-kien/camera/an-ninh.html
+          - generic [ref=e3384]:
+            - generic [ref=e3385]:
+              - generic [ref=e3387]:
+                - link "Laptop" [ref=e3388] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/laptop.html
+                - generic [ref=e3390]: "|"
+              - generic [ref=e3392]:
+                - link "Laptop Acer" [ref=e3393] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/laptop/acer.html
+                - generic [ref=e3395]: "|"
+              - generic [ref=e3397]:
+                - link "Laptop Dell" [ref=e3398] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/laptop/dell.html
+                - generic [ref=e3400]: "|"
+              - link "Laptop HP" [ref=e3403] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/laptop/hp.html
+            - generic [ref=e3405]:
+              - generic [ref=e3407]:
+                - link "Tivi" [ref=e3408] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/tivi.html
+                - generic [ref=e3410]: "|"
+              - generic [ref=e3412]:
+                - link "Tivi Samsung" [ref=e3413] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/tivi/samsung.html
+                - generic [ref=e3415]: "|"
+              - generic [ref=e3417]:
+                - link "Tivi Xiaomi" [ref=e3418] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/tivi/xiaomi.html
+                - generic [ref=e3420]: "|"
+              - link "Tivi LG" [ref=e3423] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/tivi/lg.html
+            - generic [ref=e3425]:
+              - generic [ref=e3427]:
+                - link "Z Flip 8" [ref=e3428] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-flip-8.html
+                - generic [ref=e3430]: "|"
+              - generic [ref=e3432]:
+                - link "Z Fold 8" [ref=e3433] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8.html
+                - generic [ref=e3435]: "|"
+              - generic [ref=e3437]:
+                - link "Z Fold 8 Ultra" [ref=e3438] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-ultra.html
+                - generic [ref=e3440]: "|"
+              - link "Build PC" [ref=e3443] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/may-tinh-de-ban/build-pc.html
+          - generic [ref=e3445]:
+            - generic [ref=e3446]:
+              - generic [ref=e3448]:
+                - link "Máy hút bụi" [ref=e3449] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/nha-thong-minh/may-hut-bui.html
+                - generic [ref=e3451]: "|"
+              - link "Máy lọc không khí" [ref=e3454] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/nha-thong-minh/may-loc-khong-khi.html
+            - generic [ref=e3456]:
+              - generic [ref=e3458]:
+                - link "Airpods 5" [ref=e3459] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/apple-airpods-5.html
+                - generic [ref=e3461]: "|"
+              - generic [ref=e3463]:
+                - link "Redmi Note 17" [ref=e3464] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/mobile/xiaomi/redmi/note-17-series.html
+                - generic [ref=e3466]: "|"
+              - link "Xiaomi 17T" [ref=e3469] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/dien-thoai-xiaomi-17t.html
+            - generic [ref=e3471]:
+              - generic [ref=e3473]:
+                - link "Apple Watch Series 12" [ref=e3474] [cursor=pointer]:
+                  - /url: https://cellphones.com.vn/do-choi-cong-nghe/apple-watch/series-12.html
+                - generic [ref=e3476]: "|"
+              - link "Apple Watch Ultra 4" [ref=e3479] [cursor=pointer]:
+                - /url: https://cellphones.com.vn/do-choi-cong-nghe/apple-watch/ultra-4.html
+        - generic [ref=e3482]:
+          - paragraph [ref=e3484]: "Công ty Cổ phần Thương Mại và Dịch Vụ Kỹ Thuật DIỆU PHÚC - GPĐKKD: 0316172372 cấp tại Sở KH & ĐT TP. HCM. Địa chỉ văn phòng: 350-352 Võ Văn Kiệt, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh, Việt Nam. Điện thoại: 028.7108.9666."
+          - generic [ref=e3485]:
+            - link "Đã thông báo bộ công thương" [ref=e3486] [cursor=pointer]:
+              - /url: https://online.gov.vn/nen-tang/eda5eb96-7aa4-4fb7-b5e6-3aefd3dd52c8
+              - img "Đã thông báo bộ công thương"
+            - link [ref=e3487] [cursor=pointer]:
+              - /url: https://www.dmca.com/Protection/Status.aspx?ID=158f5667-cce3-4a18-b2d1-826225e6b022&refurl=https://cellphones.com.vn/mobile/apple.html
+              - img "DMCA.com Protection Status" [ref=e3488]
+    - generic [ref=e3492]:
+      - generic [ref=e3493]:
+        - img "Cookie icon" [ref=e3494]
+        - text: Cookie & trải nghiệm CellphoneS
+      - paragraph [ref=e3495]: Cookies được sử dụng nhằm ghi nhận các thiết lập cần thiết để website hoạt động ổn định và hỗ trợ trải nghiệm mua sắm thuận tiện hơn.
+      - generic [ref=e3496]:
+        - generic [ref=e3497]: Danh sách Cookies
+        - paragraph [ref=e3498]: Việc từ chối một số loại cookie sẽ có thể ảnh hưởng đến hoạt động của một số chức năng trên website
+      - generic [ref=e3499]:
+        - generic [ref=e3500]:
+          - generic [ref=e3501]: Ghi nhớ cài đặt và tùy chọn cá nhân
+          - generic [ref=e3503] [cursor=pointer]
+        - generic [ref=e3505]:
+          - generic [ref=e3506]: Nâng cao chất lượng dịch vụ và cá nhân hóa trải nghiệm
+          - generic [ref=e3508] [cursor=pointer]
+        - generic [ref=e3510]:
+          - generic [ref=e3511]: Cung cấp thông tin sản phẩm, dịch vụ, khuyến mại và quảng cáo phù hợp với sở thích của bạn
+          - generic [ref=e3513] [cursor=pointer]
+      - paragraph [ref=e3515]:
+        - text: Tìm hiểu thêm tại
+        - link "Chính sách thu thập và xử lý dữ liệu cá nhân" [ref=e3516] [cursor=pointer]:
+          - /url: /tos?part=privacy-policy
+        - text: .
+      - generic [ref=e3517]:
+        - button "Từ chối" [ref=e3518]
+        - button "Xác nhận tất cả" [ref=e3519]
+  - status
+```
+
+# Test source
+
+```ts
+  1 | const { expect } = require('@playwright/test');
+  2 | const ENV = Object.fromEntries(['SMEMBER_PHONE','SMEMBER_PASSWORD','SMEMBER_NEW_PASSWORD','SMEMBER_EMAIL'].map(k => [k, process.env[k] || '']));
+  3 | function substitute(value) { return String(value ?? '').replace(/\{\{([A-Z_]+)\}\}/g, (_, key) => { if (!ENV[key]) throw new Error(`Missing required environment variable: ${key}`); return ENV[key]; }); }
+  4 | function candidates(target) { if (Array.isArray(target)) return target.map(x => typeof x === 'string' ? x : x.selector).filter(Boolean); return String(target).split(/,\s*(?![^\[]*\])/).map(x => x.trim()).filter(Boolean); }
+  5 | function locator(page, selector) { return selector.startsWith('//') || selector.startsWith('(//') ? page.locator(`xpath=${selector}`) : page.locator(selector); }
+> 6 | async function visible(page, target) { for (const s of candidates(target)) { const l=locator(page,s).first(); try { await l.waitFor({state:'visible',timeout:5000}); return l; } catch {} } throw new Error(`No visible match for ${JSON.stringify(target)}. URL=${page.url()}`); }
+    |                                                                                                                                                                                                   ^ Error: No visible match for "button[type=\"button\"].border-none". URL=https://cellphones.com.vn/mobile/apple.html
+  7 | async function runGhostSteps(page, steps) { for (const step of steps) { const target=substitute(step.target||''); const value=substitute(step.value||''); if(step.command==='goto') await page.goto(target,{waitUntil:'domcontentloaded'}); else if(['fill','assign'].includes(step.command)) await (await visible(page,target)).fill(value); else if(step.command==='click') await (await visible(page,target)).click(); else if(step.command==='assertElementPresent') await expect(await visible(page,target)).toBeVisible(); else if(step.command==='assertText') await expect(page.locator('body')).toContainText(value); else if(step.command==='select') await (await visible(page,target)).selectOption(value); else if(step.command==='reload') await page.reload({waitUntil:'domcontentloaded'}); else throw new Error(`Unsupported command: ${step.command}`); } }
+  8 | module.exports={runGhostSteps};
+  9 | 
+```

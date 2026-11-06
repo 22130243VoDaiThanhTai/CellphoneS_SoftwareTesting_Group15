@@ -1,0 +1,3239 @@
+[
+  {
+    "id": "TC_CART_01",
+    "group": "CART",
+    "title": "Đăng nhập tài khoản Smember trước khi thao tác giỏ hàng",
+    "procedure": "Pre-condition:\n1. Giỏ hàng đang trống.\n2. Người dùng ở trang chi tiết sản phẩm.\n\nStep:\n1. Bấm nút [Thêm vào giỏ hàng].\n2. Mở trang/drawer giỏ hàng.",
+    "expected": "1. Hiển thị thông báo 'Đã thêm sản phẩm vào giỏ hàng'.\n2. Icon giỏ hàng cập nhật số lượng thành 1.\n3. Sản phẩm hiển thị đầy đủ tên, màu sắc, giá và tổng tiền.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+       {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_02",
+    "group": "CART",
+    "title": "Thêm sản phẩm Điện thoại (iPhone/Samsung) vào giỏ hàng",
+    "procedure": "Pre-condition:\n1. Ở trang chi tiết sản phẩm.\n\nStep:\n1. Chọn dung lượng '256GB' và màu 'Titan Tự Nhiên'.\n2. Bấm [Thêm vào giỏ hàng].\n3. Mở giỏ hàng.",
+    "expected": "1. Tên biến thể hiển thị đúng '256GB - Titan Tự Nhiên'.\n2. Giá hiển thị chính xác theo biến thể đã chọn.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/mobile/apple.html",
+        "value": "",
+        "notes": "Truy cập danh mục iPhone"
+      },
+       {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".product-item:first-child a",
+        "value": "",
+        "notes": "Chọn sản phẩm đầu tiên"
+      },
+      {
+        "command": "click",
+        "target": ".btn-add-to-cart, button:has-text('Thêm vào giỏ')",
+        "value": "",
+        "notes": "Bấm Thêm vào giỏ"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".cart-count, .toast-success, .cart-drawer",
+        "value": "",
+        "notes": "Thông báo thêm vào giỏ thành công"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_03",
+    "group": "CART",
+    "title": "Thêm sản phẩm Phụ kiện vào giỏ hàng từ trang chi tiết",
+    "procedure": "Pre-condition:\n1. Đang duyệt trang danh mục sản phẩm (/mobile.html).\n\nStep:\n1. Đưa chuột vào thẻ sản phẩm.\n2. Bấm icon [Thêm vào giỏ].",
+    "expected": "1. Sản phẩm được thêm vào giỏ tức thì không reload trang.\n2. Badge số lượng giỏ hàng tăng +1.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/thiet-bi-am-thanh/tai-nghe.html",
+        "value": "",
+        "notes": "Truy cập danh mục Tai nghe"
+      },
+       {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".product-item:first-child a",
+        "value": "",
+        "notes": "Chọn tai nghe"
+      },
+      {
+        "command": "click",
+        "target": ".btn-add-to-cart, button:has-text('Thêm vào giỏ')",
+        "value": "",
+        "notes": "Bấm Thêm vào giỏ"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".cart-count, .cart-drawer",
+        "value": "",
+        "notes": "Giỏ hàng được cập nhật sản phẩm phụ kiện"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_04",
+    "group": "CART",
+    "title": "Kiểm tra icon badge số lượng giỏ hàng trên Header tăng lên",
+    "procedure": "Pre-condition:\n1. Đang ở trang chủ hoặc trang danh mục.\n\nStep:\n1. Thêm Laptop HP vào giỏ.\n2. Chuyển sang AirPods Pro và bấm [Thêm vào giỏ].\n3. Mở giỏ hàng.",
+    "expected": "1. Badge giỏ hàng hiển thị 2 sản phẩm.\n2. Cả 2 sản phẩm hiển thị đúng đơn giá.\n3. Tổng tiền = Giá Laptop + Giá AirPods.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn",
+        "value": "",
+        "notes": "Truy cập Trang chủ"
+      },
+       {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".header-cart .badge, .cart-number",
+        "value": "",
+        "notes": "Badge hiển thị số lượng sản phẩm giỏ hàng"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_05",
+    "group": "CART",
+    "title": "Mở trang Giỏ hàng và kiểm tra hiển thị thông tin sản phẩm",
+    "procedure": "Pre-condition:\n1. Sản phẩm A đã có trong giỏ hàng với số lượng = 1.\n\nStep:\n1. Quay lại trang sản phẩm A.\n2. Bấm [Thêm vào giỏ hàng] lần nữa.\n3. Mở giỏ hàng.",
+    "expected": "1. Không tạo thêm dòng trùng lặp cho sản phẩm A.\n2. Số lượng sản phẩm A tự động tăng từ 1 lên 2.\n3. Tổng tiền tính lại = Đơn giá * 2.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+       {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".cart-item, .product-cart-info",
+        "value": "",
+        "notes": "Hiển thị thông tin tên, ảnh sản phẩm trong giỏ"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_06",
+    "group": "CART",
+    "title": "Kiểm tra hiển thị đúng giá niêm yết và giá đã giảm trong giỏ",
+    "procedure": "Pre-condition:\n1. Sản phẩm A trong giỏ có số lượng = 1.\n\nStep:\n1. Mở trang Giỏ hàng.\n2. Bấm nút '+' bên cạnh số lượng sản phẩm A.",
+    "expected": "1. Ô input số lượng thay đổi từ 1 lên 2.\n2. Thành tiền sản phẩm A cập nhật ngay lập tức.\n3. Tổng giá trị đơn hàng cập nhật tương ứng.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+       {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".product-price-show, .price-discount",
+        "value": "",
+        "notes": "Hiển thị chính xác đơn giá sản phẩm"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_07",
+    "group": "CART",
+    "title": "Tăng số lượng sản phẩm trong giỏ hàng (nút +)",
+    "procedure": "Pre-condition:\n1. Sản phẩm A có số lượng = 2 trong giỏ.\n\nStep:\n1. Mở trang Giỏ hàng.\n2. Bấm nút '-' cạnh số lượng sản phẩm A.",
+    "expected": "1. Ô input số lượng giảm từ 2 về 1.\n2. Thành tiền giảm tương ứng.\n3. Tổng tiền giỏ hàng cập nhật chính xác.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+       {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Show password\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button[aria-label=\"Hide password\"] > svg > path",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": ".btn-quantity-plus, .btn-plus",
+        "value": "",
+        "notes": "Bấm tăng số lượng (+)"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "input.quantity[value='2'], .total-price",
+        "value": "",
+        "notes": "Số lượng tăng lên 2 và tổng tiền cập nhật"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_08",
+    "group": "CART",
+    "title": "Giảm số lượng sản phẩm trong giỏ hàng (nút -)",
+    "procedure": "Pre-condition:\n1. Sản phẩm A có số lượng = 1 trong giỏ.\n\nStep:\n1. Bấm nút '-' cạnh số lượng sản phẩm A.",
+    "expected": "1. Hiển thị popup/modal 'Bạn có chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng?'.\n2. Sản phẩm vẫn nằm trong giỏ chờ người dùng xác nhận.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      
+      {
+        "command": "click",
+        "target": ".btn-quantity-minus, .btn-minus",
+        "value": "",
+        "notes": "Bấm giảm số lượng (-)"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "input.quantity[value='1']",
+        "value": "",
+        "notes": "Số lượng giảm về 1"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_09",
+    "group": "CART",
+    "title": "Nhập số lượng trực tiếp vào ô input số lượng trong giỏ",
+    "procedure": "Pre-condition:\n1. Popup xác nhận xóa sản phẩm đang hiển thị.\n\nStep:\n1. Bấm nút [Hủy] / [Không].",
+    "expected": "1. Modal đóng lại.\n2. Sản phẩm A giữ nguyên trong giỏ hàng với số lượng = 1.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "fill",
+        "target": "input.quantity-input",
+        "value": "3",
+        "notes": "Nhập số lượng = 3"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".total-price",
+        "value": "",
+        "notes": "Tổng tiền cập nhật theo số lượng 3"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_10",
+    "group": "CART",
+    "title": "Kiểm tra tự động tính tổng tiền khi thay đổi số lượng",
+    "procedure": "Pre-condition:\n1. Popup xác nhận xóa sản phẩm đang hiển thị.\n\nStep:\n1. Bấm nút [Xác nhận] / [Xóa].",
+    "expected": "1. Modal đóng lại.\n2. Sản phẩm A bị xóa hoàn toàn khỏi giỏ hàng.\n3. Tổng tiền giỏ hàng tính toán lại.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".total-cart-price, .grand-total",
+        "value": "",
+        "notes": "Hiển thị tổng thành tiền chính xác"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_11",
+    "group": "CART",
+    "title": "Kiểm tra hiển thị chiết khấu dành riêng cho Smember trong giỏ",
+    "procedure": "Pre-condition:\n1. Sản phẩm A có số lượng = 1 trong giỏ.\n\nStep:\n1. Click ô input số lượng.\n2. Xóa giá trị cũ, nhập '5' và nhấn Enter hoặc click ra ngoài.",
+    "expected": "1. Ô input hiển thị giá trị '5'.\n2. Thành tiền = Đơn giá * 5.\n3. Tổng thanh toán cập nhật chính xác.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Vào giỏ hàng sau khi đăng nhập Smember"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".smember-discount-tag, .discount-smember-price",
+        "value": "",
+        "notes": "Ưu đãi chiết khấu Smember hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_12",
+    "group": "CART",
+    "title": "Nhập mã giảm giá (Voucher) hợp lệ vào giỏ hàng",
+    "procedure": "Pre-condition:\n1. Sản phẩm A có trong giỏ.\n\nStep:\n1. Click ô input số lượng.\n2. Nhập '0' và nhấn Enter.",
+    "expected": "1. Hệ thống hiển thị popup xác nhận xóa HOẶC tự động reset số lượng về 1.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "fill",
+        "target": "input[placeholder*='mã giảm giá'], input[name='coupon']",
+        "value": "CPS100K",
+        "notes": "Nhập mã giảm giá mẫu"
+      },
+      {
+        "command": "click",
+        "target": "button.btn-apply-coupon, button:has-text('Áp dụng')",
+        "value": "",
+        "notes": "Bấm Áp dụng"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".coupon-success, .discount-amount",
+        "value": "",
+        "notes": "Mã giảm giá áp dụng thành công"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_13",
+    "group": "CART",
+    "title": "Nhập mã giảm giá không hợp lệ (Kiểm tra thông báo lỗi)",
+    "procedure": "Pre-condition:\n1. Sản phẩm A có trong giỏ.\n\nStep:\n1. Click ô input số lượng.\n2. Nhập '-3' và nhấn Enter.",
+    "expected": "1. Hệ thống chặn nhập số âm.\n2. Giá trị tự động trả về 1 hoặc hiển thị thông báo lỗi 'Số lượng tối thiểu là 1'.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "fill",
+        "target": "input[name='coupon']",
+        "value": "INVALID999",
+        "notes": "Nhập mã giả"
+      },
+      {
+        "command": "click",
+        "target": "button.btn-apply-coupon",
+        "value": "",
+        "notes": "Bấm Áp dụng"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".coupon-error, .text-danger",
+        "value": "",
+        "notes": "Thông báo mã không hợp lệ hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_14",
+    "group": "CART",
+    "title": "Xóa một sản phẩm khỏi giỏ hàng (nút Xóa/Thùng rác)",
+    "procedure": "Pre-condition:\n1. Sản phẩm A có trong giỏ.\n\nStep:\n1. Nhập 'abc' hoặc '@#$' vào ô input số lượng.\n2. Nhấn Enter.",
+    "expected": "1. Chặn nhập ký tự không phải số.\n2. Số lượng giữ nguyên giá trị hợp lệ trước đó (1).",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": ".btn-remove-item, .remove-cart-item:first-child",
+        "value": "",
+        "notes": "Click nút Xóa sản phẩm"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".cart-container, .empty-cart",
+        "value": "",
+        "notes": "Sản phẩm đã được xóa khỏi giỏ"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_15",
+    "group": "CART",
+    "title": "Chọn/Hủy chọn sản phẩm cụ thể để thanh toán bằng Checkbox",
+    "procedure": "Pre-condition:\n1. Sản phẩm A có trong giỏ.\n\nStep:\n1. Nhập '2.5' hoặc '1.8' vào ô input số lượng.\n2. Nhấn Enter.",
+    "expected": "1. Chặn nhập số thập phân hoặc tự động làm tròn thành số nguyên (2).",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": "input[type='checkbox'].item-checkbox:first-child",
+        "value": "",
+        "notes": "Tích/bỏ tích chọn sản phẩm"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".total-selected-price",
+        "value": "",
+        "notes": "Tổng tiền các món được chọn cập nhật"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_16",
+    "group": "CART",
+    "title": "Chọn tất cả (Select All) các sản phẩm trong giỏ hàng",
+    "procedure": "Pre-condition:\n1. Sản phẩm A giới hạn mua tối đa 5 cái/đơn.\n\nStep:\n1. Nhập '999' vào ô input số lượng và nhấn Enter.",
+    "expected": "1. Hiển thị cảnh báo 'Số lượng vượt quá giới hạn cho phép' hoặc 'Kho chỉ còn 5 sản phẩm'.\n2. Số lượng tự điều chỉnh về tối đa cho phép (5).",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": "input[type='checkbox'].select-all",
+        "value": "",
+        "notes": "Tích chọn Tất cả"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "input[type='checkbox'].item-checkbox:checked",
+        "value": "",
+        "notes": "Tất cả các sản phẩm đều được chọn"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_17",
+    "group": "CART",
+    "title": "Hủy chọn tất cả (Deselect All) sản phẩm trong giỏ hàng",
+    "procedure": "Pre-condition:\n1. Giỏ hàng có Sản phẩm A và B.\n\nStep:\n1. Mở trang Giỏ hàng.\n2. Click icon thùng rác cạnh sản phẩm A.\n3. Xác nhận xóa.",
+    "expected": "1. Sản phẩm A bị xóa khỏi giỏ.\n2. Sản phẩm B giữ nguyên.\n3. Badge giỏ hàng giảm từ 2 xuống 1.\n4. Tổng tiền cập nhật theo giá Sản phẩm B.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": "input[type='checkbox'].select-all",
+        "value": "",
+        "notes": "Bỏ tích chọn Tất cả"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".btn-proceed-checkout[disabled], .total-zero",
+        "value": "",
+        "notes": "Không có sản phẩm nào được chọn"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_18",
+    "group": "CART",
+    "title": "Xóa toàn bộ giỏ hàng và kiểm tra giao diện Giỏ hàng trống (Empty Cart)",
+    "procedure": "Pre-condition:\n1. Giỏ hàng có 1 sản phẩm.\n\nStep:\n1. Bấm nút [Xóa] để xóa sản phẩm duy nhất.",
+    "expected": "1. Giỏ hàng trở về trạng thái trống.\n2. Hiển thị hình minh họa, thông báo 'Giỏ hàng của bạn đang trống' và nút [Tiếp tục mua sắm].\n3. Badge giỏ hàng hiển thị 0.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": ".btn-clear-all-cart",
+        "value": "",
+        "notes": "Bấm Xóa toàn bộ giỏ"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".empty-cart-message, text='Giỏ hàng của bạn đang trống'",
+        "value": "",
+        "notes": "Giao diện giỏ hàng trống hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_19",
+    "group": "CART",
+    "title": "Thêm gói bảo hành mở rộng (S-Warranty) cho sản phẩm trong giỏ",
+    "procedure": "Pre-condition:\n1. Đang ở trang giỏ hàng trống.\n\nStep:\n1. Click nút [Tiếp tục mua sắm].",
+    "expected": "1. Hệ thống chuyển hướng người dùng về Trang chủ (https://cellphones.com.vn) hoặc trang danh mục.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": "input[name='warranty_package']:first-child",
+        "value": "",
+        "notes": "Tích chọn gói bảo hành 1 đổi 1"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".warranty-added-badge, .total-price",
+        "value": "",
+        "notes": "Gói bảo hành được tính vào tổng đơn hàng"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_20",
+    "group": "CART",
+    "title": "Thêm sản phẩm mua kèm / Combo ưu đãi vào giỏ hàng",
+    "procedure": "Pre-condition:\n1. Giỏ hàng đã có Sản phẩm A và B.\n\nStep:\n1. Nhấn F5 / Ctrl+R để tải lại trang.\n2. Kiểm tra giỏ hàng.",
+    "expected": "1. Dữ liệu giỏ hàng được lưu giữ qua LocalStorage/Session state.\n2. Danh sách và số lượng sản phẩm giữ nguyên.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Truy cập trang Giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": ".btn-add-combo:first-child",
+        "value": "",
+        "notes": "Bấm Thêm sản phẩm mua kèm ưu đãi"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".combo-item-in-cart",
+        "value": "",
+        "notes": "Sản phẩm mua kèm hiển thị trong giỏ"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_21",
+    "group": "CART",
+    "title": "Bấm Tiến hành đặt hàng để chuyển hướng tới trang Checkout",
+    "procedure": "Pre-condition:\n1. Đã thêm Sản phẩm A vào giỏ ở Tab 1.\n\nStep:\n1. Mở Tab 2 mới và truy cập https://cellphones.com.vn/cart.",
+    "expected": "1. Giỏ hàng ở Tab 2 đồng bộ chính xác dữ liệu từ Tab 1.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/cart",
+        "value": "",
+        "notes": "Mở giỏ hàng"
+      },
+      {
+        "command": "click",
+        "target": ".btn-proceed-checkout, button:has-text('Tiến hành đặt hàng')",
+        "value": "",
+        "notes": "Bấm Tiến hành đặt hàng"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".checkout-container, form[name='checkout']",
+        "value": "",
+        "notes": "Chuyển sang màn hình Thanh toán Checkout thành công"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_22",
+    "group": "CART",
+    "title": "Điền thông tin người nhận (Họ tên, SĐT {{SMEMBER_PHONE}}, Email)",
+    "procedure": "Pre-condition:\n1. Giỏ hàng có Sản phẩm A, B và C.\n\nStep:\n1. Bỏ tích chọn cạnh Sản phẩm C.\n2. Kiểm tra tổng tiền.",
+    "expected": "1. Checkbox sản phẩm C ở trạng thái uncheck.\n2. Tổng tiền thanh toán không tính Sản phẩm C (Tổng = Giá A + Giá B).",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Open CellphoneS home before login"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": [
+          "a[href*=\"account\"]",
+          "a[href*=\"logout\"]",
+          "button:has-text(\"Đăng xuất\")",
+          ".user-info",
+          ".account-info"
+        ],
+        "value": "",
+        "notes": "Verify signed-in state"
+      },
+      {
+        "command": "fill",
+        "target": "input[name='customer_name']",
+        "value": "Phạm Vũ Tiến Vinh",
+        "notes": "Nhập Họ tên"
+      },
+      {
+        "command": "fill",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{SMEMBER_PHONE}}",
+        "notes": "Nhập SĐT"
+      },
+      {
+        "command": "fill",
+        "target": "input[name='customer_email']",
+        "value": "{{SMEMBER_EMAIL}}",
+        "notes": "Nhập Email"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "input[name='customer_name'][value='Phạm Vũ Tiến Vinh']",
+        "value": "",
+        "notes": "Thông tin điền chính xác"
+      }
+    ]
+  },
+  {
+    "id": "TC_CART_23",
+    "group": "CART",
+    "title": "Chọn hình thức Giao hàng tận nơi và chọn Tỉnh/Thành, Quận/Huyện",
+    "procedure": "Pre-condition:\n1. Giỏ hàng có 3 sản phẩm, 1 sản phẩm đang bỏ tích.\n\nStep:\n1. Click checkbox [Chọn tất cả] trên header giỏ hàng.",
+    "expected": "1. Tất cả checkbox sản phẩm trong giỏ được tích chọn.\n2. Tổng tiền cập nhật bao gồm cả 3 sản phẩm.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/checkout",
+        "value": "",
+        "notes": "Truy cập trang Checkout"
+      },
+      {
+        "command": "click",
+        "target": "input[value='home_delivery'], .radio-delivery-home",
+        "value": "",
+        "notes": "Chọn Giao hàng tận nơi"
+      },
+      {
+        "command": "click",
+        "target": "select[name='city']",
+        "value": "",
+        "notes": "Chọn Hồ Chí Minh"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "select[name='district']",
+        "value": "",
+        "notes": "Dropdown Quận/Huyện sẵn sàng chọn"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_01",
+    "group": "SMEMBER",
+    "title": "Đăng nhập thành công tài khoản Smember với SĐT và Mật khẩu chính xác",
+    "procedure": "Pre-condition:\n1. Đang ở trang chủ CellphoneS.\n\nStep:\n1. Click menu [Smember] trên header hoặc truy cập https://cellphones.com.vn/smember.",
+    "expected": "1. Trang Smember tải thành công.\n2. Hiển thị bảng phân hạng thành viên (S-New, S-Mem, S-VIP) và bảng chiết khấu quyền lợi rõ ràng.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_02",
+    "group": "SMEMBER",
+    "title": "Kiểm tra hiển thị thông tin hạng thành viên và tên tài khoản",
+    "procedure": "Pre-condition:\n1. Đang ở trang /smember.\n\nStep:\n1. Cuộn tới khu vực Hạng thành viên.",
+    "expected": "1. Thẻ thông tin 3 hạng thẻ hiển thị đúng chi tiết: S-New (0 - 3 triệu), S-Mem (3 - 30 triệu), S-VIP (> 30 triệu).",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".member-rank, .rank-badge",
+        "value": "",
+        "notes": "Hiển thị hạng thành viên Smember"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_03",
+    "group": "SMEMBER",
+    "title": "Kiểm tra hiển thị số điểm tích lũy Smember",
+    "procedure": "Pre-condition:\n1. Đang ở trang /smember.\n\nStep:\n1. Xem bảng so sánh quyền lợi chiết khấu.",
+    "expected": "1. Bảng hiển thị chính xác % chiết khấu từng nhóm hàng (Điện thoại, Laptop, Phụ kiện, Thu cũ đổi mới) theo hạng thẻ.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".member-points, .s-points",
+        "value": "",
+        "notes": "Hiển thị điểm số tích lũy S-Point"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_04",
+    "group": "SMEMBER",
+    "title": "Kiểm tra thông tin ưu đãi chiết khấu theo hạng Smember",
+    "procedure": "Pre-condition:\n1. Xem trang chi tiết sản phẩm (VD: Samsung Galaxy S24 Ultra).\n\nStep:\n1. Cuộn tới phần thông tin giá.",
+    "expected": "1. Khung 'Giá dành riêng cho Smember' hiển thị nổi bật.\n2. Mức giá Smember thấp hơn giá niêm yết bán lẻ theo quyền lợi chiết khấu.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='uu-dai'], .tab-privileges",
+        "value": "",
+        "notes": "Mở trang Quyền lợi Smember"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".privilege-list, .benefit-item",
+        "value": "",
+        "notes": "Danh sách ưu đãi hạng thành viên hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_05",
+    "group": "SMEMBER",
+    "title": "Xem danh sách voucher/mã giảm giá khả dụng trong ví Smember",
+    "procedure": "Pre-condition:\n1. Sản phẩm có giá bán lẻ = 30.000.000đ.\n\nStep:\n1. Quan sát khung giá Smember.",
+    "expected": "1. Hiển thị chính xác số tiền tiết kiệm (VD: Giá S-VIP = 29.100.000đ, tiết kiệm 900.000đ).",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='voucher'], .tab-voucher",
+        "value": "",
+        "notes": "Mở ví Voucher"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".voucher-item, .coupon-card",
+        "value": "",
+        "notes": "Danh sách voucher khả dụng hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_06",
+    "group": "SMEMBER",
+    "title": "Kiểm tra lịch sử mua hàng trong tài khoản Smember",
+    "procedure": "Pre-condition:\n1. Người dùng CHƯA đăng nhập.\n\nStep:\n1. Tại trang chi tiết sản phẩm, bấm nút [Giá Smember - Mua ngay].",
+    "expected": "1. Bật modal popup 'Đăng nhập Smember để nhận ưu đãi'.\n2. Yêu cầu đăng nhập tài khoản trước khi tiếp tục.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='orders'], .tab-order-history",
+        "value": "",
+        "notes": "Mở Lịch sử đơn hàng"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".order-list, .order-item, .table-orders",
+        "value": "",
+        "notes": "Bảng danh sách đơn hàng đã mua hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_07",
+    "group": "SMEMBER",
+    "title": "Kiểm tra danh sách sản phẩm yêu thích (Wishlist) của tài khoản",
+    "procedure": "Pre-condition:\n1. Đã đăng nhập tài khoản hạng S-Mem ({{SMEMBER_PHONE}}).\n\nStep:\n1. Thêm sản phẩm vào giỏ.\n2. Mở giỏ hàng.",
+    "expected": "1. Trong tổng tiền giỏ hàng tự động hiển thị dòng 'Chiết khấu S-Mem (1%)'.\n2. Tổng tiền thanh toán giảm tương ứng.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='wishlist'], .tab-wishlist",
+        "value": "",
+        "notes": "Mở Danh sách yêu thích"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".wishlist-container, .wishlist-empty, .product-item",
+        "value": "",
+        "notes": "Hiển thị giao diện danh sách yêu thích"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_08",
+    "group": "SMEMBER",
+    "title": "Kiểm tra lịch sử bảo hành thiết bị của tài khoản Smember",
+    "procedure": "Pre-condition:\n1. Đã đăng nhập tài khoản hạng S-VIP.\n\nStep:\n1. Thêm sản phẩm vào giỏ.\n2. Mở giỏ hàng.",
+    "expected": "1. Tự động thêm dòng giảm trừ 'Chiết khấu S-VIP (2%-3%)'.\n2. Tổng thành tiền cập nhật theo đúng hạng S-VIP.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='warranty'], .tab-warranty",
+        "value": "",
+        "notes": "Mở Tra cứu bảo hành"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".warranty-info, .warranty-list",
+        "value": "",
+        "notes": "Hiển thị danh sách thiết bị đang bảo hành"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_09",
+    "group": "SMEMBER",
+    "title": "Kiểm tra thông tin địa chỉ giao hàng đã lưu trong Smember",
+    "procedure": "Pre-condition:\n1. Đã đăng nhập tài khoản Smember.\n\nStep:\n1. Vào trang Quản lý tài khoản (/smember/account).\n2. Chọn tab [Lịch sử tích điểm].",
+    "expected": "1. Hiển thị danh sách các đơn hàng đã mua thành công, số điểm thưởng tích lũy (+1% giá trị) và tổng số điểm hiện có.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='address'], .tab-address",
+        "value": "",
+        "notes": "Mở So địa chỉ"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".address-list, .address-card",
+        "value": "",
+        "notes": "Danh sách địa chỉ giao hàng đã lưu"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_10",
+    "group": "SMEMBER",
+    "title": "Thêm mới địa chỉ giao hàng trong trang Smember",
+    "procedure": "Pre-condition:\n1. Tài khoản đang có 500 điểm S-Point.\n\nStep:\n1. Chọn tab [Đổi voucher ưu đãi] trong trang Smember.",
+    "expected": "1. Hiển thị danh sách các voucher khả dụng (VD: Voucher 50k đổi bằng 50 điểm, Voucher 100k đổi bằng 100 điểm).",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='address'], .tab-address",
+        "value": "",
+        "notes": "Mở Sổ địa chỉ"
+      },
+      {
+        "command": "click",
+        "target": "button.btn-add-address, .btn-create-address",
+        "value": "",
+        "notes": "Mở modal thêm địa chỉ"
+      },
+      {
+        "command": "fill",
+        "target": "input[name='fullname']",
+        "value": "Phạm Vũ Tiến Vinh",
+        "notes": "Nhập họ tên"
+      },
+      {
+        "command": "fill",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{SMEMBER_PHONE}}",
+        "notes": "Nhập số điện thoại"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "button[type='submit'], .btn-save-address",
+        "value": "",
+        "notes": "Nút lưu địa chỉ hiển thị (không submit)"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_11",
+    "group": "SMEMBER",
+    "title": "Đổi mật khẩu tài khoản Smember (Kiểm tra form validation)",
+    "procedure": "Pre-condition:\n1. Giỏ hàng có 1 sản phẩm (Tổng = 10.000.000đ).\n2. Mã voucher 'CELLPHONES2026' hợp lệ (giảm 10%).\n\nStep:\n1. Nhập 'CELLPHONES2026' vào ô Mã giảm giá.\n2. Bấm [Áp dụng].",
+    "expected": "1. Thông báo 'Áp dụng mã giảm giá thành công!'.\n2. Dòng giảm giá hiển thị '-1.000.000đ'.\n3. Tổng tiền giảm về 9.000.000đ.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='change-password'], .tab-security",
+        "value": "",
+        "notes": "Mở trang Đổi mật khẩu"
+      },
+      {
+        "command": "fill",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{SMEMBER_PASSWORD}}",
+        "notes": "Nhập mật khẩu cũ"
+      },
+      {
+        "command": "fill",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{SMEMBER_NEW_PASSWORD}}",
+        "notes": "Nhập mật khẩu mới"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "button[type='submit'], .btn-update-pass",
+        "value": "",
+        "notes": "Form đổi mật khẩu hiển thị hợp lệ (không click submit)"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_12",
+    "group": "SMEMBER",
+    "title": "Đăng xuất tài khoản Smember thành công",
+    "procedure": "Pre-condition:\n1. Giỏ hàng đã có sản phẩm.\n\nStep:\n1. Nhập 'INVALID_VOUCHER_999' vào ô Mã giảm giá.\n2. Bấm [Áp dụng].",
+    "expected": "1. Hiển thị thông báo lỗi màu đỏ 'Mã giảm giá không tồn tại hoặc không hợp lệ'.\n2. Tổng tiền giỏ hàng giữ nguyên.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": ".btn-logout, a[href*='logout']",
+        "value": "",
+        "notes": "Bấm Đăng xuất"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "button:has-text('Đăng nhập'), a[href*='smember']",
+        "value": "",
+        "notes": "Quay về trạng thái chưa đăng nhập"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_13",
+    "group": "SMEMBER",
+    "title": "Đăng nhập thất bại với mật khẩu sai",
+    "procedure": "Pre-condition:\n1. Mã voucher 'EXPIRED2025' đã hết hạn.\n\nStep:\n1. Nhập mã 'EXPIRED2025'.\n2. Bấm [Áp dụng].",
+    "expected": "1. Hiển thị thông báo 'Mã giảm giá đã hết hạn sử dụng'.\n2. Mã không được áp dụng vào đơn hàng.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Open CellphoneS home before login"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": [
+          "a[href*=\"account\"]",
+          "a[href*=\"logout\"]",
+          "button:has-text(\"Đăng xuất\")",
+          ".user-info",
+          ".account-info"
+        ],
+        "value": "",
+        "notes": "Verify signed-in state"
+      },
+      {
+        "command": "fill",
+        "target": "input[type='tel']",
+        "value": "{{SMEMBER_PHONE}}",
+        "notes": "Nhập SĐT đúng"
+      },
+      {
+        "command": "fill",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "WrongPassword123",
+        "notes": "Nhập mật khẩu sai"
+      },
+      {
+        "command": "click",
+        "target": "button[type='submit']",
+        "value": "",
+        "notes": "Bấm Đăng nhập"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".error-message, .toast-error",
+        "value": "",
+        "notes": "Thông báo sai mật khẩu hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_14",
+    "group": "SMEMBER",
+    "title": "Đăng nhập thất bại với số điện thoại chưa đăng ký",
+    "procedure": "Pre-condition:\n1. Ô nhập mã giảm giá đang để trống.\n\nStep:\n1. Bấm nút [Áp dụng].",
+    "expected": "1. Hiển thị cảnh báo 'Vui lòng nhập mã giảm giá'.\n2. Không gửi request xử lý.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Open CellphoneS home before login"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": [
+          "a[href*=\"account\"]",
+          "a[href*=\"logout\"]",
+          "button:has-text(\"Đăng xuất\")",
+          ".user-info",
+          ".account-info"
+        ],
+        "value": "",
+        "notes": "Verify signed-in state"
+      },
+      {
+        "command": "fill",
+        "target": "input[type='tel']",
+        "value": "0999999999",
+        "notes": "Nhập SĐT chưa đăng ký"
+      },
+      {
+        "command": "fill",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{SMEMBER_PASSWORD}}",
+        "notes": "Nhập mật khẩu"
+      },
+      {
+        "command": "click",
+        "target": "button[type='submit']",
+        "value": "",
+        "notes": "Bấm Đăng nhập"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".error-message, .toast-error",
+        "value": "",
+        "notes": "Thông báo tài khoản không tồn tại hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_15",
+    "group": "SMEMBER",
+    "title": "Đăng nhập thất bại khi để trống số điện thoại và mật khẩu",
+    "procedure": "Pre-condition:\n1. Mã 'CELLPHONES2026' đã áp dụng thành công.\n\nStep:\n1. Bấm nút [Xóa mã] / [Hủy bỏ] bên cạnh tag voucher.",
+    "expected": "1. Tag voucher bị xóa khỏi giao diện giỏ hàng.\n2. Dòng tiền giảm giá bị gỡ bỏ.\n3. Tổng tiền quay về giá trị ban đầu.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://smember.com.vn/login?pre_uri=%2F%3Fcompany_id%3Dcellphones",
+        "value": "",
+        "notes": "Truy cập trang Đăng nhập"
+      },
+      {
+        "command": "click",
+        "target": "button[type='submit']",
+        "value": "",
+        "notes": "Bấm Đăng nhập khi để trống"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".field-error, .input-error",
+        "value": "",
+        "notes": "Thông báo yêu cầu nhập thông tin hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_16",
+    "group": "SMEMBER",
+    "title": "Kiểm tra validation định dạng số điện thoại (dưới 10 số)",
+    "procedure": "Pre-condition:\n1. Mã 'SAVE500K' yêu cầu đơn tối thiểu 5.000.000đ.\n2. Tổng giỏ hàng hiện tại là 2.000.000đ.\n\nStep:\n1. Nhập mã 'SAVE500K' và bấm [Áp dụng].",
+    "expected": "1. Báo lỗi 'Mã giảm giá chỉ áp dụng cho đơn hàng từ 5.000.000đ trở lên'.\n2. Mã không được chấp nhận.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://smember.com.vn/login?pre_uri=%2F%3Fcompany_id%3Dcellphones",
+        "value": "",
+        "notes": "Truy cập trang Đăng nhập"
+      },
+      {
+        "command": "fill",
+        "target": "input[type='tel']",
+        "value": "03798170",
+        "notes": "Nhập SĐT ngắn 8 số"
+      },
+      {
+        "command": "click",
+        "target": "button[type='submit']",
+        "value": "",
+        "notes": "Bấm Đăng nhập"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".field-error, text='Số điện thoại không hợp lệ'",
+        "value": "",
+        "notes": "Báo lỗi định dạng SĐT"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_17",
+    "group": "SMEMBER",
+    "title": "Kiểm tra tính năng Quên mật khẩu mở modal lấy lại mật khẩu",
+    "procedure": "Pre-condition:\n1. Mã trong hệ thống là 'CELLPHONES2026'.\n\nStep:\n1. Nhập chữ thường 'cellphones2026'.\n2. Bấm [Áp dụng].",
+    "expected": "1. Hệ thống tự chuyển đổi hoặc chấp nhận chữ thường.\n2. Áp dụng thành công và tính số tiền giảm chính xác.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://smember.com.vn/login?pre_uri=%2F%3Fcompany_id%3Dcellphones",
+        "value": "",
+        "notes": "Truy cập trang Đăng nhập"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='forgot-password'], .btn-forgot-pass",
+        "value": "",
+        "notes": "Bấm Quên mật khẩu"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".modal-forgot-pass, form[name='forgot_password']",
+        "value": "",
+        "notes": "Form Quên mật khẩu hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_18",
+    "group": "SMEMBER",
+    "title": "Kiểm tra nút liên kết tài khoản Google / Facebook trong Smember",
+    "procedure": "Pre-condition:\n1. Mã chuẩn là 'CELLPHONES2026'.\n\nStep:\n1. Nhập '  CELLPHONES2026  ' (có khoảng trắng).\n2. Bấm [Áp dụng].",
+    "expected": "1. Hệ thống tự động trim khoảng trắng thừa.\n2. Mã áp dụng bình thường không bị báo lỗi.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='profile'], .tab-profile",
+        "value": "",
+        "notes": "Mở trang Thông tin cá nhân"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".btn-social-link, .link-google, .link-facebook",
+        "value": "",
+        "notes": "Nút liên kết mạng xã hội hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_19",
+    "group": "SMEMBER",
+    "title": "Kiểm tra hiển thị QR Code / Mã định danh Smember",
+    "procedure": "Pre-condition:\n1. Mã A ('VOUCHER10') đã được áp dụng trong giỏ.\n\nStep:\n1. Nhập tiếp Mã B ('VOUCHER20').\n2. Bấm [Áp dụng].",
+    "expected": "1. Hiển thị thông báo 'Chỉ được áp dụng 01 mã giảm giá cho mỗi đơn hàng' HOẶC đè Mã B thay thế cho Mã A.\n2. Tổng tiền giảm chỉ tính theo 1 mã.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".qr-code-member, .member-card-barcode, img[alt*='QR']",
+        "value": "",
+        "notes": "Mã QR thành viên hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_20",
+    "group": "SMEMBER",
+    "title": "Lọc lịch sử đơn hàng theo trạng thái Đã hoàn thành",
+    "procedure": "Pre-condition:\n1. Tổng giỏ hàng = 15.000.000đ.\n2. Mã 'GIAM200K' giảm cố định 200.000đ.\n\nStep:\n1. Áp dụng mã 'GIAM200K'.",
+    "expected": "1. Dòng giảm giá hiển thị đúng '-200.000đ'.\n2. Tổng tiền thanh toán = 14.800.000đ.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='orders'], .tab-order-history",
+        "value": "",
+        "notes": "Mở Lịch sử đơn hàng"
+      },
+      {
+        "command": "click",
+        "target": ".filter-status-completed, tab:has-text('Đã hoàn thành')",
+        "value": "",
+        "notes": "Chọn tab Đã hoàn thành"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".order-list, .empty-orders",
+        "value": "",
+        "notes": "Danh sách đơn hàng hoàn thành hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_21",
+    "group": "SMEMBER",
+    "title": "Lọc lịch sử đơn hàng theo khoảng thời gian 6 tháng qua",
+    "procedure": "Pre-condition:\n1. Tổng giỏ hàng = 20.000.000đ.\n2. Mã 'DISCOUNT10' giảm 10%.\n\nStep:\n1. Áp dụng mã 'DISCOUNT10'.",
+    "expected": "1. Số tiền giảm hiển thị đúng '-2.000.000đ'.\n2. Tổng tiền thanh toán = 18.000.000đ.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='orders'], .tab-order-history",
+        "value": "",
+        "notes": "Mở Lịch sử đơn hàng"
+      },
+      {
+        "command": "click",
+        "target": "select[name='time_filter'], .btn-filter-time",
+        "value": "",
+        "notes": "Chọn lọc thời gian"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".order-list",
+        "value": "",
+        "notes": "Cập nhật danh sách đơn theo thời gian"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_22",
+    "group": "SMEMBER",
+    "title": "Xem chi tiết một đơn hàng trong lịch sử mua hàng Smember",
+    "procedure": "Pre-condition:\n1. Tổng giỏ hàng = 50.000.000đ.\n2. Mã 'SALE10' giảm 10% tối đa 1.000.000đ.\n\nStep:\n1. Áp dụng mã 'SALE10'.",
+    "expected": "1. 10% của 50 triệu là 5 triệu nhưng hệ thống chặn trần 1 triệu.\n2. Dòng giảm giá hiển thị đúng '-1.000.000đ'.\n3. Tổng tiền = 49.000.000đ.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='orders'], .tab-order-history",
+        "value": "",
+        "notes": "Mở Lịch sử đơn hàng"
+      },
+      {
+        "command": "click",
+        "target": ".btn-view-order-detail, .order-item:first-child",
+        "value": "",
+        "notes": "Click xem đơn hàng đầu tiên"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": ".order-detail-modal, .order-summary",
+        "value": "",
+        "notes": "Chi tiết đơn hàng hiển thị"
+      }
+    ]
+  },
+  {
+    "id": "TC_SMEMBER_23",
+    "group": "SMEMBER",
+    "title": "Kiểm tra thông tin đăng ký nhận tin khuyến mãi qua SĐT/Email",
+    "procedure": "Pre-condition:\n1. Đã đăng nhập S-VIP (chiết khấu 2%).\n2. Giỏ hàng 20 triệu (giá S-VIP = 19.600.000đ).\n\nStep:\n1. Nhập thêm voucher 'CELLPHONES2026' giảm 500.000đ.",
+    "expected": "1. Tóm tắt đơn hàng tách làm 2 dòng: '-Chiết khấu S-VIP (400k)' và '-Voucher (500k)'.\n2. Tổng thanh toán = 19.100.000đ.",
+    "steps": [
+      {
+        "command": "goto",
+        "target": "https://cellphones.com.vn/",
+        "value": "",
+        "notes": "Mở trang chủ CellphoneS"
+      },
+      {
+        "command": "click",
+        "target": "button[type=\"button\"].border-none",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "button.items-center.justify-center.border-0.bg-gradient-to-r",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập số điện thoại của bạn\"]",
+        "value": "{{TEST_PHONE}}",
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "click",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assign",
+        "target": "input[placeholder=\"Nhập mật khẩu của bạn\"]",
+        "value": "{{TEST_PASSWORD}}",
+        "optional": false,
+        "private": true
+      },
+      {
+        "command": "click",
+        "target": [
+          {
+            "selector": "//button[contains(text(), \"Đăng nhập\")]"
+          },
+          {
+            "selector": "button[type=\"submit\"]"
+          }
+        ],
+        "value": null,
+        "optional": false,
+        "private": false
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "a[href*='smember'], .account-info, .user-info",
+        "value": "",
+        "notes": "Xác nhận đăng nhập thành công (hiển thị icon/link smember)"
+      },
+      {
+        "command": "click",
+        "target": "a[href*='profile'], .tab-profile",
+        "value": "",
+        "notes": "Mở Hồ sơ cá nhân"
+      },
+      {
+        "command": "assertElementPresent",
+        "target": "input[type='checkbox'][name*='newsletter'], .toggle-notify",
+        "value": "",
+        "notes": "Tùy chọn nhận thông báo ưu đãi hiển thị"
+      }
+    ]
+  }
+]

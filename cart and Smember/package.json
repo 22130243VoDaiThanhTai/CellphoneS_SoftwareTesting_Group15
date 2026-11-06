@@ -1,0 +1,17 @@
+{
+  "name": "cellphones-cart-smember-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright automation translated from Ghost Inspector and the 60-case CellphoneS workbook",
+  "scripts": {
+    "test": "playwright test",
+    "test:cart": "playwright test tests/cart.spec.js",
+    "test:smember": "playwright test tests/smember.spec.js",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "dotenv": "^16.4.7"
+  }
+}
