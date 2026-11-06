@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--project=hn-pc",
+    "--grep",
+    "PC-025|Bổ sung"
+  ],
+  "runId": "asm8-20261106181042-31102",
+  "node": "v24.20.0",
+  "cwd": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15",
+  "startedAt": "2026-11-06T11:10:42.953Z"
+}

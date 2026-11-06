@@ -1,0 +1,300 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node@24/24.20.0/bin/node",
+      "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/node_modules/@playwright/test/cli.js",
+      "test",
+      "--project=hn-sforum",
+      "--grep",
+      "SF-004"
+    ],
+    "configFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/playwright.config.cjs",
+    "rootDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-pc",
+        "name": "hn-pc",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/build-pc.spec.mjs"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-store",
+        "name": "hn-store",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/store.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-sforum",
+        "name": "hn-sforum",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/sforum.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "qh-search-filter",
+        "name": "qh-search-filter",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quanghuy/*.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tt-installment",
+        "name": "tt-installment",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/thanhtai/*.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "cp",
+        "name": "cp",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "rv",
+        "name": "rv",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "pd",
+        "name": "pd",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/22130275_TrinhQuangThong_ASM8.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "hn-sforum",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/hongnhan/sforum.spec.cjs",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "hn-sforum"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181408-32059",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181408-32059/junit.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181408-32059/results.json"
+        }
+      ],
+      [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/support/summary-reporter.cjs",
+        {
+          "reportDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181408-32059",
+          "runId": "asm8-20261106181408-32059"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "hongnhan/sforum.spec.cjs",
+      "file": "hongnhan/sforum.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-sforum",
+              "projectName": "hn-sforum",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1927,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T11:14:09.253Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts/hongnhan-sforum-SF-004-mở--d37ab--đối-chiếu-tiêu-đề-nội-dung-hn-sforum/attachments/execution-screenshot-b9619b2f0800ed6755bbe3e884dc93e0cf9446e6.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23b380fa68c04f8c832-0880ad9d46d717406746",
+          "file": "hongnhan/sforum.spec.cjs",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-06T11:14:08.925Z",
+    "duration": 3293.9260000000004,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

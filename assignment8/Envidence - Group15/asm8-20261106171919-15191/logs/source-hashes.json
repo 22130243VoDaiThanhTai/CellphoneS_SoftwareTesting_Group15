@@ -1,0 +1,74 @@
+[
+  {
+    "path": "package-lock.json",
+    "sha256": "3ce2b8fb0f60c3e6bd74756486a77b2daa6a642d41aa66e05827cbea698b7bd1"
+  },
+  {
+    "path": "package.json",
+    "sha256": "a68de68eb17b2171b553e20d4b233ac549d7b28ec1ac91cf4eec7077a2cb6201"
+  },
+  {
+    "path": "pages/hongnhan/build-pc.mjs",
+    "sha256": "2779b93c4849c14999616c7c5715353d31655264afc0061d26a9d19d25809fc0"
+  },
+  {
+    "path": "playwright.config.cjs",
+    "sha256": "325165a972519dc01743c29bb485085c5422cf0dd1c38daa2357bc16d713d457"
+  },
+  {
+    "path": "scripts/run-suite.cjs",
+    "sha256": "953299fea6a32e8b824bd314bfaebba2e8fc5d7e18f7de1337379a81b453a078"
+  },
+  {
+    "path": "sources.json",
+    "sha256": "a21c1efad81a1c335d691f187cd291c4d7ce44f37a420771f215c8aa8a2f7a9d"
+  },
+  {
+    "path": "support/fixtures.cjs",
+    "sha256": "90af03a2c9ff8c9b2f7f497e2eaa4f3b36546c793a97c087a572a8967eeb0e61"
+  },
+  {
+    "path": "support/summary-reporter.cjs",
+    "sha256": "6e329d368e6ca200a1a58504b7105e690e84917a23c4d612fdf4d4955df20c29"
+  },
+  {
+    "path": "tests/hongnhan/build-pc.spec.mjs",
+    "sha256": "a413a7e2b7e1c110f3882e5bc33244a89c9b20c746026456309e8d672fb53f82"
+  },
+  {
+    "path": "tests/hongnhan/sforum.spec.cjs",
+    "sha256": "a4b40b4ba8644ee366d2f37077a008548c27a82bfa967cab3bceb514dfc5d1db"
+  },
+  {
+    "path": "tests/hongnhan/store.spec.cjs",
+    "sha256": "09cbe00eca445d75b5413424320f80622140fc40d504eb05efcf68f39137b970"
+  },
+  {
+    "path": "tests/quanghuy/data/testcases.json",
+    "sha256": "e77662f1f56134330e4cefb3e86e6b5bdd77a60598962bf45a6989213d63d72b"
+  },
+  {
+    "path": "tests/quanghuy/filter.spec.js",
+    "sha256": "34c1bedbc64427b53b8b2cd2423a5e23ca662dce6aadfd26e7ca4943b58ee017"
+  },
+  {
+    "path": "tests/quanghuy/search.spec.js",
+    "sha256": "15ecf67019e20b5e12b82e50bcb5dfcd0e0d667ff06b90b64507f4c7f2350fe1"
+  },
+  {
+    "path": "tests/quanghuy/support/ghost-runner.js",
+    "sha256": "97f63cb505cff9b4f8b2635d551bda1f18269df8875f09e4a01659ec20d51866"
+  },
+  {
+    "path": "tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+    "sha256": "0952f8071a3966292186c0f8febcf17bda43de8bc3197a8362f6c121e9b7e1db"
+  },
+  {
+    "path": "tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+    "sha256": "a9791bc2318e67e71d48f7dddd9b2432089dc58da01c0bdb33f5f7b97084af24"
+  },
+  {
+    "path": "tests/thanhtai/installment.spec.cjs",
+    "sha256": "677268f0eeeb73352f130987f78d44c0f802806477ab104ca05a1eb4cd804b64"
+  }
+]

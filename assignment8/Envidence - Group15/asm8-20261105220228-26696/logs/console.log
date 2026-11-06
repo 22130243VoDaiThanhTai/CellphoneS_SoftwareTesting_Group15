@@ -1,0 +1,62 @@
+
+Running 9 tests using 1 worker
+
+(node:26930) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:56:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP (15.4s)
+  ✓  2 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:62:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay (32.9s)
+  ✓  3 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:63:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP (16.2s)
+(node:27327) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:120:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao (14.7s)
+  ✓  5 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:120:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao (14.9s)
+  ✓  6 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:120:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao (14.1s)
+  ✓  7 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:120:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_05 - nhánh rỗng 1 sao (14.3s)
+  ✘  8 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:121:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao (32.9s)
+(node:27767) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  9 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:122:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng (14.0s)
+
+
+  1) [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:121:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao 
+
+    TimeoutError: locator.click: Timeout 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Từ chối', exact: true })
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+        - locator handler has finished, waiting for getByRole('button', { name: 'Từ chối', exact: true }) to be hidden
+        - interception handler has finished, continuing
+
+
+      21 |   await expect(region).toBeVisible();
+      22 |   await expect(region).not.toContainText(/Đang tải/, { timeout: 30000 });
+    > 23 |   if (await reject.isVisible()) await reject.click();
+         |                                              ^
+      24 | }
+      25 | const title = page => page.locator('h1.box-compare__title');
+      26 | const columns = page => page.locator('.product-info--items > .product-info--item').filter({ has: page.locator('.product-name') });
+        at open (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:23:46)
+        at reviews (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:107:30)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:121:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/attachments/execution-screenshot-85489ebbc4dab49a4dcf21020aa8e1e6214bbef5.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105220228-26696/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:121:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao 
+  8 passed (3.0m)

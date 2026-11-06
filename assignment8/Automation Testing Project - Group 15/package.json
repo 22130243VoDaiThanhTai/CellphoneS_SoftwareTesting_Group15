@@ -1,0 +1,28 @@
+{
+  "name": "cellphones-group15-asm8-integration",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Assignment 8 integration: available Group 15 scripts and Hong Nhan PC/Store/Sforum",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node scripts/run-suite.cjs",
+    "test:pd": "node scripts/run-suite.cjs --project=pd",
+    "test:list": "playwright test --list",
+    "test:list:pd": "playwright test --list --project=pd",
+    "test:cp": "node scripts/run-suite.cjs --project=cp",
+    "test:rv": "node scripts/run-suite.cjs --project=rv",
+    "test:cp-rv": "node scripts/run-suite.cjs --project=cp --project=rv",
+    "test:hongnhan": "node scripts/run-suite.cjs --project=hn-pc --project=hn-store --project=hn-sforum",
+    "test:pc": "node scripts/run-suite.cjs --project=hn-pc",
+    "test:store": "node scripts/run-suite.cjs --project=hn-store",
+    "test:sforum": "node scripts/run-suite.cjs --project=hn-sforum",
+    "test:quanghuy": "node scripts/run-suite.cjs --project=qh-search-filter",
+    "test:thanhtai": "node scripts/run-suite.cjs --project=tt-installment"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

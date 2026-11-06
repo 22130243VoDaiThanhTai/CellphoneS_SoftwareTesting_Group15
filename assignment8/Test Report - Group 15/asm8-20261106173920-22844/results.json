@@ -1,0 +1,1355 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node@24/24.20.0/bin/node",
+      "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/node_modules/@playwright/test/cli.js",
+      "test",
+      "--project=hn-pc",
+      "--project=hn-store",
+      "--project=hn-sforum"
+    ],
+    "configFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/playwright.config.cjs",
+    "rootDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-pc",
+        "name": "hn-pc",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/build-pc.spec.mjs"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-store",
+        "name": "hn-store",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/store.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-sforum",
+        "name": "hn-sforum",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/sforum.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "qh-search-filter",
+        "name": "qh-search-filter",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quanghuy/*.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tt-installment",
+        "name": "tt-installment",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/thanhtai/*.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "cp",
+        "name": "cp",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "rv",
+        "name": "rv",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "pd",
+        "name": "pd",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/22130275_TrinhQuangThong_ASM8.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "hn-pc",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/hongnhan/build-pc.spec.mjs",
+        "timeout": 120000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "hn-pc"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "hn-store",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/hongnhan/store.spec.cjs",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "hn-store"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "hn-sforum",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/hongnhan/sforum.spec.cjs",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "hn-sforum"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106173920-22844",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106173920-22844/junit.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106173920-22844/results.json"
+        }
+      ],
+      [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/support/summary-reporter.cjs",
+        {
+          "reportDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106173920-22844",
+          "runId": "asm8-20261106173920-22844"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "hongnhan/build-pc.spec.mjs",
+      "file": "hongnhan/build-pc.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "PC-001 PC-002 PC-023: trang và trạng thái rỗng",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:39:21.084Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-001-P-ba48e-23-trang-và-trạng-thái-rỗng-hn-pc/attachments/execution-screenshot-fb0a74d2f95ac34d8d648ca0d0d9f648f0df0648.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-19e996a73100cf7849ad",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "PC-003: từ danh mục máy tính tới Build PC",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8676,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:39:35.710Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-003-từ-danh-mục-máy-tính-tới-Build-PC-hn-pc/attachments/execution-screenshot-352ef4b60a6e25bb7ae71f16923fc60ed3d64dfb.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-0b77562669696eb20f05",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "PC-004 PC-005: mở và đóng CPU không chọn",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5487,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:39:44.427Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-004-PC-005-mở-và-đóng-CPU-không-chọn-hn-pc/attachments/execution-screenshot-5c89de30410e4b10481e1ab8be13ddac268603a0.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-88de34a3d77eaf1a88dc",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "PC-006 PC-019: chọn CPU và tổng một linh kiện",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6519,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:39:49.966Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-006-P-56199-n-CPU-và-tổng-một-linh-kiện-hn-pc/attachments/execution-screenshot-864ba849f08820f68162495a9b6cc25f8b63f0d7.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-c6c3d431e5ef6c44931f",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "PC-007..014: chọn đủ tám nhóm cốt lõi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17741,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:39:56.511Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "products.json",
+                      "contentType": "application/json",
+                      "body": "WwogIHsKICAgICJuYW1lIjogIkNQVSBJbnRlbCBDb3JlIGk1IDEyNDAwRiIsCiAgICAicHJpY2UiOiA0MjkwMDAwCiAgfSwKICB7CiAgICAibmFtZSI6ICJNYWluYm9hcmQgQXN1cyBUVUYgR2FtaW5nIEI3NjBNLVBMVVMgV2lmaSBENCIsCiAgICAicHJpY2UiOiAzNzUwMDAwCiAgfSwKICB7CiAgICAibmFtZSI6ICJSQU0gUEMgS2luZ3N0b24gRnVyeSBCZWFzdCBERFI0IDMyMDBNSHogMTZHQiBLRjQzMkMxNkJCMS8xNldQIiwKICAgICJwcmljZSI6IDM5OTAwMDAKICB9LAogIHsKICAgICJuYW1lIjogIuG7lCBj4bupbmcgU1NEIEtpbmdzdG9uIE5WMyBQQ0llIDQuMCBOVk1lIDFUQiIsCiAgICAicHJpY2UiOiA0NDkwMDAwCiAgfSwKICB7CiAgICAibmFtZSI6ICJWR0EgTVNJIEdlZm9yY2UgUlRYIDUwOTAgMzJHIEdhbWluZyBUcmlvIE9DIiwKICAgICJwcmljZSI6IDIxOTAwMDAwMAogIH0sCiAgewogICAgIm5hbWUiOiAiTmd14buTbiBtw6F5IHTDrW5oIEpldGVrIEVsaXRlIFY2IEUzNTAgMzUwVyIsCiAgICAicHJpY2UiOiA0MDAwMDAKICB9LAogIHsKICAgICJuYW1lIjogIkNhc2UgbcOheSB0w61uaCBKZXRlayBFTjE2IChBVFgpIiwKICAgICJwcmljZSI6IDI1MDAwMAogIH0sCiAgewogICAgIm5hbWUiOiAiVOG6o24gbmhp4buHdCBraMOtIFhpZ21hdGVrIEFLNCBEaWdpdGFsIiwKICAgICJwcmljZSI6IDY1MDAwMAogIH0KXQ=="
+                    },
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-007-014-chọn-đủ-tám-nhóm-cốt-lõi-hn-pc/attachments/execution-screenshot-c5db4247b15b35fee1fb1957a0cfed3edf1b0bd1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-d8538cc5e44ee2cab41a",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "PC-015 PC-021: thay CPU và tính chênh lệch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8537,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:40:14.274Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-015-PC-021-thay-CPU-và-tính-chênh-lệch-hn-pc/attachments/execution-screenshot-008e0dc3d4a8b41c1d4458405956fd9b0cde2e3f.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-c1c5d710402c72e960b7",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "PC-016 PC-017 PC-022: thay/xóa RAM giữ SSD",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11228,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:40:22.841Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-016-PC-017-PC-022-thay-xóa-RAM-giữ-SSD-hn-pc/attachments/execution-screenshot-b2cb792ae09d16a32c495519e328b6ce4ed6f52b.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-76dd5b828edcbec2bcd6",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "PC-018 PC-020: ba linh kiện, cộng giá và reset",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10789,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:40:34.127Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-018-P-5db1f-linh-kiện-cộng-giá-và-reset-hn-pc/attachments/execution-screenshot-677c1290b78ccf1f39651a00f41ec222bc292d80.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-dd212ce1b5c267e92448",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 70,
+          "column": 1
+        },
+        {
+          "title": "PC-025 PC-026: tìm CPU và chuỗi không khớp",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 17559,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first()\nExpected: visible\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.product-info').filter({ has: locator('.button__select') }).first() with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first()\nExpected: visible\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.product-info').filter({ has: locator('.button__select') }).first() with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first()\u001b[22m\n\n    at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:88:34",
+                    "location": {
+                      "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs",
+                      "column": 34,
+                      "line": 88
+                    },
+                    "snippet": "  86 |   await expect(pc.cards).toHaveCount(0);\n  87 |   await pc.search.fill('');\n> 88 |   await expect(pc.cards.first()).toBeVisible();\n     |                                  ^\n  89 | });\n  90 |\n  91 | test('PC-030: nhấp đúp không thêm CPU trùng', async ({page}) => {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs",
+                        "column": 34,
+                        "line": 88
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first()\nExpected: visible\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.product-info').filter({ has: locator('.button__select') }).first() with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first()\u001b[22m\n\n\n  86 |   await expect(pc.cards).toHaveCount(0);\n  87 |   await pc.search.fill('');\n> 88 |   await expect(pc.cards.first()).toBeVisible();\n     |                                  ^\n  89 | });\n  90 |\n  91 | test('PC-030: nhấp đúp không thêm CPU trùng', async ({page}) => {\n    at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:88:34"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:40:44.968Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png"
+                    },
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-f6b1b89d0e6daec84f8d9f899ae22f402702c487.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs",
+                    "column": 34,
+                    "line": 88
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-ab5b85154434ca1f111b",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "PC-030: nhấp đúp không thêm CPU trùng",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10570,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:41:04.945Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-030-nhấp-đúp-không-thêm-CPU-trùng-hn-pc/attachments/execution-screenshot-3460f1f85c4c0a65e30f6cd19a30d1f71dc8de36.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-118f1f46627a9af8a48d",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 91,
+          "column": 1
+        },
+        {
+          "title": "Bổ sung: tăng/giảm số lượng và hủy xóa tại 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10900,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:41:16.491Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-c9b5a9877a5472f0fef1335641ec6b81c31b8c12.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-dc637910bbbd5a4ba394",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 99,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "hongnhan/store.spec.cjs",
+      "file": "hongnhan/store.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ST-001: mở trang và đối chiếu số cửa hàng hiển thị",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-store",
+              "projectName": "hn-store",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11889,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:41:28.801Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-001-mở-t-b467c--chiếu-số-cửa-hàng-hiển-thị-hn-store/attachments/execution-screenshot-8b2a62dee4b30ca0d2f75a9e0e2097cc48377b62.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f8b79f1896792f7c6a3-63c065bd2078ff7ca150",
+          "file": "hongnhan/store.spec.cjs",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "ST-002: lọc Hồ Chí Minh chỉ hiển thị địa chỉ cùng tỉnh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-store",
+              "projectName": "hn-store",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12979,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:41:41.619Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-002-lọc--5112b--hiển-thị-địa-chỉ-cùng-tỉnh-hn-store/attachments/execution-screenshot-0de1b5e4d30f03c6f860a9da467ebb5fd10866a3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f8b79f1896792f7c6a3-902c5405ca260b725b30",
+          "file": "hongnhan/store.spec.cjs",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "ST-003: lọc Quận 1 và đối chiếu địa chỉ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-store",
+              "projectName": "hn-store",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10732,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:41:54.659Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-003-lọc-Quận-1-và-đối-chiếu-địa-chỉ-hn-store/attachments/execution-screenshot-7ce8b3587901d37a18b4bd1db659253c369161ce.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f8b79f1896792f7c6a3-d3d8ace461cbf4d2057b",
+          "file": "hongnhan/store.spec.cjs",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "ST-004: đổi tỉnh sang Hà Nội và reset quận",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-store",
+              "projectName": "hn-store",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:42:05.443Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-004-đổi-tỉnh-sang-Hà-Nội-và-reset-quận-hn-store/attachments/execution-screenshot-15ea37b1b4dabf09d0fe065757de4aacebe4910c.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f8b79f1896792f7c6a3-82b1b8f0070dbb35b32e",
+          "file": "hongnhan/store.spec.cjs",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "ST-005: cửa hàng có địa chỉ, giờ mở cửa và số điện thoại hợp lệ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-store",
+              "projectName": "hn-store",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20416,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:42:16.047Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-005-cửa--a33b8-cửa-và-số-điện-thoại-hợp-lệ-hn-store/attachments/execution-screenshot-1bfeb3fb1b62a97b6738e82ee8f16b1fba61cf49.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f8b79f1896792f7c6a3-ed23073532b491c0b104",
+          "file": "hongnhan/store.spec.cjs",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "ST-006: liên kết chỉ đường có đích Google Maps hợp lệ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-store",
+              "projectName": "hn-store",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10212,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:42:36.527Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-006-liên-77e2d--có-đích-Google-Maps-hợp-lệ-hn-store/attachments/execution-screenshot-4093a8b1f69960fa84712d95c19faacb1e8d34a4.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6f8b79f1896792f7c6a3-fceb1cc1df7bc9fcf466",
+          "file": "hongnhan/store.spec.cjs",
+          "line": 47,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "hongnhan/sforum.spec.cjs",
+      "file": "hongnhan/sforum.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "SF-001: trang chủ có logo và danh sách bài viết",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-sforum",
+              "projectName": "hn-sforum",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2473,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:42:48.022Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-001-tra-13156--logo-và-danh-sách-bài-viết-hn-sforum/attachments/execution-screenshot-9c62d9539e7d0c64ff77d796150f70625293c9fe.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23b380fa68c04f8c832-070c19f3aec7f2c7292c",
+          "file": "hongnhan/sforum.spec.cjs",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "SF-002: tìm iPhone bằng Enter và kiểm tra kết quả liên quan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-sforum",
+              "projectName": "hn-sforum",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4627,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:42:51.519Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-002-tìm-24dd4--kiểm-tra-kết-quả-liên-quan-hn-sforum/attachments/execution-screenshot-a10d585f1d5e1c9625f81d1ba91e9403f6e10a07.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23b380fa68c04f8c832-30fc8fadd5e097a7a4eb",
+          "file": "hongnhan/sforum.spec.cjs",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "SF-003: từ khóa không tồn tại hiển thị trạng thái rỗng",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-sforum",
+              "projectName": "hn-sforum",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 26988,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/sforum\\/search\\?tim_kiem=zzx_no_article_987654/i\u001b[39m\nReceived string:  \u001b[31m\"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 15000ms\u001b[22m\n\u001b[2m    32 × locator resolved to <html class=\"\" lang=\"vi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/sforum\\/search\\?tim_kiem=zzx_no_article_987654/i\u001b[39m\nReceived string:  \u001b[31m\"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 15000ms\u001b[22m\n\u001b[2m    32 × locator resolved to <html class=\"\" lang=\"vi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[22m\n\n    at find (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs:6:115)\n    at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs:21:3",
+                    "location": {
+                      "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs",
+                      "column": 115,
+                      "line": 6
+                    },
+                    "snippet": "  4 | const articles=page=>page.locator('main a').filter({has:page.locator('h3')});\n  5 | async function open(page){await assertAvailable(page,await page.goto(HOME,{waitUntil:'domcontentloaded'}));await expect(search(page)).toBeVisible();await expect(page.getByRole('link',{name:'Tin công nghệ',exact:true}).first()).toBeVisible({timeout:30000});}\n> 6 | async function find(page,term){await search(page).fill(term);await search(page).press('Enter');await expect(page).toHaveURL(new RegExp('/sforum/search\\\\?tim_kiem='+encodeURIComponent(term),'i'));}\n    |                                                                                                                   ^\n  7 | test.beforeEach(async ({page})=>open(page));\n  8 | test('SF-001: trang chủ có logo và danh sách bài viết',async ({page})=>{\n  9 |   await expect(page.locator('#logo-header')).toBeVisible();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs",
+                        "column": 115,
+                        "line": 6
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/sforum\\/search\\?tim_kiem=zzx_no_article_987654/i\u001b[39m\nReceived string:  \u001b[31m\"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 15000ms\u001b[22m\n\u001b[2m    32 × locator resolved to <html class=\"\" lang=\"vi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[22m\n\n\n  4 | const articles=page=>page.locator('main a').filter({has:page.locator('h3')});\n  5 | async function open(page){await assertAvailable(page,await page.goto(HOME,{waitUntil:'domcontentloaded'}));await expect(search(page)).toBeVisible();await expect(page.getByRole('link',{name:'Tin công nghệ',exact:true}).first()).toBeVisible({timeout:30000});}\n> 6 | async function find(page,term){await search(page).fill(term);await search(page).press('Enter');await expect(page).toHaveURL(new RegExp('/sforum/search\\\\?tim_kiem='+encodeURIComponent(term),'i'));}\n    |                                                                                                                   ^\n  7 | test.beforeEach(async ({page})=>open(page));\n  8 | test('SF-001: trang chủ có logo và danh sách bài viết',async ({page})=>{\n  9 |   await expect(page.locator('#logo-header')).toBeVisible();\n    at find (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs:6:115)\n    at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs:21:3"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:42:56.177Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/test-failed-1.png"
+                    },
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/attachments/execution-screenshot-93e7d138fb56e3d880f794b2254cfc4973f1a070.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs",
+                    "column": 115,
+                    "line": 6
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e23b380fa68c04f8c832-c2b8b25952e6cb0ff92a",
+          "file": "hongnhan/sforum.spec.cjs",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-sforum",
+              "projectName": "hn-sforum",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4636,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:43:26.378Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-004-mở--d37ab--đối-chiếu-tiêu-đề-nội-dung-hn-sforum/attachments/execution-screenshot-cc5e897acfdcc54e1d1d1e9822ee7da8b1e3b290.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23b380fa68c04f8c832-0880ad9d46d717406746",
+          "file": "hongnhan/sforum.spec.cjs",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "SF-005: điều hướng danh mục Tin công nghệ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-sforum",
+              "projectName": "hn-sforum",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7408,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:43:32.605Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-005-điều-hướng-danh-mục-Tin-công-nghệ-hn-sforum/attachments/execution-screenshot-281cb1dcb50a9844465172e5f8f688f29d22bd85.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23b380fa68c04f8c832-338866e0a01878662e28",
+          "file": "hongnhan/sforum.spec.cjs",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "SF-006: logo đưa từ kết quả tìm kiếm về trang chủ Sforum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-sforum",
+              "projectName": "hn-sforum",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6698,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T10:43:40.048Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-006-log-634cf-ìm-kiếm-về-trang-chủ-Sforum-hn-sforum/attachments/execution-screenshot-a2c5180ec8d0dcf51ff90c312b475b5bb3ad0363.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e23b380fa68c04f8c832-ad12547f8fdec3694dda",
+          "file": "hongnhan/sforum.spec.cjs",
+          "line": 44,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-06T10:39:20.585Z",
+    "duration": 266421.157,
+    "expected": 21,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

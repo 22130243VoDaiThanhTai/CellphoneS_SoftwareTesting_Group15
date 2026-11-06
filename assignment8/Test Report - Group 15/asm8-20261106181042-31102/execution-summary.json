@@ -1,0 +1,89 @@
+{
+  "runId": "asm8-20261106181042-31102",
+  "startedAt": "2026-11-06T11:10:43.324Z",
+  "finishedAt": "2026-11-06T11:11:16.099Z",
+  "status": "failed",
+  "durationMs": 32572.924,
+  "discovered": 2,
+  "executed": 2,
+  "counts": {
+    "passed": 1,
+    "failed": 1,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "notRun": 0,
+  "modules": [
+    "hn-pc"
+  ],
+  "flaky": [],
+  "records": [
+    {
+      "id": "c80756c28a32c3ec7e7b-ab5b85154434ca1f111b",
+      "module": "hn-pc",
+      "title": "PC-025 PC-026: tìm CPU và chuỗi không khớp",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 18878,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\nExpected substring: \u001b[32m\"CPU Intel Core i\u001b[7m5\u001b[27m 1\u001b[7m2\u001b[27m400F\"\u001b[39m\nReceived string:    \u001b[31m\"CPU Intel Core i\u001b[7m7\u001b[27m 14\u001b[7m7\u001b[27m00\u001b[7mK\u001b[27mF\"\u001b[39m\nTimeout: 8000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\u001b[22m\n\u001b[2m    19 × locator resolved to <h3>CPU Intel Core i7 14700KF</h3>\u001b[22m\n\u001b[2m       - unexpected value \"CPU Intel Core i7 14700KF\"\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png",
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-9b70adb2ed24830b6923326d8f878bbb14a91d94.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-dc637910bbbd5a4ba394",
+      "module": "hn-pc",
+      "title": "Bổ sung: tăng/giảm số lượng và hủy xóa tại 1",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10044,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-d8bf606e1d53402a49e35f64fce7d31e6ad21fd1.png"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "c80756c28a32c3ec7e7b-ab5b85154434ca1f111b",
+      "module": "hn-pc",
+      "title": "PC-025 PC-026: tìm CPU và chuỗi không khớp",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 18878,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\nExpected substring: \u001b[32m\"CPU Intel Core i\u001b[7m5\u001b[27m 1\u001b[7m2\u001b[27m400F\"\u001b[39m\nReceived string:    \u001b[31m\"CPU Intel Core i\u001b[7m7\u001b[27m 14\u001b[7m7\u001b[27m00\u001b[7mK\u001b[27mF\"\u001b[39m\nTimeout: 8000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\u001b[22m\n\u001b[2m    19 × locator resolved to <h3>CPU Intel Core i7 14700KF</h3>\u001b[22m\n\u001b[2m       - unexpected value \"CPU Intel Core i7 14700KF\"\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png",
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-9b70adb2ed24830b6923326d8f878bbb14a91d94.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-dc637910bbbd5a4ba394",
+      "module": "hn-pc",
+      "title": "Bổ sung: tăng/giảm số lượng và hủy xóa tại 1",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10044,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-d8bf606e1d53402a49e35f64fce7d31e6ad21fd1.png"
+      ]
+    }
+  ],
+  "runnerErrors": [],
+  "scope": "Các module có trong project và được chọn ở lượt này. QuangHuy/TienVinh dùng chung source trùng blob, tích hợp một lần. QuangHuy có case thiếu assertion/tài khoản được ghi rõ. Không đại diện toàn bộ chức năng của mọi thành viên."
+}

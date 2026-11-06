@@ -1,0 +1,379 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node@24/24.20.0/bin/node",
+      "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/node_modules/@playwright/test/cli.js",
+      "test",
+      "--project=hn-pc",
+      "--grep",
+      "PC-025|Bổ sung"
+    ],
+    "configFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/playwright.config.cjs",
+    "rootDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-pc",
+        "name": "hn-pc",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/build-pc.spec.mjs"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-store",
+        "name": "hn-store",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/store.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "hn-sforum",
+        "name": "hn-sforum",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/hongnhan/sforum.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "qh-search-filter",
+        "name": "qh-search-filter",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quanghuy/*.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tt-installment",
+        "name": "tt-installment",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/thanhtai/*.spec.cjs"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "cp",
+        "name": "cp",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "rv",
+        "name": "rv",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*_CP_RV.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "pd",
+        "name": "pd",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/22130275_TrinhQuangThong_ASM8.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "hn-pc",
+        "testDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/hongnhan/build-pc.spec.mjs",
+        "timeout": 120000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "hn-pc"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181042-31102",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181042-31102/junit.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181042-31102/results.json"
+        }
+      ],
+      [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/support/summary-reporter.cjs",
+        {
+          "reportDir": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Test Report - Group 15/asm8-20261106181042-31102",
+          "runId": "asm8-20261106181042-31102"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "hongnhan/build-pc.spec.mjs",
+      "file": "hongnhan/build-pc.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "PC-025 PC-026: tìm CPU và chuỗi không khớp",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 18878,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\nExpected substring: \u001b[32m\"CPU Intel Core i\u001b[7m5\u001b[27m 1\u001b[7m2\u001b[27m400F\"\u001b[39m\nReceived string:    \u001b[31m\"CPU Intel Core i\u001b[7m7\u001b[27m 14\u001b[7m7\u001b[27m00\u001b[7mK\u001b[27mF\"\u001b[39m\nTimeout: 8000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\u001b[22m\n\u001b[2m    19 × locator resolved to <h3>CPU Intel Core i7 14700KF</h3>\u001b[22m\n\u001b[2m       - unexpected value \"CPU Intel Core i7 14700KF\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\nExpected substring: \u001b[32m\"CPU Intel Core i\u001b[7m5\u001b[27m 1\u001b[7m2\u001b[27m400F\"\u001b[39m\nReceived string:    \u001b[31m\"CPU Intel Core i\u001b[7m7\u001b[27m 14\u001b[7m7\u001b[27m00\u001b[7mK\u001b[27mF\"\u001b[39m\nTimeout: 8000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\u001b[22m\n\u001b[2m    19 × locator resolved to <h3>CPU Intel Core i7 14700KF</h3>\u001b[22m\n\u001b[2m       - unexpected value \"CPU Intel Core i7 14700KF\"\u001b[22m\n\n    at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:94:67",
+                    "location": {
+                      "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs",
+                      "column": 67,
+                      "line": 94
+                    },
+                    "snippet": "  92 |   }\n  93 |   await searchAndWait(name);\n> 94 |   await expect(pc.cards.first().getByRole('heading', {level: 3})).toContainText(name);\n     |                                                                   ^\n  95 |   await searchAndWait('zzx_no_product_987654');\n  96 |   await expect(page.getByText('Không tìm thấy sản phẩm', {exact: true})).toBeVisible();\n  97 |   await expect(pc.cards).toHaveCount(0);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs",
+                        "column": 67,
+                        "line": 94
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\nExpected substring: \u001b[32m\"CPU Intel Core i\u001b[7m5\u001b[27m 1\u001b[7m2\u001b[27m400F\"\u001b[39m\nReceived string:    \u001b[31m\"CPU Intel Core i\u001b[7m7\u001b[27m 14\u001b[7m7\u001b[27m00\u001b[7mK\u001b[27mF\"\u001b[39m\nTimeout: 8000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })\u001b[22m\n\u001b[2m    19 × locator resolved to <h3>CPU Intel Core i7 14700KF</h3>\u001b[22m\n\u001b[2m       - unexpected value \"CPU Intel Core i7 14700KF\"\u001b[22m\n\n\n  92 |   }\n  93 |   await searchAndWait(name);\n> 94 |   await expect(pc.cards.first().getByRole('heading', {level: 3})).toContainText(name);\n     |                                                                   ^\n  95 |   await searchAndWait('zzx_no_product_987654');\n  96 |   await expect(page.getByText('Không tìm thấy sản phẩm', {exact: true})).toBeVisible();\n  97 |   await expect(pc.cards).toHaveCount(0);\n    at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:94:67"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T11:10:43.626Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png"
+                    },
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-9b70adb2ed24830b6923326d8f878bbb14a91d94.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs",
+                    "column": 67,
+                    "line": 94
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-ab5b85154434ca1f111b",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "Bổ sung: tăng/giảm số lượng và hủy xóa tại 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "hn-pc",
+              "projectName": "hn-pc",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10044,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-06T11:11:05.207Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "execution-screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-d8bf606e1d53402a49e35f64fce7d31e6ad21fd1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c80756c28a32c3ec7e7b-dc637910bbbd5a4ba394",
+          "file": "hongnhan/build-pc.spec.mjs",
+          "line": 110,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-06T11:10:43.301Z",
+    "duration": 32572.924,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

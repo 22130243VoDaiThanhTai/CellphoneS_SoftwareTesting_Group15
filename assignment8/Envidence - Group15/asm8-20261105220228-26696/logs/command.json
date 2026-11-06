@@ -1,0 +1,15 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--project=cp",
+    "--project=rv",
+    "--grep",
+    "LIST_(Add_01|Limit_01|Duplicate_01)|FILTER_(Select_0[23456]|Clear_01)"
+  ],
+  "runId": "asm8-20261105220228-26696",
+  "node": "v24.22.1",
+  "cwd": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15",
+  "startedAt": "2026-11-05T15:02:28.132Z"
+}

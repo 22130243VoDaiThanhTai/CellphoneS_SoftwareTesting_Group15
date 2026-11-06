@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "--project=hn-pc",
+    "--project=hn-store",
+    "--project=hn-sforum"
+  ],
+  "runId": "asm8-20261106171919-15191",
+  "node": "v24.20.0",
+  "cwd": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15",
+  "startedAt": "2026-11-06T10:19:19.761Z"
+}

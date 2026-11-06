@@ -1,0 +1,685 @@
+{
+  "runId": "asm8-20261106173920-22844",
+  "startedAt": "2026-11-06T10:39:20.657Z",
+  "finishedAt": "2026-11-06T10:43:47.450Z",
+  "status": "failed",
+  "durationMs": 266421.157,
+  "discovered": 23,
+  "executed": 23,
+  "counts": {
+    "passed": 21,
+    "failed": 2,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "notRun": 0,
+  "modules": [
+    "hn-pc",
+    "hn-store",
+    "hn-sforum"
+  ],
+  "flaky": [],
+  "records": [
+    {
+      "id": "c80756c28a32c3ec7e7b-19e996a73100cf7849ad",
+      "module": "hn-pc",
+      "title": "PC-001 PC-002 PC-023: trang và trạng thái rỗng",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 12723,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-001-P-ba48e-23-trang-và-trạng-thái-rỗng-hn-pc/attachments/execution-screenshot-fb0a74d2f95ac34d8d648ca0d0d9f648f0df0648.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-0b77562669696eb20f05",
+      "module": "hn-pc",
+      "title": "PC-003: từ danh mục máy tính tới Build PC",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 8676,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-003-từ-danh-mục-máy-tính-tới-Build-PC-hn-pc/attachments/execution-screenshot-352ef4b60a6e25bb7ae71f16923fc60ed3d64dfb.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-88de34a3d77eaf1a88dc",
+      "module": "hn-pc",
+      "title": "PC-004 PC-005: mở và đóng CPU không chọn",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 5487,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-004-PC-005-mở-và-đóng-CPU-không-chọn-hn-pc/attachments/execution-screenshot-5c89de30410e4b10481e1ab8be13ddac268603a0.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-c6c3d431e5ef6c44931f",
+      "module": "hn-pc",
+      "title": "PC-006 PC-019: chọn CPU và tổng một linh kiện",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 6519,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-006-P-56199-n-CPU-và-tổng-một-linh-kiện-hn-pc/attachments/execution-screenshot-864ba849f08820f68162495a9b6cc25f8b63f0d7.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-d8538cc5e44ee2cab41a",
+      "module": "hn-pc",
+      "title": "PC-007..014: chọn đủ tám nhóm cốt lõi",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 17741,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-007-014-chọn-đủ-tám-nhóm-cốt-lõi-hn-pc/attachments/execution-screenshot-c5db4247b15b35fee1fb1957a0cfed3edf1b0bd1.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-c1c5d710402c72e960b7",
+      "module": "hn-pc",
+      "title": "PC-015 PC-021: thay CPU và tính chênh lệch",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 8537,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-015-PC-021-thay-CPU-và-tính-chênh-lệch-hn-pc/attachments/execution-screenshot-008e0dc3d4a8b41c1d4458405956fd9b0cde2e3f.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-76dd5b828edcbec2bcd6",
+      "module": "hn-pc",
+      "title": "PC-016 PC-017 PC-022: thay/xóa RAM giữ SSD",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 11228,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-016-PC-017-PC-022-thay-xóa-RAM-giữ-SSD-hn-pc/attachments/execution-screenshot-b2cb792ae09d16a32c495519e328b6ce4ed6f52b.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-dd212ce1b5c267e92448",
+      "module": "hn-pc",
+      "title": "PC-018 PC-020: ba linh kiện, cộng giá và reset",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10789,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-018-P-5db1f-linh-kiện-cộng-giá-và-reset-hn-pc/attachments/execution-screenshot-677c1290b78ccf1f39651a00f41ec222bc292d80.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-ab5b85154434ca1f111b",
+      "module": "hn-pc",
+      "title": "PC-025 PC-026: tìm CPU và chuỗi không khớp",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 17559,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first()\nExpected: visible\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.product-info').filter({ has: locator('.button__select') }).first() with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first()\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png",
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-f6b1b89d0e6daec84f8d9f899ae22f402702c487.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-118f1f46627a9af8a48d",
+      "module": "hn-pc",
+      "title": "PC-030: nhấp đúp không thêm CPU trùng",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10570,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-030-nhấp-đúp-không-thêm-CPU-trùng-hn-pc/attachments/execution-screenshot-3460f1f85c4c0a65e30f6cd19a30d1f71dc8de36.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-dc637910bbbd5a4ba394",
+      "module": "hn-pc",
+      "title": "Bổ sung: tăng/giảm số lượng và hủy xóa tại 1",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10900,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-c9b5a9877a5472f0fef1335641ec6b81c31b8c12.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-63c065bd2078ff7ca150",
+      "module": "hn-store",
+      "title": "ST-001: mở trang và đối chiếu số cửa hàng hiển thị",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 11889,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-001-mở-t-b467c--chiếu-số-cửa-hàng-hiển-thị-hn-store/attachments/execution-screenshot-8b2a62dee4b30ca0d2f75a9e0e2097cc48377b62.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-902c5405ca260b725b30",
+      "module": "hn-store",
+      "title": "ST-002: lọc Hồ Chí Minh chỉ hiển thị địa chỉ cùng tỉnh",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 12979,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-002-lọc--5112b--hiển-thị-địa-chỉ-cùng-tỉnh-hn-store/attachments/execution-screenshot-0de1b5e4d30f03c6f860a9da467ebb5fd10866a3.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-d3d8ace461cbf4d2057b",
+      "module": "hn-store",
+      "title": "ST-003: lọc Quận 1 và đối chiếu địa chỉ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10732,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-003-lọc-Quận-1-và-đối-chiếu-địa-chỉ-hn-store/attachments/execution-screenshot-7ce8b3587901d37a18b4bd1db659253c369161ce.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-82b1b8f0070dbb35b32e",
+      "module": "hn-store",
+      "title": "ST-004: đổi tỉnh sang Hà Nội và reset quận",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10543,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-004-đổi-tỉnh-sang-Hà-Nội-và-reset-quận-hn-store/attachments/execution-screenshot-15ea37b1b4dabf09d0fe065757de4aacebe4910c.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-ed23073532b491c0b104",
+      "module": "hn-store",
+      "title": "ST-005: cửa hàng có địa chỉ, giờ mở cửa và số điện thoại hợp lệ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 20416,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-005-cửa--a33b8-cửa-và-số-điện-thoại-hợp-lệ-hn-store/attachments/execution-screenshot-1bfeb3fb1b62a97b6738e82ee8f16b1fba61cf49.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-fceb1cc1df7bc9fcf466",
+      "module": "hn-store",
+      "title": "ST-006: liên kết chỉ đường có đích Google Maps hợp lệ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10212,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-006-liên-77e2d--có-đích-Google-Maps-hợp-lệ-hn-store/attachments/execution-screenshot-4093a8b1f69960fa84712d95c19faacb1e8d34a4.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-070c19f3aec7f2c7292c",
+      "module": "hn-sforum",
+      "title": "SF-001: trang chủ có logo và danh sách bài viết",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 2473,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-001-tra-13156--logo-và-danh-sách-bài-viết-hn-sforum/attachments/execution-screenshot-9c62d9539e7d0c64ff77d796150f70625293c9fe.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-30fc8fadd5e097a7a4eb",
+      "module": "hn-sforum",
+      "title": "SF-002: tìm iPhone bằng Enter và kiểm tra kết quả liên quan",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 4627,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-002-tìm-24dd4--kiểm-tra-kết-quả-liên-quan-hn-sforum/attachments/execution-screenshot-a10d585f1d5e1c9625f81d1ba91e9403f6e10a07.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-c2b8b25952e6cb0ff92a",
+      "module": "hn-sforum",
+      "title": "SF-003: từ khóa không tồn tại hiển thị trạng thái rỗng",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 26988,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/sforum\\/search\\?tim_kiem=zzx_no_article_987654/i\u001b[39m\nReceived string:  \u001b[31m\"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 15000ms\u001b[22m\n\u001b[2m    32 × locator resolved to <html class=\"\" lang=\"vi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/test-failed-1.png",
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/attachments/execution-screenshot-93e7d138fb56e3d880f794b2254cfc4973f1a070.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-0880ad9d46d717406746",
+      "module": "hn-sforum",
+      "title": "SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 4636,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-004-mở--d37ab--đối-chiếu-tiêu-đề-nội-dung-hn-sforum/attachments/execution-screenshot-cc5e897acfdcc54e1d1d1e9822ee7da8b1e3b290.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-338866e0a01878662e28",
+      "module": "hn-sforum",
+      "title": "SF-005: điều hướng danh mục Tin công nghệ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 7408,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-005-điều-hướng-danh-mục-Tin-công-nghệ-hn-sforum/attachments/execution-screenshot-281cb1dcb50a9844465172e5f8f688f29d22bd85.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-ad12547f8fdec3694dda",
+      "module": "hn-sforum",
+      "title": "SF-006: logo đưa từ kết quả tìm kiếm về trang chủ Sforum",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 6698,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-006-log-634cf-ìm-kiếm-về-trang-chủ-Sforum-hn-sforum/attachments/execution-screenshot-a2c5180ec8d0dcf51ff90c312b475b5bb3ad0363.png"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "c80756c28a32c3ec7e7b-19e996a73100cf7849ad",
+      "module": "hn-pc",
+      "title": "PC-001 PC-002 PC-023: trang và trạng thái rỗng",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 12723,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-001-P-ba48e-23-trang-và-trạng-thái-rỗng-hn-pc/attachments/execution-screenshot-fb0a74d2f95ac34d8d648ca0d0d9f648f0df0648.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-0b77562669696eb20f05",
+      "module": "hn-pc",
+      "title": "PC-003: từ danh mục máy tính tới Build PC",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 8676,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-003-từ-danh-mục-máy-tính-tới-Build-PC-hn-pc/attachments/execution-screenshot-352ef4b60a6e25bb7ae71f16923fc60ed3d64dfb.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-88de34a3d77eaf1a88dc",
+      "module": "hn-pc",
+      "title": "PC-004 PC-005: mở và đóng CPU không chọn",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 5487,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-004-PC-005-mở-và-đóng-CPU-không-chọn-hn-pc/attachments/execution-screenshot-5c89de30410e4b10481e1ab8be13ddac268603a0.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-c6c3d431e5ef6c44931f",
+      "module": "hn-pc",
+      "title": "PC-006 PC-019: chọn CPU và tổng một linh kiện",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 6519,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-006-P-56199-n-CPU-và-tổng-một-linh-kiện-hn-pc/attachments/execution-screenshot-864ba849f08820f68162495a9b6cc25f8b63f0d7.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-d8538cc5e44ee2cab41a",
+      "module": "hn-pc",
+      "title": "PC-007..014: chọn đủ tám nhóm cốt lõi",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 17741,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-007-014-chọn-đủ-tám-nhóm-cốt-lõi-hn-pc/attachments/execution-screenshot-c5db4247b15b35fee1fb1957a0cfed3edf1b0bd1.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-c1c5d710402c72e960b7",
+      "module": "hn-pc",
+      "title": "PC-015 PC-021: thay CPU và tính chênh lệch",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 8537,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-015-PC-021-thay-CPU-và-tính-chênh-lệch-hn-pc/attachments/execution-screenshot-008e0dc3d4a8b41c1d4458405956fd9b0cde2e3f.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-76dd5b828edcbec2bcd6",
+      "module": "hn-pc",
+      "title": "PC-016 PC-017 PC-022: thay/xóa RAM giữ SSD",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 11228,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-016-PC-017-PC-022-thay-xóa-RAM-giữ-SSD-hn-pc/attachments/execution-screenshot-b2cb792ae09d16a32c495519e328b6ce4ed6f52b.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-dd212ce1b5c267e92448",
+      "module": "hn-pc",
+      "title": "PC-018 PC-020: ba linh kiện, cộng giá và reset",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10789,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-018-P-5db1f-linh-kiện-cộng-giá-và-reset-hn-pc/attachments/execution-screenshot-677c1290b78ccf1f39651a00f41ec222bc292d80.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-ab5b85154434ca1f111b",
+      "module": "hn-pc",
+      "title": "PC-025 PC-026: tìm CPU và chuỗi không khớp",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 17559,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-info').filter({ has: locator('.button__select') }).first()\nExpected: visible\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.product-info').filter({ has: locator('.button__select') }).first() with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first()\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png",
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-f6b1b89d0e6daec84f8d9f899ae22f402702c487.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-118f1f46627a9af8a48d",
+      "module": "hn-pc",
+      "title": "PC-030: nhấp đúp không thêm CPU trùng",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10570,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-030-nhấp-đúp-không-thêm-CPU-trùng-hn-pc/attachments/execution-screenshot-3460f1f85c4c0a65e30f6cd19a30d1f71dc8de36.png"
+      ]
+    },
+    {
+      "id": "c80756c28a32c3ec7e7b-dc637910bbbd5a4ba394",
+      "module": "hn-pc",
+      "title": "Bổ sung: tăng/giảm số lượng và hủy xóa tại 1",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10900,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-c9b5a9877a5472f0fef1335641ec6b81c31b8c12.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-63c065bd2078ff7ca150",
+      "module": "hn-store",
+      "title": "ST-001: mở trang và đối chiếu số cửa hàng hiển thị",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 11889,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-001-mở-t-b467c--chiếu-số-cửa-hàng-hiển-thị-hn-store/attachments/execution-screenshot-8b2a62dee4b30ca0d2f75a9e0e2097cc48377b62.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-902c5405ca260b725b30",
+      "module": "hn-store",
+      "title": "ST-002: lọc Hồ Chí Minh chỉ hiển thị địa chỉ cùng tỉnh",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 12979,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-002-lọc--5112b--hiển-thị-địa-chỉ-cùng-tỉnh-hn-store/attachments/execution-screenshot-0de1b5e4d30f03c6f860a9da467ebb5fd10866a3.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-d3d8ace461cbf4d2057b",
+      "module": "hn-store",
+      "title": "ST-003: lọc Quận 1 và đối chiếu địa chỉ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10732,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-003-lọc-Quận-1-và-đối-chiếu-địa-chỉ-hn-store/attachments/execution-screenshot-7ce8b3587901d37a18b4bd1db659253c369161ce.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-82b1b8f0070dbb35b32e",
+      "module": "hn-store",
+      "title": "ST-004: đổi tỉnh sang Hà Nội và reset quận",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10543,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-004-đổi-tỉnh-sang-Hà-Nội-và-reset-quận-hn-store/attachments/execution-screenshot-15ea37b1b4dabf09d0fe065757de4aacebe4910c.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-ed23073532b491c0b104",
+      "module": "hn-store",
+      "title": "ST-005: cửa hàng có địa chỉ, giờ mở cửa và số điện thoại hợp lệ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 20416,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-005-cửa--a33b8-cửa-và-số-điện-thoại-hợp-lệ-hn-store/attachments/execution-screenshot-1bfeb3fb1b62a97b6738e82ee8f16b1fba61cf49.png"
+      ]
+    },
+    {
+      "id": "6f8b79f1896792f7c6a3-fceb1cc1df7bc9fcf466",
+      "module": "hn-store",
+      "title": "ST-006: liên kết chỉ đường có đích Google Maps hợp lệ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 10212,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-store-ST-006-liên-77e2d--có-đích-Google-Maps-hợp-lệ-hn-store/attachments/execution-screenshot-4093a8b1f69960fa84712d95c19faacb1e8d34a4.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-070c19f3aec7f2c7292c",
+      "module": "hn-sforum",
+      "title": "SF-001: trang chủ có logo và danh sách bài viết",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 2473,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-001-tra-13156--logo-và-danh-sách-bài-viết-hn-sforum/attachments/execution-screenshot-9c62d9539e7d0c64ff77d796150f70625293c9fe.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-30fc8fadd5e097a7a4eb",
+      "module": "hn-sforum",
+      "title": "SF-002: tìm iPhone bằng Enter và kiểm tra kết quả liên quan",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 4627,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-002-tìm-24dd4--kiểm-tra-kết-quả-liên-quan-hn-sforum/attachments/execution-screenshot-a10d585f1d5e1c9625f81d1ba91e9403f6e10a07.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-c2b8b25952e6cb0ff92a",
+      "module": "hn-sforum",
+      "title": "SF-003: từ khóa không tồn tại hiển thị trạng thái rỗng",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 26988,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/sforum\\/search\\?tim_kiem=zzx_no_article_987654/i\u001b[39m\nReceived string:  \u001b[31m\"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[39m\nTimeout: 15000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 15000ms\u001b[22m\n\u001b[2m    32 × locator resolved to <html class=\"\" lang=\"vi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654\"\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/test-failed-1.png",
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/attachments/execution-screenshot-93e7d138fb56e3d880f794b2254cfc4973f1a070.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-0880ad9d46d717406746",
+      "module": "hn-sforum",
+      "title": "SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 4636,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-004-mở--d37ab--đối-chiếu-tiêu-đề-nội-dung-hn-sforum/attachments/execution-screenshot-cc5e897acfdcc54e1d1d1e9822ee7da8b1e3b290.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-338866e0a01878662e28",
+      "module": "hn-sforum",
+      "title": "SF-005: điều hướng danh mục Tin công nghệ",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 7408,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-005-điều-hướng-danh-mục-Tin-công-nghệ-hn-sforum/attachments/execution-screenshot-281cb1dcb50a9844465172e5f8f688f29d22bd85.png"
+      ]
+    },
+    {
+      "id": "e23b380fa68c04f8c832-ad12547f8fdec3694dda",
+      "module": "hn-sforum",
+      "title": "SF-006: logo đưa từ kết quả tìm kiếm về trang chủ Sforum",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 6698,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-006-log-634cf-ìm-kiếm-về-trang-chủ-Sforum-hn-sforum/attachments/execution-screenshot-a2c5180ec8d0dcf51ff90c312b475b5bb3ad0363.png"
+      ]
+    }
+  ],
+  "runnerErrors": [],
+  "scope": "Các module có trong project và được chọn ở lượt này. QuangHuy/TienVinh dùng chung source trùng blob, tích hợp một lần. QuangHuy có case thiếu assertion/tài khoản được ghi rõ. Không đại diện toàn bộ chức năng của mọi thành viên."
+}

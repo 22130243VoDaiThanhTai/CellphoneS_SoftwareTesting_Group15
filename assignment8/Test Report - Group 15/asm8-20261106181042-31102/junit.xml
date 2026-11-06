@@ -1,0 +1,69 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="32.572924">
+<testsuite name="hongnhan/build-pc.spec.mjs" timestamp="2026-11-06T11:10:43.324Z" hostname="hn-pc" tests="2" failures="1" skipped="0" time="28.922" errors="0">
+<testcase name="PC-025 PC-026: tìm CPU và chuỗi không khớp" classname="hongnhan/build-pc.spec.mjs" time="18.878">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png]]
+
+[[ATTACHMENT|../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-9b70adb2ed24830b6923326d8f878bbb14a91d94.png]]
+
+[[ATTACHMENT|../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/error-context.md]]
+
+[[ATTACHMENT|../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip]]
+]]>
+</system-out>
+<failure message="expect(locator).toContainText(expected) failed" type="expect.toContainText">
+<![CDATA[  [hn-pc] › hongnhan/build-pc.spec.mjs:78:1 › PC-025 PC-026: tìm CPU và chuỗi không khớp ───────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })
+    Expected substring: "CPU Intel Core i5 12400F"
+    Received string:    "CPU Intel Core i7 14700KF"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toContainText" locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 }) with timeout 8000ms
+      - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })
+        19 × locator resolved to <h3>CPU Intel Core i7 14700KF</h3>
+           - unexpected value "CPU Intel Core i7 14700KF"
+
+
+      92 |   }
+      93 |   await searchAndWait(name);
+    > 94 |   await expect(pc.cards.first().getByRole('heading', {level: 3})).toContainText(name);
+         |                                                                   ^
+      95 |   await searchAndWait('zzx_no_product_987654');
+      96 |   await expect(page.getByText('Không tìm thấy sản phẩm', {exact: true})).toBeVisible();
+      97 |   await expect(pc.cards).toHaveCount(0);
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:94:67
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-9b70adb2ed24830b6923326d8f878bbb14a91d94.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip
+    Usage:
+
+        npx playwright show-trace "../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+<testcase name="Bổ sung: tăng/giảm số lượng và hủy xóa tại 1" classname="hongnhan/build-pc.spec.mjs" time="10.044">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../Envidence - Group15/asm8-20261106181042-31102/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-d8bf606e1d53402a49e35f64fce7d31e6ad21fd1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

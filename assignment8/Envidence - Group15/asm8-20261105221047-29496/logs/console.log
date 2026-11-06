@@ -1,0 +1,64 @@
+
+Running 54 tests using 1 worker
+
+(node:29733) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:61:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm (3.7s)
+  ✓   2 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:63:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP (10.0s)
+  ✓   3 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:64:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm (4.6s)
+  ✓   4 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:65:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17 (7.8s)
+  ✓   5 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:66:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng (10.0s)
+  ✓   6 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:67:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_03 - thêm khác hãng (10.2s)
+  ✓   7 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:68:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập (14.3s)
+  ✓   8 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:69:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay (21.7s)
+  ✓   9 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:70:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP (11.8s)
+  ✓  10 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:71:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai (11.2s)
+  ✓  11 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:72:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_02 - bỏ cột cuối (5.4s)
+  ✓  12 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:73:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Replace_01 - thêm lại ô đã bỏ (13.8s)
+  ✓  13 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:74:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_01 - tên hàng cơ bản (3.7s)
+  ✓  14 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:75:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_02 - dung lượng 256 GB (3.4s)
+  ✓  15 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:76:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_03 - giá trị cùng hàng Chipset (9.5s)
+  ✓  16 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:77:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_Open_01 - mở cấu hình chi tiết (4.8s)
+  ✓  17 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:78:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_02 - từ khóa không tồn tại (8.1s)
+  ✓  18 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:79:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Clear_01 - xóa từ khóa (8.6s)
+  ✓  19 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:80:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_01 - ba dấu cách (7.9s)
+  ✓  20 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:81:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_02 - ký tự đặc biệt (7.9s)
+  ✓  21 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:82:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_03 - tiếng Việt có dấu (8.2s)
+  ✓  22 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:83:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Reload_01 - reload theo URL (5.0s)
+  ✓  23 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:84:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_02 - tab mới từ URL (3.7s)
+  ✓  24 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:85:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_View_01 - chỉ kiểm tra href Mua ngay (3.3s)
+  ✓  25 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:86:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Responsive_01 - viewport 390x844 (4.3s)
+(node:30583) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  26 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:121:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_01 - tiêu đề khu vực (8.5s)
+  ✓  27 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:122:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_02 - điểm trung bình (8.4s)
+  ✓  28 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:123:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại (8.1s)
+  ✓  29 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:124:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao (10.8s)
+  ✓  30 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:125:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm (9.3s)
+  ✓  31 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:126:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao (11.2s)
+  ✓  32 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao (9.7s)
+  ✓  33 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao (9.5s)
+  ✓  34 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao (9.0s)
+  ✓  35 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_05 - nhánh rỗng 1 sao (9.5s)
+  ✓  36 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:128:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao (10.1s)
+  ✓  37 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:129:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng (8.9s)
+  ✓  38 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:130:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng (9.8s)
+  ✓  39 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:131:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_LIST_Open_01 - Xem tất cả đánh giá (11.2s)
+  -  40 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:133:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_FORM_Open_01 - Mở form khi tài khoản thường đã đăng nhập
+  -  41 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:134:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_FORM_View_01 - Hiển thị năm nhãn đánh giá sao
+  -  42 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:135:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_RATING_Select_01 - Chọn mức sao thấp nhất
+  -  43 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:136:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_RATING_Switch_01 - Đổi từ sao thấp nhất sang cao nhất
+  -  44 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:137:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_View_01 - Hiển thị hướng dẫn tối thiểu 15 ký tự
+  -  45 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:138:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Clear_01 - Xóa nội dung về rỗng trước khi gửi
+  -  46 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:139:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Validate_01 - Nội dung ngắn hơn hướng dẫn tối thiểu
+  -  47 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:140:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_01 - Nhập đúng 15 ký tự, chưa gửi
+  -  48 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:141:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_02 - Nhập 16 ký tự, chưa gửi
+  -  49 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:142:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Limit_01 - Nhập nội dung dài 1000 ký tự
+  -  50 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:143:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Validate_02 - Nội dung chỉ có 15 dấu cách
+  -  51 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:144:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_03 - Nhập ký tự đặc biệt dưới dạng văn bản
+  -  52 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:145:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_04 - Nhập tiếng Việt và emoji
+  -  53 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:146:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Security_01 - Nhập chuỗi script như văn bản, không gửi
+  -  54 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:147:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_ATTACHMENT_View_01 - Hiển thị tùy chọn thêm ảnh và loại file khai báo
+
+  15 skipped
+  39 passed (5.7m)

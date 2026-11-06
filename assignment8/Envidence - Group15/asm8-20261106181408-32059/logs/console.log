@@ -1,0 +1,6 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:24:1 › SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung (1.9s)
+
+  1 passed (3.3s)

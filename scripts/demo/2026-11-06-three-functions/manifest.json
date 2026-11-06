@@ -1,0 +1,31 @@
+{
+  "runId": "asm7-20261106093848-56296",
+  "note": "Ba clip context.video thật, nối theo thứ tự CP/RV/PD, chuyển MP4. Chỉ ghi viewport Chrome, không quay desktop hoặc tab ứng dụng khác. Chưa upload YouTube.",
+  "clips": [
+    {
+      "case": "PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập",
+      "status": "passed",
+      "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106093848-56296/artifacts/22130275_TrinhQuangThong_A-d644f-IST-Add-04---ba-cột-độc-lập-cp/video.webm",
+      "durationMs": 17723,
+      "sha256": "a1d9e57370733f6361cd8b41f3cbe6c43d244eee9d16dfb83a1ac2e55388d878"
+    },
+    {
+      "case": "PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao",
+      "status": "passed",
+      "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106093848-56296/artifacts/22130275_TrinhQuangThong_A-f13fd-Clear-01---Tất-cả-sau-4-sao-rv/video.webm",
+      "durationMs": 12879,
+      "sha256": "08a6c967c1669ac76e6bacfe1a08af7a35adf0183e2a2804d3c0385263f9df0c"
+    },
+    {
+      "case": "PRODUCT_DETAIL_VARIANT_Select_02 - chọn 512GB",
+      "status": "passed",
+      "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106093848-56296/artifacts/22130275_TrinhQuangThong_A-fcaaa-IANT-Select-02---chọn-512GB-pd/video.webm",
+      "durationMs": 15984,
+      "sha256": "0758934fe0839379c3cfb67b74ea3286a8e4e98de617f0911ec63b16e63ffca3"
+    }
+  ],
+  "video": "22130275_TrinhQuangThong_ASM7_demo_PD_CP_RV.mp4",
+  "sha256": "3cccb349e45164d6def44a9b081c0ffef4e6570ec56ed5426896021e3643d240",
+  "bytes": 3928478,
+  "mediaInfo": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/demo/2026-11-06-three-functions/22130275_TrinhQuangThong_ASM7_demo_PD_CP_RV.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf63.1.102\n  Duration: 00:00:41.24, start: 0.000000, bitrate: 762 kb/s\n  Stream #0:0[0x1](eng): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x800 [SAR 1:1 DAR 8:5], 759 kb/s, 25 fps, 25 tbr, 12800 tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      encoder         : Lavc63.1.102 libx264\nAt least one output file must be specified\n"
+}

@@ -1,0 +1,231 @@
+{
+  "config": {
+    "argv": [
+      "/Users/admin/.nvm/versions/node/v24.15.0/bin/node",
+      "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/node_modules/@playwright/test/cli.js",
+      "test",
+      "--project=pd",
+      "--grep",
+      "COLOR_Select_02|INFO_View_04"
+    ],
+    "configFile": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/playwright.config.cjs",
+    "rootDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261031150043-44990/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "pd",
+        "name": "pd",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/quangthong/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261031150043-44990/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "pd",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "snapshotDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests",
+        "testIgnore": [],
+        "testMatch": "**/quangthong/*.spec.js",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": false,
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "launchOptions": {
+            "slowMo": 500
+          },
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "pd"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Test Report - Group 15/asm8-20261031150043-44990",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Test Report - Group 15/asm8-20261031150043-44990/results.json"
+        }
+      ],
+      [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/support/summary-reporter.cjs",
+        {
+          "reportDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Test Report - Group 15/asm8-20261031150043-44990",
+          "runId": "asm8-20261031150043-44990"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+      "file": "quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Trang chi tiết sản phẩm",
+          "file": "quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+          "line": 75,
+          "column": 6,
+          "specs": [
+            {
+              "title": "PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10469,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-31T08:00:44.827Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261031150043-44990/artifacts/quangthong-22130275_TrinhQ-dfc04--Lá-Xô-Thơm-và-kiểm-tra-ảnh-pd/attachments/execution-screenshot-3b9bb6951a4521ac672779c9f3ce51eefb739fbc.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "32c9f1e26fee186697f8-6c76be5f9caf3375a9fd",
+              "file": "quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+              "line": 157,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7346,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-31T08:00:56.550Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261031150043-44990/artifacts/quangthong-22130275_TrinhQ-c34e6--thị-khối-Khuyến-mãi-đi-kèm-pd/attachments/execution-screenshot-ec75f6bf7383f6daa17b703b7b07664fa7f58a4d.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "32c9f1e26fee186697f8-420c6ef15d858ca165aa",
+              "file": "quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+              "line": 214,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T08:00:44.200Z",
+    "duration": 20269.985,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

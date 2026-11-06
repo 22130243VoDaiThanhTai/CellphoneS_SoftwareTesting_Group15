@@ -1,0 +1,939 @@
+{
+  "runId": "asm8-20261105215357-21251",
+  "startedAt": "2026-11-05T14:53:57.908Z",
+  "finishedAt": "2026-11-05T15:02:09.410Z",
+  "status": "failed",
+  "durationMs": 489348.602,
+  "discovered": 54,
+  "counts": {
+    "passed": 30,
+    "failed": 9,
+    "skipped": 15,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "records": [
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4249,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-b5a90-n-01---mở-bảng-một-sản-phẩm-cp/attachments/execution-screenshot-003b9cd3562a7b79fae65ee02a48a01f938efe1d.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 33338,
+      "errors": [
+        "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.compare-products').locator('.compare-product.has-product').first().locator('.remove-compare-product')\u001b[22m\n\u001b[2m    - locator resolved to <div data-v-0c8104f5=\"\" class=\"remove-compare-product\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    32 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/execution-screenshot-8c3e90632ce4feb9de6cf3b7880237f5b4fb8b8d.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5179,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/attachments/execution-screenshot-4ccfe0ff519a4d66424b832c6ba7366a33a72661.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5414,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/attachments/execution-screenshot-05468ea4abbc8cffc0cd9d8b7c617c2028660beb.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 8038,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-5255b-IST-Add-02---thêm-cùng-hãng-cp/attachments/execution-screenshot-e7391770441004eae49516d9404de6abd0e5f696.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_03 - thêm khác hãng",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7837,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-cdcf2-IST-Add-03---thêm-khác-hãng-cp/attachments/execution-screenshot-24f6000f3afeea4cffe3cf21208e6bbdf2e289fe.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 11543,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/attachments/execution-screenshot-72bce601b6734d71f919098416d20850cbc81cdc.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 31073,
+      "errors": [
+        "TimeoutError: locator.fill: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).getByPlaceholder('Nhập tên sản phẩm muốn so sánh')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-6fbf5--thử-thêm-thứ-tư-trong-khay-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-6fbf5--thử-thêm-thứ-tư-trong-khay-cp/attachments/execution-screenshot-acd5cc4f2503e94be727b0ccba1ed6e3f7d20fb5.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 37855,
+      "errors": [
+        "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.compare-products').locator('.compare-product.has-product').first().locator('.remove-compare-product')\u001b[22m\n\u001b[2m    - locator resolved to <div data-v-0c8104f5=\"\" class=\"remove-compare-product\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    31 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <a rel=\"nofollow\" target=\"_blank\" class=\"link-policy\" href=\"/tos?part=privacy-policy\">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-8a175-cate-01---thêm-lại-cùng-PDP-cp/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-8a175-cate-01---thêm-lại-cùng-PDP-cp/attachments/execution-screenshot-5a0dd9b777ebc67e2cd4d90363b848415c7b9b63.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 9097,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/attachments/execution-screenshot-9e543fcae6200f1b35ce0a975c62612c4c5b345b.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Remove_02 - bỏ cột cuối",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5563,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-26f06-IST-Remove-02---bỏ-cột-cuối-cp/attachments/execution-screenshot-bc844b8693979110fe761d1a603fbe29afd40617.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_LIST_Replace_01 - thêm lại ô đã bỏ",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 12004,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-f6803-place-01---thêm-lại-ô-đã-bỏ-cp/attachments/execution-screenshot-c61ec00884ff328c8bf607e5e6b0a02c55831e39.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SPECS_View_01 - tên hàng cơ bản",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3703,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-a6821-S-View-01---tên-hàng-cơ-bản-cp/attachments/execution-screenshot-32c68c1daad83ece0cee7358e551c60aed54adf9.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SPECS_View_02 - dung lượng 256 GB",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3581,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-688c7-View-02---dung-lượng-256-GB-cp/attachments/execution-screenshot-921f65da764453caadd0f075fb7720c61a9e35f9.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SPECS_View_03 - giá trị cùng hàng Chipset",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7384,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-207fa---giá-trị-cùng-hàng-Chipset-cp/attachments/execution-screenshot-bef5d9e81af82a50d95d04ed1898ede300237c2d.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SPECS_Open_01 - mở cấu hình chi tiết",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4942,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-d2292-n-01---mở-cấu-hình-chi-tiết-cp/attachments/execution-screenshot-16edc699a088d145d42fc12283b6b05f77caebe7.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Search_02 - từ khóa không tồn tại",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5492,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-3941f--02---từ-khóa-không-tồn-tại-cp/attachments/execution-screenshot-63ccf390f38be61cced2eebff7390c3f58f48e6e.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Clear_01 - xóa từ khóa",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 6124,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-53353-ARCH-Clear-01---xóa-từ-khóa-cp/attachments/execution-screenshot-ed574b3b042cfaa91a8f66bb67521a34ec872295.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Input_01 - ba dấu cách",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5444,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-d9a2d-ARCH-Input-01---ba-dấu-cách-cp/attachments/execution-screenshot-e9a1ed9a0ff80f86eca63d69dd323799aaca0587.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Input_02 - ký tự đặc biệt",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5382,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-f661d-H-Input-02---ký-tự-đặc-biệt-cp/attachments/execution-screenshot-5c16018c23c7c778b1d68bde281ecb3bd2738797.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_SEARCH_Input_03 - tiếng Việt có dấu",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5152,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-1f2f2-nput-03---tiếng-Việt-có-dấu-cp/attachments/execution-screenshot-19ab0e8d0ca9577da31a38be235e6a7e85feb026.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_PAGE_Reload_01 - reload theo URL",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 5474,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-4485c-Reload-01---reload-theo-URL-cp/attachments/execution-screenshot-c5bd117e5ba9035b36bfad6ee8f2ca668e06052c.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_PAGE_Open_02 - tab mới từ URL",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3906,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-bb59f-GE-Open-02---tab-mới-từ-URL-cp/attachments/execution-screenshot-89bebd1197337c3b26e3f874e0a57b0c5caa8977.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_PAGE_View_01 - chỉ kiểm tra href Mua ngay",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 3421,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-336e6--chỉ-kiểm-tra-href-Mua-ngay-cp/attachments/execution-screenshot-117fc7f796634f6abacfa6b8f94f02940b9e11fd.png"
+      ]
+    },
+    {
+      "module": "cp",
+      "title": "PRODUCT_COMPARE_PAGE_Responsive_01 - viewport 390x844",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 4635,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "scope",
+          "description": "Kiểm tra geometry/phần tử; vẫn cần xem ảnh để đánh giá khả năng đọc toàn bố cục."
+        }
+      ],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-6bb70-nsive-01---viewport-390x844-cp/attachments/execution-screenshot-98e43835f76defd68d1f50802ff46622d44ee731.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_01 - tiêu đề khu vực",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7716,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-0c72c-Y-View-01---tiêu-đề-khu-vực-rv/attachments/execution-screenshot-6caae8a3e1aa193908caea1b3f6ca8a9c38c5896.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_02 - điểm trung bình",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 8131,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-84eca-Y-View-02---điểm-trung-bình-rv/attachments/execution-screenshot-62be6844f503dea13e6beb72d6e3a1ba2029966d.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 7950,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-b5c5f-iew-03---tổng-lượt-hiện-tại-rv/attachments/execution-screenshot-5f650778a35139415f312ee4a7a71a35d6909b76.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 9766,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-259d3-Y-View-04---phân-bố-năm-sao-rv/attachments/execution-screenshot-6466adeb9c65b6f946f34624b724e3527a7784f3.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 8127,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-2b3be--View-05---điểm-trải-nghiệm-rv/attachments/execution-screenshot-9bc2fabb932712d4e4c14f6075130e71772ec4d9.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 10234,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-c05a4-ILTER-Select-01---lọc-5-sao-rv/attachments/execution-screenshot-48f82d47debeb2f12e137b5d91537799db290eae.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 16604,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress')\nExpected pattern: \u001b[32m/^\\d+$/\u001b[39m\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^4$/ }) }).locator('progress')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-11447-elect-02---nhánh-rỗng-4-sao-rv/attachments/execution-screenshot-2fc9afbd0582a13abb17eafa0c3c9cb7bc1a1310.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 16799,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress')\nExpected pattern: \u001b[32m/^\\d+$/\u001b[39m\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^3$/ }) }).locator('progress')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-3aa31-elect-03---nhánh-rỗng-3-sao-rv/attachments/execution-screenshot-61125e12f1e59a2be69674f95f4b65cabda3351a.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 16533,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress')\nExpected pattern: \u001b[32m/^\\d+$/\u001b[39m\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^2$/ }) }).locator('progress')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-8968c-elect-04---nhánh-rỗng-2-sao-rv/attachments/execution-screenshot-43a16d5ceaf76c18fac39f05560bdfb7912b7d84.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_05 - nhánh rỗng 1 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 16619,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^1$/ }) }).locator('progress')\nExpected pattern: \u001b[32m/^\\d+$/\u001b[39m\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^1$/ }) }).locator('progress') with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').locator('.rating-level').filter({ has: locator('.star-count').filter({ hasText: /^1$/ }) }).locator('progress')\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-eafe2-elect-05---nhánh-rỗng-1-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-eafe2-elect-05---nhánh-rỗng-1-sao-rv/attachments/execution-screenshot-3357fbb92bbabc3a7a4ab9e7727a82fc5f90e4d4.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 18999,
+      "errors": [
+        "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.boxReview').getByText('Hiện chưa có đánh giá nào.', { exact: true })\nExpected: visible\nTimeout: 8000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.boxReview').getByText('Hiện chưa có đánh giá nào.', { exact: true }) with timeout 8000ms\u001b[22m\n\u001b[2m  - waiting for locator('.boxReview').getByText('Hiện chưa có đánh giá nào.', { exact: true })\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-2c006-Clear-01---Tất-cả-sau-4-sao-rv/attachments/execution-screenshot-ac6ac450d2e71655109a6b435387d9f288f2d93b.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng",
+      "status": "failed",
+      "retry": 0,
+      "durationMs": 36868,
+      "errors": [
+        "TimeoutError: locator.click: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.boxReview').locator('.filter-item').filter({ hasText: /^\\s*Có hình ảnh\\s*$/ })\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"filter-item\">↵          Có hình ảnh↵        </div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"title\">…</div> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div data-v-b394b198=\"\" class=\"cps-block-order-button-desktop show\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"title\">…</div> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"topBarHeader\">…</div> from <div id=\"cpsHeaderOutLine\" data-fetch-key=\"Header:0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  6 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-v-b394b198=\"\" class=\"cps-block-order-button-desktop show\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"title\">…</div> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"topBarHeader\">…</div> from <div id=\"cpsHeaderOutLine\" data-fetch-key=\"Header:0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"topBarHeader\">…</div> from <div id=\"cpsHeaderOutLine\" data-fetch-key=\"Header:0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div data-v-b394b198=\"\" class=\"cps-block-order-button-desktop show\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"title\">…</div> from <div id=\"modal-root\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"topBarHeader\">…</div> from <div id=\"cpsHeaderOutLine\" data-fetch-key=\"Header:0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n"
+      ],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-72df8-06---Có-hình-ảnh-nhánh-rỗng-rv/test-failed-1.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-72df8-06---Có-hình-ảnh-nhánh-rỗng-rv/attachments/execution-screenshot-42f022afa202eeaec5b10f3fe3f765811c463126.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 14975,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-d3b7a-TER-Select-07---Đã-mua-hàng-rv/attachments/execution-screenshot-9c9c78372c64f3c5444b525cbd3bb4e8ef1f2ab2.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_LIST_Open_01 - Xem tất cả đánh giá",
+      "status": "passed",
+      "retry": 0,
+      "durationMs": 22043,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-8e794-en-01---Xem-tất-cả-đánh-giá-rv/attachments/review-full-066ee6c6391f327e41a237f38c79f2f2d25d2026.png",
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Envidence - Group15/asm8-20261105215357-21251/artifacts/quangthong-22130275_TrinhQ-8e794-en-01---Xem-tất-cả-đánh-giá-rv/attachments/execution-screenshot-a5b2386784b414514038c6c52c1b1a5e0388f251.png"
+      ]
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FORM_Open_01 - Mở form khi tài khoản thường đã đăng nhập",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 105,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 105,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_FORM_View_01 - Hiển thị năm nhãn đánh giá sao",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 106,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 106,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_RATING_Select_01 - Chọn mức sao thấp nhất",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 107,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 107,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_RATING_Switch_01 - Đổi từ sao thấp nhất sang cao nhất",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 108,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 108,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_View_01 - Hiển thị hướng dẫn tối thiểu 15 ký tự",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 109,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 109,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Clear_01 - Xóa nội dung về rỗng trước khi gửi",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 110,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 110,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Validate_01 - Nội dung ngắn hơn hướng dẫn tối thiểu",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 111,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 111,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Input_01 - Nhập đúng 15 ký tự, chưa gửi",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 112,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 112,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Input_02 - Nhập 16 ký tự, chưa gửi",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 113,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 113,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Limit_01 - Nhập nội dung dài 1000 ký tự",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 114,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 114,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Validate_02 - Nội dung chỉ có 15 dấu cách",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 115,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 115,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Input_03 - Nhập ký tự đặc biệt dưới dạng văn bản",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 116,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 116,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Input_04 - Nhập tiếng Việt và emoji",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 117,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 117,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_CONTENT_Security_01 - Nhập chuỗi script như văn bản, không gửi",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 118,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 118,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "module": "rv",
+      "title": "PRODUCT_REVIEW_ATTACHMENT_View_01 - Hiển thị tùy chọn thêm ảnh và loại file khai báo",
+      "status": "skipped",
+      "retry": 0,
+      "durationMs": 0,
+      "errors": [],
+      "annotations": [
+        {
+          "type": "skip-reason",
+          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 119,
+            "column": 7
+          }
+        },
+        {
+          "type": "skip",
+          "location": {
+            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+            "line": 119,
+            "column": 7
+          }
+        }
+      ],
+      "screenshots": []
+    }
+  ],
+  "scope": "Personal scope: PD/CP/RV — 22130275 Trịnh Quang Thông. Only modules selected in this run; not a full group suite."
+}

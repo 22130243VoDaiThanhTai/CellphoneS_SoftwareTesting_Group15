@@ -1,0 +1,82 @@
+[
+  {
+    "path": "legacy/quanghuy/filter.spec.js",
+    "sha256": "a4b5396bb521f66afd7cfa27565514baca3fd1a4b5ba8ff8d181920b3e47e6f7"
+  },
+  {
+    "path": "legacy/quanghuy/search.spec.js",
+    "sha256": "91bb5b000e7b7fe000aa9f72cbe79682542d55e11a14cf1d522a92a7a278023f"
+  },
+  {
+    "path": "package-lock.json",
+    "sha256": "3ce2b8fb0f60c3e6bd74756486a77b2daa6a642d41aa66e05827cbea698b7bd1"
+  },
+  {
+    "path": "package.json",
+    "sha256": "a68de68eb17b2171b553e20d4b233ac549d7b28ec1ac91cf4eec7077a2cb6201"
+  },
+  {
+    "path": "pages/hongnhan/build-pc.mjs",
+    "sha256": "6d5d5dc9e5275f8a4d70e005ff8aa5ee51870e533799821639a4b98e8b2b5efa"
+  },
+  {
+    "path": "playwright.config.cjs",
+    "sha256": "26c0ef9cd88c1aa99b65b38321514cc59e7daf09c53f57e3566f61d893b28c0a"
+  },
+  {
+    "path": "scripts/run-suite.cjs",
+    "sha256": "953299fea6a32e8b824bd314bfaebba2e8fc5d7e18f7de1337379a81b453a078"
+  },
+  {
+    "path": "sources.json",
+    "sha256": "e32cf1c2ac80c6372f0603726bb8f5536ff5e775b33548e64dbb8f30448533a8"
+  },
+  {
+    "path": "support/fixtures.cjs",
+    "sha256": "632bb99bc9afdad0f4fe0c3518b3d0f2fda77ce7749bb5b9beaf20dcd507cb01"
+  },
+  {
+    "path": "support/summary-reporter.cjs",
+    "sha256": "58ddf13d537b7dd3eb4b2e163eda7bc80ab38a77c2a31db2604a2afd29006990"
+  },
+  {
+    "path": "tests/hongnhan/build-pc.spec.mjs",
+    "sha256": "cbbf2183b2e6ae0e5f54ff00abc89e03a038ba971409753d418f1cbd132b80d6"
+  },
+  {
+    "path": "tests/hongnhan/sforum.spec.cjs",
+    "sha256": "d999480f064185f1cd976de7c7cdd4b25283e7bdf423aaa136ac234e1c3b9b71"
+  },
+  {
+    "path": "tests/hongnhan/store.spec.cjs",
+    "sha256": "ba68960e1e983f6ec8dae41f82c645ebacf75987306c4afb91f9b01551138d54"
+  },
+  {
+    "path": "tests/quanghuy/data/testcases.json",
+    "sha256": "e77662f1f56134330e4cefb3e86e6b5bdd77a60598962bf45a6989213d63d72b"
+  },
+  {
+    "path": "tests/quanghuy/filter.spec.js",
+    "sha256": "0dcee5a0ef454dc32d3df33b7ecea8ec0328f80b75d6caad43ee006136c898a1"
+  },
+  {
+    "path": "tests/quanghuy/search.spec.js",
+    "sha256": "abd1886b0c38c3078dce28f630936542d2afae4a026940fec41bd0235145dff2"
+  },
+  {
+    "path": "tests/quanghuy/support/ghost-runner.js",
+    "sha256": "97f63cb505cff9b4f8b2635d551bda1f18269df8875f09e4a01659ec20d51866"
+  },
+  {
+    "path": "tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js",
+    "sha256": "0952f8071a3966292186c0f8febcf17bda43de8bc3197a8362f6c121e9b7e1db"
+  },
+  {
+    "path": "tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js",
+    "sha256": "a9791bc2318e67e71d48f7dddd9b2432089dc58da01c0bdb33f5f7b97084af24"
+  },
+  {
+    "path": "tests/thanhtai/installment.spec.cjs",
+    "sha256": "3d0285a15eb1aafaf60b92b135fac0ec849543a5803cb0bc00b6d73193c56502"
+  }
+]

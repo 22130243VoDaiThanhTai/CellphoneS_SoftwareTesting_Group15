@@ -1,0 +1,55 @@
+{
+  "runId": "asm8-20261106181408-32059",
+  "startedAt": "2026-11-06T11:14:08.988Z",
+  "finishedAt": "2026-11-06T11:14:12.231Z",
+  "status": "passed",
+  "durationMs": 3293.9260000000004,
+  "discovered": 1,
+  "executed": 1,
+  "counts": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "timedOut": 0,
+    "interrupted": 0
+  },
+  "notRun": 0,
+  "modules": [
+    "hn-sforum"
+  ],
+  "flaky": [],
+  "records": [
+    {
+      "id": "e23b380fa68c04f8c832-0880ad9d46d717406746",
+      "module": "hn-sforum",
+      "title": "SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 1927,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts/hongnhan-sforum-SF-004-mở--d37ab--đối-chiếu-tiêu-đề-nội-dung-hn-sforum/attachments/execution-screenshot-b9619b2f0800ed6755bbe3e884dc93e0cf9446e6.png"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "e23b380fa68c04f8c832-0880ad9d46d717406746",
+      "module": "hn-sforum",
+      "title": "SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "retry": 0,
+      "durationMs": 1927,
+      "errors": [],
+      "annotations": [],
+      "screenshots": [
+        "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Envidence - Group15/asm8-20261106181408-32059/artifacts/hongnhan-sforum-SF-004-mở--d37ab--đối-chiếu-tiêu-đề-nội-dung-hn-sforum/attachments/execution-screenshot-b9619b2f0800ed6755bbe3e884dc93e0cf9446e6.png"
+      ]
+    }
+  ],
+  "runnerErrors": [],
+  "scope": "Các module có trong project và được chọn ở lượt này. QuangHuy/TienVinh dùng chung source trùng blob, tích hợp một lần. QuangHuy có case thiếu assertion/tài khoản được ghi rõ. Không đại diện toàn bộ chức năng của mọi thành viên."
+}

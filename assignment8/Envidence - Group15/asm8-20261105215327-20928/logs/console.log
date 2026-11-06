@@ -1,0 +1,83 @@
+
+Running 54 tests using 1 worker
+
+(node:21161) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:48:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm (4.6s)
+  ✘   2 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP (20.4s)
+
+
+  1) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP 
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Browser logs:
+
+    <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/var/folders/h4/3qhhx50s75vd0hfpfxp6zs780000gn/T/playwright_chromiumdev_profile-GSLLdu --remote-debugging-pipe --no-startup-window
+    <launched> pid=21162
+    [pid=21162][err] [21162:7723316:1105/215329.738070:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.
+    [pid=21162][err] Trying to load the allocator multiple times. This is *not* supported.
+    [pid=21162][err] 2026-11-05 21:53:34.125 Google Chrome[21162:7723316] error messaging the mach port for IMKCFRunLoopWakeUpReliable
+    [pid=21162][err] [21162:7723316:1105/215334.509154:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:186] Attempting to show IPH IPH_BatterySaverMode before browser initialization; IPH will not be shown.
+    [pid=21162][err] [21219:7724620:1105/215341.855074:ERROR:sandbox/mac/system_services.cc:31] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+    [pid=21162] <gracefully close start>
+    [pid=21162][err] [21162:7723412:1105/215354.727195:ERROR:base/process/process_mac.cc:90] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)
+    Call log:
+      - waiting for locator('.compare-products').locator('.compare-product.has-product').first().locator('.remove-compare-product')
+        - locator resolved to <div data-v-0c8104f5="" class="remove-compare-product">…</div>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a rel="nofollow" target="_blank" class="link-policy" href="/tos?part=privacy-policy">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id="modal-root">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a rel="nofollow" target="_blank" class="link-policy" href="/tos?part=privacy-policy">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id="modal-root">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        23 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <a rel="nofollow" target="_blank" class="link-policy" href="/tos?part=privacy-policy">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id="modal-root">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      78 | async function noResults(page,value){ await open(page); const m=await search(page,value); await expect(m.getByPlaceholder('Nhập tên sản phẩm muốn so sánh')).toHaveValue(value); await expect(m.getByText('Không tìm được sản phẩm phù hợp',{exact:true})).toBeVisible(); await expect(m.locator('.product-item')).toHaveCount(0); await expect(columns(page)).toHaveCount(1); await expect(page).toHaveURL(/\/so-sanh\/iphone-17-256gb\/?$/); }
+      79 | // Khay selectors: điền từ DOM đã quan sát, không dựng trạng thái qua JS.
+    > 80 | function tray(page){return page.locator('.compare-products');}
+         |                                                               ^
+      81 | async function openTray(page){await open(page,PDP);await page.locator('.pdp-compare-button-box .label').click();await expect(tray(page)).toBeVisible();}
+      82 | async function addToTray(page,name){await tray(page).getByText('Chọn sản phẩm so sánh',{exact:true}).first().click();const m=searchModal(page);await m.getByPlaceholder('Nhập tên sản phẩm muốn so sánh').fill(name.replace(' | Chính hãng',''));await productResult(page,name).locator('.select-to-compare').click();await expect(m).toBeHidden();}
+      83 | async function clearTray(page){const items=tray(page).locator('.compare-product.has-product');while(await items.count()){await items.first().locator('.remove-compare-product').click();}await expect(items).toHaveCount(0);}
+        at clearTray (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:80:177)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:287
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215327-20928/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215327-20928/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/execution-screenshot-1bbda60208d51bb2b53041f2ed1b516260322f0c.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215327-20928/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105215327-20928/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 interrupted
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP 
+  52 did not run
+  1 passed (29.2s)

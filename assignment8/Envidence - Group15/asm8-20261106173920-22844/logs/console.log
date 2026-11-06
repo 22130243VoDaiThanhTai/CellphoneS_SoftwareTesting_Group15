@@ -1,0 +1,115 @@
+
+Running 23 tests using 1 worker
+
+  ✓   1 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:7:1 › PC-001 PC-002 PC-023: trang và trạng thái rỗng (12.7s)
+  ✓   2 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:11:1 › PC-003: từ danh mục máy tính tới Build PC (8.7s)
+  ✓   3 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:18:1 › PC-004 PC-005: mở và đóng CPU không chọn (5.5s)
+  ✓   4 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:26:1 › PC-006 PC-019: chọn CPU và tổng một linh kiện (6.5s)
+  ✓   5 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:33:1 › PC-007..014: chọn đủ tám nhóm cốt lõi (17.7s)
+  ✓   6 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:45:1 › PC-015 PC-021: thay CPU và tính chênh lệch (8.5s)
+  ✓   7 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:56:1 › PC-016 PC-017 PC-022: thay/xóa RAM giữ SSD (11.2s)
+  ✓   8 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:70:1 › PC-018 PC-020: ba linh kiện, cộng giá và reset (10.8s)
+  ✘   9 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:78:1 › PC-025 PC-026: tìm CPU và chuỗi không khớp (17.6s)
+  ✓  10 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:91:1 › PC-030: nhấp đúp không thêm CPU trùng (10.6s)
+  ✓  11 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:99:1 › Bổ sung: tăng/giảm số lượng và hủy xóa tại 1 (10.9s)
+  ✓  12 [hn-store] › tests/hongnhan/store.spec.cjs:14:1 › ST-001: mở trang và đối chiếu số cửa hàng hiển thị (11.9s)
+  ✓  13 [hn-store] › tests/hongnhan/store.spec.cjs:19:1 › ST-002: lọc Hồ Chí Minh chỉ hiển thị địa chỉ cùng tỉnh (13.0s)
+  ✓  14 [hn-store] › tests/hongnhan/store.spec.cjs:24:1 › ST-003: lọc Quận 1 và đối chiếu địa chỉ (10.7s)
+  ✓  15 [hn-store] › tests/hongnhan/store.spec.cjs:31:1 › ST-004: đổi tỉnh sang Hà Nội và reset quận (10.5s)
+  ✓  16 [hn-store] › tests/hongnhan/store.spec.cjs:39:1 › ST-005: cửa hàng có địa chỉ, giờ mở cửa và số điện thoại hợp lệ (20.4s)
+  ✓  17 [hn-store] › tests/hongnhan/store.spec.cjs:47:1 › ST-006: liên kết chỉ đường có đích Google Maps hợp lệ (10.2s)
+  ✓  18 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:8:1 › SF-001: trang chủ có logo và danh sách bài viết (2.5s)
+  ✓  19 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:13:1 › SF-002: tìm iPhone bằng Enter và kiểm tra kết quả liên quan (4.6s)
+  ✘  20 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:20:1 › SF-003: từ khóa không tồn tại hiển thị trạng thái rỗng (27.0s)
+  ✓  21 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:24:1 › SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung (4.6s)
+  ✓  22 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:35:1 › SF-005: điều hướng danh mục Tin công nghệ (7.4s)
+  ✓  23 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:44:1 › SF-006: logo đưa từ kết quả tìm kiếm về trang chủ Sforum (6.7s)
+
+
+  1) [hn-pc] › tests/hongnhan/build-pc.spec.mjs:78:1 › PC-025 PC-026: tìm CPU và chuỗi không khớp ──
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.product-info').filter({ has: locator('.button__select') }).first()
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.product-info').filter({ has: locator('.button__select') }).first() with timeout 8000ms
+      - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first()
+
+
+      86 |   await expect(pc.cards).toHaveCount(0);
+      87 |   await pc.search.fill('');
+    > 88 |   await expect(pc.cards.first()).toBeVisible();
+         |                                  ^
+      89 | });
+      90 |
+      91 | test('PC-030: nhấp đúp không thêm CPU trùng', async ({page}) => {
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:88:34
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-f6b1b89d0e6daec84f8d9f899ae22f402702c487.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [hn-sforum] › tests/hongnhan/sforum.spec.cjs:20:1 › SF-003: từ khóa không tồn tại hiển thị trạng thái rỗng 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/sforum\/search\?tim_kiem=zzx_no_article_987654/i
+    Received string:  "https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654"
+    Timeout: 15000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 15000ms
+        32 × locator resolved to <html class="" lang="vi">…</html>
+           - unexpected value "https://cellphones.com.vn/sforum/search?tim_kiem=zzxnoarticle987654"
+
+
+      4 | const articles=page=>page.locator('main a').filter({has:page.locator('h3')});
+      5 | async function open(page){await assertAvailable(page,await page.goto(HOME,{waitUntil:'domcontentloaded'}));await expect(search(page)).toBeVisible();await expect(page.getByRole('link',{name:'Tin công nghệ',exact:true}).first()).toBeVisible({timeout:30000});}
+    > 6 | async function find(page,term){await search(page).fill(term);await search(page).press('Enter');await expect(page).toHaveURL(new RegExp('/sforum/search\\?tim_kiem='+encodeURIComponent(term),'i'));}
+        |                                                                                                                   ^
+      7 | test.beforeEach(async ({page})=>open(page));
+      8 | test('SF-001: trang chủ có logo và danh sách bài viết',async ({page})=>{
+      9 |   await expect(page.locator('#logo-header')).toBeVisible();
+        at find (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs:6:115)
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/sforum.spec.cjs:21:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/attachments/execution-screenshot-93e7d138fb56e3d880f794b2254cfc4973f1a070.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261106173920-22844/artifacts/hongnhan-sforum-SF-003-từ--ff56b-ại-hiển-thị-trạng-thái-rỗng-hn-sforum/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [hn-pc] › tests/hongnhan/build-pc.spec.mjs:78:1 › PC-025 PC-026: tìm CPU và chuỗi không khớp ───
+    [hn-sforum] › tests/hongnhan/sforum.spec.cjs:20:1 › SF-003: từ khóa không tồn tại hiển thị trạng thái rỗng 
+  21 passed (4.4m)

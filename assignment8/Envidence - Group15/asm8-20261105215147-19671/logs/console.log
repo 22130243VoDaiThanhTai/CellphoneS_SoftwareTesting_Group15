@@ -1,0 +1,114 @@
+
+Running 25 tests using 1 worker
+
+(node:19910) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:47:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm (12.3s)
+  ✘   2 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:49:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP (38.5s)
+(node:20353) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm (4.0s)
+
+
+  1) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:49:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP 
+
+    TimeoutError: locator.click: Timeout 20000ms exceeded.
+    Call log:
+      - waiting for locator('.compare-products').locator('.compare-product.has-product').first().locator('.remove-compare-product')
+        - locator resolved to <div data-v-0c8104f5="" class="remove-compare-product">…</div>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a rel="nofollow" target="_blank" class="link-policy" href="/tos?part=privacy-policy">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id="modal-root">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a rel="nofollow" target="_blank" class="link-policy" href="/tos?part=privacy-policy">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id="modal-root">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        33 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <a rel="nofollow" target="_blank" class="link-policy" href="/tos?part=privacy-policy">↵      Chính sách thu thập và xử lý dữ liệu cá nh…</a> from <div id="modal-root">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+      77 | async function openTray(page){await open(page,PDP);await page.getByText('So sánh',{exact:true}).first().click();await expect(tray(page)).toBeVisible();}
+      78 | async function addToTray(page,name){await tray(page).getByText('Chọn sản phẩm so sánh',{exact:true}).first().click();const m=searchModal(page);await m.getByPlaceholder('Nhập tên sản phẩm muốn so sánh').fill(name.replace(' | Chính hãng',''));await productResult(page,name).locator('.select-to-compare').click();await expect(m).toBeHidden();}
+    > 79 | async function clearTray(page){const items=tray(page).locator('.compare-product.has-product');while(await items.count()){await items.first().locator('.remove-compare-product').click();}await expect(items).toHaveCount(0);}
+         |                                                                                                                                                                                 ^
+      80 |
+      81 | const reviewBox = page => page.locator('.boxReview');
+      82 | const cards = page => reviewBox(page).locator('#review .boxReview-comment-item');
+        at clearTray (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:79:177)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:49:287
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/execution-screenshot-568903b4e9bc2a0d95741c836fc6fadd09a35dab.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-09b8e-E-LIST-Add-01---thêm-từ-PDP-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm 
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByText('Thêm sản phẩm để so sánh', { exact: true }).first()
+        - locator resolved to <span>Thêm sản phẩm để so sánh</span>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      21 | const searchModal = page => page.locator('.modal.is-active').filter({ has: page.getByPlaceholder('Nhập tên sản phẩm muốn so sánh') });
+      22 | async function search(page, query = '') {
+    > 23 |   await page.getByText('Thêm sản phẩm để so sánh', { exact: true }).first().click();
+         |                                                                             ^
+      24 |   const modal = searchModal(page);
+      25 |   await expect(modal).toBeVisible();
+      26 |   await expect(modal.getByText('Tìm sản phẩm để so sánh', { exact: true })).toBeVisible();
+        at search (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:23:77)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:109
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/attachments/execution-screenshot-103e9ee2c99ec52a0784f068e0d4a84d152ddba8.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105215147-19671/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:49:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP 
+  1 interrupted
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm 
+  22 did not run
+  1 passed (1.2m)

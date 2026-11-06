@@ -1,0 +1,466 @@
+
+Running 131 tests using 1 worker
+
+  ✓    1 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:7:1 › PC-001 PC-002 PC-023: trang và trạng thái rỗng (1.9s)
+  ✓    2 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:11:1 › PC-003: từ danh mục máy tính tới Build PC (4.3s)
+  ✓    3 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:18:1 › PC-004 PC-005: mở và đóng CPU không chọn (2.7s)
+  ✓    4 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:26:1 › PC-006 PC-019: chọn CPU và tổng một linh kiện (4.1s)
+  ✓    5 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:33:1 › PC-007..014: chọn đủ tám nhóm cốt lõi (14.6s)
+  ✓    6 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:45:1 › PC-015 PC-021: thay CPU và tính chênh lệch (9.4s)
+  ✓    7 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:56:1 › PC-016 PC-017 PC-022: thay/xóa RAM giữ SSD (8.3s)
+  ✓    8 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:70:1 › PC-018 PC-020: ba linh kiện, cộng giá và reset (14.8s)
+  ✘    9 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:78:1 › PC-025 PC-026: tìm CPU và chuỗi không khớp (18.7s)
+  ✓   10 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:102:1 › PC-030: nhấp đúp không thêm CPU trùng (30.5s)
+  ✘   11 [hn-pc] › tests/hongnhan/build-pc.spec.mjs:110:1 › Bổ sung: tăng/giảm số lượng và hủy xóa tại 1 (46.2s)
+  ✓   12 [hn-store] › tests/hongnhan/store.spec.cjs:14:1 › ST-001: mở trang và đối chiếu số cửa hàng hiển thị (11.4s)
+  ✓   13 [hn-store] › tests/hongnhan/store.spec.cjs:19:1 › ST-002: lọc Hồ Chí Minh chỉ hiển thị địa chỉ cùng tỉnh (12.0s)
+  ✓   14 [hn-store] › tests/hongnhan/store.spec.cjs:24:1 › ST-003: lọc Quận 1 và đối chiếu địa chỉ (37.4s)
+  ✓   15 [hn-store] › tests/hongnhan/store.spec.cjs:31:1 › ST-004: đổi tỉnh sang Hà Nội và reset quận (34.9s)
+  ✓   16 [hn-store] › tests/hongnhan/store.spec.cjs:39:1 › ST-005: cửa hàng có địa chỉ, giờ mở cửa và số điện thoại hợp lệ (24.5s)
+  ✓   17 [hn-store] › tests/hongnhan/store.spec.cjs:47:1 › ST-006: liên kết chỉ đường có đích Google Maps hợp lệ (24.9s)
+  ✓   18 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:8:1 › SF-001: trang chủ có logo và danh sách bài viết (6.8s)
+  ✓   19 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:13:1 › SF-002: tìm iPhone bằng Enter và kiểm tra kết quả liên quan (8.2s)
+  ✓   20 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:20:1 › SF-003: từ khóa không tồn tại hiển thị trạng thái rỗng (13.5s)
+  ✓   21 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:24:1 › SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung (15.3s)
+  ✓   22 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:35:1 › SF-005: điều hướng danh mục Tin công nghệ (6.6s)
+  ✓   23 [hn-sforum] › tests/hongnhan/sforum.spec.cjs:44:1 › SF-006: logo đưa từ kết quả tìm kiếm về trang chủ Sforum (7.9s)
+  ✓   24 [qh-search-filter] › tests/quanghuy/filter.spec.js:16:3 › Module Filter - CellphoneS Automation › TC_Filter_12: Filter_ByBrand (10.0s)
+  -   25 [qh-search-filter] › tests/quanghuy/filter.spec.js:23:3 › Module Filter - CellphoneS Automation › TC_Filter_13: Filter_ByPriceRange
+  -   26 [qh-search-filter] › tests/quanghuy/filter.spec.js:32:3 › Module Filter - CellphoneS Automation › TC_Filter_14: Filter_MultiCriteria
+  -   27 [qh-search-filter] › tests/quanghuy/filter.spec.js:39:3 › Module Filter - CellphoneS Automation › TC_Filter_16: Filter_ClearSingleFilter
+  -   28 [qh-search-filter] › tests/quanghuy/filter.spec.js:49:3 › Module Filter - CellphoneS Automation › TC_Filter_17: Filter_NoResultMatch_ShowEmptyMessage
+  -   29 [qh-search-filter] › tests/quanghuy/filter.spec.js:55:3 › Module Filter - CellphoneS Automation › TC_Filter_19: Filter_ClearAllFilters
+  -   30 [qh-search-filter] › tests/quanghuy/filter.spec.js:64:3 › Module Filter - CellphoneS Automation › TC_Filter_20A: Filter_CustomPriceRange_Validation
+  -   31 [qh-search-filter] › tests/quanghuy/filter.spec.js:70:3 › Module Filter - CellphoneS Automation › TC_Filter_20B: Filter_CustomPriceRange_Slider
+  -   32 [qh-search-filter] › tests/quanghuy/filter.spec.js:76:3 › Module Filter - CellphoneS Automation › TC_Filter_21: Filter_ByProductCondition
+  -   33 [qh-search-filter] › tests/quanghuy/filter.spec.js:81:3 › Module Filter - CellphoneS Automation › TC_Filter_22: Filter_trade_in
+  ✘   34 [qh-search-filter] › tests/quanghuy/filter.spec.js:86:3 › Module Filter - CellphoneS Automation › TC_Filter_23: Filter_ByLocation (40.5s)
+  -   35 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_01 - TC_Search_01: Search_ValidKeyword @search
+  -   36 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_02 - TC_Search_02: Search_UnaccentedKeyword @search
+  -   37 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_03 - TC_Search_03: Search_Autocomplete_ShowSuggestions @search
+  -   38 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_04 - TC_Search_04: Search_TypoKeyword_ShowSuggestions @search
+  -   39 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_05 - TC_Search_05: Search_BrandKeyword @search
+  -   40 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_06 - TC_Search_06 : Search_CategoryKeyword @search
+  -   41 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_07 - TC_Search_07: Search_Product_specification @search
+  -   42 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_08 - TC_Search_08: Search_InvalidKeyword_ShowEmptyMessage @search
+  -   43 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_09 - TC_Search_09: Search_EmptyInput_NoAction @search
+  -   44 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_10 - TC_Search_10: Search_Special_Characters @search
+  -   45 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_11 - TC_Search_11: Search_LongString_TruncatedOrHandled @search
+  -   46 [qh-search-filter] › tests/quanghuy/search.spec.js:10:5 › CellphoneS - Search › TC_Search_18 - TC_Search_18: Search_history_suggestion @search
+  ✓   47 [tt-installment] › tests/thanhtai/installment.spec.cjs:9:1 › TT-001: mở thông tin trả góp qua công ty tài chính (25.1s)
+  ✓   48 [tt-installment] › tests/thanhtai/installment.spec.cjs:14:1 › TT-002: tỷ lệ trả trước giữ đúng lựa chọn 0,30,50,80 (31.0s)
+  -   49 [tt-installment] › tests/thanhtai/installment.spec.cjs:19:1 › TT-003: checkout, đăng nhập và chuyển cổng thanh toán
+  ✓   50 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:61:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm (15.6s)
+  ✓   51 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:63:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP (16.5s)
+  ✓   52 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:64:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm (6.7s)
+  ✓   53 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:65:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17 (5.3s)
+  ✓   54 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:66:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng (6.9s)
+  ✓   55 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:67:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_03 - thêm khác hãng (7.4s)
+  ✓   56 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:68:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập (10.8s)
+  ✓   57 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:69:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay (16.2s)
+  ✓   58 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:70:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP (7.9s)
+  ✓   59 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:71:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai (23.0s)
+  ✓   60 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:72:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_02 - bỏ cột cuối (18.9s)
+  ✘   61 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:73:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Replace_01 - thêm lại ô đã bỏ (1.1m)
+  ✓   62 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:74:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_01 - tên hàng cơ bản (26.9s)
+  ✓   63 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:75:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_02 - dung lượng 256 GB (15.4s)
+  ✓   64 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:76:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_View_03 - giá trị cùng hàng Chipset (29.0s)
+  ✘   65 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:77:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_Open_01 - mở cấu hình chi tiết (50.8s)
+  ✓   66 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:78:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_02 - từ khóa không tồn tại (20.1s)
+  ✓   67 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:79:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Clear_01 - xóa từ khóa (22.4s)
+  ✘   68 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:80:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_01 - ba dấu cách (29.5s)
+  ✓   69 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:81:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_02 - ký tự đặc biệt (27.4s)
+  ✓   70 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:82:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_03 - tiếng Việt có dấu (32.4s)
+  ✓   71 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:83:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Reload_01 - reload theo URL (12.3s)
+  ✓   72 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:84:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_02 - tab mới từ URL (6.1s)
+  ✓   73 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:85:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_View_01 - chỉ kiểm tra href Mua ngay (4.9s)
+  ✓   74 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:86:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Responsive_01 - viewport 390x844 (8.1s)
+  ✓   75 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:121:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_01 - tiêu đề khu vực (17.0s)
+  ✓   76 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:122:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_02 - điểm trung bình (17.6s)
+  ✓   77 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:123:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại (13.5s)
+  ✓   78 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:124:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao (16.9s)
+  ✓   79 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:125:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm (12.7s)
+  ✓   80 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:126:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao (12.6s)
+  ✓   81 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao (10.6s)
+  ✓   82 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao (18.1s)
+  ✓   83 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao (10.9s)
+  ✓   84 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:127:57 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_05 - nhánh rỗng 1 sao (9.4s)
+  ✓   85 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:128:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao (8.2s)
+  ✓   86 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:129:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng (8.8s)
+  ✓   87 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:130:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng (9.6s)
+  ✓   88 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:131:2 › Đánh giá sản phẩm › PRODUCT_REVIEW_LIST_Open_01 - Xem tất cả đánh giá (13.2s)
+  -   89 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:133:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_FORM_Open_01 - Mở form khi tài khoản thường đã đăng nhập
+  -   90 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:134:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_FORM_View_01 - Hiển thị năm nhãn đánh giá sao
+  -   91 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:135:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_RATING_Select_01 - Chọn mức sao thấp nhất
+  -   92 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:136:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_RATING_Switch_01 - Đổi từ sao thấp nhất sang cao nhất
+  -   93 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:137:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_View_01 - Hiển thị hướng dẫn tối thiểu 15 ký tự
+  -   94 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:138:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Clear_01 - Xóa nội dung về rỗng trước khi gửi
+  -   95 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:139:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Validate_01 - Nội dung ngắn hơn hướng dẫn tối thiểu
+  -   96 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:140:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_01 - Nhập đúng 15 ký tự, chưa gửi
+  -   97 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:141:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_02 - Nhập 16 ký tự, chưa gửi
+  -   98 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:142:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Limit_01 - Nhập nội dung dài 1000 ký tự
+  -   99 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:143:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Validate_02 - Nội dung chỉ có 15 dấu cách
+  -  100 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:144:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_03 - Nhập ký tự đặc biệt dưới dạng văn bản
+  -  101 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:145:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Input_04 - Nhập tiếng Việt và emoji
+  -  102 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:146:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_CONTENT_Security_01 - Nhập chuỗi script như văn bản, không gửi
+  -  103 [rv] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:147:7 › Đánh giá sản phẩm › PRODUCT_REVIEW_ATTACHMENT_View_01 - Hiển thị tùy chọn thêm ảnh và loại file khai báo
+  ✓  104 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:76:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_Open_01 - mở URL sản phẩm cố định (7.4s)
+  ✓  105 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:81:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_01 - hiển thị tên, giá, ảnh và thông số (6.2s)
+  ✓  106 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:89:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_02 - giá bán và giá gốc đang hiển thị (5.7s)
+  ✓  107 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:111:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_03 - không có nhãn phần trăm giảm cạnh giá (4.2s)
+  ✓  108 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:120:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Select_01 - chọn 256GB (10.3s)
+  ✓  109 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:128:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Select_02 - chọn 512GB (9.1s)
+  ✓  110 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:136:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Switch_01 - chuyển 512GB rồi về 256GB (11.2s)
+  ✓  111 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:146:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Open_01 - mở trực tiếp URL 512GB (5.7s)
+  ✓  112 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:152:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Select_01 - chọn lần lượt các màu đang hiển thị (11.9s)
+  ✓  113 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:157:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh (6.8s)
+  ✓  114 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:169:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_VARIANT_Switch_02 - giữ màu Tím khi đổi sang 512GB (9.8s)
+  ✓  115 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:177:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Select_01 - chọn ảnh thu nhỏ (8.5s)
+  ✓  116 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:186:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Navigate_01 - chuyển ảnh bằng Next (6.3s)
+  ✓  117 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:194:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Navigate_02 - Previous tại slide đầu (7.4s)
+  ✓  118 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:201:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_GALLERY_Open_01 - mở ảnh lớn, Escape và đóng hộp thoại video (7.7s)
+  ✓  119 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:214:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm (5.5s)
+  ✓  120 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:223:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_INFO_Open_02 - mở phần mô tả sản phẩm (7.2s)
+  ✓  121 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:229:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_View_01 - hiển thị các hàng thông số (6.1s)
+  ✓  122 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:236:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_Open_01 - mở bảng thông số mở rộng (7.4s)
+  ✓  123 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:245:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_SPECS_Switch_01 - chuyển nhóm Màn hình (7.7s)
+  -  124 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:255:32 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ACTION_Add_01 - thêm vào giỏ và dọn sản phẩm kiểm thử
+  -  125 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:262:32 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ACTION_Buy_01 - MUA NGAY tới giỏ rồi dọn sản phẩm kiểm thử
+  ✓  126 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:269:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COLOR_Switch_01 - đổi giữa hai màu (7.8s)
+  ✓  127 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:277:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ERROR_Open_01 - URL không tồn tại (832ms)
+  -  128 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:285:8 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_ERROR_Security_01 - URL chứa payload script
+  ✓  129 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:289:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_Reload_01 - tải lại vẫn giữ màu và URL (11.6s)
+  ✓  130 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:299:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_Navigate_01 - Back rồi Forward (16.0s)
+  ✓  131 [pd] › tests/quangthong/22130275_TrinhQuangThong_ASM8.spec.js:311:3 › Trang chi tiết sản phẩm › PRODUCT_DETAIL_COMPAT_View_01 - hiển thị ở viewport 390x844 (6.5s)
+
+
+  1) [hn-pc] › tests/hongnhan/build-pc.spec.mjs:78:1 › PC-025 PC-026: tìm CPU và chuỗi không khớp ──
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })
+    Expected substring: "CPU Intel Core i5 12400F"
+    Received string:    "CPU Intel Core Ultra 5 225F (Tray)"
+    Timeout: 8000ms
+
+    Call log:
+      - Expect "toContainText" locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 }) with timeout 8000ms
+      - waiting for locator('.product-info').filter({ has: locator('.button__select') }).first().getByRole('heading', { level: 3 })
+        19 × locator resolved to <h3>CPU Intel Core Ultra 5 225F (Tray)</h3>
+           - unexpected value "CPU Intel Core Ultra 5 225F (Tray)"
+
+
+      92 |   }
+      93 |   await searchAndWait(name);
+    > 94 |   await expect(pc.cards.first().getByRole('heading', {level: 3})).toContainText(name);
+         |                                                                   ^
+      95 |   await searchAndWait('zzx_no_product_987654');
+      96 |   await expect(page.getByText('Không tìm thấy sản phẩm', {exact: true})).toBeVisible();
+      97 |   await expect(pc.cards).toHaveCount(0);
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:94:67
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/attachments/execution-screenshot-b3103945e6f22be7d6337e0bdb4ff5bf9fc5535b.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-PC-025-PC-026-tìm-CPU-và-chuỗi-không-khớp-hn-pc/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [hn-pc] › tests/hongnhan/build-pc.spec.mjs:110:1 › Bổ sung: tăng/giảm số lượng và hủy xóa tại 1 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Bạn có muốn xoá sản phẩm này ?', { exact: true })
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('Bạn có muốn xoá sản phẩm này ?', { exact: true }) with timeout 8000ms
+      - waiting for getByText('Bạn có muốn xoá sản phẩm này ?', { exact: true })
+        - found getByRole('button', { name: 'Bữa khác nha!', exact: true }), intercepting action to run the handler
+        - locator handler has finished, waiting for getByRole('button', { name: 'Bữa khác nha!', exact: true }) to be hidden
+        - interception handler has finished, continuing
+
+
+      116 |   await expect.poll(() => pc.total()).toBe(cpu.price);
+      117 |   await pc.row('CPU').getByRole('button', {name: '-', exact: true}).click();
+    > 118 |   await expect(page.getByText('Bạn có muốn xoá sản phẩm này ?', {exact: true})).toBeVisible();
+          |                                                                                 ^
+      119 |   await page.getByText('Không', {exact: true}).click();
+      120 |   expect((await pc.items())[0].quantity).toBe(1);
+      121 |   expect(await pc.total()).toBe(cpu.price);
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/hongnhan/build-pc.spec.mjs:118:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/attachments/execution-screenshot-0fb6b0d352f49403c0d7205063476c86b25881e6.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261106174424-25176/artifacts/hongnhan-build-pc-Bổ-sung--c7abc-m-số-lượng-và-hủy-xóa-tại-1-hn-pc/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [qh-search-filter] › tests/quanghuy/filter.spec.js:86:3 › Module Filter - CellphoneS Automation › TC_Filter_23: Filter_ByLocation 
+
+    TimeoutError: page.click: Timeout 20000ms exceeded.
+    Call log:
+      - waiting for locator('button.button__change-province')
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+        - locator handler has finished, waiting for getByRole('button', { name: 'Từ chối', exact: true }) to be hidden
+        - locator resolved to visible <button data-slot="button" class="cpsui:flex cpsui:items-center cpsui:justify-center cpsui:gap-2x-small cpsui:cursor-pointer cpsui:disabled:cursor-not-allowed cpsui:border cpsui:border-[1px] cpsui:text-base cpsui:px-medium cpsui:py-1x-small cpsui:min-h-[40px] cpsui:rounded-base cpsui:border-neutral-300 cpsui:text-neutral-800 cpsui:bg-pure-white cpsui:hover:border-neutral-400 cpsui:hover:bg-neutral-50 cpsui:disabled:border-black-300 cpsui:disabled:text-black-300 cpsui:disabled:bg-pure-white flex-1 px-1…>Từ chối</button>
+        - interception handler has finished, continuing
+
+
+      86 |   test('TC_Filter_23: Filter_ByLocation', async ({ page }) => {
+      87 |     await page.goto('https://cellphones.com.vn/', { waitUntil: 'domcontentloaded' });
+    > 88 |     await page.click('button.button__change-province');
+         |                ^
+      89 |     await page.waitForTimeout(500);
+      90 |     await page.click('span:has-text("Hồ Chí Minh")', { force: true });
+      91 |     await expect(page.locator('body')).toContainText('Hồ Chí Minh');
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quanghuy/filter.spec.js:88:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quanghuy-filter-Module-Fil-bece8-Filter-23-Filter-ByLocation-qh-search-filter/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quanghuy-filter-Module-Fil-bece8-Filter-23-Filter-ByLocation-qh-search-filter/attachments/execution-screenshot-f20ac939f12c5e2a52600c6195957c62392ef064.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quanghuy-filter-Module-Fil-bece8-Filter-23-Filter-ByLocation-qh-search-filter/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quanghuy-filter-Module-Fil-bece8-Filter-23-Filter-ByLocation-qh-search-filter/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261106174424-25176/artifacts/quanghuy-filter-Module-Fil-bece8-Filter-23-Filter-ByLocation-qh-search-filter/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:73:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Replace_01 - thêm lại ô đã bỏ 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \| Chính hãng$/ }) })
+    Expected: 1
+    Received: undefined
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \| Chính hãng$/ }) }) with timeout 8000ms
+      - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \| Chính hãng$/ }) })
+        - found getByRole('button', { name: 'Bữa khác nha!', exact: true }), intercepting action to run the handler
+
+
+      48 |   await search(page, name.replace(' | Chính hãng', ''));
+      49 |   const result = productResult(page, name);
+    > 50 |   await expect(result).toHaveCount(1);
+         |                        ^
+      51 |   await result.getByText('+ Chọn để so sánh', { exact: true }).click();
+      52 |   await expect(searchModal(page)).toBeHidden();
+      53 |   await expect(title(page)).toContainText(name);
+        at add (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:50:24)
+        at two (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:55:46)
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:73:84
+
+    TimeoutError: locator.click: Timeout 20000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Bữa khác nha!', exact: true })
+        - locator resolved to <button data-v-51b745ac="" class="subscriber-form-submit button cancel-button">↵            Bữa khác nha!↵          </button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div class="product-item product-info-container p-3 item-137019">…</div> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div class="product-item product-info-container p-3 item-137019">…</div> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        3 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div class="product-item product-info-container p-3 item-137019">…</div> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 500ms
+        - found getByRole('button', { name: 'Bữa khác nha!', exact: true }), intercepting action to run the handler
+
+
+       at ../support/fixtures.cjs:43
+
+      41 |       await page.addLocatorHandler(page.getByRole('button', { name: 'Từ chối', exact: true }), async button => { await button.click(); });
+      42 |     }
+    > 43 |     await page.addLocatorHandler(page.getByRole('button', { name: 'Bữa khác nha!', exact: true }), async button => { await button.click(); });
+         |                                                                                                                                   ^
+      44 |     await use();
+      45 |     page.off('response', onResponse);
+      46 |   }, { auto: true }],
+        at Object.handler (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/support/fixtures.cjs:43:131)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-f6803-place-01---thêm-lại-ô-đã-bỏ-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-f6803-place-01---thêm-lại-ô-đã-bỏ-cp/attachments/execution-screenshot-3da15381e69596b0c8546ef60031eac89be5c223.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-f6803-place-01---thêm-lại-ô-đã-bỏ-cp/error-context.md
+
+  5) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:77:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_Open_01 - mở cấu hình chi tiết 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('button.button__change-province')
+    Expected: visible
+    Received: undefined
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('button.button__change-province') with timeout 8000ms
+      - waiting for locator('button.button__change-province')
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+      27 |   await assertAvailable(page, response);
+      28 |   const region = page.locator('button.button__change-province');
+    > 29 |   await expect(region).toBeVisible();
+         |                        ^
+      30 |   await expect(region).not.toContainText(/Đang tải/, { timeout: 30000 });
+      31 | }
+      32 | const title = page => page.locator('h1.box-compare__title');
+        at open (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:29:24)
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:77:86
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'Từ chối', exact: true })
+        - found getByRole('button', { name: 'Bữa khác nha!', exact: true }), intercepting action to run the handler
+        - locator handler has finished, waiting for getByRole('button', { name: 'Bữa khác nha!', exact: true }) to be hidden
+        - interception handler has finished, continuing
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+      14 |     const query = restoreSearch ? await modal.getByPlaceholder('Nhập tên sản phẩm muốn so sánh').inputValue() : '';
+      15 |     if (restoreSearch) await modal.getByRole('button', { name: 'close', exact: true }).click();
+    > 16 |     await page.getByRole('button', { name: 'Từ chối', exact: true }).click();
+         |                                                                      ^
+      17 |     if (restoreSearch) {
+      18 |       await page.getByText('Thêm sản phẩm để so sánh', { exact: true }).first().click();
+      19 |       await expect(modal).toBeVisible();
+        at Object.handler (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:16:70)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d2292-n-01---mở-cấu-hình-chi-tiết-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d2292-n-01---mở-cấu-hình-chi-tiết-cp/attachments/execution-screenshot-8e171f32e66a4ac9c7b308595dd39af496d4777f.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d2292-n-01---mở-cấu-hình-chi-tiết-cp/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d2292-n-01---mở-cấu-hình-chi-tiết-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d2292-n-01---mở-cấu-hình-chi-tiết-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:80:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_01 - ba dấu cách 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('button.button__change-province')
+    Expected: visible
+    Received: undefined
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('button.button__change-province') with timeout 8000ms
+      - waiting for locator('button.button__change-province')
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+      27 |   await assertAvailable(page, response);
+      28 |   const region = page.locator('button.button__change-province');
+    > 29 |   await expect(region).toBeVisible();
+         |                        ^
+      30 |   await expect(region).not.toContainText(/Đang tải/, { timeout: 30000 });
+      31 | }
+      32 | const title = page => page.locator('h1.box-compare__title');
+        at open (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:29:24)
+        at noResults (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:88:39)
+        at /Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:80:79
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'Từ chối', exact: true })
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+      14 |     const query = restoreSearch ? await modal.getByPlaceholder('Nhập tên sản phẩm muốn so sánh').inputValue() : '';
+      15 |     if (restoreSearch) await modal.getByRole('button', { name: 'close', exact: true }).click();
+    > 16 |     await page.getByRole('button', { name: 'Từ chối', exact: true }).click();
+         |                                                                      ^
+      17 |     if (restoreSearch) {
+      18 |       await page.getByText('Thêm sản phẩm để so sánh', { exact: true }).first().click();
+      19 |       await expect(modal).toBeVisible();
+        at Object.handler (/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:16:70)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d9a2d-ARCH-Input-01---ba-dấu-cách-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d9a2d-ARCH-Input-01---ba-dấu-cách-cp/attachments/execution-screenshot-8cb015b24a9db6cc68b50a6e8f279c6adc3cf6ea.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d9a2d-ARCH-Input-01---ba-dấu-cách-cp/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d9a2d-ARCH-Input-01---ba-dấu-cách-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261106174424-25176/artifacts/quangthong-22130275_TrinhQ-d9a2d-ARCH-Input-01---ba-dấu-cách-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [hn-pc] › tests/hongnhan/build-pc.spec.mjs:78:1 › PC-025 PC-026: tìm CPU và chuỗi không khớp ───
+    [hn-pc] › tests/hongnhan/build-pc.spec.mjs:110:1 › Bổ sung: tăng/giảm số lượng và hủy xóa tại 1 
+    [qh-search-filter] › tests/quanghuy/filter.spec.js:86:3 › Module Filter - CellphoneS Automation › TC_Filter_23: Filter_ByLocation 
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:73:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Replace_01 - thêm lại ô đã bỏ 
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:77:3 › So sánh sản phẩm › PRODUCT_COMPARE_SPECS_Open_01 - mở cấu hình chi tiết 
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:80:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Input_01 - ba dấu cách 
+  40 skipped
+  85 passed (26.3m)

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test"
+  ],
+  "runId": "asm8-20261106172308-17432",
+  "node": "v24.20.0",
+  "cwd": "/Users/quachnhan/Documents/Codex/2026-11-06/ki-m-tra-ngu-n-v/work/repo/assignment8/Automation Testing Project - Group 15",
+  "startedAt": "2026-11-06T10:23:08.610Z"
+}

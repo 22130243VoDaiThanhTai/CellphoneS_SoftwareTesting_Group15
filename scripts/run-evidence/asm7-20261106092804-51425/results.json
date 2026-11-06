@@ -1,0 +1,4083 @@
+{
+  "config": {
+    "argv": [
+      "/Users/admin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/node_modules/@playwright/test/cli.js",
+      "test"
+    ],
+    "configFile": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/playwright.config.js",
+    "rootDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "cp",
+        "name": "cp",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "22130275_TrinhQuangThong_ASM7.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "rv",
+        "name": "rv",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "22130275_TrinhQuangThong_ASM7.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "pd",
+        "name": "pd",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "22130275_TrinhQuangThong_ASM7.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "cp",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "snapshotDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": "22130275_TrinhQuangThong_ASM7.spec.js",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": false,
+          "launchOptions": {
+            "slowMo": 500
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "cp"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "rv",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "snapshotDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": "22130275_TrinhQuangThong_ASM7.spec.js",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": false,
+          "launchOptions": {
+            "slowMo": 500
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "rv"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "pd",
+        "testDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "snapshotDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts",
+        "testIgnore": [],
+        "testMatch": "22130275_TrinhQuangThong_ASM7.spec.js",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://cellphones.com.vn",
+          "browserName": "chromium",
+          "channel": "chrome",
+          "headless": false,
+          "launchOptions": {
+            "slowMo": 500
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "locale": "vi-VN",
+          "actionTimeout": 20000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "pd"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/results.json"
+        }
+      ],
+      [
+        "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/support/summary-reporter.cjs",
+        {
+          "reportDir": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/report",
+          "runId": "asm7-20261106092804-51425"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "22130275_TrinhQuangThong_ASM7.spec.js",
+      "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "So sánh sản phẩm",
+          "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+          "line": 391,
+          "column": 6,
+          "specs": [
+            {
+              "title": "PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6388,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:28:05.400Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-a4b65-n-01---mở-bảng-một-sản-phẩm-cp/attachments/execution-screenshot-fa7200b8327ba1965fbd358fb1617adca4a3d832.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-7ab2fc9c9059b4e7aaa9",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 393,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11434,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:28:13.193Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "compare-tray-before-cleanup",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-e00e0-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/compare-tray-before-cleanup-985558ef6a1771a4fb60c24f982d0f5fde9fc365.png"
+                        },
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-e00e0-E-LIST-Add-01---thêm-từ-PDP-cp/attachments/execution-screenshot-a2c782516f1acf3b44c8d9162399a376adadf6d7.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-77e0da2cdf2a29f076df",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 395,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5232,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:28:24.647Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-a70b4-SEARCH-Open-01---mở-hộp-tìm-cp/attachments/execution-screenshot-9eea03ea13fe5c6c01ab180505b1da825108ca09.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-2e283561cc2f0fb6b03e",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 396,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8431,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:28:29.894Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-3de17-H-Search-01---tìm-iPhone-17-cp/attachments/execution-screenshot-5aeee8ad37d3773e008ce42d1ceb33c322d558b7.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-91f7ccca9efa951674be",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 397,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11002,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:28:38.342Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-2ecaa-IST-Add-02---thêm-cùng-hãng-cp/attachments/execution-screenshot-a0527ff5f99c64ec8081c8d32542d480c100e6d0.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-3d3434396062174732f5",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 398,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Add_03 - thêm khác hãng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11392,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:28:49.361Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-c8c3e-IST-Add-03---thêm-khác-hãng-cp/attachments/execution-screenshot-78f2dfef5d0f776a7f8ddccb0f6b86f1855657df.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-0ba9e3bfb10119246412",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 399,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15591,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:29:00.766Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-d644f-IST-Add-04---ba-cột-độc-lập-cp/attachments/execution-screenshot-221aea0bbfb5665c7ebefdbbf5f9bb1c5bbbd2d8.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-7bea4d363847289eacd8",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 400,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 22687,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:29:16.371Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "compare-tray-before-cleanup",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-5377c--thử-thêm-thứ-tư-trong-khay-cp/attachments/compare-tray-before-cleanup-a21ef9d297a745359f5b41be7d749fd34f922d47.png"
+                        },
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-5377c--thử-thêm-thứ-tư-trong-khay-cp/attachments/execution-screenshot-7b9c8db1ea74e455e9581ac1a2e1029b3acc8819.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-e09ff9ede0d78ceac44a",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 401,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11140,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:29:39.073Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "compare-tray-before-cleanup",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-ac099-cate-01---thêm-lại-cùng-PDP-cp/attachments/compare-tray-before-cleanup-fc80ef4576f3efdb70c8f15cd3f55d57031594ef.png"
+                        },
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-ac099-cate-01---thêm-lại-cùng-PDP-cp/attachments/execution-screenshot-f84f0161b9055c65322a3381547557169454ed5b.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-35c62f04fcc2cf1cfb91",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 402,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11741,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:29:50.234Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-1a36f--Remove-01---bỏ-cột-thứ-hai-cp/attachments/execution-screenshot-848d1b2db961365ae6be9167e94d1353f2ec0bd5.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-311ea1291273965fd0bb",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 403,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Remove_02 - bỏ cột cuối",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6018,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:01.991Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-d1526-IST-Remove-02---bỏ-cột-cuối-cp/attachments/execution-screenshot-871e5d67cdee128fd9dae30e2fe64fd801350179.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-6649377258585af6657a",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 404,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_LIST_Replace_01 - thêm lại ô đã bỏ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12000,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:08.023Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-80a75-place-01---thêm-lại-ô-đã-bỏ-cp/attachments/execution-screenshot-4a62b6f0744d1dab4eeb9a54c41bb081125ccc24.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-918629cffb3d3f5db6a9",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 405,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SPECS_View_01 - tên hàng cơ bản",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4643,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:20.039Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-71125-S-View-01---tên-hàng-cơ-bản-cp/attachments/execution-screenshot-b2715481a2943186fc1c974107ff150a257f1614.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-ee17598d877497328240",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 406,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SPECS_View_02 - dung lượng 256 GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3923,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:24.697Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-14055-View-02---dung-lượng-256-GB-cp/attachments/execution-screenshot-e6b18cf116cfae5af1519a11bc84d6f5f66dd539.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-5741ad7fce33d8dca524",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 407,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SPECS_View_03 - giá trị cùng hàng Chipset",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10736,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:28.639Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-f46ce---giá-trị-cùng-hàng-Chipset-cp/attachments/execution-screenshot-7cb806b1398fedac4f6138119a46f19a28486fdc.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-5aa7ae40c227ce6baefc",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 408,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SPECS_Open_01 - mở cấu hình chi tiết",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5408,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:39.390Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-6a3c1-n-01---mở-cấu-hình-chi-tiết-cp/attachments/execution-screenshot-68f3b856c2ae6d66b737aef91bad9f9db6e1d0c3.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-6eb11701e63d32fdaf67",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 409,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Search_02 - từ khóa không tồn tại",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8353,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:44.815Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-3cad6--02---từ-khóa-không-tồn-tại-cp/attachments/execution-screenshot-3a13ff2f032ac06b15cbdf1574ef7e4d44426bbf.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-90232fd0317932b4cc19",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 410,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Clear_01 - xóa từ khóa",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9483,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:30:53.185Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-29880-ARCH-Clear-01---xóa-từ-khóa-cp/attachments/execution-screenshot-55903771485cf9d17ff887949ea415c59b059ccd.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-ec517e962ad6a794766c",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 411,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Input_01 - ba dấu cách",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8404,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:02.687Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-75a49-ARCH-Input-01---ba-dấu-cách-cp/attachments/execution-screenshot-90008896fd9304efa73a4085c7946154f171ddcb.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-64abbe3593395f5e94e5",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 412,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Input_02 - ký tự đặc biệt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8768,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:11.113Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-5ea50-H-Input-02---ký-tự-đặc-biệt-cp/attachments/execution-screenshot-7744884895c4e07a4afec92a5e2fe9880948f7d4.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-a7678c0f5c022b1e58d3",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 413,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_SEARCH_Input_03 - tiếng Việt có dấu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8588,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:19.898Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-c5ea5-nput-03---tiếng-Việt-có-dấu-cp/attachments/execution-screenshot-824ec53079ad5dcd521b135ed3e618a272203748.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-c1a4dcb9f6bfc9ec2a4a",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 414,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_PAGE_Reload_01 - reload theo URL",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6010,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:28.506Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-29faf-Reload-01---reload-theo-URL-cp/attachments/execution-screenshot-5b24903f3f671d0a6be529c37678177143e183db.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-140c98e5dfc8c56187cf",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 415,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_PAGE_Open_02 - tab mới từ URL",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4161,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:34.534Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "compare-direct-tab",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-25bda-GE-Open-02---tab-mới-từ-URL-cp/attachments/compare-direct-tab-4162d150966edc925f5462da41899a5f76602607.png"
+                        },
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-25bda-GE-Open-02---tab-mới-từ-URL-cp/attachments/execution-screenshot-62ae0a7dc221a8e6d4bb66dee06f60c223ef36cb.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-85854582d235729d2103",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 416,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_PAGE_View_01 - chỉ kiểm tra href Mua ngay",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4164,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:38.710Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-7c32f--chỉ-kiểm-tra-href-Mua-ngay-cp/attachments/execution-screenshot-b4450b964aa045035f329fc78d44ca64d0b5a235.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f50b11892d2316b52b23",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 417,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_COMPARE_PAGE_Responsive_01 - viewport 390x844",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "scope",
+                      "description": "Kiểm tra geometry/phần tử; vẫn cần xem ảnh để đánh giá khả năng đọc toàn bố cục."
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "cp",
+                  "projectName": "cp",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4945,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:42.896Z",
+                      "annotations": [
+                        {
+                          "type": "scope",
+                          "description": "Kiểm tra geometry/phần tử; vẫn cần xem ảnh để đánh giá khả năng đọc toàn bố cục."
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-16331-nsive-01---viewport-390x844-cp/attachments/execution-screenshot-9150fa6ee69dc27036fb72792eba882fd38cff2d.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-9b39ba2ffa166d92f059",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 418,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Đánh giá sản phẩm",
+          "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+          "line": 451,
+          "column": 6,
+          "specs": [
+            {
+              "title": "PRODUCT_REVIEW_SUMMARY_View_01 - tiêu đề khu vực",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9666,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:31:49.671Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-f2be9-Y-View-01---tiêu-đề-khu-vực-rv/attachments/execution-screenshot-e7e105128beb68aea764297f3458afe7082733e5.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-bbd6ee59deb30a9f42d3",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 453,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_SUMMARY_View_02 - điểm trung bình",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8879,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:32:00.046Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-ea433-Y-View-02---điểm-trung-bình-rv/attachments/execution-screenshot-c54d6df0588ee76df0180638964be747cc463299.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-df5bffab5e5a0fc85baf",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 454,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_SUMMARY_View_03 - tổng lượt hiện tại",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9270,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:32:08.944Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-f1f91-iew-03---tổng-lượt-hiện-tại-rv/attachments/execution-screenshot-9b12ecc6891837eff4650dadb23225959fe5182f.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-2ec7c50411e68016c607",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 455,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_SUMMARY_View_04 - phân bố năm sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11173,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:32:18.233Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-2e5f4-Y-View-04---phân-bố-năm-sao-rv/attachments/execution-screenshot-80b72c0505bb1e4bb96d7b291bf0b365aa26af45.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-0bcd3713a8401fc071ed",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 456,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_SUMMARY_View_05 - điểm trải nghiệm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9649,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:32:29.425Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-6b0ea--View-05---điểm-trải-nghiệm-rv/attachments/execution-screenshot-d8e148e8f00256afb2aa181f5a46789ea9c36666.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-7b9fba50b26d469bdd88",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 457,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Select_01 - lọc 5 sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10996,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:32:39.094Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-0e795-ILTER-Select-01---lọc-5-sao-rv/attachments/execution-screenshot-a6fd88f22572ae19e3f59673b29f1b425ffec5d0.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-5957326497d67ca69ff4",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 458,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Select_02 - nhánh rỗng 4 sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10009,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:32:50.107Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-0c88a-elect-02---nhánh-rỗng-4-sao-rv/attachments/execution-screenshot-1f5344204df8f6eed6fec78a043c378606c44dbf.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-979a8cd85c4d03a1baeb",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 459,
+              "column": 57
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Select_03 - nhánh rỗng 3 sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9877,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:33:00.136Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-e8898-elect-03---nhánh-rỗng-3-sao-rv/attachments/execution-screenshot-cf516110004fe4646920a78c1a12e598822630f3.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-2cf63a112ea6a0706bac",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 459,
+              "column": 57
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Select_04 - nhánh rỗng 2 sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9750,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:33:10.032Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-5924a-elect-04---nhánh-rỗng-2-sao-rv/attachments/execution-screenshot-7c71e3a22bcdb921d6ae992bede78d6790fbd8bd.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-d030d541f4c90aaa12a0",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 459,
+              "column": 57
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Select_05 - nhánh rỗng 1 sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10026,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:33:19.800Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-d7efa-elect-05---nhánh-rỗng-1-sao-rv/attachments/execution-screenshot-8ad01e4497e2fb563db93b7e4e2f35dc7d20ea61.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-532c3b7da649bb1c4ab7",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 459,
+              "column": 57
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Clear_01 - Tất cả sau 4 sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11061,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:33:29.844Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-f13fd-Clear-01---Tất-cả-sau-4-sao-rv/attachments/execution-screenshot-2b02e469043e1fd7d7e3fb102d1641054bbf4060.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-1123a14e712558611a46",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 460,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Select_06 - Có hình ảnh nhánh rỗng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9757,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:33:40.924Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-89647-06---Có-hình-ảnh-nhánh-rỗng-rv/attachments/execution-screenshot-a14c04c11e4ffdb2ed4a24bd22b496b606103eef.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-a98f4ee3274f8638909f",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 461,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_FILTER_Select_07 - Đã mua hàng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10823,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:33:50.696Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-06882-TER-Select-07---Đã-mua-hàng-rv/attachments/execution-screenshot-6a76c9170782e3f695227514c48edf6f61865421.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-10aa14c9ffb5f42fbbec",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 462,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_LIST_Open_01 - Xem tất cả đánh giá",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11577,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:01.537Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "review-full",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-0d0db-en-01---Xem-tất-cả-đánh-giá-rv/attachments/review-full-7cdc0dfda51ed002bc8acf6770acb9de6b511921.png"
+                        },
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-0d0db-en-01---Xem-tất-cả-đánh-giá-rv/attachments/execution-screenshot-8b7d543aa6bdd9ccfc6b199db516839185ee69e3.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-0ed8d68fe12babda613e",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 463,
+              "column": 2
+            },
+            {
+              "title": "PRODUCT_REVIEW_FORM_Open_01 - Mở form khi tài khoản thường đã đăng nhập",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 465,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 465,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.133Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 465,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 465,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-37ae0c8f9f5e60d8fa1c",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 465,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_FORM_View_01 - Hiển thị năm nhãn đánh giá sao",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 466,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 466,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.134Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 466,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 466,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-eddaa0f8bad67ce225e1",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 466,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_RATING_Select_01 - Chọn mức sao thấp nhất",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 467,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 467,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.134Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 467,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 467,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-9e1044abbcc85e1b45c4",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 467,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_RATING_Switch_01 - Đổi từ sao thấp nhất sang cao nhất",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 468,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 468,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.134Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 468,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 468,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-3dde1021c66973b3be28",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 468,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_View_01 - Hiển thị hướng dẫn tối thiểu 15 ký tự",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 469,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 469,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.134Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 469,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 469,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-e6d56df0108fc3194c23",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 469,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Clear_01 - Xóa nội dung về rỗng trước khi gửi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 470,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 470,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.134Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 470,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 470,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-242cf9dd4f04754bcf04",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 470,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Validate_01 - Nội dung ngắn hơn hướng dẫn tối thiểu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 471,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 471,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.134Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 471,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 471,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-bdbd6eb7b2f2f62a5079",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 471,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Input_01 - Nhập đúng 15 ký tự, chưa gửi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 472,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 472,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.134Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 472,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 472,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-ed83f9d11fe1619e2bc5",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 472,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Input_02 - Nhập 16 ký tự, chưa gửi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 473,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 473,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.135Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 473,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 473,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-03307601febe59d2dc45",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 473,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Limit_01 - Nhập nội dung dài 1000 ký tự",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 474,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 474,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.135Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 474,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 474,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-593021aac6238f2e0993",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 474,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Validate_02 - Nội dung chỉ có 15 dấu cách",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 475,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 475,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.135Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Expected còn CẦN XÁC MINH trong workbook; cần đặc tả/môi trường cho phép gửi thử. Không suy từ nhập liệu sang validation.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 475,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 475,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-1367713b9c65228b0033",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 475,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Input_03 - Nhập ký tự đặc biệt dưới dạng văn bản",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 476,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 476,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.135Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 476,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 476,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-27cdc97b658f493f93a9",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 476,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Input_04 - Nhập tiếng Việt và emoji",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 477,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 477,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.136Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 477,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 477,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-e4365ebc5147a822b889",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 477,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_CONTENT_Security_01 - Nhập chuỗi script như văn bản, không gửi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 478,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 478,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.136Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 478,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 478,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-cac2090bb2ce185419e6",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 478,
+              "column": 7
+            },
+            {
+              "title": "PRODUCT_REVIEW_ATTACHMENT_View_01 - Hiển thị tùy chọn thêm ảnh và loại file khai báo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip-reason",
+                      "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 479,
+                        "column": 7
+                      }
+                    },
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 479,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "rv",
+                  "projectName": "rv",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:13.136Z",
+                      "annotations": [
+                        {
+                          "type": "skip-reason",
+                          "description": "Cần phiên CellphoneS đăng nhập có sẵn. Project chạy context sạch, không sao chép cookie hoặc đăng nhập; không gửi đánh giá.",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 479,
+                            "column": 7
+                          }
+                        },
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 479,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-4d9978dc27b4cc2726a3",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 479,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Trang chi tiết sản phẩm",
+          "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+          "line": 78,
+          "column": 6,
+          "specs": [
+            {
+              "title": "PRODUCT_DETAIL_INFO_Open_01 - mở URL sản phẩm cố định",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7001,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:14.458Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-e6ff7-1---mở-URL-sản-phẩm-cố-định-pd/attachments/execution-screenshot-9499eebca252206261cadc14d320ca3562b16d01.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-76db26c2495ee3f8ab7a",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 79,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_01 - hiển thị tên, giá, ảnh và thông số",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7173,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:22.056Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-32667-thị-tên-giá-ảnh-và-thông-số-pd/attachments/execution-screenshot-317401d5668082bea1ae6935e83c54e469e3e5b2.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f614066afcb5a9e601cc",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 84,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_02 - giá bán và giá gốc đang hiển thị",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "price-observation",
+                      "description": "Đã so sánh 1 phần tử giá gốc > giá bán"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6994,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:29.250Z",
+                      "annotations": [
+                        {
+                          "type": "price-observation",
+                          "description": "Đã so sánh 1 phần tử giá gốc > giá bán"
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-067bf-án-và-giá-gốc-đang-hiển-thị-pd/attachments/execution-screenshot-faa8dc1489e36db86a46223b2dd267d154605338.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-c1110091526eed15d5f4",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 92,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_03 - không có nhãn phần trăm giảm cạnh giá",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6621,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:36.262Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-05c45-hãn-phần-trăm-giảm-cạnh-giá-pd/attachments/execution-screenshot-98ead751659d3a00f5efe4052320dfcfafc52b29.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-6c2dd00e6d584362642c",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 114,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Select_01 - chọn 256GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9696,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:42.901Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-c4550-IANT-Select-01---chọn-256GB-pd/attachments/execution-screenshot-35b2d3b8652086714aca95e24fa558577b7df922.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-6256860112f50a67e768",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 123,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Select_02 - chọn 512GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9494,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:34:52.614Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-fcaaa-IANT-Select-02---chọn-512GB-pd/attachments/execution-screenshot-d05044645e8bc501494ec42b4833eed8be17fd42.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-9dab55f2c468040e94f8",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 131,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Switch_01 - chuyển 512GB rồi về 256GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12070,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:35:02.129Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-f1eb7---chuyển-512GB-rồi-về-256GB-pd/attachments/execution-screenshot-b949ae4ce908eb30c650d20da4bd2a136dcfe75a.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-d49eefc68f29f5565856",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 139,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Open_01 - mở trực tiếp URL 512GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8673,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:35:14.214Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-d754b-01---mở-trực-tiếp-URL-512GB-pd/attachments/execution-screenshot-d12c62625eea61708df20d24b52c29e718513cb6.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-54e6238f3e969334f020",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 149,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COLOR_Select_01 - chọn lần lượt các màu đang hiển thị",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13352,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:35:22.900Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-db9bb--lượt-các-màu-đang-hiển-thị-pd/attachments/execution-screenshot-b869142dab32bf3a086eba5f352e3e049b7be865.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-fade27760b53640d7000",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 155,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COLOR_Select_02 - chọn Xanh Lá Xô Thơm và kiểm tra ảnh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9284,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:35:36.273Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-425fd--Lá-Xô-Thơm-và-kiểm-tra-ảnh-pd/attachments/execution-screenshot-b938ed2dba8f5a0f2198f71a13828142de32e7ea.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f8f6b06ef99ac42463a9",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 160,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_VARIANT_Switch_02 - giữ màu Tím khi đổi sang 512GB",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11511,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:35:45.573Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-59508--màu-Tím-khi-đổi-sang-512GB-pd/attachments/execution-screenshot-fe1b2a0d1658854e76f58576d60831d59b012860.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-56325113531ae83b2f78",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 172,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Select_01 - chọn ảnh thu nhỏ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8665,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:35:57.099Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-71206-elect-01---chọn-ảnh-thu-nhỏ-pd/attachments/execution-screenshot-706b8a16780fd12a7a7aecf1b9593ed68beab107.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-8d9e6e7a9378d6b6c903",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 180,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Navigate_01 - chuyển ảnh bằng Next",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7416,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:36:05.780Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-0a54b-e-01---chuyển-ảnh-bằng-Next-pd/attachments/execution-screenshot-1e8a482ee2f05514455c8801a34c02f4a3d8cef2.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f9972a2fbc63f42eb29b",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 189,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Navigate_02 - Previous tại slide đầu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7644,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:36:13.212Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-14ebd-02---Previous-tại-slide-đầu-pd/attachments/execution-screenshot-5e2ba48c1e2d82b643bc8b89d5ebcd5a3ed9a282.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-d05940bec97e8a248f92",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 197,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_GALLERY_Open_01 - mở ảnh lớn, Escape và đóng hộp thoại video",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11218,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:36:20.873Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-7efb7-ape-và-đóng-hộp-thoại-video-pd/attachments/execution-screenshot-d88d23fa807ca6e9a5ef755cb495fa6f3336e3c4.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-dc6df9ff4a69226ecd11",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 204,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_View_04 - hiển thị khối Khuyến mãi đi kèm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7371,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:36:32.109Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-3601a--thị-khối-Khuyến-mãi-đi-kèm-pd/attachments/execution-screenshot-af6bf4531305247ac4ef785c984b132631136d7b.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-191a4300d11839f90296",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 217,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_INFO_Open_02 - mở phần mô tả sản phẩm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8453,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:36:39.499Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-9f9ca-02---mở-phần-mô-tả-sản-phẩm-pd/attachments/execution-screenshot-8f4cfb2a3b6bea2ca317d0587e38ed899a770609.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-eb4ee99802761bd98fce",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 226,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_SPECS_View_01 - hiển thị các hàng thông số",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7107,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:36:47.972Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-2a95d--hiển-thị-các-hàng-thông-số-pd/attachments/execution-screenshot-37c5fe6a21ce2e14a099cf3238dd0193c6a84b9c.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-2eddc55d0e31f7d332d2",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 232,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_SPECS_Open_01 - mở bảng thông số mở rộng",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9242,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:36:55.099Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-376b8----mở-bảng-thông-số-mở-rộng-pd/attachments/execution-screenshot-8fd232698980b5c916b1ef3e6f72d5219e134d28.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-11a86ae5a7fb3999e264",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 239,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_SPECS_Switch_01 - chuyển nhóm Màn hình",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9683,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:04.362Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-129ba-h-01---chuyển-nhóm-Màn-hình-pd/attachments/execution-screenshot-2936c93a4884e74c8a93e5a946a6f52f79ad7e70.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-25b36930c286644b3a9f",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 248,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_ACTION_Add_01 - thêm vào giỏ và dọn sản phẩm kiểm thử",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 258,
+                        "column": 32
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:14.067Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 258,
+                            "column": 32
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-b1999bc32cb74c47e72b",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 258,
+              "column": 32
+            },
+            {
+              "title": "PRODUCT_DETAIL_ACTION_Buy_01 - MUA NGAY tới giỏ rồi dọn sản phẩm kiểm thử",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 265,
+                        "column": 32
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:14.067Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 265,
+                            "column": 32
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-90445b938c1271d9a66c",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 265,
+              "column": 32
+            },
+            {
+              "title": "PRODUCT_DETAIL_COLOR_Switch_01 - đổi giữa hai màu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11717,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:14.068Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-032e1-witch-01---đổi-giữa-hai-màu-pd/attachments/execution-screenshot-0e6aec9991570c847550c35acb388e8b596ddd08.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-95314467d7d3dae618d9",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 272,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_ERROR_Open_01 - URL không tồn tại",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3310,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:25.807Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-8cd0b-Open-01---URL-không-tồn-tại-pd/attachments/execution-screenshot-0a88e3783246f4b10bbb84ea76f27a47168d3a2b.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-f7f194e77a8ce6262010",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 280,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_ERROR_Security_01 - URL chứa payload script",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                        "line": 288,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:29.136Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/22130275_TrinhQuangThong_ASM7.spec.js",
+                            "line": 288,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-862d433d12beada02249",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 288,
+              "column": 8
+            },
+            {
+              "title": "PRODUCT_DETAIL_COMPAT_Reload_01 - tải lại vẫn giữ màu và URL",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15836,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:29.136Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-fa7f4--tải-lại-vẫn-giữ-màu-và-URL-pd/attachments/execution-screenshot-c85a96303530399f0e6e87152d22653cbbd1af19.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-7f14a4c17db4114c3728",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 292,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COMPAT_Navigate_01 - Back rồi Forward",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18269,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:37:44.991Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-24e41-igate-01---Back-rồi-Forward-pd/attachments/execution-screenshot-0b64468363570a5f245c73455452f5d31774a5dd.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-882dbb12f1f3c6bf3945",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 302,
+              "column": 3
+            },
+            {
+              "title": "PRODUCT_DETAIL_COMPAT_View_01 - hiển thị ở viewport 390x844",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "pd",
+                  "projectName": "pd",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8753,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-06T02:38:03.279Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "execution-screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/scripts/run-evidence/asm7-20261106092804-51425/artifacts/22130275_TrinhQuangThong_A-76c91-hiển-thị-ở-viewport-390x844-pd/attachments/execution-screenshot-8b93d566e48d42a8e4b4d2510e4ecac1f03503fe.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "91dec9d55ea8350a0ac7-c3589129d254e1e4f3a3",
+              "file": "22130275_TrinhQuangThong_ASM7.spec.js",
+              "line": 314,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-06T02:28:04.840Z",
+    "duration": 608512.746,
+    "expected": 64,
+    "skipped": 18,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

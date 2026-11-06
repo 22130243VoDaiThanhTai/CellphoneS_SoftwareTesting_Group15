@@ -1,0 +1,401 @@
+
+Running 54 tests using 1 worker
+
+(node:28324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:51:3 › So sánh sản phẩm › PRODUCT_COMPARE_PAGE_Open_01 - mở bảng một sản phẩm (6.2s)
+  ✓   2 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:53:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_01 - thêm từ PDP (15.8s)
+  ✘   3 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:54:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm (18.0s)
+(node:28441) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:55:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17 (23.2s)
+(node:28520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:56:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng (1.3m)
+(node:28631) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:57:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_03 - thêm khác hãng (21.6s)
+  ✘   7 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:58:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập (18.0s)
+(node:28973) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:59:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Limit_01 - thử thêm thứ tư trong khay (29.1s)
+  ✓   9 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:60:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Duplicate_01 - thêm lại cùng PDP (11.0s)
+  ✘  10 [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:61:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai (7.1s)
+
+
+  1) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:54:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })
+    Expected: visible
+    Received: undefined
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }) with timeout 8000ms
+      - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+      27 |   await page.getByText('Thêm sản phẩm để so sánh', { exact: true }).first().click();
+      28 |   const modal = searchModal(page);
+    > 29 |   await expect(modal).toBeVisible();
+         |                       ^
+      30 |   await expect(modal.getByText('Tìm sản phẩm để so sánh', { exact: true })).toBeVisible();
+      31 |   if (query) await modal.getByPlaceholder('Nhập tên sản phẩm muốn so sánh').fill(query);
+      32 |   return modal;
+        at search (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:29:23)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:54:103
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'Từ chối', exact: true })
+        - locator resolved to <button class="btn btn-outline">Từ chối</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        13 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+       9 | async function open(page, url = COMPARE) {
+      10 |   await page.addLocatorHandler(page.getByRole('button', {name:'Từ chối',exact:true}), async () => {
+    > 11 |     await page.getByRole('button', {name:'Từ chối',exact:true}).click();
+         |                                                                 ^
+      12 |   });
+      13 |   await page.addLocatorHandler(page.getByText('THÔNG BÁO', { exact: true }), async () => {
+      14 |     await page.locator('.modal-card').filter({has:page.getByText('THÔNG BÁO',{exact:true})}).getByRole('button', {name:'close', exact:true}).click();
+        at Object.handler (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:11:65)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/attachments/execution-screenshot-7593db6f5e04c96dd7a59454c658f09a7abea5f8.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-ff164-SEARCH-Open-01---mở-hộp-tìm-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:55:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })
+    Expected: visible
+    Received: undefined
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }) with timeout 8000ms
+      - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+      27 |   await page.getByText('Thêm sản phẩm để so sánh', { exact: true }).first().click();
+      28 |   const modal = searchModal(page);
+    > 29 |   await expect(modal).toBeVisible();
+         |                       ^
+      30 |   await expect(modal.getByText('Tìm sản phẩm để so sánh', { exact: true })).toBeVisible();
+      31 |   if (query) await modal.getByPlaceholder('Nhập tên sản phẩm muốn so sánh').fill(query);
+      32 |   return modal;
+        at search (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:29:23)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:55:100
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'Từ chối', exact: true })
+        - locator resolved to <button class="btn btn-outline">Từ chối</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        13 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+       9 | async function open(page, url = COMPARE) {
+      10 |   await page.addLocatorHandler(page.getByRole('button', {name:'Từ chối',exact:true}), async () => {
+    > 11 |     await page.getByRole('button', {name:'Từ chối',exact:true}).click();
+         |                                                                 ^
+      12 |   });
+      13 |   await page.addLocatorHandler(page.getByText('THÔNG BÁO', { exact: true }), async () => {
+      14 |     await page.locator('.modal-card').filter({has:page.getByText('THÔNG BÁO',{exact:true})}).getByRole('button', {name:'close', exact:true}).click();
+        at Object.handler (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:11:65)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/attachments/execution-screenshot-6b74ec3e339e79f7575867037a1f4bddfa5d3581.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36cc0-H-Search-01---tìm-iPhone-17-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:56:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng 
+
+    Test timeout of 60000ms exceeded.
+
+    TimeoutError: locator.click: Timeout 20000ms exceeded.
+    Call log:
+      - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \| Chính hãng$/ }) }).getByText('+ Chọn để so sánh', { exact: true })
+        - locator resolved to <a class="select-to-compare has-text-centered mt-1">+ Chọn để so sánh</a>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      39 |   const result = productResult(page, name);
+      40 |   await expect(result).toHaveCount(1);
+    > 41 |   await result.getByText('+ Chọn để so sánh', { exact: true }).click();
+         |                                                                ^
+      42 |   await expect(searchModal(page)).toBeHidden();
+      43 |   await expect(title(page)).toContainText(name);
+      44 | }
+        at add (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:41:64)
+        at two (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:45:46)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:56:78
+
+    attachment #1: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-5255b-IST-Add-02---thêm-cùng-hãng-cp/attachments/execution-screenshot-e4f5c94811ad711b96b6e81f32436ce7c568a520.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-5255b-IST-Add-02---thêm-cùng-hãng-cp/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-5255b-IST-Add-02---thêm-cùng-hãng-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-5255b-IST-Add-02---thêm-cùng-hãng-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:58:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })
+    Expected: visible
+    Received: undefined
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }) with timeout 8000ms
+      - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') })
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+      27 |   await page.getByText('Thêm sản phẩm để so sánh', { exact: true }).first().click();
+      28 |   const modal = searchModal(page);
+    > 29 |   await expect(modal).toBeVisible();
+         |                       ^
+      30 |   await expect(modal.getByText('Tìm sản phẩm để so sánh', { exact: true })).toBeVisible();
+      31 |   if (query) await modal.getByPlaceholder('Nhập tên sản phẩm muốn so sánh').fill(query);
+      32 |   return modal;
+        at search (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:29:23)
+        at add (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:38:3)
+        at two (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:45:46)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:58:78
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'Từ chối', exact: true })
+        - locator resolved to <button class="btn btn-outline">Từ chối</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not stable
+        - retrying click action
+        - waiting 20ms
+        - waiting for element to be visible, enabled and stable
+        - element is not stable
+      2 × retrying click action
+          - waiting 100ms
+          - waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+      13 × retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+       9 | async function open(page, url = COMPARE) {
+      10 |   await page.addLocatorHandler(page.getByRole('button', {name:'Từ chối',exact:true}), async () => {
+    > 11 |     await page.getByRole('button', {name:'Từ chối',exact:true}).click();
+         |                                                                 ^
+      12 |   });
+      13 |   await page.addLocatorHandler(page.getByText('THÔNG BÁO', { exact: true }), async () => {
+      14 |     await page.locator('.modal-card').filter({has:page.getByText('THÔNG BÁO',{exact:true})}).getByRole('button', {name:'close', exact:true}).click();
+        at Object.handler (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:11:65)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/attachments/execution-screenshot-5306ffa91efb030178583bca1bc137ecd487dc86.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-36ab9-IST-Add-04---ba-cột-độc-lập-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:61:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai 
+
+    Test was interrupted.
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator: locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \| Chính hãng$/ }) })
+    Expected: 1
+    Error: Test ended.
+
+    Call log:
+      - Expect "toHaveCount" locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \| Chính hãng$/ }) }) with timeout 8000ms
+      - waiting for locator('.modal.is-active').filter({ has: getByPlaceholder('Nhập tên sản phẩm muốn so sánh') }).locator('.product-item').filter({ has: locator('.product-name').filter({ hasText: /^iPhone 17 Pro 256GB \| Chính hãng$/ }) })
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+      - Test ended.
+
+
+      38 |   await search(page, name.replace(' | Chính hãng', ''));
+      39 |   const result = productResult(page, name);
+    > 40 |   await expect(result).toHaveCount(1);
+         |                        ^
+      41 |   await result.getByText('+ Chọn để so sánh', { exact: true }).click();
+      42 |   await expect(searchModal(page)).toBeHidden();
+      43 |   await expect(title(page)).toContainText(name);
+        at add (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:40:24)
+        at two (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:45:46)
+        at /Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:61:81
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'Từ chối', exact: true })
+        - locator resolved to <button class="btn btn-outline">Từ chối</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        3 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <a class="product-name">Samsung Galaxy S26 Ultra 5G 12GB 256GB</a> from <div class="cps-container cps-body">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 500ms
+        - found getByRole('button', { name: 'Từ chối', exact: true }), intercepting action to run the handler
+
+
+       9 | async function open(page, url = COMPARE) {
+      10 |   await page.addLocatorHandler(page.getByRole('button', {name:'Từ chối',exact:true}), async () => {
+    > 11 |     await page.getByRole('button', {name:'Từ chối',exact:true}).click();
+         |                                                                 ^
+      12 |   });
+      13 |   await page.addLocatorHandler(page.getByText('THÔNG BÁO', { exact: true }), async () => {
+      14 |     await page.locator('.modal-card').filter({has:page.getByText('THÔNG BÁO',{exact:true})}).getByRole('button', {name:'close', exact:true}).click();
+        at Object.handler (/Users/admin/Documents/CellphoneS_SoftwareTesting_Group15/assignment8/Automation Testing Project - Group 15/tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:11:65)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: execution-screenshot (image/png) ────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/attachments/execution-screenshot-5658e3be75379b007512c72d68da5f1c2fb29edb.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/trace.zip
+    Usage:
+
+        npx playwright show-trace "../Envidence - Group15/asm8-20261105220546-28087/artifacts/quangthong-22130275_TrinhQ-3bb39--Remove-01---bỏ-cột-thứ-hai-cp/trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:54:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Open_01 - mở hộp tìm 
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:55:3 › So sánh sản phẩm › PRODUCT_COMPARE_SEARCH_Search_01 - tìm iPhone 17 
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:56:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_02 - thêm cùng hãng 
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:58:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Add_04 - ba cột độc lập 
+  1 interrupted
+    [cp] › tests/quangthong/22130275_TrinhQuangThong_CP_RV.spec.js:61:3 › So sánh sản phẩm › PRODUCT_COMPARE_LIST_Remove_01 - bỏ cột thứ hai 
+  44 did not run
+  5 passed (4.4m)

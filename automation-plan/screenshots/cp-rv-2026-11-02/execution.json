@@ -1,0 +1,542 @@
+[
+  {
+    "sheet": "So sánh SP",
+    "row": 9,
+    "id": "PRODUCT_COMPARE_PAGE_Open_01",
+    "result": "Passed",
+    "actual": "Mở trực tiếp URL: tiêu đề iPhone 17 256GB, một sản phẩm và hai ô thêm.",
+    "evidence": "CP_reload_specs.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 10,
+    "id": "PRODUCT_COMPARE_LIST_Add_01",
+    "result": "Passed",
+    "actual": "Đã dọn khay thử, bấm So sánh trên PDP; khay có iPhone 17 và Đã chọn 1 sản phẩm.",
+    "evidence": "CP_tray_one.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 11,
+    "id": "PRODUCT_COMPARE_SEARCH_Open_01",
+    "result": "Passed",
+    "actual": "Bấm ô thêm: hộp Tìm sản phẩm để so sánh, ô tìm và + Chọn để so sánh hiện diện.",
+    "evidence": "CP_search_open.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 12,
+    "id": "PRODUCT_COMPARE_SEARCH_Search_01",
+    "result": "Passed",
+    "actual": "Nhập iPhone 17: có iPhone 17 Pro 256GB và liên kết chọn.",
+    "evidence": "CP_search_iphone17.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 13,
+    "id": "PRODUCT_COMPARE_LIST_Add_02",
+    "result": "Passed",
+    "actual": "Bấm chọn iPhone 17 Pro: bảng có hai cột iPhone 17 và iPhone 17 Pro.",
+    "evidence": "CP_two_products.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 14,
+    "id": "PRODUCT_COMPARE_LIST_Add_03",
+    "result": "Passed",
+    "actual": "Bấm chọn Samsung Galaxy S26 Ultra: giữ cột iPhone 17 và thêm cột Samsung; URL có vs-dien-thoai-samsung-galaxy-s26-ultra.",
+    "evidence": "CP_other_brand.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 15,
+    "id": "PRODUCT_COMPARE_LIST_Add_04",
+    "result": "Passed",
+    "actual": "Thêm Samsung sau hai iPhone: bảng có ba cột sản phẩm khác nhau.",
+    "evidence": "CP_three_products.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 16,
+    "id": "PRODUCT_COMPARE_LIST_Limit_01",
+    "result": "Untested",
+    "actual": "Đã thấy ba ô đầy. Khi chuyển PDP khác, khay không giữ đủ ba mục để thử thêm thứ tư; chưa kiểm tra trọn tiền đề, chưa kết luận cơ chế chặn.",
+    "evidence": "CP_limit_three_slots.png",
+    "automate": "No",
+    "reason": "Cần xác minh đầy đủ quy tắc trước automation."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 17,
+    "id": "PRODUCT_COMPARE_LIST_Duplicate_01",
+    "result": "Untested",
+    "actual": "Tìm iPhone 17 256GB trong bảng đã có sản phẩm này: không thấy mục đúng mẫu để chọn lại. Chưa thực hiện được bước thêm trùng; không suy ra quy tắc server.",
+    "evidence": "CP_duplicate_recheck.png",
+    "automate": "No",
+    "reason": "Cần xác minh đầy đủ quy tắc trước automation."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 18,
+    "id": "PRODUCT_COMPARE_LIST_Remove_01",
+    "result": "Passed",
+    "actual": "Bỏ cột thứ hai: URL còn /so-sanh/iphone-17-256gb; một cột iPhone và hai ô thêm.",
+    "evidence": "CP_remove_second.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 19,
+    "id": "PRODUCT_COMPARE_LIST_Remove_02",
+    "result": "Passed",
+    "actual": "Bỏ sản phẩm cuối: chuyển https://cellphones.com.vn/so-sanh, tiêu đề So sánh sản phẩm và ba ô thêm.",
+    "evidence": "CP_remove_last.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 20,
+    "id": "PRODUCT_COMPARE_LIST_Replace_01",
+    "result": "Passed",
+    "actual": "Bỏ cột thứ hai rồi chọn lại iPhone 17 Pro: bảng trở về hai cột, không có cột trùng.",
+    "evidence": "CP_replace.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 21,
+    "id": "PRODUCT_COMPARE_SPECS_View_01",
+    "result": "Passed",
+    "actual": "Bảng có Hệ điều hành khi ra mắt, Chipset và Bộ nhớ trong.",
+    "evidence": "CP_reload_specs.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 22,
+    "id": "PRODUCT_COMPARE_SPECS_View_02",
+    "result": "Passed",
+    "actual": "Hàng Bộ nhớ trong của iPhone 17 hiển thị 256 GB.",
+    "evidence": "CP_reload_specs.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 23,
+    "id": "PRODUCT_COMPARE_SPECS_View_03",
+    "result": "Passed",
+    "actual": "Hai ô Chipset cùng hàng: Apple A19 của iPhone 17 và Chip A19 Pro của iPhone 17 Pro.",
+    "evidence": "CP_two_products.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 24,
+    "id": "PRODUCT_COMPARE_SPECS_Open_01",
+    "result": "Passed",
+    "actual": "Bấm Xem so sánh cấu hình chi tiết: mở So sánh chi tiết với Cấu hình & Bộ nhớ, Màn hình và nút Đóng.",
+    "evidence": "CP_detail_specs.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 25,
+    "id": "PRODUCT_COMPARE_SEARCH_Search_02",
+    "result": "Passed",
+    "actual": "Từ khóa zzzz_qa_22130275_987654: Không tìm được sản phẩm phù hợp.",
+    "evidence": "CP_search_nonexistent.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 26,
+    "id": "PRODUCT_COMPARE_SEARCH_Clear_01",
+    "result": "Passed",
+    "actual": "Nhập iPhone 17 rồi xóa: giá trị rỗng, placeholder hiện lại, bảng không thêm sản phẩm.",
+    "evidence": "CP_clear_query.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 27,
+    "id": "PRODUCT_COMPARE_SEARCH_Input_01",
+    "result": "Passed",
+    "actual": "Ô giữ ba dấu cách; không có kết quả phù hợp, bảng không thêm sản phẩm. Không kết luận cách trim phía server.",
+    "evidence": "CP_whitespace.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 28,
+    "id": "PRODUCT_COMPARE_SEARCH_Input_02",
+    "result": "Passed",
+    "actual": "Ô giữ @#$%&; Không tìm được sản phẩm phù hợp; bảng và URL so sánh không đổi.",
+    "evidence": "CP_special.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 29,
+    "id": "PRODUCT_COMPARE_SEARCH_Input_03",
+    "result": "Passed",
+    "actual": "Ô giữ đúng Điện thoại với dấu tiếng Việt.",
+    "evidence": "CP_unicode.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 30,
+    "id": "PRODUCT_COMPARE_PAGE_Reload_01",
+    "result": "Passed",
+    "actual": "Tải lại URL một sản phẩm: vẫn iPhone 17 và Bộ nhớ trong 256 GB.",
+    "evidence": "CP_reload_specs.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 31,
+    "id": "PRODUCT_COMPARE_PAGE_Open_02",
+    "result": "Passed",
+    "actual": "Mở URL bảng một sản phẩm trong tab mới: tiêu đề và dữ liệu iPhone 17 hiển thị.",
+    "evidence": "CP_reload_specs.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 32,
+    "id": "PRODUCT_COMPARE_PAGE_View_01",
+    "result": "Passed",
+    "actual": "Đọc href Mua ngay: https://cellphones.com.vn/iphone-17-256gb.html. Không bấm nút.",
+    "evidence": "CP_add_second.txt",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "So sánh SP",
+    "row": 33,
+    "id": "PRODUCT_COMPARE_PAGE_Responsive_01",
+    "result": "Passed",
+    "actual": "Viewport thật 390×844: tiêu đề, một sản phẩm và hai ô thêm nằm trong khung; thông số xếp dọc. Bấm ô thêm mở hộp tìm. Đã trả viewport về ban đầu.",
+    "evidence": "CP_mobile_390.png; CP_mobile_search.png",
+    "automate": "No",
+    "reason": "Kiểm tra trực quan bố cục mobile."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 9,
+    "id": "PRODUCT_REVIEW_SUMMARY_View_01",
+    "result": "Passed",
+    "actual": "Tiêu đề vùng đánh giá đúng iPhone 17 256GB | Chính hãng.",
+    "evidence": "RV_reset_all_recheck.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 10,
+    "id": "PRODUCT_REVIEW_SUMMARY_View_02",
+    "result": "Passed",
+    "actual": "Điểm trung bình hiển thị 5.0 /5 tại thời điểm kiểm tra.",
+    "evidence": "RV_reset_all_recheck.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 11,
+    "id": "PRODUCT_REVIEW_SUMMARY_View_03",
+    "result": "Passed",
+    "actual": "Hiển thị 18 lượt đánh giá tại thời điểm kiểm tra.",
+    "evidence": "RV_reset_all_recheck.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 12,
+    "id": "PRODUCT_REVIEW_SUMMARY_View_04",
+    "result": "Passed",
+    "actual": "Thống kê đủ 5 mức; 5 sao có 18, 4–1 sao có 0 tại thời điểm kiểm tra.",
+    "evidence": "RV_reset_all_recheck.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 13,
+    "id": "PRODUCT_REVIEW_SUMMARY_View_05",
+    "result": "Passed",
+    "actual": "Có Hiệu năng, Thời lượng pin, Chất lượng camera, điểm và lượt đánh giá từng tiêu chí.",
+    "evidence": "RV_reset_all_recheck.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 14,
+    "id": "PRODUCT_REVIEW_FILTER_Select_01",
+    "result": "Passed",
+    "actual": "Chọn 5 sao: bộ lọc active, các thẻ hiện Tuyệt vời.",
+    "evidence": "RV_filter_5.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 15,
+    "id": "PRODUCT_REVIEW_FILTER_Select_02",
+    "result": "Passed",
+    "actual": "Đã đối chiếu thống kê 4 sao = 0; lọc hiện Hiện chưa có đánh giá nào.",
+    "evidence": "RV_filter_4.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 16,
+    "id": "PRODUCT_REVIEW_FILTER_Select_03",
+    "result": "Passed",
+    "actual": "Đã đối chiếu thống kê 3 sao = 0; lọc hiện Hiện chưa có đánh giá nào.",
+    "evidence": "RV_filter_3.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 17,
+    "id": "PRODUCT_REVIEW_FILTER_Select_04",
+    "result": "Passed",
+    "actual": "Đã đối chiếu thống kê 2 sao = 0; lọc hiện Hiện chưa có đánh giá nào.",
+    "evidence": "RV_filter_2.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 18,
+    "id": "PRODUCT_REVIEW_FILTER_Select_05",
+    "result": "Passed",
+    "actual": "Đã đối chiếu thống kê 1 sao = 0; lọc hiện Hiện chưa có đánh giá nào.",
+    "evidence": "RV_filter_1.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 19,
+    "id": "PRODUCT_REVIEW_FILTER_Clear_01",
+    "result": "Passed",
+    "actual": "Kiểm tra lại 4 sao → Tất cả: Tất cả active và danh sách đánh giá xuất hiện lại. Quan sát sớm trước đó chưa chờ cập nhật, không coi là lỗi website.",
+    "evidence": "RV_reset_all_recheck.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 20,
+    "id": "PRODUCT_REVIEW_FILTER_Select_06",
+    "result": "Passed",
+    "actual": "Có hình ảnh active; hiện Hiện chưa có đánh giá nào. Chỉ xác minh nhánh dữ liệu rỗng, chưa có mẫu đánh giá kèm ảnh để đối chiếu.",
+    "evidence": "RV_images_filter_recheck.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 21,
+    "id": "PRODUCT_REVIEW_FILTER_Select_07",
+    "result": "Passed",
+    "actual": "Đã mua hàng active; các thẻ trong kết quả có nhãn Đã mua tại CellphoneS.",
+    "evidence": "RV_purchased_filter.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 22,
+    "id": "PRODUCT_REVIEW_LIST_Open_01",
+    "result": "Passed",
+    "actual": "Xem tất cả đánh giá mở tab https://cellphones.com.vn/iphone-17-256gb/review; có danh sách và Xem thêm đánh giá.",
+    "evidence": "RV_view_all_destination.png",
+    "automate": "Yes",
+    "reason": "Có thể assert text, trạng thái chọn hoặc phần tử; không gửi form/mua hàng."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 23,
+    "id": "PRODUCT_REVIEW_FORM_Open_01",
+    "result": "Passed",
+    "actual": "Bấm Viết đánh giá bằng phiên thường có sẵn: modal Đánh giá & nhận xét thực sự hiện, có tên SP, sao, textarea, Thêm hình ảnh và GỬI ĐÁNH GIÁ.",
+    "evidence": "RV_form.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 24,
+    "id": "PRODUCT_REVIEW_FORM_View_01",
+    "result": "Passed",
+    "actual": "Form hiện đủ Rất Tệ, Tệ, Bình thường, Tốt, Tuyệt vời.",
+    "evidence": "RV_form.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 25,
+    "id": "PRODUCT_REVIEW_RATING_Select_01",
+    "result": "Passed",
+    "actual": "Chọn Rất Tệ: nhóm Đánh giá chung có đúng một sao is-active; 15 sao trải nghiệm là nhóm riêng.",
+    "evidence": "RV_rating_one.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 26,
+    "id": "PRODUCT_REVIEW_RATING_Switch_01",
+    "result": "Passed",
+    "actual": "Chọn Rất Tệ rồi Tuyệt vời: nhóm Đánh giá chung tăng từ một lên năm sao is-active; sau đó thử Bình thường có ba sao. Không gửi.",
+    "evidence": "RV_rating_switch.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 27,
+    "id": "PRODUCT_REVIEW_CONTENT_View_01",
+    "result": "Passed",
+    "actual": "Textarea hiện đúng hướng dẫn nhập tối thiểu 15 kí tự.",
+    "evidence": "RV_content_clear.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 28,
+    "id": "PRODUCT_REVIEW_CONTENT_Clear_01",
+    "result": "Passed",
+    "actual": "Nhập Màn hình đẹp. rồi xóa: value rỗng và placeholder trở lại.",
+    "evidence": "RV_input_checks.json",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 29,
+    "id": "PRODUCT_REVIEW_CONTENT_Validate_01",
+    "result": "Untested",
+    "actual": "Đã nhập abcdefghijklmn và đọc đúng 14 ký tự. Chưa bấm gửi; chưa xác minh cơ chế từ chối hay thông báo lỗi.",
+    "evidence": "RV_input_checks.json",
+    "automate": "No",
+    "reason": "Cần xác minh đầy đủ quy tắc trước automation."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 30,
+    "id": "PRODUCT_REVIEW_CONTENT_Input_01",
+    "result": "Passed",
+    "actual": "Đã nhập abcdefghijklmno; value giữ nguyên đúng 15 ký tự. Không gửi.",
+    "evidence": "RV_input_checks.json",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 31,
+    "id": "PRODUCT_REVIEW_CONTENT_Input_02",
+    "result": "Passed",
+    "actual": "Đã nhập abcdefghijklmnop; value giữ nguyên đúng 16 ký tự. Không gửi.",
+    "evidence": "RV_input_checks.json",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 32,
+    "id": "PRODUCT_REVIEW_CONTENT_Limit_01",
+    "result": "Untested",
+    "actual": "Đã nhập a lặp 1000 lần: value dài 1000, không bị cắt ở ô nhập. Chưa xác minh giới hạn tối đa/validation server, nên chưa đạt toàn bộ Expected.",
+    "evidence": "RV_input_1000.png",
+    "automate": "No",
+    "reason": "Cần xác minh đầy đủ quy tắc trước automation."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 33,
+    "id": "PRODUCT_REVIEW_CONTENT_Validate_02",
+    "result": "Untested",
+    "actual": "Đã nhập 15 dấu cách: value giữ nguyên. Chưa xác minh trim/validation khi gửi; không coi là nội dung hợp lệ.",
+    "evidence": "RV_input_spaces.png",
+    "automate": "No",
+    "reason": "Cần xác minh đầy đủ quy tắc trước automation."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 34,
+    "id": "PRODUCT_REVIEW_CONTENT_Input_03",
+    "result": "Passed",
+    "actual": "Ô giữ nguyên Tốt & bền < > \" ' @ # dưới dạng văn bản; không điều hướng.",
+    "evidence": "RV_input_special.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 35,
+    "id": "PRODUCT_REVIEW_CONTENT_Input_04",
+    "result": "Passed",
+    "actual": "Ô giữ nguyên Máy đẹp, dùng mượt 😊👍, không lỗi dấu hay emoji.",
+    "evidence": "RV_input_emoji.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 36,
+    "id": "PRODUCT_REVIEW_CONTENT_Security_01",
+    "result": "Passed",
+    "actual": "Nhập <script>alert(1)</script> chỉ trong textarea: value nguyên văn, getJsDialog không có hộp thoại. Không dùng URL payload, không gửi, không kiểm tra stored XSS.",
+    "evidence": "RV_literal_script.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  },
+  {
+    "sheet": "Đánh giá SP",
+    "row": 37,
+    "id": "PRODUCT_REVIEW_ATTACHMENT_View_01",
+    "result": "Passed",
+    "actual": "Form có Thêm hình ảnh; input accept=image/x-png,image/gif,image/jpeg, multiple=true. Không chọn/tải file.",
+    "evidence": "RV_form.png",
+    "automate": "No",
+    "reason": "Cần phiên tài khoản có sẵn; chỉ thao tác form trước gửi."
+  }
+]

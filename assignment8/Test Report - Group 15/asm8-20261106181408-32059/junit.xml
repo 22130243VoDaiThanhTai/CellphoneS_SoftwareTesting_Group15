@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.2939260000000004">
+<testsuite name="hongnhan/sforum.spec.cjs" timestamp="2026-11-06T11:14:08.988Z" hostname="hn-sforum" tests="1" failures="0" skipped="0" time="1.927" errors="0">
+<testcase name="SF-004: mở bài từ kết quả và đối chiếu tiêu đề, nội dung" classname="hongnhan/sforum.spec.cjs" time="1.927">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../Envidence - Group15/asm8-20261106181408-32059/artifacts/hongnhan-sforum-SF-004-mở--d37ab--đối-chiếu-tiêu-đề-nội-dung-hn-sforum/attachments/execution-screenshot-b9619b2f0800ed6755bbe3e884dc93e0cf9446e6.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
