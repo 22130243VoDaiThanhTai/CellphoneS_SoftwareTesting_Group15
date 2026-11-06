@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Huy Lê Quang</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Huy Lê Quang</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>b5e3c4aa-068d-4cd5-9858-bd9002739cc3</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>b5e3c4aa-068d-4cd5-9858-bd9002739cc3</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f88ae0bd-a282-4c57-8de5-97082a6df6f8</testCaseGuid>
+</TestCaseEntity>
