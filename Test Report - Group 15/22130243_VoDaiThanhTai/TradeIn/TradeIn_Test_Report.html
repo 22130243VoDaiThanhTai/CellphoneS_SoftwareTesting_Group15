@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CellphoneS Trade-in - Test Execution Report</title>
+<style>
+  :root { color-scheme: light; --ink:#172033; --muted:#657087; --line:#e5e9f0; --bg:#f5f7fb; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:32px; background:var(--bg); color:var(--ink); font:14px/1.5 Arial, sans-serif; }
+  .wrap { max-width:1500px; margin:0 auto; }
+  h1 { margin:0 0 6px; font-size:26px; }
+  .sub { margin:0 0 24px; color:var(--muted); }
+  .cards { display:grid; grid-template-columns:repeat(5,minmax(130px,1fr)); gap:12px; margin-bottom:22px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .card .label { color:var(--muted); font-size:12px; }
+  .card .value { margin-top:4px; font-size:25px; font-weight:700; }
+  .pass-text { color:#16834a; } .fail-text { color:#c33131; } .skip-text { color:#a66a00; }
+  .panel { background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  .panel-head { padding:16px 18px; border-bottom:1px solid var(--line); font-weight:700; }
+  .table-wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; min-width:980px; }
+  th,td { padding:10px 12px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+  th { background:#fafbfe; color:#566176; font-size:12px; white-space:nowrap; position:sticky; top:0; }
+  tr:last-child td { border-bottom:0; }
+  tbody tr:hover { background:#fafcff; }
+  td.num { white-space:nowrap; font-variant-numeric:tabular-nums; }
+  td.mono { font-family:Consolas,monospace; font-size:12px; white-space:nowrap; }
+  td.reason { min-width:220px; max-width:420px; overflow-wrap:anywhere; }
+  td.reason details { margin-top:6px; color:#315fb5; font-size:12px; }
+  td.reason summary { cursor:pointer; user-select:none; }
+  td.reason pre { max-width:560px; max-height:240px; overflow:auto; padding:10px; background:#f4f6fa; color:#3f4b5f; border-radius:8px; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .badge { display:inline-block; border-radius:999px; padding:3px 9px; font-size:11px; font-weight:700; }
+  .badge.pass { background:#e7f7ee; color:#16834a; } .badge.failed { background:#fdecec; color:#c33131; }
+  .badge.skipped { background:#fff4db; color:#956000; }
+  a { color:#245ec7; text-decoration:none; } a:hover { text-decoration:underline; }
+  .foot { color:var(--muted); font-size:12px; margin-top:14px; }
+  @media(max-width:800px) { body { padding:14px; } .cards { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+</style>
+</head>
+<body><main class="wrap">
+  <h1>CellphoneS Trade-in – Test Execution Report</h1>
+  <p class="sub">Website: <a href="https://cellphones.com.vn/thu-cu-doi-moi">https://cellphones.com.vn/thu-cu-doi-moi</a> · Thời điểm chạy: 2026-11-06T14:53:16.026Z · Tổng thời gian: 478.7 giây</p>
+  <section class="cards">
+    <div class="card"><div class="label">Tổng test case</div><div class="value">30</div></div>
+    <div class="card"><div class="label">PASS</div><div class="value pass-text">22</div></div>
+    <div class="card"><div class="label">FAIL</div><div class="value fail-text">1</div></div>
+    <div class="card"><div class="label">SKIP</div><div class="value skip-text">7</div></div>
+    <div class="card"><div class="label">Tỷ lệ PASS (không tính SKIP)</div><div class="value">95.65%</div></div>
+  </section>
+  <section class="panel">
+    <div class="panel-head">Chi tiết kết quả từng test case</div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>No.</th><th>Test Case ID</th><th>Test Case</th><th>Status</th><th>Duration</th><th>Reason / Error</th><th>Screenshot</th></tr></thead>
+      <tbody><tr class="pass">
+      <td>1</td>
+      <td class="mono">TRADE_IN_Page_01</td>
+      <td>Mở trang Thu cũ đổi mới từ menu chính</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">42.98s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>2</td>
+      <td class="mono">TRADE_IN_Search_02</td>
+      <td>Tìm thiết bị cũ bằng từ khóa một phần</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">2.97s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>3</td>
+      <td class="mono">TRADE_IN_Search_03</td>
+      <td>Tìm chính xác model và phiên bản dung lượng của máy cũ</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">4.32s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>4</td>
+      <td class="mono">TRADE_IN_Search_04</td>
+      <td>Tìm thiết bị cũ không tồn tại trong danh mục</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">3.48s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>5</td>
+      <td class="mono">TRADE_IN_Search_05</td>
+      <td>Xóa từ khóa tìm kiếm thiết bị cũ và tìm model khác</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">4.66s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>6</td>
+      <td class="mono">TRADE_IN_Device_06</td>
+      <td>Chọn thiết bị cũ từ danh sách kết quả</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">5.02s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>7</td>
+      <td class="mono">TRADE_IN_Device_07</td>
+      <td>Thay thiết bị cũ sau khi đã chọn model</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">25.04s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>8</td>
+      <td class="mono">TRADE_IN_Condition_08</td>
+      <td>Chọn tình trạng thiết bị cũ theo danh sách website cung cấp</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">10.96s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>9</td>
+      <td class="mono">TRADE_IN_Condition_09</td>
+      <td>Thay đổi tình trạng máy và cập nhật giá thu cũ</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">32.19s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>10</td>
+      <td class="mono">TRADE_IN_Condition_10</td>
+      <td>Chọn tình trạng máy ở mức lỗi nặng nhất đang được hỗ trợ</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">10.73s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>11</td>
+      <td class="mono">TRADE_IN_Category_11</td>
+      <td>Mở danh mục iPhone trong khu vực sản phẩm thu cũ nổi bật</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">3.06s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>12</td>
+      <td class="mono">TRADE_IN_Category_12</td>
+      <td>Chuyển danh mục từ iPhone sang Samsung</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">4.41s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>13</td>
+      <td class="mono">TRADE_IN_Category_13</td>
+      <td>Chọn model máy cũ trực tiếp từ danh mục Samsung</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">30.29s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>14</td>
+      <td class="mono">TRADE_IN_NewSearch_14</td>
+      <td>Tìm kiếm sản phẩm mới muốn lên đời bằng từ khóa hợp lệ</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">12.47s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>15</td>
+      <td class="mono">TRADE_IN_NewSearch_15</td>
+      <td>Tìm sản phẩm lên đời không tồn tại</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">12.66s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>16</td>
+      <td class="mono">TRADE_IN_NewSearch_16</td>
+      <td>Chọn sản phẩm mới từ danh sách gợi ý</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">14.84s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>17</td>
+      <td class="mono">TRADE_IN_NewSearch_17</td>
+      <td>Thay sản phẩm lên đời đã chọn bằng sản phẩm khác</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">17.71s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="skipped">
+      <td>18</td>
+      <td class="mono">TRADE_IN_Confirm_18</td>
+      <td>Chuyển đến bước xác nhận thông tin Trade-in</td>
+      <td><span class="badge skipped">SKIP</span></td>
+      <td class="num">27.86s</td>
+      <td class="reason"><div>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem c…</div><details><summary>Xem chi tiết lỗi</summary><pre>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.</pre></details></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_Confirm_18_skipped.png">Xem ảnh</a></td>
+    </tr>
+<tr class="skipped">
+      <td>19</td>
+      <td class="mono">TRADE_IN_Confirm_19</td>
+      <td>Quay lại chỉnh sửa thiết bị cũ từ bước xác nhận</td>
+      <td><span class="badge skipped">SKIP</span></td>
+      <td class="num">26.13s</td>
+      <td class="reason"><div>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem c…</div><details><summary>Xem chi tiết lỗi</summary><pre>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.</pre></details></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_Confirm_19_skipped.png">Xem ảnh</a></td>
+    </tr>
+<tr class="skipped">
+      <td>20</td>
+      <td class="mono">TRADE_IN_Confirm_20</td>
+      <td>Thay đổi tình trạng thiết bị sau khi quay lại bước chọn máy</td>
+      <td><span class="badge skipped">SKIP</span></td>
+      <td class="num">27.37s</td>
+      <td class="reason"><div>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem c…</div><details><summary>Xem chi tiết lỗi</summary><pre>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.</pre></details></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_Confirm_20_skipped.png">Xem ảnh</a></td>
+    </tr>
+<tr class="skipped">
+      <td>21</td>
+      <td class="mono">TRADE_IN_Confirm_21</td>
+      <td>Thay đổi sản phẩm lên đời từ bước xác nhận</td>
+      <td><span class="badge skipped">SKIP</span></td>
+      <td class="num">25.34s</td>
+      <td class="reason"><div>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem c…</div><details><summary>Xem chi tiết lỗi</summary><pre>Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.</pre></details></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_Confirm_21_skipped.png">Xem ảnh</a></td>
+    </tr>
+<tr class="pass">
+      <td>22</td>
+      <td class="mono">TRADE_IN_Price_22</td>
+      <td>Kiểm tra giá thu cũ và phần chênh lệch sau khi chọn đủ hai thiết bị</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">22.04s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>23</td>
+      <td class="mono">TRADE_IN_SBuyBack_23</td>
+      <td>Mở khu vực định giá thiết bị đã mua gói S-BuyBack</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">1.54s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="pass">
+      <td>24</td>
+      <td class="mono">TRADE_IN_IMEI_24</td>
+      <td>Kiểm tra tra cứu S-BuyBack khi bỏ trống IMEI</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">14.59s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="failed">
+      <td>25</td>
+      <td class="mono">TRADE_IN_IMEI_25</td>
+      <td>Nhập IMEI sai định dạng vào khu vực S-BuyBack</td>
+      <td><span class="badge failed">FAIL</span></td>
+      <td class="num">16.68s</td>
+      <td class="reason"><div>Không ghi nhận được thông báo/inline validation từ chối IMEI sai định dạng sau khi gửi. Đây là FAIL theo tiêu…</div><details><summary>Xem chi tiết lỗi</summary><pre>Không ghi nhận được thông báo/inline validation từ chối IMEI sai định dạng sau khi gửi. Đây là FAIL theo tiêu chí quan sát tự động, nhưng chưa đủ bằng chứng kết luận website lỗi; cần xác minh thủ công trên giao diện.</pre></details></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_IMEI_25_failed.png">Xem ảnh</a></td>
+    </tr>
+<tr class="skipped">
+      <td>26</td>
+      <td class="mono">TRADE_IN_IMEI_26</td>
+      <td>Tra cứu IMEI có bản ghi S-BuyBack bằng dữ liệu được cấp</td>
+      <td><span class="badge skipped">SKIP</span></td>
+      <td class="num">0.00s</td>
+      <td class="reason"><div>Chưa điền IMEI_TEST_FIXTURE được cấp phép ở đầu file.</div></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_IMEI_26_skipped.png">Xem ảnh</a></td>
+    </tr>
+<tr class="pass">
+      <td>27</td>
+      <td class="mono">TRADE_IN_IMEI_27</td>
+      <td>Mở hướng dẫn kiểm tra IMEI</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">14.42s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="skipped">
+      <td>28</td>
+      <td class="mono">TRADE_IN_App_28</td>
+      <td>Mở hướng dẫn định giá chuyên sâu trên ứng dụng CellphoneS</td>
+      <td><span class="badge skipped">SKIP</span></td>
+      <td class="num">14.58s</td>
+      <td class="reason"><div>Nút định giá có thể mở ứng dụng bên ngoài hoặc deep-link; trình duyệt desktop không xác nhận được đích mở.</div></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_App_28_skipped.png">Xem ảnh</a></td>
+    </tr>
+<tr class="pass">
+      <td>29</td>
+      <td class="mono">TRADE_IN_Consult_29</td>
+      <td>Mở form đăng ký tư vấn khi không tìm thấy thiết bị</td>
+      <td><span class="badge pass">PASS</span></td>
+      <td class="num">16.14s</td>
+      <td class="reason"><div>—</div></td>
+      <td>—</td>
+    </tr>
+<tr class="skipped">
+      <td>30</td>
+      <td class="mono">TRADE_IN_Consult_30</td>
+      <td>Kiểm tra yêu cầu thông tin bắt buộc của form tư vấn Trade-in</td>
+      <td><span class="badge skipped">SKIP</span></td>
+      <td class="num">17.16s</td>
+      <td class="reason"><div>Form không công bố thuộc tính required/aria-required cho các trường đang hiển thị; cần kiểm tra thủ công giao…</div><details><summary>Xem chi tiết lỗi</summary><pre>Form không công bố thuộc tính required/aria-required cho các trường đang hiển thị; cần kiểm tra thủ công giao diện hiện tại.</pre></details></td>
+      <td><a href="../../../Envidence%20-%20Group15/22130243_VoDaiThanhTai/TradeIn/TRADE_IN_Consult_30_skipped.png">Xem ảnh</a></td>
+    </tr></tbody>
+    </table></div>
+  </section>
+  <p class="foot">Tỷ lệ PASS = PASS / (Tổng test case − SKIP). FAIL được tính là test đã thực thi nhưng không thành công. Ảnh lỗi được lưu cùng thư mục báo cáo.</p>
+</main></body></html>

@@ -1,0 +1,240 @@
+{
+  "project": "CellphoneS Trade-in",
+  "site": "https://cellphones.com.vn/thu-cu-doi-moi",
+  "runAt": "2026-11-06T14:53:16.026Z",
+  "durationMs": 478731,
+  "total": 30,
+  "passed": 22,
+  "failed": 1,
+  "skipped": 7,
+  "results": [
+    {
+      "id": "TRADE_IN_Page_01",
+      "name": "Mở trang Thu cũ đổi mới từ menu chính",
+      "status": "PASS",
+      "durationMs": 42975,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Search_02",
+      "name": "Tìm thiết bị cũ bằng từ khóa một phần",
+      "status": "PASS",
+      "durationMs": 2970,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Search_03",
+      "name": "Tìm chính xác model và phiên bản dung lượng của máy cũ",
+      "status": "PASS",
+      "durationMs": 4316,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Search_04",
+      "name": "Tìm thiết bị cũ không tồn tại trong danh mục",
+      "status": "PASS",
+      "durationMs": 3477,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Search_05",
+      "name": "Xóa từ khóa tìm kiếm thiết bị cũ và tìm model khác",
+      "status": "PASS",
+      "durationMs": 4661,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Device_06",
+      "name": "Chọn thiết bị cũ từ danh sách kết quả",
+      "status": "PASS",
+      "durationMs": 5021,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Device_07",
+      "name": "Thay thiết bị cũ sau khi đã chọn model",
+      "status": "PASS",
+      "durationMs": 25043,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Condition_08",
+      "name": "Chọn tình trạng thiết bị cũ theo danh sách website cung cấp",
+      "status": "PASS",
+      "durationMs": 10963,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Condition_09",
+      "name": "Thay đổi tình trạng máy và cập nhật giá thu cũ",
+      "status": "PASS",
+      "durationMs": 32189,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Condition_10",
+      "name": "Chọn tình trạng máy ở mức lỗi nặng nhất đang được hỗ trợ",
+      "status": "PASS",
+      "durationMs": 10732,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Category_11",
+      "name": "Mở danh mục iPhone trong khu vực sản phẩm thu cũ nổi bật",
+      "status": "PASS",
+      "durationMs": 3056,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Category_12",
+      "name": "Chuyển danh mục từ iPhone sang Samsung",
+      "status": "PASS",
+      "durationMs": 4412,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Category_13",
+      "name": "Chọn model máy cũ trực tiếp từ danh mục Samsung",
+      "status": "PASS",
+      "durationMs": 30291,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_NewSearch_14",
+      "name": "Tìm kiếm sản phẩm mới muốn lên đời bằng từ khóa hợp lệ",
+      "status": "PASS",
+      "durationMs": 12470,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_NewSearch_15",
+      "name": "Tìm sản phẩm lên đời không tồn tại",
+      "status": "PASS",
+      "durationMs": 12665,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_NewSearch_16",
+      "name": "Chọn sản phẩm mới từ danh sách gợi ý",
+      "status": "PASS",
+      "durationMs": 14844,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_NewSearch_17",
+      "name": "Thay sản phẩm lên đời đã chọn bằng sản phẩm khác",
+      "status": "PASS",
+      "durationMs": 17707,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Confirm_18",
+      "name": "Chuyển đến bước xác nhận thông tin Trade-in",
+      "status": "SKIPPED",
+      "durationMs": 27855,
+      "reason": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "error": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_Confirm_18_skipped.png"
+    },
+    {
+      "id": "TRADE_IN_Confirm_19",
+      "name": "Quay lại chỉnh sửa thiết bị cũ từ bước xác nhận",
+      "status": "SKIPPED",
+      "durationMs": 26132,
+      "reason": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "error": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_Confirm_19_skipped.png"
+    },
+    {
+      "id": "TRADE_IN_Confirm_20",
+      "name": "Thay đổi tình trạng thiết bị sau khi quay lại bước chọn máy",
+      "status": "SKIPPED",
+      "durationMs": 27374,
+      "reason": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "error": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_Confirm_20_skipped.png"
+    },
+    {
+      "id": "TRADE_IN_Confirm_21",
+      "name": "Thay đổi sản phẩm lên đời từ bước xác nhận",
+      "status": "SKIPPED",
+      "durationMs": 25339,
+      "reason": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "error": "Không nhận diện được nút chuyển bước xác nhận. Các nút đang hiển thị: Danh mục | Đồng Nai | Đăng nhập | Xem chi tiết | Kiểm tra ngay | IPHONE | IPAD | WATCH | ASUS | HONOR | HUAWEI | IMAC | LAPTOP | MACBOOK | MACMINI.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_Confirm_21_skipped.png"
+    },
+    {
+      "id": "TRADE_IN_Price_22",
+      "name": "Kiểm tra giá thu cũ và phần chênh lệch sau khi chọn đủ hai thiết bị",
+      "status": "PASS",
+      "durationMs": 22036,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_SBuyBack_23",
+      "name": "Mở khu vực định giá thiết bị đã mua gói S-BuyBack",
+      "status": "PASS",
+      "durationMs": 1539,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_IMEI_24",
+      "name": "Kiểm tra tra cứu S-BuyBack khi bỏ trống IMEI",
+      "status": "PASS",
+      "durationMs": 14593,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_IMEI_25",
+      "name": "Nhập IMEI sai định dạng vào khu vực S-BuyBack",
+      "status": "FAILED",
+      "durationMs": 16682,
+      "reason": "Không ghi nhận được thông báo/inline validation từ chối IMEI sai định dạng sau khi gửi. Đây là FAIL theo tiêu chí quan sát tự động, nhưng chưa đủ bằng chứng kết luận website lỗi; cần xác minh thủ công trên giao diện.",
+      "error": "Không ghi nhận được thông báo/inline validation từ chối IMEI sai định dạng sau khi gửi. Đây là FAIL theo tiêu chí quan sát tự động, nhưng chưa đủ bằng chứng kết luận website lỗi; cần xác minh thủ công trên giao diện.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_IMEI_25_failed.png"
+    },
+    {
+      "id": "TRADE_IN_IMEI_26",
+      "name": "Tra cứu IMEI có bản ghi S-BuyBack bằng dữ liệu được cấp",
+      "status": "SKIPPED",
+      "durationMs": 1,
+      "reason": "Chưa điền IMEI_TEST_FIXTURE được cấp phép ở đầu file.",
+      "error": "Chưa điền IMEI_TEST_FIXTURE được cấp phép ở đầu file.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_IMEI_26_skipped.png"
+    },
+    {
+      "id": "TRADE_IN_IMEI_27",
+      "name": "Mở hướng dẫn kiểm tra IMEI",
+      "status": "PASS",
+      "durationMs": 14420,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_App_28",
+      "name": "Mở hướng dẫn định giá chuyên sâu trên ứng dụng CellphoneS",
+      "status": "SKIPPED",
+      "durationMs": 14577,
+      "reason": "Nút định giá có thể mở ứng dụng bên ngoài hoặc deep-link; trình duyệt desktop không xác nhận được đích mở.",
+      "error": "Nút định giá có thể mở ứng dụng bên ngoài hoặc deep-link; trình duyệt desktop không xác nhận được đích mở.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_App_28_skipped.png"
+    },
+    {
+      "id": "TRADE_IN_Consult_29",
+      "name": "Mở form đăng ký tư vấn khi không tìm thấy thiết bị",
+      "status": "PASS",
+      "durationMs": 16141,
+      "reason": ""
+    },
+    {
+      "id": "TRADE_IN_Consult_30",
+      "name": "Kiểm tra yêu cầu thông tin bắt buộc của form tư vấn Trade-in",
+      "status": "SKIPPED",
+      "durationMs": 17162,
+      "reason": "Form không công bố thuộc tính required/aria-required cho các trường đang hiển thị; cần kiểm tra thủ công giao diện hiện tại.",
+      "error": "Form không công bố thuộc tính required/aria-required cho các trường đang hiển thị; cần kiểm tra thủ công giao diện hiện tại.",
+      "screenshot": "C:\\Folder Chung\\Study\\All Subject\\Software Testing\\6.11\\TradeIn_Playwright_Package\\tradein-test-results\\TRADE_IN_Consult_30_skipped.png"
+    }
+  ],
+  "passRate": 95.65217391304348,
+  "executionRate": 76.66666666666667
+}
