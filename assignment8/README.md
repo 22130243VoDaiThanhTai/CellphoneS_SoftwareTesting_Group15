@@ -6,7 +6,7 @@
 - [Thiết kế test cá nhân Hồng Nhân](HONGNHAN-TEST-DESIGN.md)
 - [Báo cáo đợt tích hợp](HONGNHAN-ASM8-REPORT.md)
 - [Kiểm tra độ ổn định](STABILITY-CHECK.md)
-- [Lịch sử hồ sơ QuangThong](README-QUANGTHONG-HISTORY.md)
+- [Lịch sử hồ sơ QuangThong](https://github.com/22130243VoDaiThanhTai/CellphoneS_SoftwareTesting_Group15/blob/dev/assignment8/README.md)
 
 Bộ nộp cá nhân Hồng Nhân ở `../submission/Assignment8_23130216_QuachHongNhan/`: PowerPoint và ZIP đúng tên theo đề. Kết quả nhóm ở `Test Report - Group 15`, ảnh/log ở `Envidence - Group15`.
 

@@ -202,7 +202,7 @@ Có 1 test đổi trạng thái giữa các lượt cùng hash source/cấu hìn
 
 ## Kiểm tra phạm vi SF-004 sau rà soát ảnh
 
-Ảnh lượt nhóm cho thấy SF-004 có thể mở bài ở sidebar trước khi kết quả tìm kiếm tải xong. Đã bổ sung assertion tiêu đề liên quan iPhone trước click, chạy lại riêng SF-004 và ghi nhận Pass. Source trước sửa giữ trong logs/sforum-before-result-scope-fix.spec.cjs của lượt nhóm. Ảnh bổ sung và log riêng nằm trong ZIP. Không thay số liệu85/6/40 hoặc cộng lần chạy này vào tổng23 test cá nhân.
+Ảnh lượt nhóm cho thấy SF-004 có thể mở bài ở sidebar trước khi kết quả tìm kiếm tải xong. Đã bổ sung assertion tiêu đề liên quan iPhone trước click, chạy lại riêng SF-004 và ghi nhận Pass. [Bản script trước khi sửa](https://github.com/22130243VoDaiThanhTai/CellphoneS_SoftwareTesting_Group15/blob/f741230280d88b66e9651f204755231ee631ac56/assignment8/Envidence%20-%20Group15/asm8-20261106174424-25176/logs/sforum-before-result-scope-fix.spec.cjs) vẫn có thể đối chiếu trong commit của lượt nhóm. Ảnh bổ sung và log riêng nằm trong ZIP. Không thay số liệu85/6/40 hoặc cộng lần chạy này vào tổng23 test cá nhân.
 
 ## Tệp nộp và template
 
